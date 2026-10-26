@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Régie</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎛️</text></svg>">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="regie">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">🎛️</span>
+      <div>
+        <div class="brand-title" id="deck-title"></div>
+        <div class="brand-sub">Régie</div>
+      </div>
+    </div>
+    <div class="status">
+      <span class="pill" id="st-screen" title="État de l'écran public"><i></i><span>Écran public</span></span>
+      <span class="pill" id="st-remote" title="Télécommande mobile"><i></i><span>Télécommande</span></span>
+    </div>
+    <div class="timer" id="timer">
+      <div class="timer-main">
+        <span class="timer-elapsed" id="t-elapsed">00:00</span>
+        <span class="timer-sep">/</span>
+        <span class="timer-target" id="t-target"></span>
+      </div>
+      <div class="timer-bar"><span id="t-bar"></span></div>
+      <div class="timer-ctrl">
+        <button class="icon-btn" id="t-toggle" title="Démarrer / mettre en pause le chrono">▶</button>
+        <button class="icon-btn" id="t-reset" title="Remettre le chrono à zéro">↺</button>
+        <span class="timer-clock" id="t-clock"></span>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button class="btn btn-primary" id="open-screen">📽️ Ouvrir l'écran public</button>
+      <button class="btn" id="open-remote">📱 Télécommande</button>
+      <button class="icon-btn" id="open-help" title="Raccourcis clavier">?</button>
+    </div>
+  </header>
+
+  <main class="regie-main">
+    <section class="col-main">
+      <div class="toolbar" role="toolbar" aria-label="Outils de pointage">
+        <div class="seg" id="tools">
+          <button data-tool="none" class="is-on" title="Aucun outil">🖱️ Normal</button>
+          <button data-tool="laser" title="Pointeur laser (L)">🔴 Laser</button>
+          <button data-tool="pen" title="Stylo (D)">✏️ Stylo</button>
+          <button data-tool="hl" title="Surligneur (H)">🖍️ Surligneur</button>
+          <button data-tool="zoom" title="Zoom : cliquez sur une zone (Z)">🔍 Zoom</button>
+        </div>
+        <div class="colors" id="colors">
+          <button data-color="#ff3b5c" class="is-on" style="--c:#ff3b5c" title="Rouge"></button>
+          <button data-color="#ffd23f" style="--c:#ffd23f" title="Jaune"></button>
+          <button data-color="#22c58b" style="--c:#22c58b" title="Vert"></button>
+          <button data-color="#3b82ff" style="--c:#3b82ff" title="Bleu"></button>
+          <button data-color="#ffffff" style="--c:#ffffff" title="Blanc"></button>
+        </div>
+        <div class="toolbar-end">
+          <button class="btn btn-sm" id="ink-undo" title="Annuler le dernier trait">↶ Annuler</button>
+          <button class="btn btn-sm" id="ink-clear" title="Effacer les annotations (C)">🧽 Effacer</button>
+        </div>
+      </div>
+
+      <div class="cur-wrap">
+        <div id="cur-host" class="stage-host"></div>
+        <div class="cur-badges" id="cur-badges"></div>
+      </div>
+
+      <div class="navbar">
+        <button class="nav-btn" id="nav-prev" title="Précédente (←)">◀</button>
+        <div class="nav-info">
+          <div class="nav-num"><input id="nav-input" type="number" min="1" aria-label="Aller à la diapo"> <span id="nav-total"></span></div>
+          <div class="nav-title" id="nav-title"></div>
+        </div>
+        <button class="nav-btn nav-next" id="nav-next" title="Suivante (→, espace)">▶</button>
+        <div class="nav-quick">
+          <button class="btn" data-blank="black" title="Écran noir (B)">⬛ Noir</button>
+          <button class="btn" data-blank="white" title="Écran blanc (W)">⬜ Blanc</button>
+          <button class="btn" data-blank="pause" title="Écran de pause (P)">☕ Pause</button>
+          <button class="btn" id="open-grid" title="Toutes les diapos (G)">▦ Grille</button>
+        </div>
+      </div>
+
+      <div class="filmstrip" id="filmstrip"></div>
+    </section>
+
+    <aside class="col-side">
+      <div class="live" id="live" hidden>
+        <div class="live-head">
+          <span class="live-dot"></span>
+          <span class="live-label" id="live-label">À l'écran</span>
+          <button class="btn btn-sm btn-danger" id="live-close" title="Fermer (Échap)">✕ Fermer</button>
+        </div>
+        <div class="vctl" id="vctl" hidden>
+          <div class="vctl-row">
+            <button class="icon-btn" data-v="restart" title="Revenir au début">⏮</button>
+            <button class="icon-btn" data-v="rel" data-d="-10" title="Reculer de 10 s">−10</button>
+            <button class="icon-btn icon-btn-lg" id="v-toggle" title="Lecture / pause (K)">▶</button>
+            <button class="icon-btn" data-v="rel" data-d="10" title="Avancer de 10 s">+10</button>
+            <button class="icon-btn" id="v-mute" title="Couper le son">🔊</button>
+            <input type="range" id="v-vol" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+            <label class="chk" title="Lire en boucle"><input type="checkbox" id="v-loop"> 🔁</label>
+          </div>
+          <div class="vctl-row">
+            <span class="vtime" id="v-time">00:00</span>
+            <input type="range" id="v-seek" min="0" max="1000" value="0" aria-label="Position">
+            <span class="vtime" id="v-dur">00:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="next">
+        <div class="next-label">Suivante <span id="next-num"></span></div>
+        <img id="next-img" alt="">
+        <div class="next-title" id="next-title"></div>
+      </div>
+
+      <div class="tabs" role="tablist">
+        <button role="tab" data-tab="slide" class="is-on">📝 Diapo</button>
+        <button role="tab" data-tab="media">🎬 Médias <span class="count" id="media-count"></span></button>
+        <button role="tab" data-tab="tools">🧰 Outils</button>
+      </div>
+
+      <div class="tab-panel" data-panel="slide">
+        <label class="field-label" for="notes">Notes de l'orateur</label>
+        <textarea id="notes" class="notes" placeholder="Vos notes pour cette diapo (enregistrées sur cet ordinateur)…"></textarea>
+        <div id="interactions"></div>
+        <div id="slide-media"></div>
+      </div>
+
+      <div class="tab-panel" data-panel="media" hidden>
+        <div class="drop" id="drop">
+          <div>Glissez ici des <strong>vidéos, images ou sons</strong>,<br>ou collez une image (<kbd>Ctrl</kbd>+<kbd>V</kbd>).</div>
+          <label class="btn btn-sm">📂 Choisir des fichiers<input type="file" id="file-input" multiple accept="video/*,image/*,audio/*" hidden></label>
+        </div>
+        <form class="url-form" id="url-form">
+          <input type="url" id="url-input" placeholder="Lien YouTube, vidéo, image ou page web…" required>
+          <button class="btn btn-sm" type="submit">Ajouter</button>
+        </form>
+        <div class="lib" id="lib"></div>
+      </div>
+
+      <div class="tab-panel" data-panel="tools" hidden>
+        <div class="tool-card">
+          <h3>💬 Message à l'écran</h3>
+          <textarea id="msg-text" rows="2" placeholder="Ex. : Posez vos questions !"></textarea>
+          <div class="row">
+            <select id="msg-style" aria-label="Style du message">
+              <option value="center">Plein écran</option>
+              <option value="banner">Bandeau en bas</option>
+            </select>
+            <button class="btn btn-sm btn-primary" id="msg-show">Afficher</button>
+            <button class="btn btn-sm" id="msg-hide">Masquer</button>
+          </div>
+          <div class="chips" id="msg-presets"></div>
+        </div>
+
+        <div class="tool-card">
+          <h3>⏱️ Compte à rebours</h3>
+          <div class="chips">
+            <button class="chip" data-cd="30">30 s</button>
+            <button class="chip" data-cd="60">1 min</button>
+            <button class="chip" data-cd="120">2 min</button>
+            <button class="chip" data-cd="300">5 min</button>
+            <button class="chip" data-cd="600">10 min</button>
+            <button class="chip" data-cd="900">15 min</button>
+          </div>
+          <div class="row">
+            <label class="chk"><input type="checkbox" id="cd-big" checked> En grand</label>
+            <button class="btn btn-sm" id="cd-add">+30 s</button>
+            <button class="btn btn-sm" id="cd-stop">Arrêter</button>
+            <span class="cd-local" id="cd-local"></span>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <h3>🖥️ Montrer une fenêtre en direct</h3>
+          <p class="muted">Idéal pour les démos : partagez l'onglet du chatbot, il s'affiche sur le projecteur sans quitter la présentation.</p>
+          <div class="row">
+            <button class="btn btn-sm btn-primary" id="share-start">Partager une fenêtre</button>
+            <button class="btn btn-sm" id="share-stop" disabled>Arrêter le partage</button>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <h3>☕ Écran de pause</h3>
+          <input type="text" id="pause-text">
+          <div class="row"><button class="btn btn-sm" id="pause-show">Afficher / masquer la pause</button></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <dialog id="grid-dlg" class="dlg dlg-wide">
+    <div class="dlg-head"><h2>Toutes les diapos</h2><button class="icon-btn" data-close>✕</button></div>
+    <div class="grid" id="grid"></div>
+  </dialog>
+
+  <dialog id="remote-dlg" class="dlg">
+    <div class="dlg-head"><h2>📱 Télécommande mobile</h2><button class="icon-btn" data-close>✕</button></div>
+    <div class="remote-body">
+      <div class="qr" id="qr"></div>
+      <div>
+        <p>Scannez ce QR code avec votre téléphone pour piloter la présentation : diapos, vidéos, pointeur laser, notes et chrono.</p>
+        <p class="muted" id="remote-state">Connexion au relais…</p>
+        <input type="text" id="remote-link" readonly>
+        <div class="row">
+          <button class="btn btn-sm" id="remote-copy">Copier le lien</button>
+          <button class="btn btn-sm" id="remote-new" title="Nouveau lien : les anciennes télécommandes sont déconnectées">Nouveau lien</button>
+        </div>
+        <p class="muted small">Le téléphone et cet ordinateur doivent avoir accès à internet (connexion directe WebRTC, idéalement sur le même Wi-Fi).</p>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="help-dlg" class="dlg">
+    <div class="dlg-head"><h2>Raccourcis clavier</h2><button class="icon-btn" data-close>✕</button></div>
+    <table class="keys">
+      <tr><td><kbd>→</kbd> <kbd>Espace</kbd> <kbd>Page ↓</kbd></td><td>Diapo suivante (ferme d'abord le média affiché)</td></tr>
+      <tr><td><kbd>←</kbd> <kbd>Page ↑</kbd></td><td>Diapo précédente</td></tr>
+      <tr><td><kbd>12</kbd> puis <kbd>Entrée</kbd></td><td>Aller à la diapo 12</td></tr>
+      <tr><td><kbd>Début</kbd> / <kbd>Fin</kbd></td><td>Première / dernière diapo</td></tr>
+      <tr><td><kbd>B</kbd> <kbd>.</kbd> / <kbd>W</kbd></td><td>Écran noir / blanc</td></tr>
+      <tr><td><kbd>P</kbd></td><td>Écran de pause</td></tr>
+      <tr><td><kbd>L</kbd> <kbd>D</kbd> <kbd>H</kbd> <kbd>Z</kbd></td><td>Laser, stylo, surligneur, zoom</td></tr>
+      <tr><td><kbd>C</kbd></td><td>Effacer les annotations</td></tr>
+      <tr><td><kbd>K</kbd></td><td>Lecture / pause de la vidéo</td></tr>
+      <tr><td><kbd>R</kbd></td><td>Révéler la réponse suivante (quiz)</td></tr>
+      <tr><td><kbd>G</kbd></td><td>Grille des diapos</td></tr>
+      <tr><td><kbd>T</kbd></td><td>Démarrer / pause chrono</td></tr>
+      <tr><td><kbd>Échap</kbd></td><td>Fermer le média, le zoom ou l'écran noir</td></tr>
+    </table>
+    <p class="muted small">Les télécommandes de présentation (clickers) fonctionnent dans la régie comme sur l'écran public.</p>
+  </dialog>
+
+  <div class="toasts" id="toasts"></div>
+
+  <script src="js/deck.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/stage.js"></script>
+  <script src="js/rtc.js"></script>
+  <script src="vendor/qrcode.min.js"></script>
+  <script src="vendor/peerjs.min.js"></script>
+  <script src="js/regie.js"></script>
+</body>
+</html>

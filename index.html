@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Conférence</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="home">
+  <main class="home-main">
+    <img class="home-cover" src="slides/slide-01.jpg" alt="Diapo de titre de la présentation">
+    <div class="home-text">
+      <div class="kicker">Contrôle de présentation</div>
+      <h1 id="home-title"></h1>
+      <p class="muted" id="home-sub"></p>
+      <div class="home-cards">
+        <a class="home-card is-main" href="regie.html">
+          <span class="hc-icon">🎛️</span>
+          <span class="hc-title">Régie</span>
+          <span class="hc-text">Sur votre ordinateur : notes, diapo suivante, vidéos, quiz, laser, chrono. Elle ouvre l'écran public.</span>
+        </a>
+        <a class="home-card" href="ecran.html" target="webconf-ecran">
+          <span class="hc-icon">📽️</span>
+          <span class="hc-title">Écran public</span>
+          <span class="hc-text">À placer en plein écran sur le projecteur. Piloté par la régie.</span>
+        </a>
+        <div class="home-card is-static">
+          <span class="hc-icon">📱</span>
+          <span class="hc-title">Télécommande</span>
+          <span class="hc-text">Dans la régie, bouton « Télécommande » puis scannez le QR code avec votre téléphone.</span>
+        </div>
+      </div>
+      <ol class="home-steps">
+        <li>Ouvrez la <strong>Régie</strong> sur l'ordinateur relié au projecteur.</li>
+        <li>Cliquez sur <strong>Ouvrir l'écran public</strong>, glissez la fenêtre sur le projecteur et cliquez dedans (plein écran + son).</li>
+        <li>Glissez vos vidéos et images dans l'onglet <strong>Médias</strong> de la régie : un clic les affiche en grand.</li>
+      </ol>
+    </div>
+  </main>
+  <script src="js/deck.js"></script>
+  <script>
+    document.getElementById('home-title').textContent = DECK.title;
+    document.getElementById('home-sub').textContent = DECK.subtitle + ' · ' + DECK.slideCount + ' diapos';
+  </script>
+</body>
+</html>

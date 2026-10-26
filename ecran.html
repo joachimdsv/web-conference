@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Écran public</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📽️</text></svg>">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="screen">
+  <div id="stage-host" class="stage-host"></div>
+  <div id="overlay" class="overlay"></div>
+  <div id="blank" class="blank"></div>
+  <div id="countdown" class="countdown" hidden></div>
+
+  <div id="splash" class="splash">
+    <div class="splash-card">
+      <div class="splash-icon">📽️</div>
+      <h1>Écran public</h1>
+      <p>Placez cette fenêtre sur le projecteur, puis <strong>cliquez ici</strong><br>pour passer en plein écran et autoriser le son des vidéos.</p>
+      <p class="muted">Raccourci : <kbd>F</kbd> plein écran</p>
+      <button id="splash-skip" class="btn-ghost">Continuer sans plein écran</button>
+    </div>
+  </div>
+
+  <script src="js/deck.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/stage.js"></script>
+  <script src="js/rtc.js"></script>
+  <script src="js/ecran.js"></script>
+</body>
+</html>

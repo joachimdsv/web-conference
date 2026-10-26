@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#0b1030">
+  <title>Télécommande</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="remote">
+  <header class="r-top">
+    <span class="r-dot" id="r-dot"></span>
+    <span class="r-status" id="r-status">Connexion…</span>
+    <span class="r-timer" id="r-timer">00:00</span>
+  </header>
+
+  <div class="r-connect" id="r-connect" hidden>
+    <p>Ouvrez la régie sur l'ordinateur, cliquez sur <strong>📱 Télécommande</strong> et scannez le QR code.</p>
+  </div>
+
+  <main class="r-main" id="r-main" hidden>
+    <div class="r-slide" id="r-slide">
+      <img id="r-img" alt="" draggable="false">
+      <div class="r-laser" id="r-laser" hidden></div>
+      <div class="r-num" id="r-num"></div>
+      <div class="r-ov" id="r-ov" hidden></div>
+    </div>
+    <div class="r-title" id="r-title"></div>
+
+    <div class="r-nav">
+      <button class="r-big" id="r-prev">◀</button>
+      <button class="r-big r-big-next" id="r-next">Suivante ▶</button>
+    </div>
+
+    <div class="r-video" id="r-video" hidden>
+      <div class="r-row">
+        <button class="r-btn" data-v="rel" data-d="-10">−10</button>
+        <button class="r-btn r-btn-main" id="r-vtoggle">▶</button>
+        <button class="r-btn" data-v="rel" data-d="10">+10</button>
+        <button class="r-btn" id="r-vmute">🔊</button>
+        <button class="r-btn r-btn-danger" id="r-vclose">✕</button>
+      </div>
+      <div class="r-prog"><span id="r-vbar"></span></div>
+      <div class="r-vtime" id="r-vtime"></div>
+    </div>
+    <div class="r-close-ov" id="r-close-ov" hidden><button class="r-btn r-btn-danger" id="r-ovclose">✕ Fermer ce qui est affiché</button></div>
+
+    <div class="r-tools">
+      <button class="r-btn" id="r-laser-btn">🔴 Laser</button>
+      <button class="r-btn" data-blank="black">⬛ Noir</button>
+      <button class="r-btn" data-blank="pause">☕ Pause</button>
+      <button class="r-btn" id="r-zoom-btn">🔍 Zoom</button>
+    </div>
+
+    <div class="r-inter" id="r-inter" hidden>
+      <button class="r-btn" id="r-reveal-next">✨ Révéler la suivante</button>
+      <button class="r-btn" id="r-reveal-all">Tout révéler</button>
+      <button class="r-btn" id="r-reveal-hide">Masquer</button>
+    </div>
+
+    <div class="r-tabs">
+      <button data-rt="notes" class="is-on">📝 Notes</button>
+      <button data-rt="media">🎬 Médias</button>
+      <button data-rt="slides">▦ Diapos</button>
+      <button data-rt="more">⏱️ Plus</button>
+    </div>
+    <section class="r-panel" data-rp="notes"><div class="r-notes" id="r-notes"></div></section>
+    <section class="r-panel" data-rp="media" hidden><div class="r-lib" id="r-lib"></div></section>
+    <section class="r-panel" data-rp="slides" hidden><div class="r-grid" id="r-grid"></div></section>
+    <section class="r-panel" data-rp="more" hidden>
+      <h3>Chrono</h3>
+      <div class="r-row"><button class="r-btn" id="r-ttoggle">▶ / ⏸</button><button class="r-btn" id="r-treset">↺ Zéro</button></div>
+      <h3>Compte à rebours</h3>
+      <div class="r-row">
+        <button class="r-btn" data-cd="30">30 s</button><button class="r-btn" data-cd="60">1 min</button>
+        <button class="r-btn" data-cd="120">2 min</button><button class="r-btn" data-cd="300">5 min</button>
+        <button class="r-btn" id="r-cdstop">Arrêter</button>
+      </div>
+      <h3>Écran</h3>
+      <div class="r-row"><button class="r-btn" data-blank="white">⬜ Blanc</button><button class="r-btn" id="r-clear">🧽 Effacer les annotations</button></div>
+    </section>
+  </main>
+
+  <script src="js/deck.js"></script>
+  <script src="vendor/peerjs.min.js"></script>
+  <script src="js/telecommande.js"></script>
+</body>
+</html>
