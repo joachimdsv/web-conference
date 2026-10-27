@@ -66,7 +66,7 @@
     $('#nav-prev').disabled = n === 1 && !state.overlay && !state.blank;
     $$('[data-blank]').forEach((b) => b.classList.toggle('is-on', state.blank === b.dataset.blank));
     const badges = [];
-    if (state.overlay) badges.push(state.overlay.kind === 'message' ? '💬 Message à l\'écran' : state.overlay.kind === 'share' ? '🖥️ Partage à l\'écran' : (KIND_ICON[state.overlay.mediaKind] || '') + ' Média à l\'écran');
+    if (state.overlay) badges.push({ message: '💬 Message à l\'écran', share: '🖥️ Partage à l\'écran', qr: '📱 QR code à l\'écran' }[state.overlay.kind] || (KIND_ICON[state.overlay.mediaKind] || '') + ' Média à l\'écran');
     if (state.blank) badges.push({ black: '⬛ Écran noir', white: '⬜ Écran blanc', pause: '☕ Pause' }[state.blank]);
     if (state.zoom) badges.push('🔍 Zoom ×' + state.zoom.s);
     if (state.countdown) badges.push('⏱️ Compte à rebours');
@@ -405,6 +405,7 @@
     if (!ov) { vstat = null; return; }
     const label = ov.kind === 'message' ? '💬 Message : ' + ov.text
       : ov.kind === 'share' ? '🖥️ Partage de fenêtre'
+      : ov.kind === 'qr' ? '📱 QR code : ' + ov.url
       : (KIND_ICON[ov.mediaKind] || '') + ' ' + (ov.name || 'Média');
     $('#live-label').textContent = label;
     $('#vctl').hidden = !(ov.kind === 'media' && ['video', 'audio', 'youtube'].includes(ov.mediaKind));
@@ -494,6 +495,14 @@
   };
   $('#share-stop').onclick = () => sharer.stop();
 
+  $('#qr-show').onclick = () => {
+    let url = $('#qr-url').value.trim();
+    if (!url) return $('#qr-url').focus();
+    if (!/^[a-z]+:/i.test(url)) url = 'https://' + url;
+    bus.dispatch({ type: 'overlay', value: { kind: 'qr', url, title: $('#qr-title').value.trim() } });
+  };
+  $('#qr-hide').onclick = () => bus.state.overlay?.kind === 'qr' && bus.dispatch({ type: 'overlay', value: null });
+
   $('#pause-text').onchange = (e) => bus.dispatch({ type: 'pauseText', text: e.target.value });
   $('#pause-show').onclick = () => bus.dispatch({ type: 'blank', mode: 'pause' });
 
@@ -533,10 +542,23 @@
     $('#timer').classList.toggle('is-over', ms > targetMs);
     $('#timer').classList.toggle('is-running', !!timer.start);
     $('#t-clock').textContent = new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    renderPace(ms);
     const cd = bus.state.countdown;
     $('#cd-local').textContent = cd ? (cd.end > Date.now() ? '⏳ ' + fmtTime(Math.ceil((cd.end - Date.now()) / 1000)) : '⌛ terminé') : '';
   }
   setInterval(tickTimer, 500);
+
+  // Avance / retard par rapport aux minutes prévues dans deck.js (début de la diapo courante)
+  function renderPace(ms) {
+    const el = $('#t-pace');
+    let planned = 0;
+    for (let n = 1; n < bus.state.slide; n++) planned += slideCfg(n).minutes || 0;
+    if (!ms || !Object.values(DECK.slides).some((s) => s.minutes)) { el.textContent = ''; return; }
+    const diff = ms / 60000 - planned;
+    const abs = Math.round(Math.abs(diff));
+    el.textContent = `Prévu ici : ${fmtTime(planned * 60)} · ` + (abs < 1 ? 'à l\'heure ✓' : diff > 0 ? `${abs} min de retard` : `${abs} min d'avance`);
+    el.className = 'timer-pace' + (diff > 2 ? ' is-late' : diff < -2 ? ' is-early' : '');
+  }
 
   // ---------- Télécommande mobile (PeerJS / WebRTC) ----------
   let peer = null, conns = [];

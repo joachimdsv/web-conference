@@ -137,9 +137,62 @@
   .list li { list-style: none; font: 500 29px/1.35 Inter, sans-serif; padding: 15px 0; display: flex; gap: 18px; color: var(--navy); }
   .footnote { position: absolute; left: 150px; right: 150px; bottom: 80px; font: 600 30px/1.3 Inter, sans-serif; color: var(--ink); }
   .footnote b { color: var(--c06); }
+
+  /* Plan, ouverture, conclusion */
+  .plan::after { background: linear-gradient(90deg, #4b5fe0, #6a5cf0, #8b5cf6); }
+  .plan .kicker { color: #4b5fe0; }
+  .plan-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px 90px; margin-top: 74px; }
+  .plan-item { display: grid; grid-template-columns: 120px 1fr; }
+  .plan-item b { font: 800 66px/1 Sora, sans-serif; color: #7f93ea; }
+  .plan-item h3 { font: 700 42px/1.1 Sora, sans-serif; letter-spacing: -.01em; }
+  .plan-item p { font: 400 26px/1.4 Inter, sans-serif; color: var(--ink); margin-top: 10px; }
+  .plan-item.is-new b { color: #2bb89a; }
+  .hands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; margin-top: 80px; }
+  .hands .card { padding: 44px 40px 48px; }
+  .hands .ico { width: 104px; height: 104px; font-size: 58px; background: rgba(255, 255, 255, .1); }
+  .hands h3 { font-size: 40px; line-height: 1.2; margin-top: 30px; }
+  .take .card { padding: 40px 38px 44px; }
+  .take .num { width: 70px; height: 70px; font-size: 34px; background: linear-gradient(135deg, var(--c06), var(--c06-b)); }
+  .take h3 { font-size: 40px; margin-top: 28px; }
+  .take p { font-size: 27px; }
+  .tool { display: flex; gap: 24px; align-items: center; padding: 26px 30px; }
+  .tool .ico { flex: none; width: 76px; height: 76px; font-size: 40px; }
+  .tool h3 { margin: 0 0 6px; font-size: 32px; }
+  .tool p { font-size: 23px; }
+  .tool code { font: 600 22px 'JetBrains Mono', monospace; color: var(--c06); }
 </style>
 </head>
 <body>
+
+<!-- ===================================================== Plan (remplace la page 2 du PDF) -->
+<section class="slide light plan" id="plan" data-net="bl">
+  <div class="content">
+    <div class="kicker">Sommaire</div>
+    <h1>Plan de la présentation</h1>
+    <div class="plan-grid">
+      <div class="plan-item"><b>01</b><div><h3>Qu'est-ce que l'IA ?</h3><p>Une définition simple, un peu d'histoire et comment elle apprend</p></div></div>
+      <div class="plan-item"><b>04</b><div><h3>Impacts et enjeux</h3><p>Éthique, fausses informations, emploi, environnement, règles</p></div></div>
+      <div class="plan-item"><b>02</b><div><h3>L'IA dans notre quotidien</h3><p>Santé, école, travail, loisirs : elle est déjà partout</p></div></div>
+      <div class="plan-item"><b>05</b><div><h3>Bonnes pratiques</h3><p>Bien lui demander, vérifier, protéger ses données</p></div></div>
+      <div class="plan-item"><b>03</b><div><h3>L'IA en pratique</h3><p>6 démonstrations, dont plusieurs en direct</p></div></div>
+      <div class="plan-item is-new"><b>06</b><div><h3>Et demain ?</h3><p>Perspectives, démo finale : le site de la MJC… puis vos questions</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================== Brise-glace -->
+<section class="slide dark" id="brise-glace" data-net="br">
+  <div class="content">
+    <div class="kicker" style="color:#9fb0ff">Pour commencer</div>
+    <h1>Et vous, l'IA ?</h1>
+    <p class="lead">Levez la main ✋ — il n'y a pas de mauvaise réponse !</p>
+    <div class="hands">
+      <div class="card"><div class="ico">🙋</div><h3>Qui a déjà utilisé ChatGPT ou une autre IA ?</h3></div>
+      <div class="card"><div class="ico">📅</div><h3>Qui s'en sert au moins une fois par semaine ?</h3></div>
+      <div class="card"><div class="ico">🤔</div><h3>Qui s'en méfie un peu… ou beaucoup ?</h3></div>
+    </div>
+  </div>
+</section>
 
 <!-- ===================================================== 03 · Programme des démos -->
 <section class="slide light" id="demos-programme">
@@ -319,7 +372,7 @@
     <p class="lead">Un vrai support numérique, de l'idée à la mise en ligne.</p>
     <div class="steps" style="margin-top:70px">
       <div class="card step"><div class="num">1</div><h3>Cahier des charges</h3><p>On décrit le site en français</p></div>
-      <div class="card step"><div class="num">2</div><h3>Génération</h3><p>L'IA écrit le code HTML et CSS</p></div>
+      <div class="card step"><div class="num">2</div><h3>Génération</h3><p>L'IA fabrique le site à notre place</p></div>
       <div class="card step"><div class="num">3</div><h3>Itérations</h3><p>On affine ensemble, avec vos idées</p></div>
       <div class="card step"><div class="num">4</div><h3>En ligne !</h3><p>Visible sur ordinateur et téléphone</p></div>
     </div>
@@ -335,7 +388,7 @@
     <div class="row" style="margin-top:56px; align-items:flex-start">
       <div class="card" style="flex:0 0 1010px; border-top-color:var(--c06)">
         <div class="label" style="color:var(--c06)">Prompt de départ</div>
-        <p class="prompt" style="font-size:29px">« Crée un site vitrine d'une seule page pour la MJC du Val d'Ajol (Vosges). Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Tout le code HTML et CSS dans un seul fichier. »</p>
+        <p class="prompt" style="font-size:29px">« Crée un site vitrine d'une seule page pour la MJC du Val d'Ajol (Vosges). Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Donne-moi le site complet dans un seul fichier. »</p>
       </div>
       <div style="flex:1">
         <div class="label" style="color:var(--c06); margin:10px 0 22px">Puis on itère</div>
@@ -361,7 +414,7 @@
         <h3>🤖 Fait par l'IA en quelques minutes</h3>
         <ul class="list" style="padding:0">
           <li>✅ La structure et le design</li>
-          <li>✅ Le code HTML / CSS</li>
+          <li>✅ Le « code », la langue des sites web</li>
           <li>✅ Des textes de départ</li>
           <li>✅ L'adaptation au téléphone</li>
         </ul>
@@ -371,12 +424,41 @@
         <ul class="list" style="padding:0">
           <li>📸 Les vrais contenus et photos</li>
           <li>🔎 Vérifier chaque info (horaires, tarifs)</li>
-          <li>♿ Accessibilité et RGPD</li>
-          <li>🌐 Nom de domaine, hébergement, mises à jour</li>
+          <li>♿ Le rendre accessible et respecter la vie privée</li>
+          <li>🌐 L'adresse du site, l'hébergement, les mises à jour</li>
         </ul>
       </div>
     </div>
     <p class="footnote">💡 Ce qui prenait des semaines prend quelques heures… <b>mais demande toujours un regard humain.</b></p>
+  </div>
+</section>
+
+<!-- ===================================================== À retenir -->
+<section class="slide dark teal final" id="a-retenir" data-net="tr">
+  <div class="content">
+    <div class="kicker">En résumé</div>
+    <h1>3 choses à retenir</h1>
+    <div class="grid3 take" style="margin-top:80px">
+      <div class="card"><div class="num">1</div><h3>Elle prédit, elle ne sait pas</h3><p>Elle peut se tromper avec assurance : vérifiez ce qui compte.</p></div>
+      <div class="card"><div class="num">2</div><h3>Parlez-lui comme à un stagiaire</h3><p>Contexte, tâche, format : plus vous êtes précis, meilleur est le résultat.</p></div>
+      <div class="card"><div class="num">3</div><h3>Vos données sont précieuses</h3><p>Rien de personnel, de médical ou de confidentiel.</p></div>
+    </div>
+    <p class="lead" style="position:absolute; left:150px; bottom:96px; font-weight:600; color:#e4e7ff">L'IA est un outil : <span style="color:#6fd8c0">c'est vous qui gardez la main.</span></p>
+  </div>
+</section>
+
+<!-- ===================================================== Pour essayer -->
+<section class="slide light final" id="pour-essayer" data-net="br">
+  <div class="content">
+    <div class="kicker" style="color:var(--c06)">Et maintenant ?</div>
+    <h1 class="sm">Pour essayer chez vous</h1>
+    <div class="cols2" style="margin-top:56px; gap:30px 40px">
+      <div class="card tool"><div class="ico">💬</div><div><h3>ChatGPT</h3><p>Le plus connu · <code>chatgpt.com</code></p></div></div>
+      <div class="card tool"><div class="ico">🇫🇷</div><div><h3>Le Chat</h3><p>L'IA française de Mistral · <code>chat.mistral.ai</code></p></div></div>
+      <div class="card tool"><div class="ico g">✨</div><div><h3>Gemini</h3><p>L'IA de Google · <code>gemini.google.com</code></p></div></div>
+      <div class="card tool"><div class="ico o">🪟</div><div><h3>Copilot</h3><p>Microsoft, images incluses · <code>copilot.microsoft.com</code></p></div></div>
+    </div>
+    <p class="footnote" style="bottom:96px">🆓 Toutes ont une <b>version gratuite</b>. Commencez par une petite tâche du quotidien : un e-mail, une recette, un résumé…</p>
   </div>
 </section>
 

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes de l'orateur</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖨️</text></svg>">
+  <style>
+    :root { color-scheme: light; --ink: #14193a; --muted: #5d6590; --line: #dfe3f5; --accent: #4f63e6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f5fb; color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    header { max-width: 980px; margin: 0 auto; padding: 28px 16px 8px; display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
+    h1 { margin: 0; font-size: 26px; }
+    .sub { color: var(--muted); }
+    button { font: inherit; padding: 8px 16px; border-radius: 8px; border: 0; background: var(--accent); color: #fff; font-weight: 600; cursor: pointer; }
+    main { max-width: 980px; margin: 0 auto; padding: 8px 16px 40px; }
+    .s { display: grid; grid-template-columns: 240px 1fr; gap: 18px; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-top: 12px; break-inside: avoid; }
+    .s img { width: 100%; aspect-ratio: 16/9; border-radius: 6px; display: block; border: 1px solid var(--line); }
+    .head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+    .num { font: 700 13px ui-monospace, Menlo, monospace; color: var(--accent); }
+    .title { font-weight: 700; font-size: 16px; }
+    .min { margin-left: auto; font-size: 12px; color: var(--muted); white-space: nowrap; }
+    .notes { white-space: pre-wrap; margin-top: 6px; }
+    .prompts { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+    .prompts b { color: var(--ink); }
+    @media (max-width: 640px) { .s { grid-template-columns: 1fr; } }
+    @media print {
+      body { background: #fff; font-size: 11.5px; }
+      header button { display: none; }
+      header { padding-top: 0; }
+      .s { grid-template-columns: 170px 1fr; padding: 8px; margin-top: 6px; border-radius: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1 id="t"></h1>
+      <div class="sub" id="sub"></div>
+    </div>
+    <button onclick="print()">🖨️ Imprimer</button>
+  </header>
+  <main id="list"></main>
+  <script src="js/deck.js"></script>
+  <script>
+    (function () {
+      const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      let local = {};
+      try { local = JSON.parse(localStorage.getItem('wc:notes')) || {}; } catch {}
+      const fmt = (m) => { const s = Math.round(m * 60); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+      let total = 0;
+      const rows = [];
+      for (let n = 1; n <= DECK.slideCount; n++) {
+        const c = DECK.slides[n] || {};
+        const start = total;
+        total += c.minutes || 0;
+        const notes = local[n] ?? c.notes ?? '';
+        const prompts = (c.prompts || []).map((p) => `<div><b>${esc(p.label)} :</b> ${esc(p.text)}</div>`).join('');
+        rows.push(`<section class="s"><img src="${DECK.thumb(n)}" alt="">
+          <div><div class="head"><span class="num">${n}</span><span class="title">${esc(c.title || 'Diapo ' + n)}</span>
+          <span class="min">${c.minutes ? `${fmt(c.minutes)} min · prévu à ${fmt(start)}` : ''}</span></div>
+          <div class="notes">${esc(notes) || '<span class="sub">—</span>'}</div>
+          ${prompts ? `<div class="prompts">${prompts}</div>` : ''}</div></section>`);
+      }
+      document.title = 'Notes — ' + DECK.title;
+      document.getElementById('t').textContent = 'Notes de l\'orateur — ' + DECK.title;
+      document.getElementById('sub').textContent = `${DECK.subtitle} · ${DECK.slideCount} diapos · durée prévue ≈ ${Math.round(total)} min (hors questions)`;
+      document.getElementById('list').innerHTML = rows.join('');
+    })();
+  </script>
+</body>
+</html>

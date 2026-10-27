@@ -1,6 +1,6 @@
 # Web Conférence — contrôle de présentation en direct
 
-Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (40 diapos, démos incluses) et la piloter en direct :
+Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (43 diapos, démos incluses) et la piloter en direct :
 vidéos, images, quiz révélés en live, pointeur laser, annotations, zoom, partage d'une fenêtre, télécommande sur téléphone.
 
 ## Les 3 pages
@@ -34,20 +34,24 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
 - **Télécommande mobile** : bouton *📱 Télécommande* → QR code. Suivante/précédente (ou balayage), laser au doigt, vidéos, médias, notes, chrono.
   Elle passe par un relais WebRTC public (PeerJS) : il faut internet sur le téléphone et l'ordinateur, et le site doit être en ligne.
 
-Liste complète des raccourcis : bouton `?` dans la régie.
+- **QR code à l'écran** (onglet *Outils*) : le public ouvre un lien sur son téléphone, par exemple le site créé pendant la démo finale.
+- **Minutage** : chaque diapo a une durée indicative ; sous le chrono, la régie indique si vous êtes en avance ou en retard.
+- **Notes imprimables** : bouton *🖨️ Notes* (page `notes.html`), avec les miniatures, le minutage et les prompts.
+
+Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour J : voir [`PREPARATION.md`](PREPARATION.md).
 
 ## Les démonstrations
 
 | Diapo | Démo | Mode | À préparer |
 |---|---|---|---|
-| 19 | Programme des 6 démos | — | — |
-| 20-21 | Vraie photo ou IA ? (3 images) | Préparé | 3 images : une vraie photo, une IA réussie, une IA ratée |
-| 22 | Créer une affiche | Direct | Compte ChatGPT / Copilot connecté · plan B : une affiche déjà générée |
-| 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
-| 24 | Rédiger un e-mail + pièges | Direct | — |
-| 25 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
-| 26 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
-| 37-39 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT · plan B : capture du site préparé |
+| 20 | Programme des 6 démos | — | — |
+| 21-22 | Vraie photo ou IA ? (3 images) | Préparé | 3 images : une vraie photo, une IA réussie, une IA ratée |
+| 23 | Créer une affiche | Direct | Compte ChatGPT / Copilot connecté · plan B : une affiche déjà générée |
+| 24 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
+| 25 | Rédiger un e-mail + pièges | Direct | — |
+| 26 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
+| 27 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
+| 38-40 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
 
 Dans la régie, chaque diapo de démo affiche :
 - **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;
@@ -71,7 +75,7 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
 - `presentation/presentation.pptx` et `presentation.pdf` : la présentation complète à jour (version de secours, sans le site).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
-  l'ordre des 40 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
+  l'ordre des 43 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
   (Node + Playwright et Python avec Pillow / python-pptx).
 - Nouvelle version du PowerPoint d'origine : exportez-la en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
 - `media/` : vidéos à embarquer avec le site (voir `media/README.md`).

@@ -68,7 +68,7 @@
     $$('[data-blank]').forEach((b) => b.classList.toggle('is-on', state.blank === b.dataset.blank));
     const ov = state.overlay;
     $('#r-ov').hidden = !ov && !state.blank;
-    $('#r-ov').textContent = ov ? (ov.kind === 'message' ? '💬 ' + ov.text : ov.kind === 'share' ? '🖥️ Partage de fenêtre' : (ICON[ov.mediaKind] || '') + ' ' + (ov.name || 'Média'))
+    $('#r-ov').textContent = ov ? (ov.kind === 'message' ? '💬 ' + ov.text : ov.kind === 'share' ? '🖥️ Partage de fenêtre' : ov.kind === 'qr' ? '📱 QR code' : (ICON[ov.mediaKind] || '') + ' ' + (ov.name || 'Média'))
       : state.blank ? { black: '⬛ Écran noir', white: '⬜ Écran blanc', pause: '☕ Pause' }[state.blank] : '';
     const isPlayable = ov && ov.kind === 'media' && ['video', 'audio', 'youtube'].includes(ov.mediaKind);
     $('#r-video').hidden = !isPlayable;

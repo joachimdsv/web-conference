@@ -70,6 +70,21 @@
       overlayEl.innerHTML = `<div class="msg">${esc(ov.text).replace(/\n/g, '<br>')}</div>`;
       return;
     }
+    if (ov.kind === 'qr') {
+      overlayEl.classList.add('is-on', 'is-qr');
+      let svg = '';
+      if (window.qrcode) {
+        const qr = qrcode(0, 'M');
+        qr.addData(ov.url);
+        qr.make();
+        svg = qr.createSvgTag({ cellSize: 8, margin: 2, scalable: true });
+      }
+      overlayEl.innerHTML = `<div class="qr-card"><div class="qr-code">${svg}</div><div class="qr-text">
+        <div class="qr-kicker">📱 Scannez avec votre téléphone</div>
+        ${ov.title ? `<div class="qr-title">${esc(ov.title)}</div>` : ''}
+        <div class="qr-url">${esc(ov.url.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</div></div></div>`;
+      return;
+    }
     if (ov.kind === 'share') {
       overlayEl.classList.add('is-on', 'is-media');
       const v = document.createElement('video');

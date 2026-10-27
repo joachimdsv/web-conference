@@ -32,10 +32,12 @@
         <button class="icon-btn" id="t-reset" title="Remettre le chrono à zéro">↺</button>
         <span class="timer-clock" id="t-clock"></span>
       </div>
+      <div class="timer-pace" id="t-pace" title="Comparaison avec le minutage prévu dans les notes"></div>
     </div>
     <div class="top-actions">
       <button class="btn btn-primary" id="open-screen">📽️ Ouvrir l'écran public</button>
       <button class="btn" id="open-remote">📱 Télécommande</button>
+      <a class="btn" href="notes.html" target="_blank" title="Notes de l'orateur à imprimer">🖨️ Notes</a>
       <button class="icon-btn" id="open-help" title="Raccourcis clavier">?</button>
     </div>
   </header>
@@ -181,6 +183,17 @@
           <div class="row">
             <button class="btn btn-sm btn-primary" id="share-start">Partager une fenêtre</button>
             <button class="btn btn-sm" id="share-stop" disabled>Arrêter le partage</button>
+          </div>
+        </div>
+
+        <div class="tool-card">
+          <h3>📱 QR code à l'écran</h3>
+          <p class="muted">Pour que le public ouvre un lien sur son téléphone (le site créé en direct, une ressource…).</p>
+          <input type="url" id="qr-url" placeholder="https://…">
+          <input type="text" id="qr-title" placeholder="Titre (facultatif) : Le site de la MJC" style="margin-top:6px">
+          <div class="row">
+            <button class="btn btn-sm btn-primary" id="qr-show">Afficher le QR code</button>
+            <button class="btn btn-sm" id="qr-hide">Masquer</button>
           </div>
         </div>
 

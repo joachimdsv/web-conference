@@ -3,7 +3,9 @@
 #   demo ID  -> slides-src/rendu/ID.jpg (section de demos.html)
 # Après modification : tools/construire-diapos.sh, puis adapter les numéros dans js/deck.js.
 page 01
-page 02
+# Plan mis à jour + question d'ouverture
+demo plan
+demo brise-glace
 page 03
 page 04
 page 05
@@ -44,4 +46,7 @@ page 31
 demo finale-intro
 demo finale-prompt
 demo finale-bilan
+# Conclusion
+demo a-retenir
+demo pour-essayer
 page 32
