@@ -28,6 +28,12 @@
     set(k, v) { try { localStorage.setItem('wc:' + k, JSON.stringify(v)); } catch {} },
   };
 
+  // Nouvel ordre des diapos : les notes, épingles et états enregistrés ne correspondent plus.
+  if (store.get('deckVersion', 1) !== (DECK.version || 1)) {
+    ['state', 'notes', 'pins'].forEach((k) => { try { localStorage.removeItem('wc:' + k); } catch {} });
+    store.set('deckVersion', DECK.version || 1);
+  }
+
   // ---------- Types de médias ----------
   function youtubeId(url) {
     const m = String(url).match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([\w-]{11})/);

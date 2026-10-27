@@ -186,35 +186,64 @@
   let libItems = [];
   function renderInteractions(state) {
     const n = state.slide;
-    const list = slideCfg(n).elements || [];
+    const cfg = slideCfg(n);
+    const list = cfg.elements || [];
     const box = $('#interactions');
-    if (!list.length) { box.innerHTML = ''; return; }
     const answers = list.filter((e) => e.type === 'answer');
     const zones = list.filter((e) => e.type === 'zone');
-    let html = '<div class="inter"><div class="inter-head"><h3>✨ Interactions</h3>';
-    if (answers.length) html += '<button class="btn btn-sm btn-primary" data-all="show">Tout révéler</button><button class="btn btn-sm" data-all="hide">Tout masquer</button>';
-    html += '</div>';
-    for (const z of zones) {
-      const cur = state.zones[n + ':' + z.id];
-      const opts = libItems.filter((m) => m.kind === 'image' || m.kind === 'video')
-        .map((m) => `<option value="${esc(m.id)}" ${m.id === cur ? 'selected' : ''}>${esc(m.name)}</option>`).join('');
-      html += `<div class="inter-row"><span class="inter-label">🖼️ ${esc(z.label || z.id)}</span>
-        <select data-zone="${esc(z.id)}"><option value="">— vide —</option>${opts}</select></div>`;
+    let html = '';
+    if (cfg.links?.length) {
+      html += `<div class="inter"><div class="inter-head"><h3>🔗 Ouvrir pour la démo</h3></div><div class="links">${cfg.links
+        .map((l) => `<a class="btn btn-sm" href="${esc(l.url)}" target="webconf-demo" rel="noopener">${esc(l.label)} ↗</a>`).join('')}</div></div>`;
     }
-    for (const a of answers) {
-      const v = state.reveals[n + ':' + a.id];
-      html += `<div class="inter-row"><span class="inter-label">${esc(a.label || a.id)}</span><div class="seg seg-sm">
-        <button data-reveal="${esc(a.id)}" data-v="" class="${v == null ? 'is-on' : ''}">Masqué</button>
-        ${a.choices.map((c, i) => `<button data-reveal="${esc(a.id)}" data-v="${i}" class="${v === i ? 'is-on' : ''}">${esc(c)}${i === a.answer ? ' ✓' : ''}</button>`).join('')}
-      </div></div>`;
+    if (cfg.prompts?.length) {
+      html += `<div class="inter"><div class="inter-head"><h3>📋 Prompts à copier</h3></div>${cfg.prompts.map((p, i) => `
+        <div class="prompt-item"><div class="prompt-head"><span class="inter-label">${esc(p.label)}</span>
+        <button class="btn btn-sm btn-primary" data-copy="${i}">Copier</button></div>
+        <div class="prompt-text">${esc(p.text)}</div></div>`).join('')}</div>`;
     }
-    if (zones.length) html += '<p class="muted small">Astuce : glissez une image directement sur une zone de l\'aperçu.</p>';
-    html += '</div>';
+    if (list.length) {
+      html += '<div class="inter"><div class="inter-head"><h3>✨ Interactions</h3>';
+      if (answers.length) html += '<button class="btn btn-sm btn-primary" data-all="show">Tout révéler</button><button class="btn btn-sm" data-all="hide">Tout masquer</button>';
+      html += '</div>';
+      for (const z of zones) {
+        const def = z.default && libItems.find((m) => m.id === 'preset:' + z.default);
+        const cur = state.zones[n + ':' + z.id] || (def ? def.id : '');
+        const opts = libItems.filter((m) => m.kind === 'image' || m.kind === 'video')
+          .map((m) => `<option value="${esc(m.id)}" ${m.id === cur ? 'selected' : ''}>${esc(m.name)}</option>`).join('');
+        html += `<div class="inter-row"><span class="inter-label">🖼️ ${esc(z.label || z.id)}</span><span class="inter-zone">
+          <select data-zone="${esc(z.id)}"><option value="">— vide —</option>${opts}</select>
+          ${cur ? `<button class="icon-btn" data-zone-full="${esc(cur)}" title="Afficher en plein écran (avec le son pour une vidéo)">⛶</button>` : ''}</span></div>`;
+      }
+      for (const a of answers) {
+        const v = state.reveals[n + ':' + a.id];
+        html += `<div class="inter-row"><span class="inter-label">${esc(a.label || a.id)}</span><div class="seg seg-sm">
+          <button data-reveal="${esc(a.id)}" data-v="" class="${v == null ? 'is-on' : ''}">Masqué</button>
+          ${a.choices.map((c, i) => `<button data-reveal="${esc(a.id)}" data-v="${i}" class="${v === i ? 'is-on' : ''}">${esc(c)}${i === a.answer ? ' ✓' : ''}</button>`).join('')}
+        </div></div>`;
+      }
+      if (zones.length) html += '<p class="muted small">Astuce : glissez une image ou une vidéo directement sur une zone de l\'aperçu.</p>';
+      html += '</div>';
+    }
     box.innerHTML = html;
     box.querySelectorAll('[data-reveal]').forEach((b) => (b.onclick = () =>
       bus.dispatch({ type: 'reveal', slide: n, el: b.dataset.reveal, value: b.dataset.v === '' ? null : +b.dataset.v })));
     box.querySelectorAll('[data-all]').forEach((b) => (b.onclick = () => bus.dispatch({ type: 'revealAll', slide: n, hide: b.dataset.all === 'hide' })));
     box.querySelectorAll('[data-zone]').forEach((s) => (s.onchange = () => bus.dispatch({ type: 'zone', slide: n, el: s.dataset.zone, mediaId: s.value || null })));
+    box.querySelectorAll('[data-zone-full]').forEach((b) => (b.onclick = () => {
+      const m = libItems.find((x) => x.id === b.dataset.zoneFull);
+      if (m) showMedia(m);
+    }));
+    box.querySelectorAll('[data-copy]').forEach((b) => (b.onclick = () => copyText(cfg.prompts[+b.dataset.copy].text)));
+  }
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); }
+    catch {
+      const t = document.createElement('textarea');
+      t.value = text; document.body.appendChild(t); t.select();
+      document.execCommand('copy'); t.remove();
+    }
+    toast('Prompt copié : collez-le dans l\'outil d\'IA (Ctrl+V)');
   }
   function revealNext() {
     const n = bus.state.slide;

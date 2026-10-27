@@ -1,6 +1,6 @@
 # Web Conférence — contrôle de présentation en direct
 
-Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** et la piloter en direct :
+Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (40 diapos, démos incluses) et la piloter en direct :
 vidéos, images, quiz révélés en live, pointeur laser, annotations, zoom, partage d'une fenêtre, télécommande sur téléphone.
 
 ## Les 3 pages
@@ -36,6 +36,31 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
 
 Liste complète des raccourcis : bouton `?` dans la régie.
 
+## Les démonstrations
+
+| Diapo | Démo | Mode | À préparer |
+|---|---|---|---|
+| 19 | Programme des 6 démos | — | — |
+| 20-21 | Vraie photo ou IA ? (3 images) | Préparé | 3 images : une vraie photo, une IA réussie, une IA ratée |
+| 22 | Créer une affiche | Direct | Compte ChatGPT / Copilot connecté · plan B : une affiche déjà générée |
+| 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
+| 24 | Rédiger un e-mail + pièges | Direct | — |
+| 25 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
+| 26 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
+| 37-39 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT · plan B : capture du site préparé |
+
+Dans la régie, chaque diapo de démo affiche :
+- **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;
+- **🔗 Ouvrir pour la démo** : les sites utiles (ChatGPT, Copilot, Claude, Légifrance, Netlify Drop…) ;
+- **✨ Interactions** : zones où placer images et vidéos (⛶ = plein écran avec le son), réponses à révéler (`R`) ;
+- des notes d'orateur détaillées (déroulé, pièges à montrer, plan B).
+
+Pour les démos en direct, utilisez **Outils → Montrer une fenêtre** : l'onglet du chatbot s'affiche sur le projecteur sans quitter la présentation. Une image générée se colle dans la régie avec `Ctrl+V`.
+
+**Médias préparés à l'avance** : glissez-les dans la régie le jour J, ou, pour qu'ils s'affichent tout seuls dans les bons cadres,
+copiez-les dans `media/` sous les noms `demo1-a.jpg`, `demo1-b.jpg`, `demo1-c.jpg`, `demo3-video1.mp4`, `demo3-video2.mp4`
+et décommentez les lignes correspondantes dans `js/deck.js` (section `media`).
+
 ## Mettre le site en ligne (GitHub Pages)
 
 *Settings → Pages → Source : « Deploy from a branch »*, choisissez la branche et le dossier `/ (root)`.
@@ -43,6 +68,10 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 
 ## Personnaliser
 
-- `js/deck.js` : titres, notes, médias livrés, éléments interactifs (positions en % de la diapo).
-- Nouvelle version du PowerPoint : exportez-le en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
+- `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
+- `presentation/presentation.pptx` et `presentation.pdf` : la présentation complète à jour (version de secours, sans le site).
+- Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
+  l'ordre des 40 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
+  (Node + Playwright et Python avec Pillow / python-pptx).
+- Nouvelle version du PowerPoint d'origine : exportez-la en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
 - `media/` : vidéos à embarquer avec le site (voir `media/README.md`).

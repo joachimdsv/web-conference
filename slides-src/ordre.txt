@@ -1,0 +1,47 @@
+# Ordre des diapos de la présentation (une ligne = une diapo).
+#   page NN  -> slides-src/originales/page-NN.jpg (PDF d'origine)
+#   demo ID  -> slides-src/rendu/ID.jpg (section de demos.html)
+# Après modification : tools/construire-diapos.sh, puis adapter les numéros dans js/deck.js.
+page 01
+page 02
+page 03
+page 04
+page 05
+page 06
+page 07
+page 08
+page 09
+page 10
+page 11
+page 12
+page 13
+page 14
+page 15
+page 16
+# Chapitre 03 — en pratique
+page 17
+page 18
+demo demos-programme
+demo demo1-images
+demo demo1-indices
+demo demo2-affiche
+demo demo3-videos
+demo demo4-email
+demo demo5-excel
+demo demo6-langue
+# Chapitres 04 à 06
+page 22
+page 23
+page 24
+page 25
+page 26
+page 27
+page 28
+page 29
+page 30
+page 31
+# Démo finale
+demo finale-intro
+demo finale-prompt
+demo finale-bilan
+page 32

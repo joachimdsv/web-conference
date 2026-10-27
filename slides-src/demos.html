@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Diapos des démonstrations</title>
+<!--
+  Nouvelles diapos de démonstration, au format 1920×1080.
+  Chaque <section class="slide" id="..."> devient une image (voir tools/construire-diapos.sh).
+  Les éléments marqués data-zone="X" sont mesurés automatiquement : ce sont les
+  emplacements où la régie peut afficher une image ou une vidéo en direct.
+  Ouvrez ce fichier dans un navigateur pour prévisualiser (ajoutez #id-de-la-diapo pour n'en voir qu'une).
+-->
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --navy: #0f1b3d; --ink: #3b4670; --muted: #6b76a3;
+    --c03: #7c5cff; --c03-b: #ff6486; --c06: #4e46e7; --c06-b: #23c0a1;
+    --blue: #3f63e0; --green: #18b48a; --orange: #ff8a3d; --pink: #ff5c86; --violet: #7c5cff; --red: #ef4461;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #222; font-family: Inter, sans-serif; color: var(--navy); }
+  body.render { background: none; }
+  .slide { position: relative; width: 1920px; height: 1080px; overflow: hidden; margin: 0 auto 40px; }
+  body.render .slide { margin: 0; display: none; }
+  body.render .slide.is-shown { display: block; }
+
+  /* Fonds */
+  .light { background:
+      radial-gradient(1100px 700px at 92% 8%, rgba(180, 196, 245, .75), transparent 70%),
+      radial-gradient(900px 600px at 0% 100%, rgba(205, 205, 250, .7), transparent 70%),
+      linear-gradient(135deg, #eef1fd, #e3e7fb 55%, #e6ebfa); }
+  .dark { color: #fff; background:
+      radial-gradient(900px 700px at 0% 100%, rgba(120, 50, 110, .55), transparent 70%),
+      radial-gradient(1000px 700px at 85% 10%, rgba(60, 55, 160, .7), transparent 70%),
+      linear-gradient(135deg, #090d2c, #141a52 60%, #1b1f60); }
+  .dark.teal { background:
+      radial-gradient(900px 700px at 0% 100%, rgba(20, 130, 120, .45), transparent 70%),
+      radial-gradient(1000px 700px at 85% 10%, rgba(60, 55, 170, .7), transparent 70%),
+      linear-gradient(135deg, #08102e, #131a55 60%, #1c2066); }
+  .slide::before { content: ''; position: absolute; inset: 0; pointer-events: none;
+    background-image: radial-gradient(rgba(70, 80, 170, .16) 1.4px, transparent 1.6px); background-size: 34px 34px; }
+  .dark::before { background-image: radial-gradient(rgba(255, 255, 255, .06) 1.4px, transparent 1.6px); }
+  .slide::after { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 10px;
+    background: linear-gradient(90deg, var(--c03), #bf61c2, var(--c03-b)); }
+  .final::after { background: linear-gradient(90deg, var(--c06), #3b82c2, var(--c06-b)); }
+  svg.net { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+
+  /* Typo */
+  .content { position: absolute; inset: 0; padding: 92px 150px 0; }
+  .kicker { font: 500 30px/1 'JetBrains Mono', monospace; letter-spacing: .1em; color: var(--c03); text-transform: uppercase; }
+  .dark .kicker { color: #b3a4ff; }
+  .final .kicker { color: #6fd8c0; }
+  .kicker::before { content: '> '; opacity: .7; }
+  .kicker::after { content: '_'; }
+  h1 { font: 800 92px/1.06 Sora, sans-serif; letter-spacing: -.025em; margin-top: 44px; }
+  h1.sm { font-size: 80px; }
+  .lead { font: 500 32px/1.4 Inter, sans-serif; color: var(--ink); margin-top: 18px; }
+  .dark .lead { color: #c7cdf5; }
+  .live { position: absolute; right: 150px; top: 80px; display: flex; align-items: center; gap: 14px;
+    font: 700 26px/1 'JetBrains Mono', monospace; letter-spacing: .12em; color: #fff; text-transform: uppercase;
+    background: var(--red); padding: 14px 24px; border-radius: 99px; box-shadow: 0 10px 30px rgba(239, 68, 97, .35); }
+  .live::before { content: ''; width: 16px; height: 16px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 6px rgba(255, 255, 255, .3); }
+  .prep { background: #2b3470; box-shadow: none; }
+  .prep::before { display: none; }
+
+  /* Cartes */
+  .card { background: #fff; border-radius: 20px; border-top: 6px solid var(--c03);
+    box-shadow: 0 24px 60px rgba(60, 70, 160, .13), 0 2px 6px rgba(60, 70, 160, .06); padding: 34px 38px; position: relative; }
+  .dark .card { background: rgba(255, 255, 255, .06); border: 1.5px solid rgba(255, 255, 255, .13); border-top-width: 1.5px; box-shadow: none; backdrop-filter: blur(4px); }
+  .ico { width: 82px; height: 82px; border-radius: 50%; display: grid; place-items: center; font-size: 44px; background: #e9ecfd; }
+  .ico.g { background: #dff6ee; } .ico.o { background: #ffeadb; } .ico.p { background: #ffe1ea; } .ico.v { background: #ece6ff; } .ico.y { background: #fff3cf; }
+  .card h3 { font: 700 38px/1.15 Sora, sans-serif; margin: 22px 0 10px; letter-spacing: -.01em; }
+  .card p { font: 400 25px/1.4 Inter, sans-serif; color: var(--ink); }
+  .dark .card p { color: #c7cdf5; }
+  .label { font: 700 20px/1 'JetBrains Mono', monospace; letter-spacing: .14em; color: var(--c03); text-transform: uppercase; }
+  .prompt { font: 500 31px/1.5 Inter, sans-serif; color: var(--navy); margin-top: 18px; }
+  .prompt mark { background: none; color: inherit; border-bottom: 5px solid var(--hl); padding: 0 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 14px; }
+  .chip { font: 600 24px/1 Inter, sans-serif; padding: 14px 22px; border-radius: 99px; background: #fff; color: var(--navy); box-shadow: 0 6px 18px rgba(60, 70, 160, .1); }
+  .dark .chip { background: rgba(255, 255, 255, .08); color: #e4e7ff; border: 1.5px solid rgba(255, 255, 255, .14); box-shadow: none; }
+  .chip i { font-style: normal; display: inline-block; width: 16px; height: 16px; border-radius: 50%; background: var(--hl); margin-right: 10px; vertical-align: 1px; }
+
+  /* Cadres d'images / vidéos (zones) */
+  .frame { position: absolute; border-radius: 24px; display: grid; place-items: center; align-content: center; gap: 16px;
+    background: rgba(255, 255, 255, .05); border: 2px solid rgba(255, 255, 255, .14); color: rgba(220, 215, 255, .55); text-align: center; }
+  .frame b { font: 800 96px/1 Sora, sans-serif; color: #b9a8ff; }
+  .frame span { font: 500 24px/1 Inter, sans-serif; }
+  .light .frame { background: rgba(255, 255, 255, .55); border: 2px dashed #b9c1ee; color: var(--muted); }
+  .light .frame b { color: var(--c03); font-size: 64px; }
+  .bottom-q { position: absolute; left: 150px; bottom: 92px; font: 600 38px/1 Sora, sans-serif; color: #b7c0f5; }
+  .bottom-q em { font-style: normal; color: #7fd6ff; }
+
+  .num { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; font: 800 28px/1 Sora, sans-serif; color: #fff; background: var(--c03); flex: none; }
+  .tag { position: absolute; right: 26px; top: 26px; font: 700 18px/1 'JetBrains Mono', monospace; letter-spacing: .08em; padding: 9px 14px; border-radius: 99px; text-transform: uppercase; }
+  .tag.live-t { background: #ffe1e7; color: #d42a4f; }
+  .tag.prep-t { background: #e6e9fb; color: #4a56a6; }
+
+  /* Mise en page spécifique */
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; }
+  .row { display: flex; gap: 34px; }
+  .warn li { list-style: none; display: grid; grid-template-columns: 56px 1fr; gap: 6px 18px; padding: 18px 0; border-top: 1.5px solid #eef0fb; }
+  .warn li:first-child { border-top: 0; padding-top: 6px; }
+  .warn li > span { font-size: 40px; grid-row: 1 / 3; line-height: 1.1; }
+  .warn strong { font: 700 29px/1.2 Sora, sans-serif; }
+  .warn small { font: 400 23px/1.35 Inter, sans-serif; color: var(--ink); }
+
+  .xl { border-radius: 18px; overflow: hidden; background: #fff; box-shadow: 0 24px 60px rgba(60, 70, 160, .15); font: 500 24px/1 Inter, sans-serif; }
+  .xl-top { background: #1d7044; color: #fff; padding: 16px 22px; font-weight: 700; display: flex; gap: 12px; align-items: center; }
+  .xl-top small { margin-left: auto; font-weight: 500; opacity: .8; font-size: 20px; }
+  .xl-fx { display: flex; border-bottom: 1.5px solid #e2e5ea; font: 500 22px/1 'JetBrains Mono', monospace; color: #444; }
+  .xl-fx b { background: #f3f4f6; padding: 12px 16px; border-right: 1.5px solid #e2e5ea; color: #1d7044; }
+  .xl-fx span { padding: 12px 16px; }
+  .xl table { border-collapse: collapse; width: 100%; }
+  .xl td, .xl th { border: 1.5px solid #e2e5ea; padding: 17px 18px; text-align: right; color: #222; }
+  .xl th { background: #f3f4f6; color: #666; font-weight: 600; font-size: 19px; padding: 7px; text-align: center; }
+  .xl td:nth-child(2) { text-align: left; }
+  .xl td.h { background: #e7f3ec; font-weight: 700; color: #1d5c39; }
+  .xl tr.tot td { font-weight: 800; background: #f6faf7; }
+  .xl td.sel { outline: 3px solid #1d7044; outline-offset: -3px; }
+  .xl .bar { display: inline-block; height: 16px; border-radius: 4px; background: #34a36b; vertical-align: middle; }
+
+  .chat { display: flex; flex-direction: column; gap: 20px; }
+  .bubble { max-width: 88%; padding: 22px 28px; border-radius: 26px; font: 500 27px/1.4 Inter, sans-serif; box-shadow: 0 10px 30px rgba(60, 70, 160, .1); }
+  .bubble.ai { background: #fff; border-bottom-left-radius: 8px; }
+  .bubble.me { align-self: flex-end; background: linear-gradient(135deg, var(--blue), var(--violet)); color: #fff; border-bottom-right-radius: 8px; }
+  .bubble .fix { display: block; margin-bottom: 10px; padding: 12px 16px; border-radius: 14px; background: #fff4e5; color: #8a4b00; font-size: 24px; }
+
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; position: relative; }
+  .step { padding: 34px 32px; }
+  .step .num { background: linear-gradient(135deg, var(--c06), var(--c06-b)); }
+  .step h3 { margin-top: 26px; }
+  .arrow { position: absolute; top: 74px; font-size: 40px; color: #6fd8c0; }
+
+  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .cols2 .card { padding: 38px 44px; }
+  .cols2 h3 { margin-top: 0; font-size: 36px; }
+  .list li { list-style: none; font: 500 29px/1.35 Inter, sans-serif; padding: 15px 0; display: flex; gap: 18px; color: var(--navy); }
+  .footnote { position: absolute; left: 150px; right: 150px; bottom: 80px; font: 600 30px/1.3 Inter, sans-serif; color: var(--ink); }
+  .footnote b { color: var(--c06); }
+</style>
+</head>
+<body>
+
+<!-- ===================================================== 03 · Programme des démos -->
+<section class="slide light" id="demos-programme">
+  <div class="content">
+    <div class="kicker">03 · Au programme</div>
+    <h1>6 démos pour voir l'IA à l'œuvre</h1>
+    <div class="grid3" style="margin-top:64px; row-gap:30px">
+      <div class="card"><span class="tag prep-t">Préparé</span><div class="ico">🖼️</div><h3>Vraie photo ou IA ?</h3><p>3 images à départager</p></div>
+      <div class="card"><span class="tag live-t">● Direct</span><div class="ico v">🎨</div><h3>Créer une affiche</h3><p>Un prompt, une affiche</p></div>
+      <div class="card"><span class="tag prep-t">Préparé</span><div class="ico p">🎬</div><h3>Vidéo : vrai ou faux ?</h3><p>2 vidéos à comparer</p></div>
+      <div class="card"><span class="tag live-t">● Direct</span><div class="ico o">✉️</div><h3>Rédiger un e-mail</h3><p>…et éviter les pièges</p></div>
+      <div class="card"><span class="tag live-t">● Direct</span><div class="ico g">📊</div><h3>Un budget dans Excel</h3><p>Tableau et formules en un prompt</p></div>
+      <div class="card"><span class="tag live-t">● Direct</span><div class="ico y">🗣️</div><h3>Apprendre une langue</h3><p>Un prof particulier, patient</p></div>
+    </div>
+    <p class="lead" style="margin-top:48px; font-weight:600">… et en final : <span style="color:var(--c06)">créer le site de la MJC en direct</span> 🚀</p>
+  </div>
+</section>
+
+<!-- ===================================================== Démo 1 · 3 images -->
+<section class="slide dark" id="demo1-images" data-net="tr">
+  <div class="content">
+    <div class="kicker">03 · Démo n°1</div>
+    <h1>Vraie photo ou image d'IA ?</h1>
+    <p class="lead">Une vraie photo, une IA réussie, une IA ratée : saurez-vous les reconnaître ?</p>
+  </div>
+  <div class="frame" data-zone="A" style="left:150px; top:380px; width:510px; height:500px"><b>A</b><span>Image A</span></div>
+  <div class="frame" data-zone="B" style="left:705px; top:380px; width:510px; height:500px"><b>B</b><span>Image B</span></div>
+  <div class="frame" data-zone="C" style="left:1260px; top:380px; width:510px; height:500px"><b>C</b><span>Image C</span></div>
+  <div class="bottom-q" style="bottom:90px">Levez la main : <em>A</em>, <em>B</em> ou <em>C</em> ?</div>
+</section>
+
+<!-- ===================================================== Démo 1 · indices -->
+<section class="slide light" id="demo1-indices" data-net="tr">
+  <div class="content">
+    <div class="kicker">03 · Démo n°1 · Les indices</div>
+    <h1>Comment repérer une image d'IA ?</h1>
+    <div class="grid3" style="margin-top:60px; row-gap:30px">
+      <div class="card"><div class="ico o">🖐️</div><h3>Mains et doigts</h3><p>Doigts en trop ou fusionnés, articulations étranges</p></div>
+      <div class="card"><div class="ico">🔤</div><h3>Texte déformé</h3><p>Lettres inventées, panneaux et étiquettes illisibles</p></div>
+      <div class="card"><div class="ico y">💡</div><h3>Ombres et reflets</h3><p>Lumière incohérente, reflets absents ou faux</p></div>
+      <div class="card"><div class="ico g">🧩</div><h3>Détails du fond</h3><p>Objets qui fusionnent, motifs répétés, perspective bancale</p></div>
+      <div class="card"><div class="ico p">✨</div><h3>Trop parfait</h3><p>Peau lisse, rendu « plastique », éclairage de studio partout</p></div>
+      <div class="card"><div class="ico v">🔍</div><h3>Vérifier la source</h3><p>Recherche d'image inversée, média d'origine</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================== Démo 2 · affiche -->
+<section class="slide light" id="demo2-affiche" data-net="tr">
+  <div class="content">
+    <div class="kicker">03 · Démo n°2</div>
+    <h1 class="sm">Créer une affiche<br>en un prompt</h1>
+    <div class="card" style="position:absolute; left:150px; top:420px; width:1000px; padding:36px 42px">
+      <div class="label">Exemple de prompt</div>
+      <p class="prompt">« Crée <mark style="--hl:#7aa0ff">une affiche verticale au format A3</mark> pour <mark style="--hl:#4fd1a5">la fête de la MJC du Val d'Ajol, le samedi 20 juin de 14 h à 22 h</mark>. <mark style="--hl:#b39bff">Ambiance festive et familiale, montagnes des Vosges en fond, style illustration colorée</mark>. <mark style="--hl:#ffa86b">Titre bien lisible : « Fête de la MJC »</mark>. <mark style="--hl:#ff8fb0">Laisse de la place en bas pour les logos.</mark> »</p>
+      <div class="chips" style="margin-top:26px; gap:10px">
+        <span class="chip" style="--hl:#7aa0ff; font-size:21px; padding:11px 18px"><i></i>Format</span>
+        <span class="chip" style="--hl:#4fd1a5; font-size:21px; padding:11px 18px"><i></i>Sujet</span>
+        <span class="chip" style="--hl:#b39bff; font-size:21px; padding:11px 18px"><i></i>Style</span>
+        <span class="chip" style="--hl:#ffa86b; font-size:21px; padding:11px 18px"><i></i>Texte</span>
+        <span class="chip" style="--hl:#ff8fb0; font-size:21px; padding:11px 18px"><i></i>Contraintes</span>
+      </div>
+    </div>
+    <p class="lead" style="position:absolute; left:150px; top:925px; width:1000px; font-size:27px">Puis on affine : « Agrandis le titre » · « Ajoute des lampions » · <b>⚠️ vérifiez l'orthographe !</b></p>
+  </div>
+  <div class="live">En direct</div>
+  <div class="frame" data-zone="affiche" style="left:1230px; top:200px; width:540px; height:780px"><b>🎨</b><span>L'affiche générée</span></div>
+</section>
+
+<!-- ===================================================== Démo 3 · vidéos -->
+<section class="slide dark" id="demo3-videos" data-net="tr">
+  <div class="content">
+    <div class="kicker">03 · Démo n°3</div>
+    <h1>Vidéo : filmée ou générée ?</h1>
+  </div>
+  <div class="frame" data-zone="V1" style="left:150px; top:330px; width:790px; height:444px"><b>1</b><span>Vidéo 1</span></div>
+  <div class="frame" data-zone="V2" style="left:980px; top:330px; width:790px; height:444px"><b>2</b><span>Vidéo 2</span></div>
+  <div class="chips" style="position:absolute; left:150px; right:150px; top:830px">
+    <span class="chip">🌊 La physique : eau, tissus, cheveux</span>
+    <span class="chip">🖐️ Mains et visages</span>
+    <span class="chip">🔤 Le texte</span>
+    <span class="chip">🎞️ La cohérence d'un plan à l'autre</span>
+  </div>
+  <div class="bottom-q" style="bottom:80px; font-size:34px">Qu'est-ce qui vous a mis la puce à l'oreille ?</div>
+</section>
+
+<!-- ===================================================== Démo 4 · e-mail -->
+<section class="slide light" id="demo4-email" data-net="bl">
+  <div class="content">
+    <div class="kicker">03 · Démo n°4 · Au quotidien</div>
+    <h1 class="sm">Rédiger un e-mail… sans piège</h1>
+    <div class="row" style="margin-top:56px; align-items:stretch">
+      <div class="card" style="flex:1.05">
+        <div class="label">Exemple de prompt</div>
+        <p class="prompt">« Rédige un e-mail poli à mon propriétaire pour signaler une fuite d'eau sous l'évier depuis 3 jours. Ton cordial mais ferme, 10 lignes maximum. Je souhaite une intervention cette semaine. »</p>
+        <p class="prompt" style="color:var(--muted); font-size:26px; margin-top:26px">Puis : « Plus court » · « Plus chaleureux » · « Version pour un SMS »</p>
+      </div>
+      <div class="card" style="flex:1; border-top-color:var(--red)">
+        <div class="label" style="color:var(--red)">⚠️ Les pièges</div>
+        <ul class="warn" style="padding:0; margin-top:14px">
+          <li><span>🤥</span><strong>Il invente des détails</strong><small>dates, montants, articles de loi…</small></li>
+          <li><span>🔒</span><strong>Vos données personnelles</strong><small>ni adresse, ni n° de contrat dans le prompt</small></li>
+          <li><span>🤖</span><strong>Le ton « robot »</strong><small>formules toutes faites, vite repérées</small></li>
+          <li><span>👀</span><strong>Envoyer sans relire</strong><small>c'est vous qui signez !</small></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="live">En direct</div>
+</section>
+
+<!-- ===================================================== Démo 5 · Excel -->
+<section class="slide light" id="demo5-excel" data-net="tr">
+  <div class="content">
+    <div class="kicker">03 · Démo n°5 · Au quotidien</div>
+    <h1 class="sm">Un budget familial dans Excel</h1>
+    <div class="row" style="margin-top:56px; align-items:flex-start">
+      <div class="card" style="flex:1">
+        <div class="label">Exemple de prompt</div>
+        <p class="prompt">« Crée un tableau Excel pour suivre le budget mensuel de ma famille : revenus, dépenses par catégorie (logement, courses, transport, loisirs), un total automatique, le reste à vivre et un graphique. Donne-moi le fichier à télécharger. »</p>
+      </div>
+      <div class="xl" style="flex:0 0 760px">
+        <div class="xl-top">📗 Budget-famille.xlsx <small>Feuille : Octobre</small></div>
+        <div class="xl-fx"><b>fx</b><span>=SOMME(C3:C6)</span></div>
+        <table>
+          <tr><th></th><th>A</th><th>B</th><th>C</th></tr>
+          <tr><th>1</th><td class="h">Catégorie</td><td class="h">Prévu</td><td class="h">Réel</td></tr>
+          <tr><th>2</th><td>💶 Revenus</td><td>2 400 €</td><td>2 400 €</td></tr>
+          <tr><th>3</th><td>🏠 Logement</td><td>750 €</td><td>750 €</td></tr>
+          <tr><th>4</th><td>🛒 Courses</td><td>450 €</td><td>482 €</td></tr>
+          <tr><th>5</th><td>🚗 Transport</td><td>180 €</td><td>164 €</td></tr>
+          <tr><th>6</th><td>🎉 Loisirs</td><td>120 €</td><td>95 €</td></tr>
+          <tr class="tot"><th>7</th><td>Total dépenses</td><td>1 500 €</td><td class="sel">1 491 €</td></tr>
+          <tr class="tot"><th>8</th><td>Reste à vivre</td><td>900 €</td><td>909 €</td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="chips" style="position:absolute; left:150px; top:790px; width:880px">
+      <span class="chip">✅ Vérifier les formules</span>
+      <span class="chip">🔒 Pas de vrais relevés bancaires</span>
+      <span class="chip">🔁 « Ajoute une colonne écart »</span>
+    </div>
+  </div>
+  <div class="live">En direct</div>
+</section>
+
+<!-- ===================================================== Démo 6 · langue -->
+<section class="slide light" id="demo6-langue" data-net="bl">
+  <div class="content">
+    <div class="kicker">03 · Démo n°6 · Au quotidien</div>
+    <h1 class="sm">Un prof de langue, disponible 24 h/24</h1>
+    <div class="row" style="margin-top:56px; align-items:flex-start">
+      <div class="card" style="flex:0 0 800px">
+        <div class="label">Exemple de prompt</div>
+        <p class="prompt">« Tu es mon professeur d'anglais, patient et encourageant. Je suis débutant. Jouons une scène : je commande au restaurant. Pose-moi une question à la fois, corrige mes erreurs en français, puis continue. »</p>
+      </div>
+      <div class="chat" style="flex:1">
+        <div class="bubble ai">Good evening! Are you ready to order? 🍝</div>
+        <div class="bubble me">Yes, I want a pizza margarita please</div>
+        <div class="bubble ai"><span class="fix">✏️ Plus poli : « I <b>would like</b> a margherita pizza, please. »</span>Very good! Would you like something to drink?</div>
+      </div>
+    </div>
+    <div class="chips" style="position:absolute; left:150px; bottom:90px">
+      <span class="chip">🎙️ Mode vocal : on parle à voix haute</span>
+      <span class="chip">🎯 Adapté à votre niveau</span>
+      <span class="chip">🔁 Sans jugement, autant de fois que nécessaire</span>
+    </div>
+  </div>
+  <div class="live">En direct</div>
+</section>
+
+<!-- ===================================================== Démo finale · intro -->
+<section class="slide dark teal final" id="finale-intro" data-net="tr">
+  <div class="content">
+    <div class="kicker">Démo finale</div>
+    <h1>Créer le site de la MJC…<br>en direct</h1>
+    <p class="lead">Un vrai support numérique, de l'idée à la mise en ligne.</p>
+    <div class="steps" style="margin-top:70px">
+      <div class="card step"><div class="num">1</div><h3>Cahier des charges</h3><p>On décrit le site en français</p></div>
+      <div class="card step"><div class="num">2</div><h3>Génération</h3><p>L'IA écrit le code HTML et CSS</p></div>
+      <div class="card step"><div class="num">3</div><h3>Itérations</h3><p>On affine ensemble, avec vos idées</p></div>
+      <div class="card step"><div class="num">4</div><h3>En ligne !</h3><p>Visible sur ordinateur et téléphone</p></div>
+    </div>
+  </div>
+  <div class="live">En direct</div>
+</section>
+
+<!-- ===================================================== Démo finale · prompt -->
+<section class="slide light final" id="finale-prompt" data-net="tr">
+  <div class="content">
+    <div class="kicker" style="color:var(--c06)">Démo finale · Le prompt</div>
+    <h1 class="sm">Le cahier des charges</h1>
+    <div class="row" style="margin-top:56px; align-items:flex-start">
+      <div class="card" style="flex:0 0 1010px; border-top-color:var(--c06)">
+        <div class="label" style="color:var(--c06)">Prompt de départ</div>
+        <p class="prompt" style="font-size:29px">« Crée un site vitrine d'une seule page pour la MJC du Val d'Ajol (Vosges). Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Tout le code HTML et CSS dans un seul fichier. »</p>
+      </div>
+      <div style="flex:1">
+        <div class="label" style="color:var(--c06); margin:10px 0 22px">Puis on itère</div>
+        <div class="chat">
+          <div class="bubble me" style="align-self:flex-start; background:linear-gradient(135deg,var(--c06),#3b82c2)">« Ajoute une galerie photo »</div>
+          <div class="bubble me" style="align-self:flex-start; background:linear-gradient(135deg,var(--c06),#3b82c2)">« Reprends les couleurs du logo »</div>
+          <div class="bubble me" style="align-self:flex-start; background:linear-gradient(135deg,var(--c06),#3b82c2)">« Un formulaire d'inscription aux ateliers »</div>
+          <div class="bubble me" style="align-self:flex-start; background:linear-gradient(135deg,var(--c06),#3b82c2)">« Plus gros caractères pour les seniors »</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="live">En direct</div>
+</section>
+
+<!-- ===================================================== Démo finale · bilan -->
+<section class="slide light final" id="finale-bilan" data-net="bl">
+  <div class="content">
+    <div class="kicker" style="color:var(--c06)">Démo finale · Bilan</div>
+    <h1 class="sm">L'IA accélère, l'humain valide</h1>
+    <div class="cols2" style="margin-top:56px">
+      <div class="card" style="border-top-color:var(--c06-b)">
+        <h3>🤖 Fait par l'IA en quelques minutes</h3>
+        <ul class="list" style="padding:0">
+          <li>✅ La structure et le design</li>
+          <li>✅ Le code HTML / CSS</li>
+          <li>✅ Des textes de départ</li>
+          <li>✅ L'adaptation au téléphone</li>
+        </ul>
+      </div>
+      <div class="card" style="border-top-color:var(--c06)">
+        <h3>🧑 Reste à faire par nous</h3>
+        <ul class="list" style="padding:0">
+          <li>📸 Les vrais contenus et photos</li>
+          <li>🔎 Vérifier chaque info (horaires, tarifs)</li>
+          <li>♿ Accessibilité et RGPD</li>
+          <li>🌐 Nom de domaine, hébergement, mises à jour</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footnote">💡 Ce qui prenait des semaines prend quelques heures… <b>mais demande toujours un regard humain.</b></p>
+  </div>
+</section>
+
+<script>
+  // Réseau de points décoratif (même esprit que les diapos d'origine), déterministe.
+  function rng(seed) { return () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646; }
+  document.querySelectorAll('.slide[data-net]').forEach((s, k) => {
+    const r = rng(1234 + k * 977);
+    const corner = s.dataset.net;
+    const cx = corner.includes('r') ? 1650 : 260, cy = corner.includes('b') ? 900 : 200;
+    const pts = Array.from({ length: 26 }, () => [cx + (r() - .5) * 700, cy + (r() - .5) * 520]);
+    const dark = s.classList.contains('dark');
+    const col = dark ? 'rgba(140,150,255,.45)' : 'rgba(110,120,230,.35)';
+    let svg = `<svg class="net" viewBox="0 0 1920 1080">`;
+    pts.forEach((p, i) => pts.forEach((q, j) => {
+      if (j > i && Math.hypot(p[0] - q[0], p[1] - q[1]) < 190) svg += `<line x1="${p[0]}" y1="${p[1]}" x2="${q[0]}" y2="${q[1]}" stroke="${col}" stroke-width="1.6"/>`;
+    }));
+    pts.forEach((p) => (svg += `<circle cx="${p[0]}" cy="${p[1]}" r="${3 + r() * 5}" fill="${col}"/>`));
+    s.insertAdjacentHTML('afterbegin', svg + '</svg>');
+  });
+  // Rendu d'une seule diapo : demos.html#id
+  function show() {
+    const id = location.hash.slice(1);
+    if (!id) return;
+    document.body.classList.add('render');
+    document.querySelectorAll('.slide').forEach((s) => s.classList.toggle('is-shown', s.id === id));
+  }
+  window.addEventListener('hashchange', show);
+  show();
+</script>
+</body>
+</html>

@@ -72,13 +72,14 @@
         const [x, y, w, h] = e.rect;
         const pos = `left:${x}%;top:${y}%;width:${w}%;height:${h}%`;
         if (e.type === 'zone') {
-          const item = state.zones[k] ? await library.get(state.zones[k]) : null;
+          const id = state.zones[k] || (e.default ? 'preset:' + e.default : null);
+          const item = id ? await library.get(id) : null;
           if (!item) return opts.preview ? `<div class="el el-zone is-empty" style="${pos}"><span>${esc(e.label || e.id)}</span></div>` : '';
           const src = esc(mediaSrc(item));
           const media = item.kind === 'video'
             ? `<video src="${src}" muted loop autoplay playsinline></video>`
             : `<img src="${src}" alt="">`;
-          return `<div class="el el-zone" style="${pos}">${media}</div>`;
+          return `<div class="el el-zone${e.fit === 'contain' ? ' is-contain' : ''}" style="${pos}">${media}</div>`;
         }
         if (e.type === 'answer') {
           const v = state.reveals[k];
