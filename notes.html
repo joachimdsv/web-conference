@@ -57,14 +57,14 @@
         const notes = local[n] ?? c.notes ?? '';
         const prompts = (c.prompts || []).map((p) => `<div><b>${esc(p.label)} :</b> ${esc(p.text)}</div>`).join('');
         rows.push(`<section class="s"><img src="${DECK.thumb(n)}" alt="">
-          <div><div class="head"><span class="num">${n}</span><span class="title">${esc(c.title || 'Diapo ' + n)}</span>
+          <div><div class="head"><span class="num">${n}</span><span class="title">${esc(c.title || 'Diapo ' + n)}${c.skip ? ' · ⏭️ sautée par défaut' : ''}</span>
           <span class="min">${c.minutes ? `${fmt(c.minutes)} min · prévu à ${fmt(start)}` : ''}</span></div>
           <div class="notes">${esc(notes) || '<span class="sub">—</span>'}</div>
           ${prompts ? `<div class="prompts">${prompts}</div>` : ''}</div></section>`);
       }
       document.title = 'Notes — ' + DECK.title;
       document.getElementById('t').textContent = 'Notes de l\'orateur — ' + DECK.title;
-      document.getElementById('sub').textContent = `${DECK.subtitle} · ${DECK.slideCount} diapos · durée prévue ≈ ${Math.round(total)} min questions comprises (maximum ${DECK.durationMinutes} min)`;
+      document.getElementById('sub').textContent = `${DECK.subtitle} · ${DECK.slideCount} diapos · durée prévue ≈ ${Math.round(total)} min, débat compris (maximum ${DECK.durationMinutes} min)`;
       document.getElementById('list').innerHTML = rows.join('');
     })();
   </script>

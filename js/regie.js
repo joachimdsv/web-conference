@@ -31,9 +31,9 @@
   for (let n = 1; n <= N; n++) {
     const item = (cls) => {
       const b = document.createElement('button');
-      b.className = cls;
+      b.className = cls + (slideCfg(n).skip ? ' is-skip' : '');
       b.dataset.n = n;
-      b.title = `${n}. ${slideTitle(n)}`;
+      b.title = `${n}. ${slideTitle(n)}` + (slideCfg(n).skip ? ' (sautée par défaut)' : '');
       b.innerHTML = `<img src="${DECK.thumb(n)}" alt="" loading="lazy"><span class="num">${n}</span>${(slideCfg(n).elements || []).length ? '<span class="tag">✨</span>' : ''}`;
       b.onclick = () => { bus.dispatch({ type: 'goto', n }); $('#grid-dlg').close(); };
       return b;

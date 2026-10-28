@@ -49,4 +49,6 @@ demo finale-bilan
 # Conclusion
 demo a-retenir
 demo pour-essayer
+# Débat, puis remerciements
+demo debat
 page 32

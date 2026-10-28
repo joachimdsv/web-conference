@@ -139,15 +139,16 @@
         break;
       }
       case 'next':
-        if (s.overlay) s.overlay = null;
-        else if (s.blank) s.blank = null;
-        else if (s.slide < N) { s.slide++; s.zoom = null; }
+      case 'prev': {
+        if (s.overlay) { s.overlay = null; break; }
+        if (s.blank) { s.blank = null; break; }
+        // Les diapos marquées `skip` dans deck.js sont sautées (on peut toujours y aller par leur numéro)
+        const d = a.type === 'next' ? 1 : -1;
+        let n = s.slide + d;
+        while (n >= 1 && n <= N && slideCfg(n).skip) n += d;
+        if (n >= 1 && n <= N) { s.slide = n; s.zoom = null; }
         break;
-      case 'prev':
-        if (s.overlay) s.overlay = null;
-        else if (s.blank) s.blank = null;
-        else if (s.slide > 1) { s.slide--; s.zoom = null; }
-        break;
+      }
       case 'blank': s.blank = s.blank === a.mode ? null : a.mode; break;
       case 'pauseText': s.pauseText = a.text; break;
       case 'overlay': s.overlay = a.value; break;

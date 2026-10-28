@@ -1,6 +1,6 @@
 # Web Conférence — contrôle de présentation en direct
 
-Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (43 diapos, démos incluses) et la piloter en direct :
+Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (44 diapos, démos et débat inclus, 1 h 30 au total) et la piloter en direct :
 vidéos, images, quiz révélés en live, pointeur laser, annotations, zoom, partage d'une fenêtre, télécommande sur téléphone.
 
 ## Les 3 pages
@@ -36,6 +36,7 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
 
 - **QR code à l'écran** (onglet *Outils*) : le public ouvre un lien sur son téléphone, par exemple le site créé pendant la démo finale.
 - **Minutage** : chaque diapo a une durée indicative ; sous le chrono, la régie indique si vous êtes en avance ou en retard.
+- **Diapos sautées** : `skip: true` dans `js/deck.js` fait passer les flèches par-dessus une diapo (10 et 17 par défaut) ; elle reste accessible en tapant son numéro.
 - **Notes imprimables** : bouton *🖨️ Notes* (page `notes.html`), avec les miniatures, le minutage et les prompts.
 
 Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour J : voir [`PREPARATION.md`](PREPARATION.md) et le plan d'entraînement [`ENTRAINEMENT.md`](ENTRAINEMENT.md). Tout ce qu'il faut dire, diapo par diapo : [`DISCOURS.md`](DISCOURS.md).
@@ -75,7 +76,7 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
 - `presentation/presentation.pptx` et `presentation.pdf` : la présentation complète à jour (version de secours, sans le site).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
-  l'ordre des 43 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
+  l'ordre des 44 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
   (Node + Playwright et Python avec Pillow / python-pptx).
 - Nouvelle version du PowerPoint d'origine : exportez-la en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
 - `media/` : vidéos à embarquer avec le site (voir `media/README.md`).

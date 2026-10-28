@@ -160,6 +160,11 @@
   .tool h3 { margin: 0 0 6px; font-size: 32px; }
   .tool p { font-size: 23px; }
   .tool code { font: 600 22px 'JetBrains Mono', monospace; color: var(--c06); }
+
+  .debate { display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: 30px 34px; margin-top: 60px; }
+  .debate .card { display: flex; gap: 26px; align-items: center; padding: 34px 38px; min-height: 190px; }
+  .debate .ico { flex: none; width: 92px; height: 92px; font-size: 50px; background: rgba(255, 255, 255, .1); }
+  .debate h3 { margin: 0; font-size: 36px; line-height: 1.25; }
 </style>
 </head>
 <body>
@@ -175,7 +180,7 @@
       <div class="plan-item"><b>02</b><div><h3>L'IA dans notre quotidien</h3><p>Santé, école, travail, loisirs : elle est déjà partout</p></div></div>
       <div class="plan-item"><b>05</b><div><h3>Bonnes pratiques</h3><p>Bien lui demander, vérifier, protéger ses données</p></div></div>
       <div class="plan-item"><b>03</b><div><h3>L'IA en pratique</h3><p>6 démonstrations, dont plusieurs en direct</p></div></div>
-      <div class="plan-item is-new"><b>06</b><div><h3>Et demain ?</h3><p>Perspectives, démo finale : le site de la MJC… puis vos questions</p></div></div>
+      <div class="plan-item is-new"><b>06</b><div><h3>Et demain ?</h3><p>Perspectives, démo finale : le site de la MJC… puis le débat</p></div></div>
     </div>
   </div>
 </section>
@@ -459,6 +464,21 @@
       <div class="card tool"><div class="ico o">🪟</div><div><h3>Copilot</h3><p>Microsoft, images incluses · <code>copilot.microsoft.com</code></p></div></div>
     </div>
     <p class="footnote" style="bottom:96px">🆓 Toutes ont une <b>version gratuite</b>. Commencez par une petite tâche du quotidien : un e-mail, une recette, un résumé…</p>
+  </div>
+</section>
+
+<!-- ===================================================== Débat -->
+<section class="slide dark teal final" id="debat" data-net="br">
+  <div class="content">
+    <div class="kicker">À vous la parole</div>
+    <h1>Place au débat</h1>
+    <div class="debate">
+      <div class="card" data-zone="d1"><div class="ico">👧</div><h3>Faut-il apprendre l'IA à nos enfants… ou les en protéger ?</h3></div>
+      <div class="card" data-zone="d2"><div class="ico">⚖️</div><h3>Une IA pour vous soigner, recruter, juger : jusqu'où ?</h3></div>
+      <div class="card" data-zone="d3"><div class="ico">🏷️</div><h3>Faut-il toujours signaler ce qui est fait par une IA ?</h3></div>
+      <div class="card" data-zone="d4"><div class="ico">🏠</div><h3>Et ici, à la MJC : qu'aimeriez-vous faire avec l'IA ?</h3></div>
+    </div>
+    <p class="lead" style="position:absolute; left:150px; bottom:84px; font-weight:600; color:#e4e7ff">Une question, un avis, une expérience ? <span style="color:#6fd8c0">Levez la main ✋</span></p>
   </div>
 </section>
 

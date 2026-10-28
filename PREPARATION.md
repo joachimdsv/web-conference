@@ -27,27 +27,29 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 - [ ] **Diapo 42 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
 - [ ] **Accord de la MJC** pour créer et montrer publiquement un site à son nom pendant la démo.
 
-### La durée : 1 h 30 maximum, questions comprises
+### La durée : 1 h 30 au total, conférence et débat compris
 | Bloc | Durée | Fin prévue |
 |---|---|---|
-| Ouverture + chapitres 01 et 02 | 21 min | 0:21 |
-| Démonstrations (chapitre 03) | 25 min 30 | 0:46 |
-| Enjeux + bonnes pratiques (chapitres 04 et 05) | 11 min | 0:57 |
-| Et demain ? + démo finale | 12 min | 1:09 |
-| Conclusion | 2 min 30 | 1:12 |
-| **Questions** | **15 min** | **1:27** |
-| Marge de sécurité | 3 min | 1:30 |
+| Ouverture + chapitres 01 et 02 | 16 min 30 | 0:16 |
+| Démonstrations (chapitre 03) | 21 min 30 | 0:38 |
+| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:46 |
+| Et demain ? + démo finale | 10 min | 0:56 |
+| Conclusion | 2 min | 0:58 |
+| **Débat** | **25 min** | **1:23** |
+| Remerciements | 1 min | 1:24 |
+| Marge de sécurité | 5 min 30 | 1:30 |
 
-- Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
-- **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi couper en cas de plus de 5 minutes de retard.
-- **Réserve de coupes**, environ 12 minutes au total, dans cet ordre :
-  1. les diapos 🔸 (10 « tokens », 11 « deux étapes », 17 « usages surprenants ») : 2 min 30 ;
+- **Environ 1 h de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
+- **Deux diapos sont sautées par défaut** : la 10 « tokens » et la 17 « usages surprenants ». Les flèches et la télécommande passent par-dessus, et elles sont grisées dans la pellicule. Pour en montrer une quand même, tapez son numéro puis Entrée. Pour la remettre dans le déroulé, retirez `skip: true` dans `js/deck.js`.
+- **La diapo 43 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
+- **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
+- **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 05**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
+  1. la diapo 11 « deux étapes » en une phrase : 30 s ;
   2. la démo 5 avec un seul prompt : 1 min 30 ;
   3. la démo 6 sans volontaire : 2 min ;
-  4. la démo finale avec une seule amélioration, ou le plan B déjà en ligne : 2 à 4 min ;
-  5. les questions réduites à 10 minutes : 5 min.
-- **En avance ?** Prendre un volontaire pour la démo 6, faire une amélioration de plus sur le site, laisser plus de place aux questions.
-- **Ne jamais dépasser 1 h 30** : à 1 h 27, « Une dernière question ? », puis proposer aux autres de venir vous voir après.
+  4. la démo finale avec une seule amélioration, ou le plan B déjà en ligne : 2 à 4 min.
+- **En avance ?** Rien ne presse : le débat dispose de plus de temps. Vous pouvez aussi prendre un volontaire pour la démo 6 ou faire une amélioration de plus sur le site.
+- **Ne jamais dépasser 1 h 30** : vers 1 h 20, « Encore une ou deux interventions ? ». Remercier vers 1 h 24, et proposer à ceux qui ont encore des questions de venir vous voir après.
 
 ---
 
@@ -84,6 +86,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | 05 · Bonnes pratiques | Bien demander, vérifier, ne rien partager de sensible. | « Parlez-lui comme à un stagiaire très doué qui ne vous connaît pas. » |
 | 06 · Démo finale | Elle fait le gros du travail en quelques minutes ; l'humain vérifie et décide. | « L'IA accélère, l'humain valide. » |
 | Conclusion | Les 3 choses à retenir, puis l'invitation à essayer. | Commencer par une petite tâche : une recette, un e-mail. |
+| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 43. |
 
 ### Des mots simples pour tous les publics
 | Au lieu de… | Dites plutôt… |
@@ -96,7 +99,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | données d'entraînement | « tous les exemples qu'on lui a montrés » |
 | hébergement, nom de domaine | « l'endroit où le site est rangé » et « son adresse » |
 
-### Les questions qu'on vous posera probablement
+### Les questions qu'on vous posera probablement (pendant le débat)
 - **« L'IA va-t-elle remplacer mon métier ? »** Elle remplace surtout des tâches répétitives. Les métiers changent, comme avec l'ordinateur. Ceux qui savent s'en servir auront un avantage.
 - **« Que deviennent mes données ? »** Ce que vous écrivez peut être conservé et servir à améliorer l'outil. Dans les réglages, on peut souvent le refuser. Règle simple : n'écrivez rien que vous ne mettriez pas sur une carte postale.
 - **« C'est payant ? »** Les versions gratuites suffisent pour commencer. Les versions payantes coûtent environ 20 € par mois et sont plus rapides et plus puissantes.

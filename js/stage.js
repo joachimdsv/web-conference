@@ -85,7 +85,7 @@
           const v = state.reveals[k];
           if (v == null) return opts.preview ? `<div class="el el-answer is-hidden" style="${pos}"></div>` : '';
           const color = CHOICE_COLORS[v % CHOICE_COLORS.length];
-          return `<div class="el el-answer${e.pill === 'bottom' ? ' pill-bottom' : ''}" style="${pos};--c:${color}"><span class="el-pill">${esc(e.choices[v])}</span></div>`;
+          return `<div class="el el-answer${e.pill === 'bottom' ? ' pill-bottom' : ''}" style="${pos};--c:${color}">${e.pill === 'none' ? '' : `<span class="el-pill">${esc(e.choices[v])}</span>`}</div>`;
         }
         return '';
       }));
