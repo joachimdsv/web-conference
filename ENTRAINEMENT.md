@@ -30,7 +30,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Jeudi 29/10 · J-8 · Chapitres 01 et 02 + l'ouverture (1 h)
 - [ ] Apprendre par cœur les 2 premières minutes (diapos 1 à 3) : présentation, promesse, brise-glace.
-- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 14 min 30**.
+- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 17 min** (10 min 30 pour le chapitre 01, 6 min 30 pour le 02).
 - [ ] Préparer sa réponse à « le GPS, c'est vraiment de l'IA ? » (voir C6).
 - [ ] 🔎 Finir le bloc B.
 
@@ -43,15 +43,16 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Samedi 31/10 · J-6 · Les démos en direct (2 h)
 - [ ] Faire chaque démo **3 fois de suite** en conditions réelles : régie, écran public, partage de fenêtre, chrono.
-  - Affiche : 4 min · e-mail : 4 min · Excel : 3 min · langue : 3 min.
+  - Affiche : 4 min 30 · e-mail : 4 min 30 · Excel : 3 min 30 · langue : 3 min · démo finale : 8 min.
 - [ ] Pour chaque démo, écrire sur la fiche : « si ça plante, je dis… et je montre… » (plan B).
 - [ ] Démo finale : la faire **en entier jusqu'à la mise en ligne** et garder l'adresse du site comme plan B.
 - [ ] 🔎 Bloc C (les enjeux) : chercher un exemple concret et récent pour chaque risque.
 
-### Dimanche 01/11 · J-5 · Premier filage complet (2 h)
+### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter la durée réelle de chaque partie et la comparer au minutage prévu.
-- [ ] **Décider des coupes** si vous dépassez le créneau (diapos 🔸, une seule des démos 5 et 6…).
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 28, 37 et 41) et la comparer au déroulé de `DISCOURS.md` (0:21 · 0:46 · 0:57 · 1:09).
+- [ ] Objectif : **finir la conclusion vers 1 h 12**, pour garder 15 min de questions et 3 min de marge. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] **Décider des coupes** si vous dépassez 1 h 12 de contenu, en suivant la réserve de coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
 ### Lundi 02/11 · J-4 · Corriger et préparer les questions (1 h)
@@ -59,8 +60,8 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 41 à 43).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
 
-### Mardi 03/11 · J-3 · Filage devant un public test (1 h 30)
-- [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins).
+### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
+- [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 10 min de questions à la fin** : c'est le moment de vérifier que tout tient en 1 h 30.
 - [ ] Leur demander ensuite :
   - quels mots ils n'ont pas compris ;
   - à quel moment ils ont décroché ;
@@ -83,7 +84,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Le matin : relire la fiche-mémoire, dire l'ouverture à voix haute 2 fois, ne rien apprendre de nouveau.
 - [ ] Arriver **1 h avant** et dérouler la check-list « Sur place » de `PREPARATION.md`.
 - [ ] 10 minutes avant : échauffement de la voix (bâiller, articuler « Le chat est sur le tapis » exagérément), un verre d'eau à portée de main.
-- [ ] Lancer le chrono (touche **T**) à la première phrase.
+- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:21 au début des démos, 0:46 aux enjeux, 0:57 à « Et demain ? », 1:09 à la conclusion, questions de 1:12 à 1:27, **fin avant 1:30**.
 
 ---
 
@@ -91,14 +92,15 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 | # | Partie | Diapos | Temps | L'idée clé | Mon image |
 |---|---|---|---|---|---|
-| 0 | Ouverture | 1-3 | 3 min | Pas besoin d'être informaticien | Les mains levées |
-| 1 | Qu'est-ce que l'IA ? | 4-12 | 9 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
-| 2 | Au quotidien | 13-17 | 5,5 min | Vous l'utilisez déjà | La journée type, le quiz |
-| 3 | Démos | 18-27 | 23,5 min | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
-| 4 | Enjeux | 28-32 | 6 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
+| 0 | Ouverture | 1-3 | 4 min | Pas besoin d'être informaticien | Les mains levées |
+| 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min 30 | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
+| 2 | Au quotidien | 13-17 | 6 min 30 | Vous l'utilisez déjà | La journée type, le quiz |
+| 3 | Démos | 18-27 | 25 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
+| 4 | Enjeux | 28-32 | 7 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
 | 5 | Bonnes pratiques | 33-36 | 4 min | Demander, vérifier, protéger | Le stagiaire |
-| 6 | Demain + démo finale | 37-40 | 11 min | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 41-43 | 2 min + questions | 3 choses à retenir | Essayer dès ce soir |
+| 6 | Demain + démo finale | 37-40 | 12 min | L'IA accélère, l'humain valide | Le site de la MJC |
+| 7 | Conclusion + questions | 41-43 | 2 min 30 + 15 min | 3 choses à retenir | Essayer dès ce soir |
+|  | **Total** | | **1 h 27 + 3 min de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 
@@ -215,7 +217,7 @@ Les réponses de base sont dans `PREPARATION.md`. Complétez-les avec vos recher
 
 | Critère | Filage 1 (01/11) | Filage 2 (03/11) | Filage 3 (05/11) |
 |---|---|---|---|
-| Durée totale (objectif : selon le créneau) | | | |
+| Durée totale (objectif : contenu ≤ 1 h 12, total ≤ 1 h 30) | | | |
 | Ouverture fluide, sans notes | | | |
 | Transitions sans hésitation | | | |
 | Démos sans blocage | | | |

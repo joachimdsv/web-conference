@@ -64,7 +64,7 @@
       }
       document.title = 'Notes — ' + DECK.title;
       document.getElementById('t').textContent = 'Notes de l\'orateur — ' + DECK.title;
-      document.getElementById('sub').textContent = `${DECK.subtitle} · ${DECK.slideCount} diapos · durée prévue ≈ ${Math.round(total)} min (hors questions)`;
+      document.getElementById('sub').textContent = `${DECK.subtitle} · ${DECK.slideCount} diapos · durée prévue ≈ ${Math.round(total)} min questions comprises (maximum ${DECK.durationMinutes} min)`;
       document.getElementById('list').innerHTML = rows.join('');
     })();
   </script>

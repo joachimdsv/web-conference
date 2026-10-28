@@ -27,11 +27,27 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 - [ ] **Diapo 42 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
 - [ ] **Accord de la MJC** pour créer et montrer publiquement un site à son nom pendant la démo.
 
-### À décider : la durée
-Le minutage prévu fait **environ 64 minutes hors questions**, pour un créneau annoncé d'une heure. Selon le temps réel :
-- **Créneau de 1 h 30** : tout passe, avec 20 minutes de questions.
-- **Créneau d'1 h strict** : sauter les diapos marquées 🔸 (10 « tokens », 11 « deux étapes », 17 « usages surprenants », soit environ 2 min 30), faire **une seule** des démos 5 et 6 (environ 3 min), et limiter la démo finale à une seule amélioration (environ 3 min).
-- Le chrono de la régie affiche « X min de retard / d'avance » par rapport à ce minutage : un coup d'œil suffit pour savoir s'il faut couper.
+### La durée : 1 h 30 maximum, questions comprises
+| Bloc | Durée | Fin prévue |
+|---|---|---|
+| Ouverture + chapitres 01 et 02 | 21 min | 0:21 |
+| Démonstrations (chapitre 03) | 25 min 30 | 0:46 |
+| Enjeux + bonnes pratiques (chapitres 04 et 05) | 11 min | 0:57 |
+| Et demain ? + démo finale | 12 min | 1:09 |
+| Conclusion | 2 min 30 | 1:12 |
+| **Questions** | **15 min** | **1:27** |
+| Marge de sécurité | 3 min | 1:30 |
+
+- Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
+- **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi couper en cas de plus de 5 minutes de retard.
+- **Réserve de coupes**, environ 12 minutes au total, dans cet ordre :
+  1. les diapos 🔸 (10 « tokens », 11 « deux étapes », 17 « usages surprenants ») : 2 min 30 ;
+  2. la démo 5 avec un seul prompt : 1 min 30 ;
+  3. la démo 6 sans volontaire : 2 min ;
+  4. la démo finale avec une seule amélioration, ou le plan B déjà en ligne : 2 à 4 min ;
+  5. les questions réduites à 10 minutes : 5 min.
+- **En avance ?** Prendre un volontaire pour la démo 6, faire une amélioration de plus sur le site, laisser plus de place aux questions.
+- **Ne jamais dépasser 1 h 30** : à 1 h 27, « Une dernière question ? », puis proposer aux autres de venir vous voir après.
 
 ---
 

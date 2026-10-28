@@ -1,28 +1,44 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 43 diapos · environ 64 min hors questions.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 43 diapos · environ 72 min de contenu + 15 min de questions, pour 90 min maximum.
 
-Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ➡️ transition vers la suite · 🔸 diapo à sauter si on est en retard.
+Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 diapo à sauter si on est en retard.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
+
+## Le déroulé horaire (1 h 30 maximum)
+
+| Partie | Diapos | Début prévu | Durée |
+|---|---|---|---|
+| Ouverture | 1-3 | 0:00 | 4 min |
+| Chapitre 01 · Qu'est-ce que l'IA ? | 4-12 | 4:00 | 10 min 30 |
+| Chapitre 02 · L'IA dans notre quotidien | 13-17 | 14:30 | 6 min 30 |
+| Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 21:00 | 25 min 30 |
+| Chapitre 04 · Impacts et enjeux | 28-32 | 46:30 | 7 min |
+| Chapitre 05 · Les bonnes pratiques | 33-36 | 53:30 | 4 min |
+| Chapitre 06 · Et demain ? + démo finale | 37-40 | 57:30 | 12 min |
+| Conclusion et questions | 41-43 | 1:09:30 | 17 min 30 |
+| Marge de sécurité | | 1:27:00 | 3 min |
+
+Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu.
 
 > Fichier généré à partir de `js/deck.js` (`node tools/generer-discours.js`) : modifiez les notes là-bas, pas ici.
 
 ---
 
-## Ouverture (diapos 1 à 3, environ 3 min)
+## Ouverture (diapos 1 à 3, environ 4 min)
 
-### 1 · Titre — 1 min · prévu à 0:00
+### 1 · Titre — 1 min 30 · prévu à 0:00
 
 **🎯 Créer le contact et rassurer.**
 
 - Bonjour à tous, merci d'être venus, et merci à la MJC du Val d'Ajol de m'accueillir.
 - Me présenter en 2 ou 3 phrases : qui je suis, mon lien avec le numérique, pourquoi j'ai eu envie de faire cette conférence.
 - La promesse : « Ce soir, pas besoin d'être informaticien. Vous allez comprendre ce qu'est l'IA, la voir travailler en direct, et repartir avec de bons réflexes. »
-- Durée : environ une heure, puis un temps de questions.
+- Durée : environ 1 h 15, puis un quart d'heure pour vos questions. Fin à 1 h 30 au plus tard.
 
 > ➡️ « Voici le programme. »
 
-### 2 · Plan — 1 min · prévu à 1:00
+### 2 · Plan — 1 min · prévu à 1:30
 
 **🎯 Donner le fil de la soirée.**
 
@@ -38,7 +54,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 > ➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »
 
-### 3 · Brise-glace — Et vous ? — 1 min · prévu à 2:00
+### 3 · Brise-glace — Et vous ? — 1 min 30 · prévu à 2:30
 
 **🎯 Mettre tout le monde à l'aise, novices comme habitués.**
 
@@ -52,9 +68,9 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Chapitre 01 · Qu'est-ce que l'IA ? (diapos 4 à 12, environ 9 min)
+## Chapitre 01 · Qu'est-ce que l'IA ? (diapos 4 à 12, environ 10 min 30)
 
-### 4 · Chapitre 01 — Qu'est-ce que l'IA ? — 30 s · prévu à 3:00
+### 4 · Chapitre 01 — Qu'est-ce que l'IA ? — 30 s · prévu à 4:00
 
 **🎯 Partir de ce que le public imagine.**
 
@@ -62,7 +78,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - « Le cinéma nous a montré des robots qui pensent et qui ont des sentiments. La réalité est à la fois plus simple… et plus impressionnante. »
 - Annoncer les 3 temps du chapitre : une définition, un peu d'histoire, comment elle fonctionne.
 
-### 5 · Définition — 1 min 30 · prévu à 3:30
+### 5 · Définition — 1 min 30 · prévu à 4:30
 
 **🎯 L'IA imite certaines capacités humaines, mais elle ne pense pas.**
 
@@ -73,7 +89,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Ce qu'elle n'est pas : elle n'a ni conscience, ni émotions, ni intentions. Elle ne « comprend » pas comme nous.
 - L'image à retenir : un perroquet extraordinairement doué qui aurait lu toute une bibliothèque. Il parle très bien… sans savoir de quoi il parle.
 
-### 6 · Histoire — 1 min 30 · prévu à 5:00
+### 6 · Histoire — 2 min · prévu à 6:00
 
 **🎯 L'idée est ancienne. Ce qui est nouveau, c'est que tout le monde y a accès.**
 
@@ -84,7 +100,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - 2012 : le « deep learning » (apprentissage profond). Grâce à internet, qui fournit énormément d'exemples, et aux puces des jeux vidéo, très puissantes, les machines apprennent enfin à reconnaître des images.
 - 2022 : ChatGPT. Pour la première fois, tout le monde peut parler à une IA en langage courant. Environ 100 millions d'utilisateurs en deux mois, selon les estimations : un record.
 
-### 7 · Apprendre par l'exemple — 1 min · prévu à 6:30
+### 7 · Apprendre par l'exemple — 1 min 30 · prévu à 8:00
 
 **🎯 On ne lui écrit plus des règles : on lui montre des exemples.**
 
@@ -93,7 +109,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - C'est comme un enfant : on ne lui donne pas la définition d'un chat, on lui en montre, et il finit par les reconnaître.
 - Conséquence importante : elle est aussi bonne que les exemples qu'on lui donne. Si les exemples sont mauvais ou déséquilibrés, elle apprend de travers. (On y reviendra avec les « biais ».)
 
-### 8 · Réseaux de neurones — 1 min · prévu à 7:30
+### 8 · Réseaux de neurones — 1 min · prévu à 9:30
 
 **🎯 Un empilement de filtres, vaguement inspiré du cerveau.**
 
@@ -106,7 +122,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Personne n'écrit ces filtres : ils se règlent tout seuls pendant l'apprentissage, à force d'exemples.
 - Pas besoin d'en retenir plus : c'est cette mécanique qui a permis les progrès récents.
 
-### 9 · Prédire le mot suivant — 1 min · prévu à 8:30
+### 9 · Prédire le mot suivant — 1 min 30 · prévu à 10:30
 
 **🎯 Elle devine la suite la plus probable… pas forcément la vraie.**
 
@@ -115,21 +131,21 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.
 - Le point essentiel : elle cherche ce qui est probable, pas ce qui est vrai. Le plus souvent c'est la même chose… mais pas toujours. C'est pour ça qu'elle peut inventer avec beaucoup d'assurance.
 
-### 10 · Les tokens — 30 s · prévu à 9:30
+### 10 · Les tokens — 30 s · prévu à 12:00
 
 - 🔸 Diapo à sauter si on est en retard.
 - La machine découpe le texte en petits morceaux (« intelli », « gence »…), qu'on appelle des « tokens ». Chaque morceau devient un nombre.
 - Elle ne manipule que des nombres : elle calcule, elle ne lit pas vraiment.
 - Anecdote : c'est pour ça qu'elle a parfois du mal à compter les lettres d'un mot, alors qu'elle écrit un poème sans difficulté.
 
-### 11 · Deux étapes d'apprentissage — 1 min · prévu à 10:00
+### 11 · Deux étapes d'apprentissage — 1 min · prévu à 12:30
 
 - 🔸 Peut être raccourcie.
 - Étape 1, le pré-entraînement : elle « lit » une immense quantité de textes (sites internet, livres, articles) et s'entraîne des milliards de fois à deviner le mot suivant. Elle devient très forte en langue… mais elle a aussi lu le pire d'internet.
 - Étape 2, l'ajustement humain : des personnes lui posent des questions et notent ses réponses (utile ? polie ? dangereuse ?). Elle apprend ainsi à se comporter en assistant serviable.
 - L'image : l'élève qui a lu toute la bibliothèque, puis le professeur qui corrige ses copies.
 
-### 12 · Familles d'IA — 1 min · prévu à 11:00
+### 12 · Familles d'IA — 1 min · prévu à 13:30
 
 **🎯 L'IA, ce n'est pas que ChatGPT.**
 
@@ -142,15 +158,15 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Chapitre 02 · L'IA dans notre quotidien (diapos 13 à 17, environ 5.5 min)
+## Chapitre 02 · L'IA dans notre quotidien (diapos 13 à 17, environ 6 min 30)
 
-### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 12:00
+### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 14:30
 
 **🎯 Elle est déjà partout.**
 
 - « Vie de tous les jours, santé, industrie, culture : l'IA est déjà là, souvent sans qu'on la voie. »
 
-### 14 · L'IA sans le savoir — 1 min · prévu à 12:30
+### 14 · L'IA sans le savoir — 1 min 30 · prévu à 15:00
 
 **🎯 Vous l'utilisez déjà sans le savoir.**
 
@@ -161,7 +177,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - *⚙️ Demander : « Combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
 - Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là.
 
-### 15 · Quiz — IA ou pas IA ? — 2 min · prévu à 13:30
+### 15 · Quiz — IA ou pas IA ? — 2 min 30 · prévu à 16:30
 
 **🎯 Électronique ne veut pas dire IA.**
 
@@ -172,7 +188,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - 4. Four à minuteur → PAS IA. C'est une simple minuterie.
 - Morale : ce n'est pas parce qu'un appareil est électronique, ou marqué « intelligent » sur l'emballage, que c'est de l'IA. L'IA, c'est quand la machine a appris à partir d'exemples.
 
-### 16 · Tous les métiers — 1 min · prévu à 15:30
+### 16 · Tous les métiers — 1 min · prévu à 19:00
 
 **🎯 Elle transforme presque tous les métiers.**
 
@@ -184,7 +200,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Culture : musique, images, écriture, effets spéciaux au cinéma.
 - Message : elle change la façon de travailler dans la plupart des métiers.
 
-### 17 · Usages surprenants — 1 min · prévu à 16:30
+### 17 · Usages surprenants — 1 min · prévu à 20:00
 
 - 🔸 Peut être raccourcie.
 - Les protéines : AlphaFold, une IA de Google DeepMind, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments. Ses créateurs ont reçu le prix Nobel de chimie 2024.
@@ -195,15 +211,16 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 23.5 min)
+## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 25 min 30)
 
-### 18 · Chapitre 03 — En pratique — 30 s · prévu à 17:30
+### 18 · Chapitre 03 — En pratique — 30 s · prévu à 21:00
 
 **🎯 Annoncer la partie pratique.**
 
 - « On va faire un tour des outils, puis passer aux démonstrations, en direct, et à un petit jeu du vrai ou faux. »
+- **⏱️ POINT DE CONTRÔLE 1 : on devrait en être à 21 min. Plus de 5 min de retard ? Passer vite sur le panorama (diapo 19) et prévoir de raccourcir les démos 5 et 6 (voir leurs notes).**
 
-### 19 · Panorama — 1 min · prévu à 18:00
+### 19 · Panorama — 1 min · prévu à 21:30
 
 **🎯 Il existe une IA pour chaque besoin.**
 
@@ -215,7 +232,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Vision : Google Lens. On photographie une plante, un objet, un monument, et il l'identifie.
 - « Pas besoin de retenir les noms : ils changent tous les six mois. Retenez plutôt ce qu'on peut faire. »
 
-### 20 · Programme des démos — 30 s · prévu à 19:00
+### 20 · Programme des démos — 30 s · prévu à 22:30
 
 **🎯 Annoncer les 6 démos.**
 
@@ -224,7 +241,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Et pour finir, la démo finale : le site de la MJC.
 - *⚙️ Avant de commencer : internet OK, comptes connectés, son branché.*
 
-### 21 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 19:30
+### 21 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min 30 · prévu à 23:00
 
 **🎯 On ne peut plus se fier à ses yeux seuls.**
 
@@ -235,7 +252,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - « Cette image a été fabriquée en quelques secondes, gratuitement, avec une simple phrase. »
 - *⚙️ Réponses par défaut : A = vraie photo, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
 
-### 22 · Démo 1 — Les indices — 1 min 30 · prévu à 22:30
+### 22 · Démo 1 — Les indices — 1 min 30 · prévu à 26:30
 
 **🎯 Quelques indices… mais surtout, vérifier la source.**
 
@@ -248,7 +265,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - LE réflexe : d'où vient cette image ? Qui l'a publiée ? Un média connu ? On peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
 - Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.
 
-### 23 · Démo 2 — Créer une affiche — 4 min · prévu à 24:00
+### 23 · Démo 2 — Créer une affiche — 4 min 30 · prévu à 28:00
 
 **🎯 Plus la demande est précise, plus le résultat vous ressemble.**
 
@@ -273,7 +290,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 </details>
 
-### 24 · Démo 3 — Vidéo : filmée ou générée ? — 3 min · prévu à 28:00
+### 24 · Démo 3 — Vidéo : filmée ou générée ? — 3 min · prévu à 32:30
 
 **🎯 Bientôt, une vidéo ne sera plus une preuve.**
 
@@ -290,7 +307,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 > ➡️ « Passons à des usages plus utiles au quotidien. »
 
-### 25 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 31:00
+### 25 · Démo 4 — Rédiger un e-mail (pièges) — 4 min 30 · prévu à 35:30
 
 **🎯 Un gain de temps énorme… à condition de connaître les pièges.**
 
@@ -311,7 +328,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 </details>
 
-### 26 · Démo 5 — Budget dans Excel — 3 min · prévu à 35:00
+### 26 · Démo 5 — Budget dans Excel — 3 min 30 · prévu à 40:00
 
 **🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français.**
 
@@ -325,6 +342,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
   - ne jamais y coller ses vrais relevés bancaires.
 - Ça marche aussi pour un planning de vacances, une liste de courses ou le suivi des cotisations d'une association.
 - *⚙️ Plan B : le fichier préparé à l'avance.*
+- **⏱️ En retard ? Un seul prompt (« Budget »), sans l'amélioration : on gagne environ 1 min 30.**
 
 <details><summary>Prompts de la démo</summary>
 
@@ -333,7 +351,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 </details>
 
-### 27 · Démo 6 — Apprendre une langue — 3 min · prévu à 38:00
+### 27 · Démo 6 — Apprendre une langue — 3 min · prévu à 43:30
 
 **🎯 Un professeur patient, disponible à toute heure, qui ne juge pas.**
 
@@ -347,6 +365,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement. On ose parler, même avec un mauvais accent.
 - Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.
 - *⚙️ Proposer à une personne du public d'essayer une réplique !*
+- **⏱️ En retard ? Montrer seulement une réplique, sans volontaire, ou passer directement à la suite après avoir lu le prompt (on gagne 2 min).**
 
 > ➡️ « C'est impressionnant… mais ça pose aussi des questions. »
 
@@ -358,15 +377,16 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 6 min)
+## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 7 min)
 
-### 28 · Chapitre 04 — Impacts — 30 s · prévu à 41:00
+### 28 · Chapitre 04 — Impacts — 30 s · prévu à 46:30
 
 **🎯 Annoncer les enjeux.**
 
 - « On a vu ce qu'elle sait faire. Regardons maintenant ce qu'elle change pour nous : les opportunités, les risques, et qui fixe les règles. »
+- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 46 min. Plus de 5 min de retard ? Lire les diapos 29 à 32 plus vite (1 idée par diapo) et ne faire qu'une seule amélioration pendant la démo finale.**
 
-### 29 · Opportunités / risques — 1 min 30 · prévu à 41:30
+### 29 · Opportunités / risques — 1 min 30 · prévu à 47:00
 
 **🎯 Ni bonne ni mauvaise : tout dépend de l'usage.**
 
@@ -382,7 +402,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
   - la dépendance, quand on perd l'habitude de réfléchir ou d'écrire par soi-même.
 - « C'est comme internet ou un couteau de cuisine : l'outil n'est ni bon ni mauvais, c'est l'usage qui compte. »
 
-### 30 · Questions éthiques — 1 min 30 · prévu à 43:00
+### 30 · Questions éthiques — 2 min · prévu à 48:30
 
 **🎯 Quatre questions à se poser.**
 
@@ -391,7 +411,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Vie privée : ce que vous tapez peut être conservé et réutilisé. Il existe souvent un réglage pour le refuser.
 - Droits d'auteur : des livres, des articles de presse, des œuvres d'artistes ont servi à l'entraîner, souvent sans leur accord et sans rémunération. Des procès sont en cours, par exemple celui du New York Times contre OpenAI.
 
-### 31 · Qui décide des règles ? — 1 min · prévu à 44:30
+### 31 · Qui décide des règles ? — 1 min 30 · prévu à 50:30
 
 **🎯 Il faut des règles, et l'Europe a été la première à en écrire.**
 
@@ -403,7 +423,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Démocratie : les fausses vidéos et les faux messages peuvent influencer les élections. En 2024, un faux message vocal imitant la voix de Joe Biden demandait aux électeurs de ne pas aller voter.
 - Souveraineté : quelques géants, surtout américains et chinois, concentrent cette technologie. L'Europe a aussi ses acteurs, comme Mistral AI en France.
 
-### 32 · Productivité — 1 min 30 · prévu à 45:30
+### 32 · Productivité — 1 min 30 · prévu à 52:00
 
 **🎯 Automatiser des tâches, pas des humains.**
 
@@ -424,13 +444,13 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 4 min)
 
-### 33 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 47:00
+### 33 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 53:30
 
 **🎯 Annoncer les 3 réflexes.**
 
 - « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
 
-### 34 · Le bon prompt — 1 min 30 · prévu à 47:30
+### 34 · Le bon prompt — 1 min 30 · prévu à 54:00
 
 **🎯 Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas.**
 
@@ -441,7 +461,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Rappel : c'est exactement ce qu'on a fait avec l'affiche. Chaque couleur était un ingrédient.
 - Astuce : si le résultat ne convient pas, on continue la conversation. « Plus court », « plus simple », « avec un exemple ».
 
-### 35 · Esprit critique — 1 min · prévu à 49:00
+### 35 · Esprit critique — 1 min · prévu à 55:30
 
 **🎯 Faites confiance, mais vérifiez.**
 
@@ -450,7 +470,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Relire : vous êtes responsable de ce que vous utilisez ou envoyez.
 - La règle d'or : jamais de données personnelles, médicales ou confidentielles. « N'écrivez rien que vous ne mettriez pas sur une carte postale. »
 
-### 36 · À faire / à éviter — 1 min · prévu à 50:00
+### 36 · À faire / à éviter — 1 min · prévu à 56:30
 
 **🎯 Un assistant, pas un cerveau de remplacement.**
 
@@ -469,9 +489,9 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 11 min)
+## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 12 min)
 
-### 37 · Et demain ? — 1 min 30 · prévu à 51:00
+### 37 · Et demain ? — 1 min 30 · prévu à 57:30
 
 **🎯 Ce qui arrive… et ce que vous en attendez.**
 
@@ -479,10 +499,11 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - Multimodalité : une seule IA qui voit, entend et parle. On peut déjà montrer un objet à la caméra du téléphone et lui poser une question à voix haute.
 - IA plus sobre : des modèles plus petits qui tournent directement sur le téléphone, sans internet. Ils consomment moins et respectent mieux la vie privée.
 - *⚙️ Demander : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
+- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 58 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo, et une seule amélioration du site. Il faut avoir commencé la conclusion (diapo 41) avant 1 h 14.**
 
 > ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
 
-### 38 · Démo finale — Le site de la MJC — 1 min · prévu à 52:30
+### 38 · Démo finale — Le site de la MJC — 1 min · prévu à 59:00
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
 
@@ -494,7 +515,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
   - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
 - *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
 
-### 39 · Démo finale — Le cahier des charges — 7 min · prévu à 53:30
+### 39 · Démo finale — Le cahier des charges — 8 min · prévu à 1:00:00
 
 **🎯 On décrit, l'IA fabrique, on améliore ensemble.**
 
@@ -506,6 +527,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - *⚙️ Mise en ligne : télécharger le fichier, le glisser sur Netlify Drop, puis Outils → QR code à l'écran avec l'adresse obtenue.*
 - « Sortez vos téléphones : ce site existe vraiment, maintenant, sur internet. »
 - Faire remarquer que l'IA a inventé des choses (horaires, adresse, textes…). Ça prépare le bilan.
+- **⏱️ Temps idéal : 8 min. En retard, une seule amélioration ; très en retard, montrer le site du plan B déjà en ligne et passer directement au QR code.**
 
 <details><summary>Prompts de la démo</summary>
 
@@ -517,7 +539,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 </details>
 
-### 40 · Démo finale — Bilan — 1 min 30 · prévu à 60:30
+### 40 · Démo finale — Bilan — 1 min 30 · prévu à 1:08:00
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -537,9 +559,9 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 
 ---
 
-## Conclusion (diapos 41 à 43, environ 2 min)
+## Conclusion et questions (diapos 41 à 43, environ 17 min 30)
 
-### 41 · 3 choses à retenir — 1 min · prévu à 62:00
+### 41 · 3 choses à retenir — 1 min 30 · prévu à 1:09:30
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -547,8 +569,9 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
 - 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
+- **⏱️ Prévu à 1 h 10. Les questions doivent commencer au plus tard vers 1 h 15 pour finir à 1 h 30.**
 
-### 42 · Pour essayer chez vous — 1 min · prévu à 63:00
+### 42 · Pour essayer chez vous — 1 min · prévu à 1:11:00
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -564,7 +587,7 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
   - L'explication d'un courrier administratif (en retirant vos informations personnelles).
 - Si la MJC propose un atelier numérique, l'annoncer ici.
 
-### 43 · Merci !
+### 43 · Merci ! — 15 min · prévu à 1:12:00
 
 **🎯 Remercier et ouvrir les questions.**
 
@@ -572,3 +595,4 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 - « Place à vos questions ! »
 - Si personne n'ose : « On me demande souvent si l'IA va remplacer notre métier… » (voir PREPARATION.md pour les réponses types).
 - Si je ne connais pas la réponse : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. » C'est cohérent avec le message de la soirée !
+- **⏱️ Environ 15 min de questions, de 1 h 12 à 1 h 27. Vers 1 h 27 : « Une dernière question ? », puis remercier encore. Ne jamais dépasser 1 h 30 : proposer aux personnes qui ont encore des questions de venir vous voir après.**
