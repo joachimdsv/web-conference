@@ -38,7 +38,7 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
 - **Minutage** : chaque diapo a une durée indicative ; sous le chrono, la régie indique si vous êtes en avance ou en retard.
 - **Notes imprimables** : bouton *🖨️ Notes* (page `notes.html`), avec les miniatures, le minutage et les prompts.
 
-Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour J : voir [`PREPARATION.md`](PREPARATION.md) et le plan d'entraînement [`ENTRAINEMENT.md`](ENTRAINEMENT.md).
+Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour J : voir [`PREPARATION.md`](PREPARATION.md) et le plan d'entraînement [`ENTRAINEMENT.md`](ENTRAINEMENT.md). Tout ce qu'il faut dire, diapo par diapo : [`DISCOURS.md`](DISCOURS.md).
 
 ## Les démonstrations
 

@@ -1,0 +1,574 @@
+# Le discours, diapo par diapo
+
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 43 diapos · environ 64 min hors questions.
+
+Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ➡️ transition vers la suite · 🔸 diapo à sauter si on est en retard.
+Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
+
+> Fichier généré à partir de `js/deck.js` (`node tools/generer-discours.js`) : modifiez les notes là-bas, pas ici.
+
+---
+
+## Ouverture (diapos 1 à 3, environ 3 min)
+
+### 1 · Titre — 1 min · prévu à 0:00
+
+**🎯 Créer le contact et rassurer.**
+
+- Bonjour à tous, merci d'être venus, et merci à la MJC du Val d'Ajol de m'accueillir.
+- Me présenter en 2 ou 3 phrases : qui je suis, mon lien avec le numérique, pourquoi j'ai eu envie de faire cette conférence.
+- La promesse : « Ce soir, pas besoin d'être informaticien. Vous allez comprendre ce qu'est l'IA, la voir travailler en direct, et repartir avec de bons réflexes. »
+- Durée : environ une heure, puis un temps de questions.
+
+> ➡️ « Voici le programme. »
+
+### 2 · Plan — 1 min · prévu à 1:00
+
+**🎯 Donner le fil de la soirée.**
+
+- 6 étapes :
+  - 01 comprendre ce qu'est l'IA ;
+  - 02 voir qu'elle est déjà dans notre quotidien ;
+  - 03 la voir en action avec 6 démonstrations ;
+  - 04 réfléchir à ce qu'elle change ;
+  - 05 apprendre à bien s'en servir ;
+  - 06 regarder vers demain, avec une démo finale : on crée ensemble le site de la MJC.
+- Il y aura des petits jeux : vous voterez à main levée.
+- Les questions à la fin. Mais si un mot n'est pas clair, levez la main tout de suite : il n'y a pas de question bête.
+
+> ➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »
+
+### 3 · Brise-glace — Et vous ? — 1 min · prévu à 2:00
+
+**🎯 Mettre tout le monde à l'aise, novices comme habitués.**
+
+- *⚙️ Poser les 3 questions une par une, laisser le temps aux mains de se lever, commenter ce qu'on voit.*
+- « Qui a déjà utilisé ChatGPT ou une autre IA ? » → « Beaucoup d'entre vous ! » ou « Quelques-uns… vous allez voir, c'est très simple. »
+- « Qui s'en sert au moins une fois par semaine ? »
+- « Qui s'en méfie un peu… ou beaucoup ? » → « Très bien : c'est une méfiance saine, on va en parler. »
+- « Que vous l'utilisiez tous les jours ou jamais, vous êtes au bon endroit. »
+
+> ➡️ « Commençons par le commencement : c'est quoi, au juste, l'intelligence artificielle ? »
+
+---
+
+## Chapitre 01 · Qu'est-ce que l'IA ? (diapos 4 à 12, environ 9 min)
+
+### 4 · Chapitre 01 — Qu'est-ce que l'IA ? — 30 s · prévu à 3:00
+
+**🎯 Partir de ce que le public imagine.**
+
+- *⚙️ Demander : « Quel mot vous vient quand on dit "intelligence artificielle" ? » Reprendre 1 ou 2 réponses (robot, ChatGPT, Terminator, danger…).*
+- « Le cinéma nous a montré des robots qui pensent et qui ont des sentiments. La réalité est à la fois plus simple… et plus impressionnante. »
+- Annoncer les 3 temps du chapitre : une définition, un peu d'histoire, comment elle fonctionne.
+
+### 5 · Définition — 1 min 30 · prévu à 3:30
+
+**🎯 L'IA imite certaines capacités humaines, mais elle ne pense pas.**
+
+- Définition simple : un programme informatique capable de faire des choses qui demandent normalement de l'intelligence humaine.
+- Percevoir : voir (reconnaître un visage sur une photo) et entendre (comprendre « Dis Siri » ou « Ok Google »).
+- Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une.
+- Décider : choisir une action, comme proposer un itinéraire, un film ou une réponse.
+- Ce qu'elle n'est pas : elle n'a ni conscience, ni émotions, ni intentions. Elle ne « comprend » pas comme nous.
+- L'image à retenir : un perroquet extraordinairement doué qui aurait lu toute une bibliothèque. Il parle très bien… sans savoir de quoi il parle.
+
+### 6 · Histoire — 1 min 30 · prévu à 5:00
+
+**🎯 L'idée est ancienne. Ce qui est nouveau, c'est que tout le monde y a accès.**
+
+- 1950 : Alan Turing, mathématicien britannique (celui qui a aidé à casser le code secret allemand Enigma), pose la question « Une machine peut-elle penser ? ». Il imagine un test : si, en discutant, on n'arrive pas à savoir si on parle à une machine ou à un humain…
+- 1956 : lors d'une conférence aux États-Unis (Dartmouth), des chercheurs inventent l'expression « intelligence artificielle ».
+- Ensuite : de grands espoirs, puis des déceptions qu'on a appelées les « hivers de l'IA ». Les ordinateurs étaient trop lents et il n'y avait pas assez de données.
+- 1997 : l'ordinateur Deep Blue d'IBM bat Garry Kasparov, champion du monde d'échecs. Mais il ne savait faire que ça : calculer des millions de coups.
+- 2012 : le « deep learning » (apprentissage profond). Grâce à internet, qui fournit énormément d'exemples, et aux puces des jeux vidéo, très puissantes, les machines apprennent enfin à reconnaître des images.
+- 2022 : ChatGPT. Pour la première fois, tout le monde peut parler à une IA en langage courant. Environ 100 millions d'utilisateurs en deux mois, selon les estimations : un record.
+
+### 7 · Apprendre par l'exemple — 1 min · prévu à 6:30
+
+**🎯 On ne lui écrit plus des règles : on lui montre des exemples.**
+
+- AVANT : on programmait chaque règle à la main. Pour reconnaître un chat : « deux oreilles pointues, des moustaches… ». Impossible ! Un chat de dos, dans le noir ou à moitié caché ne respecte aucune règle.
+- MAINTENANT : on lui montre des milliers de photos marquées « chat » ou « pas chat », et elle trouve elle-même ce qu'elles ont en commun.
+- C'est comme un enfant : on ne lui donne pas la définition d'un chat, on lui en montre, et il finit par les reconnaître.
+- Conséquence importante : elle est aussi bonne que les exemples qu'on lui donne. Si les exemples sont mauvais ou déséquilibrés, elle apprend de travers. (On y reviendra avec les « biais ».)
+
+### 8 · Réseaux de neurones — 1 min · prévu à 7:30
+
+**🎯 Un empilement de filtres, vaguement inspiré du cerveau.**
+
+- On parle de « réseaux de neurones ». Le nom vient du cerveau, mais ce ne sont que des calculs.
+- L'image : une chaîne de filtres.
+  - 1re couche : les traits et les contours ;
+  - 2e couche : les formes (un rond, un angle) ;
+  - 3e couche : des morceaux (un œil, une oreille) ;
+  - dernière couche : « c'est un chat ! ».
+- Personne n'écrit ces filtres : ils se règlent tout seuls pendant l'apprentissage, à force d'exemples.
+- Pas besoin d'en retenir plus : c'est cette mécanique qui a permis les progrès récents.
+
+### 9 · Prédire le mot suivant — 1 min · prévu à 8:30
+
+**🎯 Elle devine la suite la plus probable… pas forcément la vraie.**
+
+- *⚙️ Faire compléter par la salle : « Le chat est sur le… » → tapis ! (ou toit, canapé).*
+- « Vous venez de faire exactement ce que fait ChatGPT : deviner le mot le plus probable, d'après tout ce que vous avez déjà lu ou entendu. »
+- Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.
+- Le point essentiel : elle cherche ce qui est probable, pas ce qui est vrai. Le plus souvent c'est la même chose… mais pas toujours. C'est pour ça qu'elle peut inventer avec beaucoup d'assurance.
+
+### 10 · Les tokens — 30 s · prévu à 9:30
+
+- 🔸 Diapo à sauter si on est en retard.
+- La machine découpe le texte en petits morceaux (« intelli », « gence »…), qu'on appelle des « tokens ». Chaque morceau devient un nombre.
+- Elle ne manipule que des nombres : elle calcule, elle ne lit pas vraiment.
+- Anecdote : c'est pour ça qu'elle a parfois du mal à compter les lettres d'un mot, alors qu'elle écrit un poème sans difficulté.
+
+### 11 · Deux étapes d'apprentissage — 1 min · prévu à 10:00
+
+- 🔸 Peut être raccourcie.
+- Étape 1, le pré-entraînement : elle « lit » une immense quantité de textes (sites internet, livres, articles) et s'entraîne des milliards de fois à deviner le mot suivant. Elle devient très forte en langue… mais elle a aussi lu le pire d'internet.
+- Étape 2, l'ajustement humain : des personnes lui posent des questions et notent ses réponses (utile ? polie ? dangereuse ?). Elle apprend ainsi à se comporter en assistant serviable.
+- L'image : l'élève qui a lu toute la bibliothèque, puis le professeur qui corrige ses copies.
+
+### 12 · Familles d'IA — 1 min · prévu à 11:00
+
+**🎯 L'IA, ce n'est pas que ChatGPT.**
+
+- Génératives : elles créent du texte, des images, du son, des vidéos (ChatGPT, Midjourney…).
+- Perceptives : elles reconnaissent, par exemple le visage qui déverrouille le téléphone ou la voix de l'assistant vocal.
+- Prédictives : elles anticipent : la météo, les recommandations Netflix, la détection de fraude à la carte bancaire.
+- Agentives : les plus récentes. Elles agissent seules : chercher sur internet, remplir un formulaire, enchaîner plusieurs tâches.
+
+> ➡️ « Ça, c'est la théorie. Mais en vrai, vous l'avez déjà croisée plusieurs fois aujourd'hui… »
+
+---
+
+## Chapitre 02 · L'IA dans notre quotidien (diapos 13 à 17, environ 5.5 min)
+
+### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 12:00
+
+**🎯 Elle est déjà partout.**
+
+- « Vie de tous les jours, santé, industrie, culture : l'IA est déjà là, souvent sans qu'on la voie. »
+
+### 14 · L'IA sans le savoir — 1 min · prévu à 12:30
+
+**🎯 Vous l'utilisez déjà sans le savoir.**
+
+- MATIN : l'appli météo (prévisions) et le GPS qui vous fait éviter les bouchons.
+- JOURNÉE : le téléphone qui classe vos photos par visage, le clavier qui vous propose le mot suivant (c'est le principe de ChatGPT en miniature !) et l'assistant vocal.
+- TRAVAIL : le filtre anti-spam et la traduction automatique.
+- SOIRÉE : Netflix, YouTube et Spotify qui vous recommandent quoi regarder ou écouter.
+- *⚙️ Demander : « Combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
+- Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là.
+
+### 15 · Quiz — IA ou pas IA ? — 2 min · prévu à 13:30
+
+**🎯 Électronique ne veut pas dire IA.**
+
+- *⚙️ Pour chaque proposition : « Qui pense que c'est de l'IA ? », mains levées, puis révéler avec la touche R.*
+- 1. Calculatrice → PAS IA. Elle applique des règles fixes, donne toujours la même réponse et n'apprend rien.
+- 2. GPS qui recalcule → IA, en partie. Le calcul du trajet est un programme classique, mais la prévision des bouchons vient d'une IA qui apprend de millions de trajets.
+- 3. Déverrouillage par le visage → IA. Une reconnaissance faciale apprise sur des exemples, qui s'adapte même si vous mettez des lunettes ou laissez pousser la barbe.
+- 4. Four à minuteur → PAS IA. C'est une simple minuterie.
+- Morale : ce n'est pas parce qu'un appareil est électronique, ou marqué « intelligent » sur l'emballage, que c'est de l'IA. L'IA, c'est quand la machine a appris à partir d'exemples.
+
+### 16 · Tous les métiers — 1 min · prévu à 15:30
+
+**🎯 Elle transforme presque tous les métiers.**
+
+- Santé : elle aide à repérer des anomalies sur les radios et les scanners. C'est le médecin qui décide.
+- Éducation : des exercices adaptés au niveau de chaque élève, de l'aide aux devoirs.
+- Agriculture : drones et capteurs pour surveiller les cultures, et arroser ou traiter seulement là où il faut.
+- Industrie : prévoir une panne avant qu'elle arrive, contrôler la qualité avec des caméras.
+- Transport : l'aide à la conduite (freinage d'urgence, maintien dans la voie) et l'optimisation des tournées de livraison.
+- Culture : musique, images, écriture, effets spéciaux au cinéma.
+- Message : elle change la façon de travailler dans la plupart des métiers.
+
+### 17 · Usages surprenants — 1 min · prévu à 16:30
+
+- 🔸 Peut être raccourcie.
+- Les protéines : AlphaFold, une IA de Google DeepMind, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments. Ses créateurs ont reçu le prix Nobel de chimie 2024.
+- Le tri des déchets : dans les centres de tri, des caméras et des bras robotisés reconnaissent le plastique, le carton ou le métal sur les tapis.
+- La traduction en direct : vous parlez dans votre langue, votre interlocuteur vous entend dans la sienne, presque instantanément.
+
+> ➡️ « Assez parlé : place à la pratique ! »
+
+---
+
+## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 23.5 min)
+
+### 18 · Chapitre 03 — En pratique — 30 s · prévu à 17:30
+
+**🎯 Annoncer la partie pratique.**
+
+- « On va faire un tour des outils, puis passer aux démonstrations, en direct, et à un petit jeu du vrai ou faux. »
+
+### 19 · Panorama — 1 min · prévu à 18:00
+
+**🎯 Il existe une IA pour chaque besoin.**
+
+- Texte : ChatGPT, Claude, Gemini, ou Le Chat de Mistral, une entreprise française. Pour discuter, écrire, résumer, expliquer.
+- Image : Midjourney, DALL-E. Une phrase devient une image.
+- Musique : Suno, Udio. Une chanson complète, avec paroles et voix, en une minute.
+- Vidéo : Sora, Veo. De courtes vidéos à partir d'un simple texte.
+- Voix : Whisper transcrit une réunion par écrit ; ElevenLabs fait parler une voix… y compris en imitant la vôtre.
+- Vision : Google Lens. On photographie une plante, un objet, un monument, et il l'identifie.
+- « Pas besoin de retenir les noms : ils changent tous les six mois. Retenez plutôt ce qu'on peut faire. »
+
+### 20 · Programme des démos — 30 s · prévu à 19:00
+
+**🎯 Annoncer les 6 démos.**
+
+- « Préparé » : fait à l'avance, parce que c'est trop long ou trop aléatoire en direct (images, vidéos).
+- « Direct » : devant vous, avec le risque que ça rate… et si ça rate, ce sera instructif aussi !
+- Et pour finir, la démo finale : le site de la MJC.
+- *⚙️ Avant de commencer : internet OK, comptes connectés, son branché.*
+
+### 21 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 19:30
+
+**🎯 On ne peut plus se fier à ses yeux seuls.**
+
+- *⚙️ PRÉPARÉ : les 3 images doivent être en place (A, B, C).*
+- Règle du jeu : « Parmi ces 3 images, une seule est une vraie photo. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. »
+- *⚙️ Pour chaque image : « Qui pense que c'est une vraie photo ? » (mains levées). Puis révéler avec R.*
+- Commenter les votes : l'image ratée se repère assez bien. L'image réussie, elle, trompe beaucoup de monde.
+- « Cette image a été fabriquée en quelques secondes, gratuitement, avec une simple phrase. »
+- *⚙️ Réponses par défaut : A = vraie photo, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
+
+### 22 · Démo 1 — Les indices — 1 min 30 · prévu à 22:30
+
+**🎯 Quelques indices… mais surtout, vérifier la source.**
+
+- *⚙️ Remontrer l'image ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.*
+- Mains et doigts : six doigts, des doigts fusionnés, des articulations étranges.
+- Texte : des lettres inventées, des panneaux illisibles.
+- Ombres et reflets : une lumière qui vient de deux côtés, un reflet absent dans un miroir.
+- Fond : des objets qui se fondent les uns dans les autres, des motifs qui se répètent.
+- Trop parfait : une peau trop lisse, un effet « plastique ».
+- LE réflexe : d'où vient cette image ? Qui l'a publiée ? Un média connu ? On peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
+- Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.
+
+### 23 · Démo 2 — Créer une affiche — 4 min · prévu à 24:00
+
+**🎯 Plus la demande est précise, plus le résultat vous ressemble.**
+
+- *⚙️ EN DIRECT. Copier le prompt « Affiche », le coller dans ChatGPT ou Copilot, et partager la fenêtre.*
+- « Le "prompt", c'est simplement la demande qu'on écrit à l'IA. »
+- Pendant que l'image se fabrique (environ 30 secondes), expliquer les 5 couleurs :
+  - bleu = le format (affiche verticale A3) ;
+  - vert = le sujet (la fête, la date, les horaires) ;
+  - violet = le style (festif, les Vosges, une illustration colorée) ;
+  - orange = le texte exact à écrire ;
+  - rose = les contraintes (de la place pour les logos).
+- « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
+- *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher sur la diapo.*
+- Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres. On demande une correction (prompt « Retouche »).
+- Conclusion : un formidable outil pour un premier jet. Mais on vérifie, on fait relire, et pour une vraie affiche on fait attention aux droits.
+- *⚙️ Plan B : l'affiche préparée à l'avance.*
+
+<details><summary>Prompts de la démo</summary>
+
+- **Affiche** : Crée une affiche verticale au format A3 pour la fête de la MJC du Val d'Ajol, le samedi 20 juin de 14 h à 22 h. Ambiance festive et familiale, montagnes des Vosges en fond, style illustration colorée. Titre bien lisible : « Fête de la MJC ». Laisse de la place en bas pour les logos.
+- **Retouche** : Agrandis le titre, ajoute des lampions colorés et vérifie que tout le texte est écrit sans faute.
+
+</details>
+
+### 24 · Démo 3 — Vidéo : filmée ou générée ? — 3 min · prévu à 28:00
+
+**🎯 Bientôt, une vidéo ne sera plus une preuve.**
+
+- *⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son. ⛶ pour en passer une en plein écran avec le son.*
+- « L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »
+- *⚙️ Vote à main levée, puis révéler avec R.*
+- Revoir la vidéo IA en pointant ce qui cloche :
+  - la physique (l'eau, les tissus, les cheveux qui bougent bizarrement) ;
+  - les mains et les visages ;
+  - le texte ;
+  - les objets qui apparaissent ou disparaissent.
+- Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. Avant de partager une vidéo choquante, on vérifie.
+- *⚙️ Réponses par défaut : 1 = filmée, 2 = IA. Ajuster dans la régie si besoin.*
+
+> ➡️ « Passons à des usages plus utiles au quotidien. »
+
+### 25 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 31:00
+
+**🎯 Un gain de temps énorme… à condition de connaître les pièges.**
+
+- *⚙️ EN DIRECT. Outils → Montrer une fenêtre, puis copier le prompt « E-mail ».*
+- Lire le résultat à voix haute : en 10 secondes, un e-mail poli et bien structuré. Un vrai gain de temps pour ceux qui n'aiment pas écrire.
+- *⚙️ Copier le prompt « Piège : la loi ».*
+- Piège 1, les inventions : elle cite un article de loi avec beaucoup d'assurance… mais est-ce le bon ? On vérifie sur service-public.fr ou Légifrance. Quand elle invente quelque chose qui a l'air vrai, on appelle ça une « hallucination ».
+- Bon à savoir : le propriétaire doit entretenir le logement (loi du 6 juillet 1989), mais les petites réparations, comme un joint de robinet, sont souvent à la charge du locataire (décret du 26 août 1987). L'IA ne vous l'aurait peut-être pas dit !
+- Piège 2, les données personnelles : on ne met jamais son adresse, le nom de son propriétaire ou son numéro de contrat. On les ajoute ensuite, dans sa propre messagerie.
+- Piège 3, le ton « robot » (« Je me permets de vous solliciter… »). Copier le prompt « Plus naturel » pour montrer la différence.
+- Piège 4, envoyer sans relire : c'est vous qui signez, c'est vous qui êtes responsable.
+
+<details><summary>Prompts de la démo</summary>
+
+- **E-mail** : Rédige un e-mail poli à mon propriétaire pour signaler une fuite d'eau sous l'évier depuis 3 jours. Ton cordial mais ferme, 10 lignes maximum. Je souhaite une intervention cette semaine.
+- **Piège : la loi** : Ajoute la référence exacte de l'article de loi qui oblige le propriétaire à intervenir.
+- **Plus naturel** : Réécris-le de façon plus naturelle, comme si je l'avais écrit moi-même, sans formules toutes faites.
+
+</details>
+
+### 26 · Démo 5 — Budget dans Excel — 3 min · prévu à 35:00
+
+**🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français.**
+
+- *⚙️ EN DIRECT. Copier le prompt « Budget ».*
+- « Je ne lui parle pas de formules ou de cellules : je lui décris ce que je veux, comme à quelqu'un. »
+- *⚙️ Télécharger le fichier, l'ouvrir dans Excel et cliquer sur un total : la formule est là, le calcul se fait tout seul.*
+- *⚙️ Copier le prompt « Amélioration » : la colonne « Écart » passe en rouge quand on dépasse le budget.*
+- Les réflexes :
+  - vérifier un ou deux totaux à la main, car elle peut se tromper de case ;
+  - tester avec des chiffres inventés ;
+  - ne jamais y coller ses vrais relevés bancaires.
+- Ça marche aussi pour un planning de vacances, une liste de courses ou le suivi des cotisations d'une association.
+- *⚙️ Plan B : le fichier préparé à l'avance.*
+
+<details><summary>Prompts de la démo</summary>
+
+- **Budget** : Crée un tableau Excel pour suivre le budget mensuel de ma famille : revenus, dépenses par catégorie (logement, courses, transport, loisirs), un total automatique, le reste à vivre et un graphique. Utilise des montants d'exemple. Donne-moi le fichier à télécharger.
+- **Amélioration** : Ajoute une colonne « Écart » entre le prévu et le réel, en rouge quand je dépasse mon budget.
+
+</details>
+
+### 27 · Démo 6 — Apprendre une langue — 3 min · prévu à 38:00
+
+**🎯 Un professeur patient, disponible à toute heure, qui ne juge pas.**
+
+- *⚙️ EN DIRECT, de préférence à voix haute (mode vocal de l'appli ChatGPT ou Gemini, son relié à la sono).*
+- Décortiquer le prompt :
+  - on lui donne un rôle (un professeur patient) ;
+  - un niveau (débutant) ;
+  - une situation (au restaurant) ;
+  - une méthode (une question à la fois, corrections en français).
+- *⚙️ Jouer la scène et faire exprès une erreur (« I want a pizza margarita ») pour montrer la correction bienveillante.*
+- Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement. On ose parler, même avec un mauvais accent.
+- Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.
+- *⚙️ Proposer à une personne du public d'essayer une réplique !*
+
+> ➡️ « C'est impressionnant… mais ça pose aussi des questions. »
+
+<details><summary>Prompts de la démo</summary>
+
+- **Prof d'anglais** : Tu es mon professeur d'anglais, patient et encourageant. Je suis débutant. Jouons une scène : je commande au restaurant. Pose-moi une question à la fois, corrige mes erreurs en français, puis continue.
+
+</details>
+
+---
+
+## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 6 min)
+
+### 28 · Chapitre 04 — Impacts — 30 s · prévu à 41:00
+
+**🎯 Annoncer les enjeux.**
+
+- « On a vu ce qu'elle sait faire. Regardons maintenant ce qu'elle change pour nous : les opportunités, les risques, et qui fixe les règles. »
+
+### 29 · Opportunités / risques — 1 min 30 · prévu à 41:30
+
+**🎯 Ni bonne ni mauvaise : tout dépend de l'usage.**
+
+- Opportunités :
+  - gagner du temps sur les tâches pénibles ;
+  - des progrès en médecine et en science ;
+  - l'accès au savoir pour tous (on se fait expliquer simplement, on traduit) ;
+  - de nouveaux outils pour créer.
+- Risques :
+  - les erreurs et les fausses informations (on l'a vu avec l'e-mail) ;
+  - les biais et les discriminations ;
+  - les atteintes à la vie privée ;
+  - la dépendance, quand on perd l'habitude de réfléchir ou d'écrire par soi-même.
+- « C'est comme internet ou un couteau de cuisine : l'outil n'est ni bon ni mauvais, c'est l'usage qui compte. »
+
+### 30 · Questions éthiques — 1 min 30 · prévu à 43:00
+
+**🎯 Quatre questions à se poser.**
+
+- Biais : l'IA reproduit les préjugés présents dans ses exemples. Un outil de recrutement d'Amazon défavorisait les CV de femmes, parce qu'il avait appris sur des recrutements passés surtout masculins. Il a été abandonné.
+- Hallucinations : elle invente avec aplomb (de faux articles de loi, de fausses références, des livres qui n'existent pas).
+- Vie privée : ce que vous tapez peut être conservé et réutilisé. Il existe souvent un réglage pour le refuser.
+- Droits d'auteur : des livres, des articles de presse, des œuvres d'artistes ont servi à l'entraîner, souvent sans leur accord et sans rémunération. Des procès sont en cours, par exemple celui du New York Times contre OpenAI.
+
+### 31 · Qui décide des règles ? — 1 min · prévu à 44:30
+
+**🎯 Il faut des règles, et l'Europe a été la première à en écrire.**
+
+- Europe : l'AI Act est la première grande loi au monde sur l'IA. Le principe : plus un usage est risqué, plus il est encadré.
+  - Interdit : par exemple, noter les citoyens selon leur comportement.
+  - Très contrôlé : le recrutement, la santé.
+  - Obligatoire : signaler quand un contenu a été fabriqué par une IA.
+  - Sa mise en place est progressive, entre 2024 et 2027 (calendrier à vérifier).
+- Démocratie : les fausses vidéos et les faux messages peuvent influencer les élections. En 2024, un faux message vocal imitant la voix de Joe Biden demandait aux électeurs de ne pas aller voter.
+- Souveraineté : quelques géants, surtout américains et chinois, concentrent cette technologie. L'Europe a aussi ses acteurs, comme Mistral AI en France.
+
+### 32 · Productivité — 1 min 30 · prévu à 45:30
+
+**🎯 Automatiser des tâches, pas des humains.**
+
+- L'IA excelle pour :
+  - les tâches répétitives ;
+  - résumer et trier ;
+  - produire un premier jet.
+- L'humain reste indispensable pour :
+  - juger et décider ;
+  - la relation et l'empathie ;
+  - la responsabilité (si ça tourne mal, c'est un humain qui en répond).
+- La plupart des métiers seront transformés plutôt que supprimés. Ceux qui sauront s'en servir auront un avantage.
+- Le coût caché : les centres de données qui font tourner ces IA consomment beaucoup d'électricité, et d'eau pour les refroidir. Une image ou une vidéo consomme bien plus qu'une simple question. Utilisons-la quand elle apporte vraiment quelque chose.
+
+> ➡️ « Alors, concrètement, comment bien s'en servir ? »
+
+---
+
+## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 4 min)
+
+### 33 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 47:00
+
+**🎯 Annoncer les 3 réflexes.**
+
+- « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
+
+### 34 · Le bon prompt — 1 min 30 · prévu à 47:30
+
+**🎯 Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas.**
+
+- Le « prompt », c'est simplement la demande qu'on lui écrit. Trois ingrédients :
+- Contexte : qui vous êtes, pour qui, dans quel but. « Je suis bénévole dans une MJC et j'écris aux parents des enfants inscrits… »
+- Tâche : ce que vous voulez, précisément. « Rédige une invitation pour la fête de fin d'année. »
+- Format : la longueur, le ton, la forme. « 5 lignes, ton chaleureux, sous forme d'e-mail. »
+- Rappel : c'est exactement ce qu'on a fait avec l'affiche. Chaque couleur était un ingrédient.
+- Astuce : si le résultat ne convient pas, on continue la conversation. « Plus court », « plus simple », « avec un exemple ».
+
+### 35 · Esprit critique — 1 min · prévu à 49:00
+
+**🎯 Faites confiance, mais vérifiez.**
+
+- Vérifier : pour toute information importante (santé, droit, argent), on recoupe avec une source fiable.
+- Reformuler : on pose la question autrement. Si les réponses se contredisent, méfiance !
+- Relire : vous êtes responsable de ce que vous utilisez ou envoyez.
+- La règle d'or : jamais de données personnelles, médicales ou confidentielles. « N'écrivez rien que vous ne mettriez pas sur une carte postale. »
+
+### 36 · À faire / à éviter — 1 min · prévu à 50:00
+
+**🎯 Un assistant, pas un cerveau de remplacement.**
+
+- À faire :
+  - donner du contexte ;
+  - affiner petit à petit ;
+  - vérifier les faits ;
+  - l'utiliser comme un assistant.
+- À éviter :
+  - tout croire aveuglément ;
+  - partager des données sensibles ;
+  - lui déléguer sa réflexion ;
+  - copier-coller sans relire.
+- Pour les parents : pour les devoirs, l'utiliser pour comprendre (« explique-moi autrement »), pas pour copier la réponse.
+- La phrase à retenir : « Utilisez-la comme un assistant, pas comme un cerveau de remplacement. »
+
+---
+
+## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 11 min)
+
+### 37 · Et demain ? — 1 min 30 · prévu à 51:00
+
+**🎯 Ce qui arrive… et ce que vous en attendez.**
+
+- Agents autonomes : des IA qui enchaînent les tâches seules (chercher, comparer, réserver). Question : à qui la faute si elles se trompent ?
+- Multimodalité : une seule IA qui voit, entend et parle. On peut déjà montrer un objet à la caméra du téléphone et lui poser une question à voix haute.
+- IA plus sobre : des modèles plus petits qui tournent directement sur le téléphone, sans internet. Ils consomment moins et respectent mieux la vie privée.
+- *⚙️ Demander : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
+
+> ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
+
+### 38 · Démo finale — Le site de la MJC — 1 min · prévu à 52:30
+
+**🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
+
+- « Pour finir, un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »
+- Les 4 étapes :
+  - 1. je décris le site en français ;
+  - 2. l'IA le fabrique ;
+  - 3. on l'améliore ensemble, avec vos idées ;
+  - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
+- *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
+
+### 39 · Démo finale — Le cahier des charges — 7 min · prévu à 53:30
+
+**🎯 On décrit, l'IA fabrique, on améliore ensemble.**
+
+- *⚙️ Copier le prompt « Site vitrine », le coller dans Claude (le site s'affiche directement) ou dans ChatGPT, et partager la fenêtre.*
+- Lire le prompt : « Je le décris comme je le ferais à un graphiste : pour qui, quelles rubriques, quel style, et lisible sur téléphone. »
+- Pendant que le texte défile : « Ce que vous voyez défiler, c'est le code, la langue dans laquelle sont écrits les sites. Pas besoin de la comprendre : l'IA l'écrit pour nous. »
+- *⚙️ Montrer le résultat et le faire défiler.*
+- *⚙️ Demander à la salle : « Qu'est-ce que vous ajouteriez ? » Choisir 1 ou 2 idées (galerie photo, couleurs du logo, inscription aux ateliers, gros caractères) et copier le prompt correspondant.*
+- *⚙️ Mise en ligne : télécharger le fichier, le glisser sur Netlify Drop, puis Outils → QR code à l'écran avec l'adresse obtenue.*
+- « Sortez vos téléphones : ce site existe vraiment, maintenant, sur internet. »
+- Faire remarquer que l'IA a inventé des choses (horaires, adresse, textes…). Ça prépare le bilan.
+
+<details><summary>Prompts de la démo</summary>
+
+- **Site vitrine** : Crée un site vitrine d'une seule page pour la MJC du Val d'Ajol (Vosges). Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Donne-moi le site complet dans un seul fichier.
+- **Galerie** : Ajoute une section galerie photo avec 6 vignettes qui s'agrandissent au clic.
+- **Couleurs** : Reprends les couleurs du logo de la MJC : rose, violet, bleu, vert et jaune vif sur fond clair.
+- **Inscription** : Ajoute un formulaire d'inscription aux ateliers : nom, e-mail, atelier choisi, message.
+- **Seniors** : Rends le site plus lisible pour les seniors : plus gros caractères, plus de contraste, boutons plus grands.
+
+</details>
+
+### 40 · Démo finale — Bilan — 1 min 30 · prévu à 60:30
+
+**🎯 L'IA accélère, l'humain valide.**
+
+- Ce que l'IA a fait en quelques minutes :
+  - la structure et le design ;
+  - le code ;
+  - des textes de départ ;
+  - l'adaptation au téléphone.
+- Ce qu'il reste à faire, par nous :
+  - les vrais contenus et les vraies photos (avec l'accord des personnes photographiées) ;
+  - vérifier chaque information (elle a inventé des horaires !) ;
+  - rendre le site accessible (par exemple aux personnes malvoyantes) et respecter la vie privée (un formulaire collecte des données) ;
+  - l'adresse du site, l'hébergement, et surtout les mises à jour : qui va le tenir à jour ?
+- « Ce qui prenait des semaines prend quelques heures… mais demande toujours un regard humain. »
+
+> ➡️ « Si vous ne deviez retenir que trois choses ce soir… »
+
+---
+
+## Conclusion (diapos 41 à 43, environ 2 min)
+
+### 41 · 3 choses à retenir — 1 min · prévu à 62:00
+
+**🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
+
+- 1. Elle prédit, elle ne sait pas. Elle peut se tromper avec assurance : vérifiez ce qui compte.
+- 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
+- 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
+- Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
+
+### 42 · Pour essayer chez vous — 1 min · prévu à 63:00
+
+**🎯 Donner envie d'essayer, dès ce soir.**
+
+- Elles ont toutes une version gratuite :
+  - ChatGPT, la plus connue ;
+  - Le Chat, de l'entreprise française Mistral ;
+  - Gemini, de Google ;
+  - Copilot, de Microsoft, qui fait aussi des images.
+- Conseil : commencer par une petite tâche du quotidien.
+  - Une recette avec ce qu'il reste dans le frigo.
+  - Un e-mail difficile à écrire.
+  - Le résumé d'un long article.
+  - L'explication d'un courrier administratif (en retirant vos informations personnelles).
+- Si la MJC propose un atelier numérique, l'annoncer ici.
+
+### 43 · Merci !
+
+**🎯 Remercier et ouvrir les questions.**
+
+- Remercier la MJC, les bénévoles et le public pour son attention et sa participation.
+- « Place à vos questions ! »
+- Si personne n'ose : « On me demande souvent si l'IA va remplacer notre métier… » (voir PREPARATION.md pour les réponses types).
+- Si je ne connais pas la réponse : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. » C'est cohérent avec le message de la soirée !
