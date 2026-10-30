@@ -191,9 +191,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 13:30
 
-**🎯 Elle est déjà partout.**
+**🎯 Elle est déjà partout. (30 s : une respiration, ne pas s'attarder)**
 
-- « Vie de tous les jours, santé, industrie, culture : l'IA est déjà là, souvent sans qu'on la voie. »
+- « On a vu comment elle fonctionne. Maintenant, la vraie question : où est-elle, concrètement ? Et la réponse va peut-être vous surprendre : partout. Dans votre poche, chez le médecin, à l'usine, et même dans les musées. Souvent sans qu'on la voie. »
+- Annoncer le programme du chapitre (les 3 étiquettes) : là où on l'utilise sans le savoir, un petit quiz, puis les métiers.
+
+> ➡️ « Et d'ailleurs, je parie que vous l'avez déjà utilisée aujourd'hui, avant même d'arriver ici… »
 
 ### 14 · L'IA sans le savoir — 1 min · prévu à 14:00
 

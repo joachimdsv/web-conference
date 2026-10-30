@@ -287,6 +287,20 @@
   .two-steps p { font-size: 28px; margin-top: 6px; }
   .two-steps .sep { display: grid; place-items: center; font: 800 64px/1 Inter, sans-serif; color: #7f8fe0; }
   .two-credits { position: absolute; left: 150px; right: 150px; bottom: 50px; font: 400 16px/1.4 Inter, sans-serif; color: var(--muted); }
+  /* Ouverture de chapitre */
+  .chap { background:
+      radial-gradient(900px 700px at 0% 100%, rgba(40, 70, 170, .55), transparent 70%),
+      radial-gradient(1000px 700px at 85% 10%, rgba(20, 120, 160, .55), transparent 70%),
+      linear-gradient(135deg, #070b2a, #0f1a50 60%, #14205e); }
+  .chap::after { background: linear-gradient(90deg, #1596b8, #3b82c2, #4b5fe0); }
+  .chap .big { position: absolute; right: 90px; top: 50%; transform: translateY(-50%); font: 800 760px/1 Sora, sans-serif;
+    letter-spacing: -.04em; color: rgba(120, 160, 255, .09); }
+  .chap .inner { position: absolute; left: 150px; right: 150px; top: 50%; transform: translateY(-50%); }
+  .chap .pill { display: inline-block; font: 700 30px/1 'JetBrains Mono', monospace; letter-spacing: .14em; text-transform: uppercase;
+    color: #fff; background: #1596b8; padding: 20px 32px; border-radius: 99px; }
+  .chap h1 { font: 800 118px/1.02 Sora, sans-serif; letter-spacing: -.035em; margin: 50px 0 60px; }
+  .chap .chips { gap: 22px; }
+  .chap .chip { font-size: 32px; padding: 20px 32px; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -493,6 +507,16 @@
       <div><h3>Prédictives</h3><p>Netflix, la météo</p></div></div>
     <div class="card" style="--a:#e5436a"><span class="tag">Le plus récent</span><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
       <div><h3>Agentives</h3><p>Elles agissent à votre place</p></div></div>
+  </div>
+</section>
+
+<!-- ===================================================== 02 · Ouverture du chapitre (remplace la page 12 du PDF) -->
+<section class="slide dark chap" id="chapitre-02">
+  <div class="big">02</div>
+  <div class="inner">
+    <div class="pill">Chapitre 02</div>
+    <h1>L'IA dans notre quotidien</h1>
+    <div class="chips"><span class="chip">Sans le savoir</span><span class="chip">Quiz&nbsp;: IA ou pas&nbsp;?</span><span class="chip">Tous les métiers</span></div>
   </div>
 </section>
 

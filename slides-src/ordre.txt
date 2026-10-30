@@ -15,7 +15,7 @@ demo prediction
 demo tokens
 demo etapes
 demo familles
-page 12
+demo chapitre-02
 page 13
 page 14
 page 15
