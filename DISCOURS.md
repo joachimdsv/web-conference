@@ -166,7 +166,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Elle lit d'abord énormément, puis des humains la corrigent. (30 s, peut être raccourcie)**
 
 - Photo 1, la bibliothèque. Étape 1, le pré-entraînement : « Elle "lit" une immense quantité de textes, sites internet, livres, articles, et s'entraîne des milliards de fois à deviner le mot suivant. Elle devient très forte en langue… mais elle a aussi lu le pire d'internet. »
-- Photo 2, la copie corrigée. Étape 2, l'ajustement humain : « Ensuite, des personnes lui posent des questions et notent ses réponses : utile ? polie ? dangereuse ? Elle apprend ainsi à se comporter en assistant serviable. »
+- Photo 2, le texte annoté au stylo. Étape 2, l'ajustement humain : « Ensuite, des personnes lui posent des questions et notent ses réponses : utile ? polie ? dangereuse ? Elle apprend ainsi à se comporter en assistant serviable. »
 - L'image à retenir : « L'élève qui a lu toute la bibliothèque… puis le professeur qui corrige ses copies. »
 
 > ➡️ « Voilà pour ChatGPT et les IA qui écrivent. Mais il existe d'autres familles d'IA… »
