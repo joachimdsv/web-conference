@@ -260,6 +260,22 @@
   .hasard svg { width: 54px; height: 54px; flex: none; stroke: #6fd8c0; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .hasard b { color: #6fd8c0; }
   .probs-note { position: absolute; right: 50px; top: 36px; font: 400 20px/1 Inter, sans-serif; color: #9aa3d6; }
+
+  /* Tokens */
+  .tok-row { position: absolute; left: 150px; right: 150px; top: 390px; display: flex; align-items: center; gap: 30px; flex-wrap: nowrap; }
+  .tok-src { font: 700 60px/1 Sora, sans-serif; color: #fff; white-space: nowrap; }
+  .tok-arrow { font: 800 56px/1 Inter, sans-serif; color: #7f8fe0; }
+  .toks { display: flex; gap: 12px; }
+  .tok { font: 700 44px/1 Sora, sans-serif; padding: 20px 26px; border-radius: 16px; color: #fff; background: var(--c); white-space: pre; }
+  .nums { font: 600 44px/1 'JetBrains Mono', monospace; color: #c7cdf5; padding: 22px 30px; border-radius: 16px; border: 1.5px solid rgba(255, 255, 255, .18); background: rgba(255, 255, 255, .05); white-space: nowrap; }
+  .tok-row2 { position: absolute; left: 815px; top: 530px; display: flex; align-items: center; gap: 26px; }
+  .tok-expl { position: absolute; left: 150px; right: 150px; top: 680px; font: 400 34px/1.45 Inter, sans-serif; color: #c7cdf5; }
+  .tok-expl b { color: #fff; }
+  .tok-fun { position: absolute; left: 150px; right: 150px; bottom: 100px; display: flex; align-items: center; gap: 26px; padding: 26px 40px; border-radius: 22px;
+    background: rgba(255, 176, 32, .1); border: 1.5px solid rgba(255, 176, 32, .45); font: 500 32px/1.4 Inter, sans-serif; color: #e4e7ff; }
+  .tok-fun svg { width: 56px; height: 56px; flex: none; stroke: #ffc53d; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .tok-fun b { color: #ffc53d; }
+  .tok-note { position: absolute; left: 150px; bottom: 50px; font: 400 18px/1 Inter, sans-serif; color: #9aa3d6; }
 </style>
 </head>
 <body>
@@ -410,6 +426,23 @@
     <div class="hasard" data-zone="hasard"><svg viewBox="0 0 24 24"><rect width="12" height="12" x="2" y="10" rx="2" ry="2"/><path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/><path d="M6 18h.01"/><path d="M10 14h.01"/><path d="M15 6h.01"/><path d="M18 9h.01"/></svg>
       <span>Elle <b>tire au sort</b> en favorisant les mots les plus probables : la même question peut donner des réponses différentes.</span></div>
   </div>
+</section>
+
+<!-- ===================================================== 01 · Tokens (remplace la page 9 du PDF) -->
+<section class="slide dark c01" id="tokens">
+  <div class="content">
+    <div class="kicker">01 · Fonctionnement</div>
+    <h1 class="sm">Elle ne lit pas des mots,<br>mais des « tokens »</h1>
+  </div>
+  <div class="tok-row">
+    <span class="tok-src">« Bonjour à tous »</span><span class="tok-arrow">→</span>
+    <span class="toks"><span class="tok" style="--c:#5b74ff">Bon</span><span class="tok" style="--c:#18b48a">jour</span><span class="tok" style="--c:#f59e0b"> à</span><span class="tok" style="--c:#ff5c86"> tous</span></span>
+  </div>
+  <div class="tok-row2"><span class="tok-arrow">↓</span><span class="nums">[ 38, 9247, 1225, 14315 ]</span></div>
+  <p class="tok-expl">Le texte est découpé en <b>petits morceaux</b> (les tokens), chacun transformé en <b>nombre</b>.<br>La machine ne manipule que ces nombres : elle <b>calcule</b>, elle ne lit pas vraiment.</p>
+  <div class="tok-fun"><svg viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+    <span><b>Le saviez-vous ?</b> C'est pour ça qu'une IA peut écrire un poème… mais se tromper en comptant les lettres d'un mot !</span></div>
+  <p class="tok-note">Découpage et nombres donnés à titre d'exemple</p>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

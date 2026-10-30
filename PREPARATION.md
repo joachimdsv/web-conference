@@ -30,17 +30,17 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ### La durée : 1 h 30 au total, conférence et débat compris
 | Bloc | Durée | Fin prévue |
 |---|---|---|
-| Ouverture + chapitres 01 et 02 | 16 min 30 | 0:16 |
-| Démonstrations (chapitre 03) | 21 min 30 | 0:38 |
-| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:46 |
-| Et demain ? + démo finale | 10 min | 0:56 |
-| Conclusion | 2 min | 0:58 |
-| **Débat** | **25 min** | **1:23** |
-| Remerciements | 1 min | 1:24 |
-| Marge de sécurité | 5 min 30 | 1:30 |
+| Ouverture + chapitres 01 et 02 | 18 min 30 | 0:18 |
+| Démonstrations (chapitre 03) | 21 min 30 | 0:40 |
+| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:48 |
+| Et demain ? + démo finale | 10 min | 0:58 |
+| Conclusion | 2 min | 1:00 |
+| **Débat** | **25 min** | **1:25** |
+| Remerciements | 1 min | 1:26 |
+| Marge de sécurité | 3 min 30 | 1:30 |
 
 - **Environ 1 h de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
-- **Deux diapos sont sautées par défaut** : la 10 « tokens » et la 17 « usages surprenants ». Les flèches et la télécommande passent par-dessus, et elles sont grisées dans la pellicule. Pour en montrer une quand même, tapez son numéro puis Entrée. Pour la remettre dans le déroulé, retirez `skip: true` dans `js/deck.js`.
+- **Une diapo est sautée par défaut** : la 17 « usages surprenants ». Les flèches et la télécommande passent par-dessus, et elle est grisée dans la pellicule. Pour la montrer quand même, tapez 17 puis Entrée. Pour la remettre dans le déroulé, retirez `skip: true` dans `js/deck.js`. La diapo 10 « tokens » est de nouveau dans le déroulé, à passer vite (30 s).
 - **La diapo 43 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
 - **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 05**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
@@ -49,7 +49,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
   3. la démo 6 sans volontaire : 2 min ;
   4. la démo finale avec une seule amélioration, ou le plan B déjà en ligne : 2 à 4 min.
 - **En avance ?** Rien ne presse : le débat dispose de plus de temps. Vous pouvez aussi prendre un volontaire pour la démo 6 ou faire une amélioration de plus sur le site.
-- **Ne jamais dépasser 1 h 30** : vers 1 h 20, « Encore une ou deux interventions ? ». Remercier vers 1 h 24, et proposer à ceux qui ont encore des questions de venir vous voir après.
+- **Ne jamais dépasser 1 h 30** : vers 1 h 23, « Encore une ou deux interventions ? ». Remercier vers 1 h 25, et proposer à ceux qui ont encore des questions de venir vous voir après.
 
 ---
 

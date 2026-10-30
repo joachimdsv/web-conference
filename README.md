@@ -36,7 +36,7 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
 
 - **QR code à l'écran** (onglet *Outils*) : le public ouvre un lien sur son téléphone, par exemple le site créé pendant la démo finale.
 - **Minutage** : chaque diapo a une durée indicative ; sous le chrono, la régie indique si vous êtes en avance ou en retard.
-- **Diapos sautées** : `skip: true` dans `js/deck.js` fait passer les flèches par-dessus une diapo (10 et 17 par défaut) ; elle reste accessible en tapant son numéro.
+- **Diapos sautées** : `skip: true` dans `js/deck.js` fait passer les flèches par-dessus une diapo (la 17 par défaut) ; elle reste accessible en tapant son numéro.
 - **Notes imprimables** : bouton *🖨️ Notes* (page `notes.html`), avec les miniatures, le minutage et les prompts.
 
 Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour J : voir [`PREPARATION.md`](PREPARATION.md) et le plan d'entraînement [`ENTRAINEMENT.md`](ENTRAINEMENT.md). Tout ce qu'il faut dire, diapo par diapo : [`DISCOURS.md`](DISCOURS.md).

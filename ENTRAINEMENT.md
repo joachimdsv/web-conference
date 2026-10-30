@@ -30,7 +30,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Jeudi 29/10 · J-8 · Chapitres 01 et 02 + l'ouverture (1 h)
 - [ ] Apprendre par cœur les 2 premières minutes (diapos 1 à 3) : présentation, promesse, brise-glace.
-- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 13 min** (8 min pour le chapitre 01, 5 min pour le 02, sans les diapos 10 et 17, sautées par défaut).
+- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 15 min** (10 min pour le chapitre 01, 5 min pour le 02, sans la diapo 17, sautée par défaut).
 - [ ] Préparer sa réponse à « le GPS, c'est vraiment de l'IA ? » (voir C6).
 - [ ] 🔎 Finir le bloc B.
 
@@ -50,8 +50,8 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 28, 37 et 41) et la comparer au déroulé de `DISCOURS.md` (0:16 · 0:38 · 0:46 · 0:56).
-- [ ] Objectif : **finir la conclusion vers 58 min**, pour garder 25 min de débat et 5 min de marge. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 28, 37 et 41) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
+- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 3 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 05 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
@@ -85,7 +85,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Le matin : relire la fiche-mémoire, dire l'ouverture à voix haute 2 fois, ne rien apprendre de nouveau.
 - [ ] Arriver **1 h avant** et dérouler la check-list « Sur place » de `PREPARATION.md`.
 - [ ] 10 minutes avant : échauffement de la voix (bâiller, articuler « Le chat est sur le tapis » exagérément), un verre d'eau à portée de main.
-- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:16 au début des démos, 0:38 aux enjeux, 0:46 à « Et demain ? », 0:56 à la conclusion, débat de 0:58 à 1:23 (début au plus tard à 1:05), **fin avant 1:30**.
+- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:18 au début des démos, 0:40 aux enjeux, 0:48 à « Et demain ? », 0:58 à la conclusion, débat de 1:00 à 1:25 (début au plus tard à 1:05), **fin avant 1:30**.
 
 ---
 
@@ -94,7 +94,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | # | Partie | Diapos | Temps | L'idée clé | Mon image |
 |---|---|---|---|---|---|
 | 0 | Ouverture | 1-3 | 3 min 30 | Pas besoin d'être informaticien | Les mains levées |
-| 1 | Qu'est-ce que l'IA ? | 4-12 | 8 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
+| 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
 | 2 | Au quotidien | 13-17 | 5 min | Vous l'utilisez déjà | La journée type, le quiz |
 | 3 | Démos | 18-27 | 21 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
 | 4 | Enjeux | 28-32 | 5 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
@@ -102,7 +102,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 6 | Demain + démo finale | 37-40 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
 | 7 | Conclusion | 41-42 | 2 min | 3 choses à retenir | Essayer dès ce soir |
 | 8 | Débat + merci | 43-44 | 25 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 24 + 5 min 30 de marge** | Fin à 1 h 30 au plus tard | |
+|  | **Total** | | **1 h 26 + 3 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 
