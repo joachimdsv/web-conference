@@ -238,6 +238,23 @@
   .lstep .cap small { display: block; font: 700 19px/1 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--c, var(--muted)); }
   .lstep .cap b { display: block; font: 700 31px/1.2 Sora, sans-serif; margin-top: 10px; }
   .layers-credits { position: absolute; left: 150px; right: 150px; bottom: 44px; font: 400 15px/1.4 Inter, sans-serif; color: var(--muted); }
+
+  /* Prédire le mot suivant */
+  .sentence { margin-top: 56px; display: inline-flex; align-items: baseline; gap: 22px; padding: 30px 48px; border-radius: 22px;
+    background: rgba(255, 255, 255, .06); border: 1.5px solid rgba(255, 255, 255, .14); font: 700 64px/1.1 Sora, sans-serif; }
+  .sentence .blank { display: inline-block; min-width: 230px; border-bottom: 6px dashed #8b9cff; color: #8b9cff; text-align: center; }
+  .probs { position: absolute; left: 150px; right: 150px; top: 520px; bottom: 120px; padding: 40px 50px; border-radius: 24px;
+    background: rgba(255, 255, 255, .06); border: 1.5px solid rgba(255, 255, 255, .14); }
+  .probs .label { color: #9fb0ff; }
+  .bars { margin-top: 26px; display: grid; gap: 18px; }
+  .bar { display: grid; grid-template-columns: 220px 1fr 110px; align-items: center; gap: 24px; font: 600 36px/1 Inter, sans-serif; }
+  .bar .track { height: 40px; border-radius: 12px; background: rgba(255, 255, 255, .08); overflow: hidden; }
+  .bar .fill { height: 100%; border-radius: 12px; background: linear-gradient(90deg, #5b74ff, #8b5cf6); }
+  .bar.top { color: #fff; }
+  .bar.top .fill { background: linear-gradient(90deg, #22c58b, #6fd8c0); }
+  .bar:not(.top) { color: #c7cdf5; }
+  .bar .pct { text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 32px; }
+  .probs-note { position: absolute; right: 50px; top: 42px; font: 400 20px/1 Inter, sans-serif; color: #9aa3d6; }
 </style>
 </head>
 <body>
@@ -371,6 +388,20 @@
         <div class="cap"><small>Résultat</small><b>Reconnu</b></div></div>
     </div>
     <p class="layers-credits">Photo : chat tigré, Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0 · contours calculés automatiquement à partir de la photo ; formes et morceaux schématisés pour l'illustration</p>
+  </div>
+</section>
+
+<!-- ===================================================== 01 · Prédire le mot suivant (remplace la page 8 du PDF) -->
+<section class="slide dark c01" id="prediction">
+  <div class="content">
+    <div class="kicker">01 · Fonctionnement</div>
+    <h1 class="sm">Elle prédit le mot le plus probable</h1>
+    <div class="sentence">« Le chat est sur le <span class="blank">?</span> »</div>
+    <div class="probs" data-zone="probs">
+      <div class="label">Ce que la machine envisage</div>
+      <span class="probs-note">Chiffres donnés à titre d'exemple</span>
+      <div class="bars"><div class="bar top"><span>tapis</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="pct">41&nbsp;%</span></div><div class="bar"><span>canapé</span><div class="track"><div class="fill" style="width:56%"></div></div><span class="pct">23&nbsp;%</span></div><div class="bar"><span>toit</span><div class="track"><div class="fill" style="width:34%"></div></div><span class="pct">14&nbsp;%</span></div><div class="bar"><span>lit</span><div class="track"><div class="fill" style="width:22%"></div></div><span class="pct">9&nbsp;%</span></div><div class="bar"><span>rebord</span><div class="track"><div class="fill" style="width:12%"></div></div><span class="pct">5&nbsp;%</span></div></div>
+    </div>
   </div>
 </section>
 

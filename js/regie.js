@@ -189,7 +189,7 @@
     const cfg = slideCfg(n);
     const list = cfg.elements || [];
     const box = $('#interactions');
-    const answers = list.filter((e) => e.type === 'answer');
+    const answers = list.filter((e) => e.type === 'answer' || e.type === 'cover');
     const zones = list.filter((e) => e.type === 'zone');
     let html = '';
     if (cfg.links?.length) {
@@ -247,7 +247,7 @@
   }
   function revealNext() {
     const n = bus.state.slide;
-    const next = (slideCfg(n).elements || []).find((e) => e.type === 'answer' && bus.state.reveals[n + ':' + e.id] == null);
+    const next = (slideCfg(n).elements || []).find((e) => (e.type === 'answer' || e.type === 'cover') && bus.state.reveals[n + ':' + e.id] == null);
     if (next) bus.dispatch({ type: 'reveal', slide: n, el: next.id, value: next.answer ?? 0 });
     return !!next;
   }

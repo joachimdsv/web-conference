@@ -13,7 +13,8 @@
  *     links    : sites à ouvrir pendant la démo [{ label, url }]
  *     elements : éléments interactifs posés sur la diapo, révélés en direct
  *        rect    : [gauche, haut, largeur, hauteur] en % de la diapo
- *        type    : 'answer' (cadre + étiquette révélée) ou 'zone' (emplacement pour une image / vidéo)
+ *        type    : 'answer' (cadre + étiquette révélée), 'zone' (emplacement pour une image / vidéo)
+ *                  ou 'cover' (cache retiré à la révélation ; text = texte affiché sur le cache)
  *        choices : étiquettes possibles pour 'answer' ; answer = index de la bonne réponse
  *        pill    : 'bottom' pour placer l'étiquette en bas au centre, 'none' pour n'afficher que le cadre (sinon à droite)
  *        fit     : 'contain' pour afficher l'image entière dans une zone (sinon recadrée)
@@ -80,7 +81,10 @@ window.DECK = {
     },
     9: {
       title: 'Prédire le mot suivant', minutes: 1.5,
-      notes: "🎯 Elle devine la suite la plus probable… pas forcément la vraie.\n⚙️ Faire compléter par la salle : « Le chat est sur le… » → tapis ! (ou toit, canapé).\n• « Vous venez de faire exactement ce que fait ChatGPT : deviner le mot le plus probable, d'après tout ce que vous avez déjà lu ou entendu. »\n• Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.\n• Le point essentiel : elle cherche ce qui est probable, pas ce qui est vrai. Le plus souvent c'est la même chose… mais pas toujours. C'est pour ça qu'elle peut inventer avec beaucoup d'assurance.",
+      notes: "🎯 Elle devine la suite la plus probable… pas forcément la vraie.\n⚙️ Les probabilités sont cachées au départ. Faire compléter par la salle : « Le chat est sur le… ? » Laisser répondre (tapis, canapé, toit…).\n• « Vous venez de faire exactement ce que fait ChatGPT : deviner le mot le plus probable, d'après tout ce que vous avez déjà lu ou entendu. »\n⚙️ Révéler les probabilités (touche R) : « Voilà ce que la machine envisage. Elle ne connaît pas la réponse : elle classe les possibilités. Ici, \"tapis\" est le plus probable, donc elle choisit \"tapis\". »\n• Préciser : « Les chiffres sont un exemple, mais c'est vraiment comme ça qu'elle fonctionne. »\n• Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.\n• Le point essentiel : elle cherche ce qui est probable, pas ce qui est vrai. Le plus souvent c'est la même chose… mais pas toujours. C'est pour ça qu'elle peut inventer avec beaucoup d'assurance.\n➡️ « Mais pour deviner aussi bien, il faut avoir énormément lu… et avoir été corrigé. C'est ce qu'on appelle l'apprentissage, en deux étapes. »",
+      elements: [
+        { id: 'probs', type: 'cover', label: 'Probabilités', rect: [7.8, 48.1, 84.4, 40.7], choices: ['Visibles'], answer: 0, text: 'Que va choisir la machine ?' },
+      ],
     },
     10: {
       title: 'Les tokens', skip: true, minutes: 0,

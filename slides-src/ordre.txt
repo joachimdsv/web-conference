@@ -11,7 +11,7 @@ demo definition
 demo histoire
 demo apprendre
 demo couches
-page 08
+demo prediction
 page 09
 page 10
 page 11

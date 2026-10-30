@@ -87,6 +87,11 @@
           const color = CHOICE_COLORS[v % CHOICE_COLORS.length];
           return `<div class="el el-answer${e.pill === 'bottom' ? ' pill-bottom' : ''}" style="${pos};--c:${color}">${e.pill === 'none' ? '' : `<span class="el-pill">${esc(e.choices[v])}</span>`}</div>`;
         }
+        if (e.type === 'cover') {
+          // Cache posé sur une partie de la diapo, retiré quand on le révèle
+          if (state.reveals[k] != null) return '';
+          return `<div class="el el-cover" style="${pos}"><span>${esc(e.text || '?')}</span></div>`;
+        }
         return '';
       }));
       if (key === lastElsKey) els.innerHTML = parts.join('');

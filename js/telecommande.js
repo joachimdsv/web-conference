@@ -74,7 +74,7 @@
     $('#r-video').hidden = !isPlayable;
     $('#r-close-ov').hidden = !ov || isPlayable;
     const els = deck && deck.elements[n];
-    $('#r-inter').hidden = !(els && els.some((e) => e.type === 'answer'));
+    $('#r-inter').hidden = !(els && els.some((e) => e.type === 'answer' || e.type === 'cover'));
     $('#r-zoom-btn').classList.toggle('is-on', !!state.zoom || zoomMode);
     setStatus(m.screen ? 'Connectée · écran public actif' : 'Connectée · écran public fermé', true);
     $$('.r-lib-item').forEach((b) => b.classList.toggle('is-live', !!ov && ov.id === b.dataset.id));
@@ -113,7 +113,7 @@
   $('#r-vmute').onclick = () => send({ t: 'video', cmd: { cmd: 'mute', m: !(vstat && vstat.muted) } });
   $('#r-vclose').onclick = $('#r-ovclose').onclick = () => act({ type: 'overlay', value: null });
   $('#r-reveal-next').onclick = () => {
-    const els = (deck.elements[state.slide] || []).filter((e) => e.type === 'answer');
+    const els = (deck.elements[state.slide] || []).filter((e) => e.type === 'answer' || e.type === 'cover');
     const next = els.find((e) => state.reveals[state.slide + ':' + e.id] == null);
     if (next) act({ type: 'reveal', slide: state.slide, el: next.id, value: next.answer ?? 0 });
   };

@@ -162,7 +162,7 @@
       case 'revealAll': {
         s.reveals = { ...s.reveals };
         for (const el of slideCfg(a.slide).elements || []) {
-          if (el.type !== 'answer') continue;
+          if (el.type !== 'answer' && el.type !== 'cover') continue;
           const k = a.slide + ':' + el.id;
           if (a.hide) delete s.reveals[k]; else s.reveals[k] = el.answer ?? 0;
         }

@@ -136,10 +136,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Elle devine la suite la plus probable… pas forcément la vraie.**
 
-- *⚙️ Faire compléter par la salle : « Le chat est sur le… » → tapis ! (ou toit, canapé).*
+- *⚙️ Les probabilités sont cachées au départ. Faire compléter par la salle : « Le chat est sur le… ? » Laisser répondre (tapis, canapé, toit…).*
 - « Vous venez de faire exactement ce que fait ChatGPT : deviner le mot le plus probable, d'après tout ce que vous avez déjà lu ou entendu. »
+- *⚙️ Révéler les probabilités (touche R) : « Voilà ce que la machine envisage. Elle ne connaît pas la réponse : elle classe les possibilités. Ici, "tapis" est le plus probable, donc elle choisit "tapis". »*
+- Préciser : « Les chiffres sont un exemple, mais c'est vraiment comme ça qu'elle fonctionne. »
 - Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.
 - Le point essentiel : elle cherche ce qui est probable, pas ce qui est vrai. Le plus souvent c'est la même chose… mais pas toujours. C'est pour ça qu'elle peut inventer avec beaucoup d'assurance.
+
+> ➡️ « Mais pour deviner aussi bien, il faut avoir énormément lu… et avoir été corrigé. C'est ce qu'on appelle l'apprentissage, en deux étapes. »
 
 ### 10 · Les tokens — ⏭️ sautée par défaut
 
