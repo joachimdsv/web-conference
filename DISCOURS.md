@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 44 diapos · environ 58 min 30 de conférence + 25 min de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 44 diapos · environ 59 min de conférence + 25 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -10,15 +10,15 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Partie | Diapos | Début prévu | Durée |
 |---|---|---|---|
 | Ouverture | 1-3 | 0:00 | 3 min 30 |
-| Chapitre 01 · Qu'est-ce que l'IA ? | 4-12 | 3:30 | 8 min |
-| Chapitre 02 · L'IA dans notre quotidien | 13-17 | 11:30 | 5 min |
-| Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 16:30 | 21 min 30 |
-| Chapitre 04 · Impacts et enjeux | 28-32 | 38:00 | 5 min |
-| Chapitre 05 · Les bonnes pratiques | 33-36 | 43:00 | 3 min 30 |
-| Chapitre 06 · Et demain ? + démo finale | 37-40 | 46:30 | 10 min |
-| Conclusion | 41-42 | 56:30 | 2 min |
-| Débat et fin | 43-44 | 58:30 | 26 min |
-| Marge de sécurité | | 1:24:30 | 5 min 30 |
+| Chapitre 01 · Qu'est-ce que l'IA ? | 4-12 | 3:30 | 8 min 30 |
+| Chapitre 02 · L'IA dans notre quotidien | 13-17 | 12:00 | 5 min |
+| Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 17:00 | 21 min 30 |
+| Chapitre 04 · Impacts et enjeux | 28-32 | 38:30 | 5 min |
+| Chapitre 05 · Les bonnes pratiques | 33-36 | 43:30 | 3 min 30 |
+| Chapitre 06 · Et demain ? + démo finale | 37-40 | 47:00 | 10 min |
+| Conclusion | 41-42 | 57:00 | 2 min |
+| Débat et fin | 43-44 | 59:00 | 26 min |
+| Marge de sécurité | | 1:25:00 | 5 min |
 
 Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
 
@@ -64,7 +64,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ---
 
-## Chapitre 01 · Qu'est-ce que l'IA ? (diapos 4 à 12, environ 8 min)
+## Chapitre 01 · Qu'est-ce que l'IA ? (diapos 4 à 12, environ 8 min 30)
 
 ### 4 · Chapitre 01 — Qu'est-ce que l'IA ? — 30 s · prévu à 3:30
 
@@ -90,18 +90,22 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Cette idée de machine intelligente n'est pas née avec ChatGPT… elle a plus de 70 ans. »
 
-### 6 · Histoire — 1 min 30 · prévu à 5:30
+### 6 · Histoire — 2 min · prévu à 5:30
 
-**🎯 L'idée est ancienne. Ce qui est nouveau, c'est que tout le monde y a accès.**
+**🎯 L'idée est ancienne ; ce qui change tout depuis peu, c'est que tout le monde y a accès… et qu'elle commence à agir seule.**
 
-- 1950 : Alan Turing, mathématicien britannique (celui qui a aidé à casser le code secret allemand Enigma), pose la question « Une machine peut-elle penser ? ». Il imagine un test : si, en discutant, on n'arrive pas à savoir si on parle à une machine ou à un humain…
-- 1956 : lors d'une conférence aux États-Unis (Dartmouth), des chercheurs inventent l'expression « intelligence artificielle ».
+- 1950 · Alan Turing (photo), mathématicien britannique qui a aidé à casser le code secret allemand Enigma, pose la question « Une machine peut-elle penser ? ». Il imagine un test : si, en discutant, on n'arrive pas à savoir si on parle à une machine ou à un humain, alors on peut dire qu'elle « pense ».
+- 1956 · John McCarthy (photo), chercheur américain, lance l'expression « intelligence artificielle » lors d'une conférence à Dartmouth, aux États-Unis. « Le mot a donc 70 ans cette année ! »
 - Ensuite : de grands espoirs, puis des déceptions qu'on a appelées les « hivers de l'IA ». Les ordinateurs étaient trop lents et il n'y avait pas assez de données.
-- 1997 : l'ordinateur Deep Blue d'IBM bat Garry Kasparov, champion du monde d'échecs. Mais il ne savait faire que ça : calculer des millions de coups.
-- 2012 : le « deep learning » (apprentissage profond). Grâce à internet, qui fournit énormément d'exemples, et aux puces des jeux vidéo, très puissantes, les machines apprennent enfin à reconnaître des images.
-- 2022 : ChatGPT. Pour la première fois, tout le monde peut parler à une IA en langage courant. Environ 100 millions d'utilisateurs en deux mois, selon les estimations : un record.
+- 1997 · Deep Blue (photo : la vraie machine d'IBM) bat Garry Kasparov, champion du monde d'échecs. Mais il ne savait faire que ça : calculer des millions de coups.
+- 2012 · Le deep learning. L'équipe de Geoffrey Hinton (photo) montre qu'une machine peut apprendre à reconnaître des images bien mieux qu'avant, grâce à internet (énormément d'exemples) et aux puces des jeux vidéo (beaucoup de puissance). Hinton a reçu le prix Nobel de physique en 2024.
+- 2022 · ChatGPT. Pour la première fois, tout le monde peut parler à une IA en langage courant. Environ 100 millions d'utilisateurs en deux mois, selon les estimations : un record.
+- 2025 · Les agents (photo : l'application Manus). On ne se contente plus de discuter avec l'IA : on lui confie une mission (comparer des offres, remplir un formulaire, préparer une présentation) et elle l'accomplit seule, en utilisant le web et des logiciels comme nous. C'est le grand changement de ces derniers mois, et on en reparlera à la fin.
+- Les photos viennent de Wikimedia Commons ; les crédits sont en bas de la diapo.
 
-### 7 · Apprendre par l'exemple — 1 min · prévu à 7:00
+> ➡️ « Mais comment une machine fait-elle pour apprendre ? C'est ce qui a tout changé. »
+
+### 7 · Apprendre par l'exemple — 1 min · prévu à 7:30
 
 **🎯 On ne lui écrit plus des règles : on lui montre des exemples.**
 
@@ -110,7 +114,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - C'est comme un enfant : on ne lui donne pas la définition d'un chat, on lui en montre, et il finit par les reconnaître.
 - Conséquence importante : elle est aussi bonne que les exemples qu'on lui donne. Si les exemples sont mauvais ou déséquilibrés, elle apprend de travers. (On y reviendra avec les « biais ».)
 
-### 8 · Réseaux de neurones — 30 s · prévu à 8:00
+### 8 · Réseaux de neurones — 30 s · prévu à 8:30
 
 **🎯 Un empilement de filtres, vaguement inspiré du cerveau.**
 
@@ -123,7 +127,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Personne n'écrit ces filtres : ils se règlent tout seuls pendant l'apprentissage, à force d'exemples.
 - Pas besoin d'en retenir plus : c'est cette mécanique qui a permis les progrès récents.
 
-### 9 · Prédire le mot suivant — 1 min 30 · prévu à 8:30
+### 9 · Prédire le mot suivant — 1 min 30 · prévu à 9:00
 
 **🎯 Elle devine la suite la plus probable… pas forcément la vraie.**
 
@@ -139,14 +143,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Elle ne manipule que des nombres : elle calcule, elle ne lit pas vraiment.
 - Anecdote : c'est pour ça qu'elle a parfois du mal à compter les lettres d'un mot, alors qu'elle écrit un poème sans difficulté.
 
-### 11 · Deux étapes d'apprentissage — 30 s · prévu à 10:00
+### 11 · Deux étapes d'apprentissage — 30 s · prévu à 10:30
 
 - 🔸 Peut être raccourcie.
 - Étape 1, le pré-entraînement : elle « lit » une immense quantité de textes (sites internet, livres, articles) et s'entraîne des milliards de fois à deviner le mot suivant. Elle devient très forte en langue… mais elle a aussi lu le pire d'internet.
 - Étape 2, l'ajustement humain : des personnes lui posent des questions et notent ses réponses (utile ? polie ? dangereuse ?). Elle apprend ainsi à se comporter en assistant serviable.
 - L'image : l'élève qui a lu toute la bibliothèque, puis le professeur qui corrige ses copies.
 
-### 12 · Familles d'IA — 1 min · prévu à 10:30
+### 12 · Familles d'IA — 1 min · prévu à 11:00
 
 **🎯 L'IA, ce n'est pas que ChatGPT.**
 
@@ -161,13 +165,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Chapitre 02 · L'IA dans notre quotidien (diapos 13 à 17, environ 5 min)
 
-### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 11:30
+### 13 · Chapitre 02 — Quotidien — 30 s · prévu à 12:00
 
 **🎯 Elle est déjà partout.**
 
 - « Vie de tous les jours, santé, industrie, culture : l'IA est déjà là, souvent sans qu'on la voie. »
 
-### 14 · L'IA sans le savoir — 1 min · prévu à 12:00
+### 14 · L'IA sans le savoir — 1 min · prévu à 12:30
 
 **🎯 Vous l'utilisez déjà sans le savoir.**
 
@@ -178,7 +182,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - *⚙️ Demander : « Combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
 - Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là.
 
-### 15 · Quiz — IA ou pas IA ? — 2 min 30 · prévu à 13:00
+### 15 · Quiz — IA ou pas IA ? — 2 min 30 · prévu à 13:30
 
 **🎯 Électronique ne veut pas dire IA.**
 
@@ -189,7 +193,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 4. Four à minuteur → PAS IA. C'est une simple minuterie.
 - Morale : ce n'est pas parce qu'un appareil est électronique, ou marqué « intelligent » sur l'emballage, que c'est de l'IA. L'IA, c'est quand la machine a appris à partir d'exemples.
 
-### 16 · Tous les métiers — 1 min · prévu à 15:30
+### 16 · Tous les métiers — 1 min · prévu à 16:00
 
 **🎯 Elle transforme presque tous les métiers.**
 
@@ -214,14 +218,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 21 min 30)
 
-### 18 · Chapitre 03 — En pratique — 30 s · prévu à 16:30
+### 18 · Chapitre 03 — En pratique — 30 s · prévu à 17:00
 
 **🎯 Annoncer la partie pratique.**
 
 - « On va faire un tour des outils, puis passer aux démonstrations, en direct, et à un petit jeu du vrai ou faux. »
 - **⏱️ POINT DE CONTRÔLE 1 : on devrait en être à 17 min. Plus de 5 min de retard ? Passer vite sur le panorama (diapo 19) et raccourcir les démos 5 et 6 (voir leurs notes). Le reste du retard sera pris sur le débat.**
 
-### 19 · Panorama — 1 min · prévu à 17:00
+### 19 · Panorama — 1 min · prévu à 17:30
 
 **🎯 Il existe une IA pour chaque besoin.**
 
@@ -233,7 +237,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Vision : Google Lens. On photographie une plante, un objet, un monument, et il l'identifie.
 - « Pas besoin de retenir les noms : ils changent tous les six mois. Retenez plutôt ce qu'on peut faire. »
 
-### 20 · Programme des démos — 30 s · prévu à 18:00
+### 20 · Programme des démos — 30 s · prévu à 18:30
 
 **🎯 Annoncer les 6 démos.**
 
@@ -242,7 +246,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Et pour finir, la démo finale : le site de la MJC.
 - *⚙️ Avant de commencer : internet OK, comptes connectés, son branché.*
 
-### 21 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 18:30
+### 21 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 19:00
 
 **🎯 On ne peut plus se fier à ses yeux seuls.**
 
@@ -253,7 +257,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - « Cette image a été fabriquée en quelques secondes, gratuitement, avec une simple phrase. »
 - *⚙️ Réponses par défaut : A = vraie photo, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
 
-### 22 · Démo 1 — Les indices — 1 min · prévu à 21:30
+### 22 · Démo 1 — Les indices — 1 min · prévu à 22:00
 
 **🎯 Quelques indices… mais surtout, vérifier la source.**
 
@@ -266,7 +270,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - LE réflexe : d'où vient cette image ? Qui l'a publiée ? Un média connu ? On peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
 - Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.
 
-### 23 · Démo 2 — Créer une affiche — 4 min · prévu à 22:30
+### 23 · Démo 2 — Créer une affiche — 4 min · prévu à 23:00
 
 **🎯 Plus la demande est précise, plus le résultat vous ressemble.**
 
@@ -291,7 +295,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 24 · Démo 3 — Vidéo : filmée ou générée ? — 2 min 30 · prévu à 26:30
+### 24 · Démo 3 — Vidéo : filmée ou générée ? — 2 min 30 · prévu à 27:00
 
 **🎯 Bientôt, une vidéo ne sera plus une preuve.**
 
@@ -308,7 +312,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Passons à des usages plus utiles au quotidien. »
 
-### 25 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 29:00
+### 25 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 29:30
 
 **🎯 Un gain de temps énorme… à condition de connaître les pièges.**
 
@@ -329,7 +333,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 26 · Démo 5 — Budget dans Excel — 2 min 30 · prévu à 33:00
+### 26 · Démo 5 — Budget dans Excel — 2 min 30 · prévu à 33:30
 
 **🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français.**
 
@@ -352,7 +356,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 27 · Démo 6 — Apprendre une langue — 2 min 30 · prévu à 35:30
+### 27 · Démo 6 — Apprendre une langue — 2 min 30 · prévu à 36:00
 
 **🎯 Un professeur patient, disponible à toute heure, qui ne juge pas.**
 
@@ -380,14 +384,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 5 min)
 
-### 28 · Chapitre 04 — Impacts — 30 s · prévu à 38:00
+### 28 · Chapitre 04 — Impacts — 30 s · prévu à 38:30
 
 **🎯 Annoncer les enjeux.**
 
 - « On a vu ce qu'elle sait faire. Regardons maintenant ce qu'elle change pour nous : les opportunités, les risques, et qui fixe les règles. »
 - **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 38 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 36 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
-### 29 · Opportunités / risques — 1 min · prévu à 38:30
+### 29 · Opportunités / risques — 1 min · prévu à 39:00
 
 **🎯 Ni bonne ni mauvaise : tout dépend de l'usage.**
 
@@ -403,7 +407,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - la dépendance, quand on perd l'habitude de réfléchir ou d'écrire par soi-même.
 - « C'est comme internet ou un couteau de cuisine : l'outil n'est ni bon ni mauvais, c'est l'usage qui compte. »
 
-### 30 · Questions éthiques — 1 min 30 · prévu à 39:30
+### 30 · Questions éthiques — 1 min 30 · prévu à 40:00
 
 **🎯 Quatre questions à se poser.**
 
@@ -412,7 +416,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Vie privée : ce que vous tapez peut être conservé et réutilisé. Il existe souvent un réglage pour le refuser.
 - Droits d'auteur : des livres, des articles de presse, des œuvres d'artistes ont servi à l'entraîner, souvent sans leur accord et sans rémunération. Des procès sont en cours, par exemple celui du New York Times contre OpenAI.
 
-### 31 · Qui décide des règles ? — 1 min · prévu à 41:00
+### 31 · Qui décide des règles ? — 1 min · prévu à 41:30
 
 **🎯 Il faut des règles, et l'Europe a été la première à en écrire.**
 
@@ -424,7 +428,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Démocratie : les fausses vidéos et les faux messages peuvent influencer les élections. En 2024, un faux message vocal imitant la voix de Joe Biden demandait aux électeurs de ne pas aller voter.
 - Souveraineté : quelques géants, surtout américains et chinois, concentrent cette technologie. L'Europe a aussi ses acteurs, comme Mistral AI en France.
 
-### 32 · Productivité — 1 min · prévu à 42:00
+### 32 · Productivité — 1 min · prévu à 42:30
 
 **🎯 Automatiser des tâches, pas des humains.**
 
@@ -445,13 +449,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 3 min 30)
 
-### 33 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 43:00
+### 33 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 43:30
 
 **🎯 Annoncer les 3 réflexes.**
 
 - « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
 
-### 34 · Le bon prompt — 1 min 30 · prévu à 43:30
+### 34 · Le bon prompt — 1 min 30 · prévu à 44:00
 
 **🎯 Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas.**
 
@@ -462,7 +466,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Rappel : c'est exactement ce qu'on a fait avec l'affiche. Chaque couleur était un ingrédient.
 - Astuce : si le résultat ne convient pas, on continue la conversation. « Plus court », « plus simple », « avec un exemple ».
 
-### 35 · Esprit critique — 1 min · prévu à 45:00
+### 35 · Esprit critique — 1 min · prévu à 45:30
 
 **🎯 Faites confiance, mais vérifiez.**
 
@@ -471,7 +475,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Relire : vous êtes responsable de ce que vous utilisez ou envoyez.
 - La règle d'or : jamais de données personnelles, médicales ou confidentielles. « N'écrivez rien que vous ne mettriez pas sur une carte postale. »
 
-### 36 · À faire / à éviter — 30 s · prévu à 46:00
+### 36 · À faire / à éviter — 30 s · prévu à 46:30
 
 **🎯 Un assistant, pas un cerveau de remplacement.**
 
@@ -492,7 +496,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 10 min)
 
-### 37 · Et demain ? — 1 min · prévu à 46:30
+### 37 · Et demain ? — 1 min · prévu à 47:00
 
 **🎯 Ce qui arrive… et ce que vous en attendez.**
 
@@ -504,7 +508,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
 
-### 38 · Démo finale — Le site de la MJC — 1 min · prévu à 47:30
+### 38 · Démo finale — Le site de la MJC — 1 min · prévu à 48:00
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
 
@@ -516,7 +520,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
 - *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
 
-### 39 · Démo finale — Le cahier des charges — 7 min · prévu à 48:30
+### 39 · Démo finale — Le cahier des charges — 7 min · prévu à 49:00
 
 **🎯 On décrit, l'IA fabrique, on améliore ensemble.**
 
@@ -540,7 +544,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 40 · Démo finale — Bilan — 1 min · prévu à 55:30
+### 40 · Démo finale — Bilan — 1 min · prévu à 56:00
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -562,7 +566,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Conclusion (diapos 41 à 42, environ 2 min)
 
-### 41 · 3 choses à retenir — 1 min · prévu à 56:30
+### 41 · 3 choses à retenir — 1 min · prévu à 57:00
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -572,7 +576,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
 - **⏱️ Prévu à 57 min. Le débat doit commencer vers 59 min, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
 
-### 42 · Pour essayer chez vous — 1 min · prévu à 57:30
+### 42 · Pour essayer chez vous — 1 min · prévu à 58:00
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -594,7 +598,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ## Débat et fin (diapos 43 à 44, environ 26 min)
 
-### 43 · Débat — 25 min · prévu à 58:30
+### 43 · Débat — 25 min · prévu à 59:00
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -615,7 +619,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Merci pour ces échanges… »
 
-### 44 · Merci ! — 1 min · prévu à 1:23:30
+### 44 · Merci ! — 1 min · prévu à 1:24:00
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 
