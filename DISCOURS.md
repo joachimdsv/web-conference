@@ -213,14 +213,16 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 15 · Quiz — IA ou pas IA ? — 2 min 30 · prévu à 15:00
 
-**🎯 Électronique ne veut pas dire IA.**
+**🎯 Électronique ne veut pas dire IA : l'IA, c'est quand la machine a appris à partir d'exemples.**
 
-- *⚙️ Pour chaque proposition : « Qui pense que c'est de l'IA ? », mains levées, puis révéler avec la touche R.*
-- 1. Calculatrice → PAS IA. Elle applique des règles fixes, donne toujours la même réponse et n'apprend rien.
-- 2. GPS qui recalcule → IA, en partie. Le calcul du trajet est un programme classique, mais la prévision des bouchons vient d'une IA qui apprend de millions de trajets.
-- 3. Déverrouillage par le visage → IA. Une reconnaissance faciale apprise sur des exemples, qui s'adapte même si vous mettez des lunettes ou laissez pousser la barbe.
-- 4. Four à minuteur → PAS IA. C'est une simple minuterie.
-- Morale : ce n'est pas parce qu'un appareil est électronique, ou marqué « intelligent » sur l'emballage, que c'est de l'IA. L'IA, c'est quand la machine a appris à partir d'exemples.
+- *⚙️ Pour chaque proposition : « Qui pense que c'est de l'IA ? » (mains levées), puis touche R pour révéler.*
+- 1. Une calculatrice → PAS IA : « Elle applique des règles fixes. 2 + 2, c'est toujours 4 : elle n'a rien appris, elle calcule. » (départ facile pour lancer le jeu)
+- 2. Les sous-titres automatiques (YouTube, la télé…) → IA : « Elle a appris à reconnaître la voix humaine en écoutant des milliers d'heures d'enregistrements. C'est pour ça qu'elle se trompe parfois avec un accent ou du bruit. »
+- 3. Une machine à laver « intelligente » → PAS IA (le piège) : « Le plus souvent, ce sont des programmes et des capteurs réglés d'avance : elle pèse le linge et choisit dans un tableau. Le mot "intelligent" sur l'emballage, c'est souvent du marketing. »
+- 4. Le parking sans ticket → IA (la surprise) : « Une caméra lit votre plaque d'immatriculation. Et pour lire des lettres sur une plaque sale, de nuit, en biais, il a fallu une IA entraînée sur des milliers de photos de plaques. »
+- Morale : « Ce n'est pas parce qu'un appareil est électronique, ou marqué "intelligent", que c'est de l'IA. Et à l'inverse, elle se cache parfois là où on ne l'attend pas. L'IA, c'est quand la machine a appris à partir d'exemples. »
+
+> ➡️ « Et ça ne concerne pas que nos appareils à la maison : tous les métiers sont touchés. »
 
 ### 16 · Tous les métiers — 1 min · prévu à 17:30
 

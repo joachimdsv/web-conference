@@ -17,7 +17,7 @@ demo etapes
 demo familles
 demo chapitre-02
 demo sans-le-savoir
-page 14
+demo quiz
 page 15
 page 16
 # Chapitre 03 — en pratique
