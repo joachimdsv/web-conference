@@ -292,7 +292,7 @@
       radial-gradient(900px 700px at 0% 100%, rgba(40, 70, 170, .55), transparent 70%),
       radial-gradient(1000px 700px at 85% 10%, rgba(20, 120, 160, .55), transparent 70%),
       linear-gradient(135deg, #070b2a, #0f1a50 60%, #14205e); }
-  .chap::after { background: linear-gradient(90deg, #1596b8, #3b82c2, #4b5fe0); }
+  .chap-light::after, .chap::after { background: linear-gradient(90deg, #1596b8, #3b82c2, #4b5fe0); }
   .chap .big { position: absolute; right: 90px; top: 50%; transform: translateY(-50%); font: 800 760px/1 Sora, sans-serif;
     letter-spacing: -.04em; color: rgba(120, 160, 255, .09); }
   .chap .inner { position: absolute; left: 150px; right: 150px; top: 50%; transform: translateY(-50%); }
@@ -301,6 +301,19 @@
   .chap h1 { font: 800 118px/1.02 Sora, sans-serif; letter-spacing: -.035em; margin: 50px 0 60px; }
   .chap .chips { gap: 22px; }
   .chap .chip { font-size: 32px; padding: 20px 32px; }
+  /* Sans le savoir */
+  .day { position: absolute; left: 150px; right: 150px; top: 200px; height: 560px;
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px; }
+  .day .card { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+    padding: 40px 30px; border-top-color: var(--a); }
+  .day .badge { width: 132px; height: 132px; border-radius: 34px; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); }
+  .day .badge svg { width: 68px; height: 68px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .day .when { font: 700 26px/1 'JetBrains Mono', monospace; letter-spacing: .16em; text-transform: uppercase; color: var(--a); margin-top: 52px; }
+  .day h3 { font: 700 52px/1.05 Sora, sans-serif; letter-spacing: -.02em; margin: 20px 0 0; }
+  .ask { position: absolute; left: 50%; bottom: 120px; transform: translateX(-50%); white-space: nowrap;
+    font: 700 46px/1 Sora, sans-serif; letter-spacing: -.01em; color: #fff; background: linear-gradient(90deg, #1596b8, #4b5fe0);
+    padding: 34px 56px; border-radius: 99px; box-shadow: 0 20px 50px rgba(40, 90, 190, .3); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -518,6 +531,25 @@
     <h1>L'IA dans notre quotidien</h1>
     <div class="chips"><span class="chip">Sans le savoir</span><span class="chip">Quiz&nbsp;: IA ou pas&nbsp;?</span><span class="chip">Tous les métiers</span></div>
   </div>
+</section>
+
+<!-- ===================================================== 02 · Sans le savoir (remplace la page 13 du PDF) -->
+<section class="slide light chap-light" id="sans-le-savoir">
+  <div class="content">
+    <div class="kicker" style="color:#1596b8">02 · Quotidien</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="day">
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div>
+      <div class="when">Matin</div><h3>Trajet</h3></div>
+    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div>
+      <div class="when">Journée</div><h3>Smartphone</h3></div>
+    <div class="card" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+      <div class="when">Travail</div><h3>Messagerie</h3></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></div>
+      <div class="when">Soirée</div><h3>Achats</h3></div>
+  </div>
+  <div class="ask">Et vous, combien en avez-vous croisé aujourd'hui&nbsp;?</div>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

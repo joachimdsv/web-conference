@@ -200,14 +200,16 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 14 · L'IA sans le savoir — 1 min · prévu à 14:00
 
-**🎯 Vous l'utilisez déjà sans le savoir.**
+**🎯 Vous l'utilisez déjà sans le savoir. (1 min ; les exemples sont à l'oral, les cartes ne montrent que le moment)**
 
-- MATIN : l'appli météo (prévisions) et le GPS qui vous fait éviter les bouchons.
-- JOURNÉE : le téléphone qui classe vos photos par visage, le clavier qui vous propose le mot suivant (c'est le principe de ChatGPT en miniature !) et l'assistant vocal.
-- TRAVAIL : le filtre anti-spam et la traduction automatique.
-- SOIRÉE : Netflix, YouTube et Spotify qui vous recommandent quoi regarder ou écouter.
-- *⚙️ Demander : « Combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
-- Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là.
+- Matin, Trajet : « Le matin, le GPS qui vous fait éviter les bouchons : il prédit le trafic à partir des déplacements de millions de téléphones. »
+- Journée, Smartphone : « Dans la journée, votre téléphone classe vos photos par visage… et le clavier vous propose le mot suivant. C'est le principe de ChatGPT, en miniature ! »
+- Travail, Messagerie : « Au travail, les spams sont triés tout seuls, et la traduction automatique vous dépanne. »
+- Soirée, Achats : « Le soir, si vous payez en ligne, votre banque bloque un paiement qui paraît suspect. Et les sites marchands vous proposent "vous aimerez aussi…". Et Netflix, on en a déjà parlé ! »
+- *⚙️ Montrer la question en bas : « Et vous, combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
+- Conclure : « Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là. »
+
+> ➡️ « Bon, maintenant que vous êtes des experts… on va vérifier ça avec un petit quiz ! »
 
 ### 15 · Quiz — IA ou pas IA ? — 2 min 30 · prévu à 15:00
 
