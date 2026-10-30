@@ -175,18 +175,18 @@
   /* Chapitre 01 */
   .c01::after { background: linear-gradient(90deg, #4b5fe0, #6a5cf0, #8b5cf6); }
   .c01 .kicker { color: #9fb0ff; }
-  .def-points { list-style: none; padding: 0; margin: 80px 0 0; display: grid; gap: 40px; }
-  .def-points li { display: grid; grid-template-columns: 34px 1fr; column-gap: 26px; align-items: baseline; }
-  .def-points i { width: 22px; height: 22px; border-radius: 50%; background: var(--c); transform: translateY(-4px); }
-  .def-points b { font: 700 48px/1.1 Sora, sans-serif; }
-  .def-points span { grid-column: 2; font: 400 28px/1.4 Inter, sans-serif; color: #c7cdf5; margin-top: 8px; }
-  .quote { position: absolute; left: 1090px; right: 150px; top: 400px; padding: 54px 56px 46px; border-radius: 24px;
+  .def-points { list-style: none; padding: 0; margin: 0; position: absolute; left: 150px; width: 860px; top: 50%; transform: translateY(-46%); display: grid; gap: 64px; }
+  .def-points li { display: grid; grid-template-columns: 40px 1fr; column-gap: 30px; align-items: baseline; }
+  .def-points i { width: 28px; height: 28px; border-radius: 50%; background: var(--c); transform: translateY(-4px); }
+  .def-points b { font: 700 66px/1.1 Sora, sans-serif; }
+  .def-points span { grid-column: 2; font: 400 36px/1.4 Inter, sans-serif; color: #c7cdf5; margin-top: 10px; }
+  .quote { position: absolute; left: 1020px; right: 150px; top: 50%; transform: translateY(-46%); padding: 60px 60px 50px; border-radius: 24px;
     background: rgba(255, 255, 255, .06); border: 1.5px solid rgba(255, 255, 255, .14); }
   .quote .label { color: #9fb0ff; }
-  .quote blockquote { margin: 26px 0 0; font: 500 38px/1.42 Inter, sans-serif; color: #fff; }
+  .quote blockquote { margin: 28px 0 0; font: 500 44px/1.4 Inter, sans-serif; color: #fff; }
   .quote blockquote::before { content: '« '; color: #8b9cff; }
   .quote blockquote::after { content: ' »'; color: #8b9cff; }
-  .quote cite { display: block; margin-top: 34px; font: 400 20px/1.4 Inter, sans-serif; font-style: normal; color: #9aa3d6; }
+  .quote cite { display: block; margin-top: 38px; font: 400 22px/1.4 Inter, sans-serif; font-style: normal; color: #9aa3d6; }
 </style>
 </head>
 <body>
@@ -224,7 +224,6 @@
 <section class="slide dark c01" id="definition">
   <div class="content">
     <div class="kicker">01 · Définition</div>
-    <h1 class="sm">Une machine qui imite<br>des capacités humaines</h1>
     <ul class="def-points">
       <li><i style="--c:#5b74ff"></i><b>Percevoir</b><span>voir, entendre, lire son environnement</span></li>
       <li><i style="--c:#22c58b"></i><b>Apprendre</b><span>s'améliorer à partir d'exemples</span></li>
