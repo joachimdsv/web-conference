@@ -228,7 +228,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Elle transforme presque tous les métiers. (1 min : une phrase par secteur ; en retard, garder Santé, Agriculture, Industrie)**
 
-- Santé : « Elle aide à repérer des anomalies sur les radios et les scanners… mais c'est toujours le médecin qui décide. »
+- Santé : « Elle aide à repérer des anomalies sur les radios et les scanners… mais c'est toujours le médecin qui décide.  Et elle aide même la recherche : une IA, AlphaFold, a permis de comprendre la forme des protéines, ce qui accélère la création de médicaments. Ses créateurs ont reçu le prix Nobel de chimie en 2024. »
 - Éducation : « Des exercices qui s'adaptent au niveau de chaque élève, de l'aide aux devoirs. »
 - Agriculture : « Des drones et des capteurs surveillent les cultures et les prés, pour arroser ou traiter seulement là où il faut. »
 - Industrie : « Elle prévoit une panne avant qu'elle arrive, et des caméras contrôlent la qualité des pièces. Ici, dans les Vosges, ça concerne aussi bien une scierie qu'une usine. »
@@ -241,12 +241,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 17 · Usages surprenants — ⏭️ sautée par défaut
 
-- ⏭️ Sautée par défaut pour tenir 1 h 30 : les flèches passent directement de la diapo 16 à la 18. Pour l'afficher quand même, tapez 17 puis Entrée. Pour la remettre dans le déroulé, retirez « skip: true » dans js/deck.js.
-- Les protéines : AlphaFold, une IA de Google DeepMind, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments. Ses créateurs ont reçu le prix Nobel de chimie 2024.
-- Le tri des déchets : dans les centres de tri, des caméras et des bras robotisés reconnaissent le plastique, le carton ou le métal sur les tapis.
-- La traduction en direct : vous parlez dans votre langue, votre interlocuteur vous entend dans la sienne, presque instantanément.
+- ⏭️ Diapo de réserve, sautée par défaut pour tenir 1 h 30 : les flèches passent de la 16 à la 18. Pour l'afficher (temps en plus, question sur la santé ou l'environnement), tapez 17 puis Entrée. Pour la remettre dans le déroulé, retirez « skip: true » dans js/deck.js (compter 1 min).
+**🎯 Elle sert aussi là où on ne l'attend pas.**
 
-> ➡️ « Assez parlé : place à la pratique ! »
+- Les protéines : « Une IA de Google DeepMind, AlphaFold, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments. Ses créateurs ont reçu le prix Nobel de chimie 2024. » (déjà cité en une phrase sur la diapo 16)
+- Le tri des déchets : « Dans les centres de tri, des caméras et des bras robotisés reconnaissent le plastique, le carton ou le métal sur les tapis. »
+- La traduction en direct : « Vous parlez dans votre langue, votre interlocuteur vous entend dans la sienne, presque instantanément. » (on y reviendra avec la démo langue)
+
+> ➡️ « Assez de théorie : maintenant, je vais vous montrer ce qu'elle sait faire… en direct. »
 
 ---
 

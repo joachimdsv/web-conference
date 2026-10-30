@@ -19,7 +19,7 @@ demo chapitre-02
 demo sans-le-savoir
 demo quiz
 demo metiers
-page 16
+demo usages
 # Chapitre 03 — en pratique
 page 17
 page 18
