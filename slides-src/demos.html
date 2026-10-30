@@ -276,6 +276,17 @@
   .tok-fun svg { width: 56px; height: 56px; flex: none; stroke: #ffc53d; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .tok-fun b { color: #ffc53d; }
   .tok-note { position: absolute; left: 150px; bottom: 50px; font: 400 18px/1 Inter, sans-serif; color: #9aa3d6; }
+
+  /* Deux étapes d'apprentissage */
+  .two-steps { position: absolute; left: 150px; right: 150px; top: 200px; bottom: 120px; display: grid; grid-template-columns: 1fr 90px 1fr; align-items: stretch; }
+  .two-steps .card { padding: 0; overflow: hidden; display: flex; flex-direction: column; border-top: 0; }
+  .two-steps img { width: 100%; flex: 1; min-height: 0; object-fit: cover; display: block; }
+  .two-steps .txt { padding: 30px 40px 36px; display: flex; align-items: center; gap: 26px; }
+  .two-steps .num { width: 72px; height: 72px; font-size: 36px; background: var(--c); }
+  .two-steps h3 { font-size: 46px; margin: 0; }
+  .two-steps p { font-size: 28px; margin-top: 6px; }
+  .two-steps .sep { display: grid; place-items: center; font: 800 64px/1 Inter, sans-serif; color: #7f8fe0; }
+  .two-credits { position: absolute; left: 150px; right: 150px; bottom: 50px; font: 400 16px/1.4 Inter, sans-serif; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -439,6 +450,21 @@
     <span class="toks"><span class="tok" style="--c:#5b74ff">Bon</span><span class="tok" style="--c:#18b48a">jour</span><span class="tok" style="--c:#f59e0b"> à</span><span class="tok" style="--c:#ff5c86"> tous</span></span>
   </div>
   <div class="tok-row2"><span class="tok-arrow">↓</span><span class="nums">[ 38, 9247, 1225, 14315 ]</span></div>
+</section>
+
+<!-- ===================================================== 01 · Deux étapes d'apprentissage (remplace la page 10 du PDF) -->
+<section class="slide light c01" id="etapes">
+  <div class="content">
+    <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
+  </div>
+  <div class="two-steps">
+    <div class="card"><img src="images/apprentissage/bibliotheque.jpg" alt="" style="object-position:50% 45%">
+      <div class="txt"><div class="num" style="--c:#4b5fe0">1</div><div><h3>Elle lit</h3><p>Des milliards de textes</p></div></div></div>
+    <div class="sep">→</div>
+    <div class="card"><img src="images/apprentissage/correction.jpg" alt="" style="object-position:50% 55%">
+      <div class="txt"><div class="num" style="--c:#18b48a">2</div><div><h3>On la corrige</h3><p>Des humains notent ses réponses</p></div></div></div>
+  </div>
+  <p class="two-credits">Photos Wikimedia Commons : Long Room, Trinity College Dublin, David Iliff (Diliff), CC BY-SA 4.0 · enseignant corrigeant au stylo rouge, Mawakhiwe, CC BY-SA 4.0</p>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

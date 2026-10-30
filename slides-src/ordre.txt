@@ -13,7 +13,7 @@ demo apprendre
 demo couches
 demo prediction
 demo tokens
-page 10
+demo etapes
 page 11
 page 12
 page 13
