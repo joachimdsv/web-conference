@@ -18,7 +18,7 @@ demo familles
 demo chapitre-02
 demo sans-le-savoir
 demo quiz
-page 15
+demo metiers
 page 16
 # Chapitre 03 — en pratique
 page 17

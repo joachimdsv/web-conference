@@ -226,15 +226,18 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 16 · Tous les métiers — 1 min · prévu à 17:30
 
-**🎯 Elle transforme presque tous les métiers.**
+**🎯 Elle transforme presque tous les métiers. (1 min : une phrase par secteur ; en retard, garder Santé, Agriculture, Industrie)**
 
-- Santé : elle aide à repérer des anomalies sur les radios et les scanners. C'est le médecin qui décide.
-- Éducation : des exercices adaptés au niveau de chaque élève, de l'aide aux devoirs.
-- Agriculture : drones et capteurs pour surveiller les cultures, et arroser ou traiter seulement là où il faut.
-- Industrie : prévoir une panne avant qu'elle arrive, contrôler la qualité avec des caméras.
-- Transport : l'aide à la conduite (freinage d'urgence, maintien dans la voie) et l'optimisation des tournées de livraison.
-- Culture : musique, images, écriture, effets spéciaux au cinéma.
-- Message : elle change la façon de travailler dans la plupart des métiers.
+- Santé : « Elle aide à repérer des anomalies sur les radios et les scanners… mais c'est toujours le médecin qui décide. »
+- Éducation : « Des exercices qui s'adaptent au niveau de chaque élève, de l'aide aux devoirs. »
+- Agriculture : « Des drones et des capteurs surveillent les cultures et les prés, pour arroser ou traiter seulement là où il faut. »
+- Industrie : « Elle prévoit une panne avant qu'elle arrive, et des caméras contrôlent la qualité des pièces. Ici, dans les Vosges, ça concerne aussi bien une scierie qu'une usine. »
+- Transport : « Le freinage d'urgence automatique, le maintien dans la voie… et l'optimisation des tournées de livraison. »
+- Culture : « De la musique, des images, des textes, et des effets spéciaux au cinéma. »
+- *⚙️ Question à la salle : « Et vous, dans votre métier, vous l'avez déjà vue arriver ? » (quelques réponses, ça prépare le débat)*
+- Conclure : « Elle change la façon de travailler dans la plupart des métiers. »
+
+> ➡️ « Assez de théorie : maintenant, je vais vous montrer ce qu'elle sait faire… en direct. »
 
 ### 17 · Usages surprenants — ⏭️ sautée par défaut
 
