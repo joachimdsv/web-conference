@@ -76,14 +76,18 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 5 · Définition — 1 min 30 · prévu à 4:00
 
-**🎯 L'IA imite certaines capacités humaines, mais elle ne pense pas.**
+**🎯 L'IA imite certaines capacités humaines, mais elle ne pense pas comme nous.**
 
-- Définition simple : un programme informatique capable de faire des choses qui demandent normalement de l'intelligence humaine.
-- Percevoir : voir (reconnaître un visage sur une photo) et entendre (comprendre « Dis Siri » ou « Ok Google »).
-- Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une.
-- Décider : choisir une action, comme proposer un itinéraire, un film ou une réponse.
-- Ce qu'elle n'est pas : elle n'a ni conscience, ni émotions, ni intentions. Elle ne « comprend » pas comme nous.
-- L'image à retenir : un perroquet extraordinairement doué qui aurait lu toute une bibliothèque. Il parle très bien… sans savoir de quoi il parle.
+- Lire la définition officielle de l'encadré, celle du Parlement européen : « L'IA désigne la possibilité pour une machine de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité. »
+- La traduire simplement : « Autrement dit, un programme capable de faire des choses qui, jusqu'ici, demandaient l'intelligence d'un humain. »
+- Concrètement, elle sait faire trois choses :
+  - Percevoir : voir (reconnaître un visage sur une photo), entendre (comprendre « Dis Siri »), lire un texte ;
+  - Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une ;
+  - Décider : choisir une action pour atteindre un but, comme proposer un itinéraire, un film ou une réponse.
+- Ce qu'elle n'est pas : elle n'a ni conscience, ni émotions, ni intentions. Ce qu'elle « comprend » vraiment fait encore débat chez les spécialistes… on pourra en reparler pendant le débat.
+- L'image à retenir : un perroquet extraordinairement doué qui aurait lu toute une bibliothèque. Il parle très bien… sans savoir de quoi il parle. (Marquer une petite pause.)
+
+> ➡️ « Cette idée de machine intelligente n'est pas née avec ChatGPT… elle a plus de 70 ans. »
 
 ### 6 · Histoire — 1 min 30 · prévu à 5:30
 
