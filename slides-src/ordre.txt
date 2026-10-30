@@ -9,7 +9,7 @@ demo brise-glace
 page 03
 demo definition
 demo histoire
-page 06
+demo apprendre
 page 07
 page 08
 page 09

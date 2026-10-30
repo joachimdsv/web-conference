@@ -110,9 +110,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 On ne lui écrit plus des règles : on lui montre des exemples.**
 
 - AVANT : on programmait chaque règle à la main. Pour reconnaître un chat : « deux oreilles pointues, des moustaches… ». Impossible ! Un chat de dos, dans le noir ou à moitié caché ne respecte aucune règle.
-- MAINTENANT : on lui montre des milliers de photos marquées « chat » ou « pas chat », et elle trouve elle-même ce qu'elles ont en commun.
+- MAINTENANT : on lui montre des milliers de photos marquées « chat » ou « pas chat » (montrer les photos et le chien !), et elle trouve elle-même ce qu'elles ont en commun.
 - C'est comme un enfant : on ne lui donne pas la définition d'un chat, on lui en montre, et il finit par les reconnaître.
 - Conséquence importante : elle est aussi bonne que les exemples qu'on lui donne. Si les exemples sont mauvais ou déséquilibrés, elle apprend de travers. (On y reviendra avec les « biais ».)
+
+> ➡️ « Et comment fait-elle, concrètement, pour trouver ces points communs ? Avec des couches de calcul inspirées… du cerveau. »
 
 ### 8 · Réseaux de neurones — 30 s · prévu à 8:30
 

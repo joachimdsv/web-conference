@@ -201,6 +201,26 @@
   .tl-card h3 { font-size: 32px; margin: 0 0 10px; }
   .tl-card p { font-size: 25px; line-height: 1.35; }
   .tl-credits { position: absolute; left: 150px; right: 150px; bottom: 44px; font: 400 15px/1.4 Inter, sans-serif; color: var(--muted); }
+
+  /* Apprendre par l'exemple */
+  .ab { position: absolute; left: 150px; right: 150px; top: 420px; bottom: 110px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .ab .card { padding: 40px 44px; display: flex; flex-direction: column; }
+  .ab .label { font-size: 24px; }
+  .ab h3 { font-size: 40px; margin: 14px 0 28px; }
+  .ab .avant { border-top-color: #9aa3c7; }
+  .ab .avant .label { color: #8a93b8; }
+  .ab .apres .label { color: var(--blue); }
+  .rules { flex: 1; border-radius: 16px; background: #f4f5fb; border: 1.5px solid #e3e6f5; padding: 26px 30px; font: 500 27px/1.6 'JetBrains Mono', monospace; color: #3b4670; }
+  .rules b { color: var(--violet); font-weight: 700; }
+  .rules .fail { display: flex; align-items: center; gap: 14px; margin-top: 16px; padding-top: 16px; border-top: 1.5px dashed #d6daee; color: var(--red); font: 600 25px/1.4 Inter, sans-serif; }
+  .rules .fail svg { width: 36px; height: 36px; flex: none; stroke: var(--red); stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .mosaic { flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .mosaic figure { margin: 0; position: relative; border-radius: 14px; overflow: hidden; background: #e9ecfd; }
+  .mosaic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .mosaic figcaption { position: absolute; left: 10px; bottom: 10px; font: 700 20px/1 Inter, sans-serif; color: #fff; padding: 8px 12px; border-radius: 99px; background: var(--green); }
+  .mosaic figcaption.no { background: var(--red); }
+  .ab-foot { margin-top: 18px; font: 600 25px/1.3 Inter, sans-serif; color: var(--ink); }
+  .ab-credits { position: absolute; left: 150px; right: 150px; bottom: 44px; font: 400 15px/1.4 Inter, sans-serif; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -270,6 +290,36 @@
         <div class="card tl-card"><img src="images/histoire/manus.jpg" alt="" style="--pos:50% 0%"><div><h3>Les agents</h3><p>L'IA agit seule pour vous</p></div></div></div>
     </div>
     <p class="tl-credits">Images Wikimedia Commons : A. Turing, Elliott &amp; Fry, 1951 (domaine public) · J. McCarthy, «&nbsp;null0&nbsp;», CC BY-SA 2.0 · Deep Blue, Erik Pitti, CC BY 2.0 · G. Hinton, Arthur Petron, CC BY-SA 4.0 · logo ChatGPT, OpenAI · agent Manus, capture d'écran (domaine public)</p>
+  </div>
+</section>
+
+<!-- ===================================================== 01 · Apprendre par l'exemple (remplace la page 6 du PDF) -->
+<section class="slide light c01" id="apprendre">
+  <div class="content">
+    <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
+    <h1 class="sm">Elle apprend par l'exemple,<br>pas par des règles</h1>
+    <div class="ab">
+      <div class="card avant">
+        <div class="label">Avant</div>
+        <h3>On écrivait chaque règle à la main</h3>
+        <div class="rules">
+          <b>SI</b> 2 oreilles pointues<br><b>ET</b> des moustaches<br><b>ET</b> 4 pattes<br><b>ALORS</b> c'est un chat
+          <div class="fail"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>Un chat de dos, dans le noir, à moitié caché ?</div>
+        </div>
+      </div>
+      <div class="card apres">
+        <div class="label">Maintenant</div>
+        <h3>Elle observe des milliers d'exemples et en déduit les règles</h3>
+        <div class="mosaic">
+          <figure><img src="images/fonctionnement/chat-1.jpg" alt=""><figcaption>chat</figcaption></figure>
+          <figure><img src="images/fonctionnement/chien.jpg" alt="" style="object-position:92% 50%"><figcaption class="no">pas chat</figcaption></figure>
+          <figure><img src="images/fonctionnement/chat-2.jpg" alt="" style="object-position:30% 50%"><figcaption>chat</figcaption></figure>
+          <figure><img src="images/fonctionnement/chat-3.jpg" alt=""><figcaption>chat</figcaption></figure>
+        </div>
+        <div class="ab-foot">… × des milliers d'exemples</div>
+      </div>
+    </div>
+    <p class="ab-credits">Photos Wikimedia Commons : chat tigré, Alvesgaspar, CC BY-SA 3.0 · chat dans la neige, Von.grzanka, CC BY-SA 3.0 · chat roux, Fir0002, GFDL 1.2 · golden retriever, J. Vreugdenhil / A. Friedrich, domaine public</p>
   </div>
 </section>
 
