@@ -78,8 +78,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 L'IA imite certaines capacités humaines, mais elle ne pense pas comme nous.**
 
-- Lire la définition officielle de l'encadré, celle du Parlement européen : « L'IA désigne la possibilité pour une machine de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité. »
-- La traduire simplement : « Autrement dit, un programme capable de faire des choses qui, jusqu'ici, demandaient l'intelligence d'un humain. »
+- Montrer l'encadré : « Depuis 2024, l'IA a même une définition dans la loi européenne. » Ne pas la lire en entier, elle est volontairement juridique.
+- La traduire simplement : « En clair, c'est une machine à qui on donne des informations, et qui en déduit toute seule quoi produire : une prédiction, un texte, une image, un conseil ou une décision. Autrement dit, elle fait des choses qui, jusqu'ici, demandaient l'intelligence d'un humain. »
 - Concrètement, elle sait faire trois choses :
   - Percevoir : voir (reconnaître un visage sur une photo), entendre (comprendre « Dis Siri »), lire un texte ;
   - Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une ;
