@@ -156,8 +156,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 - « Petit détail amusant : elle ne lit même pas des mots entiers. Elle découpe le texte en petits morceaux, qu'on appelle des "tokens" : ici, "Bonjour à tous" devient "Bon", "jour", "à", "tous". »
 - « Et chaque morceau devient un nombre. Elle ne manipule que des nombres : elle calcule, elle ne lit pas vraiment. »
-- Le saviez-vous (encadré) : « C'est pour ça qu'une IA peut écrire un poème… mais se tromper quand on lui demande combien il y a de lettres dans un mot ! »
-- Si besoin : le découpage et les nombres affichés sont un exemple.
+- Le saviez-vous (à l'oral) : « C'est pour ça qu'une IA peut écrire un poème… mais se tromper quand on lui demande combien il y a de lettres dans un mot ! »
+- Préciser à l'oral : « Le découpage et les nombres sont un exemple, mais le principe est bien celui-là. »
 
 > ➡️ « Mais pour deviner aussi bien, il faut avoir énormément lu… et avoir été corrigé. C'est ce qu'on appelle l'apprentissage, en deux étapes. »
 
