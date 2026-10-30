@@ -173,13 +173,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 12 · Familles d'IA — 1 min · prévu à 12:30
 
-**🎯 L'IA, ce n'est pas que ChatGPT. (1 min : une phrase par carte, pas plus)**
+**🎯 L'IA, ce n'est pas que ChatGPT. (≈ 1 min 15 ; en retard : une phrase par carte + la phrase clé)**
 
-- Génératives : « Elles créent : du texte, des images, du son, des vidéos. C'est ChatGPT, Midjourney… »
-- Perceptives : « Elles reconnaissent : le visage qui déverrouille votre téléphone, la voix de Siri ou de l'assistant vocal. »
-- Prédictives : « Elles anticipent : la météo, les films que Netflix vous propose, la détection de fraude sur votre carte bancaire. »
-- Agentives : « Les plus récentes. Elles agissent seules : chercher sur internet, remplir un formulaire, réserver, enchaîner plusieurs tâches. »
-- La phrase clé sur les agents : « C'est elles qui font le plus parler en ce moment : on ne demande plus à l'IA de répondre… on lui demande de faire. »
+- Intro : « Quand on parle d'IA, on pense tout de suite à ChatGPT. Mais il y a en réalité plusieurs familles d'IA… et vous en utilisez déjà plusieurs sans le savoir. »
+- Génératives : « Les premières, ce sont les IA qui créent. Vous leur demandez un texte, une image, une musique, une vidéo… et elles le fabriquent. ChatGPT écrit, Midjourney dessine. C'est ce qu'on vient de voir : elles devinent la suite la plus probable, mot après mot, ou pixel après pixel. »
+- Perceptives : « Les deuxièmes, ce sont les IA qui reconnaissent. Quand votre téléphone se déverrouille en voyant votre visage, ou quand Siri comprend ce que vous dites, c'est elle. Elle a appris à reconnaître des visages et des voix à partir de millions d'exemples… comme le chat de tout à l'heure. »
+- Prédictives : « Les troisièmes, ce sont les IA qui anticipent. Elles regardent le passé pour deviner l'avenir : la météo de demain, ou le film que vous avez le plus de chances d'aimer. Netflix n'a pas de règle écrite à la main : son système a appris de ce que regardent des millions d'abonnés. Et c'est aussi elle qui bloque votre carte bancaire quand un paiement paraît suspect. »
+- Agentives : « Et enfin, les plus récentes : les IA agents. Elles ne se contentent plus de répondre, elles agissent. Vous leur dites : "Trouve-moi un train pour Nancy samedi et réserve-le", et elles vont chercher sur internet, comparer, remplir le formulaire… toutes seules. »
+- Phrase clé (marquer une pause) : « C'est ça qui change tout en ce moment : on ne demande plus à l'IA de répondre… on lui demande de faire. »
+- Si quelqu'un objecte « Netflix, c'est juste un algorithme » : « Oui, mais un algorithme qui a appris de nos habitudes, et c'est ça qui en fait une IA. » (Netflix met aussi en avant ses propres productions : l'IA trie et personnalise, elle ne décide pas seule.)
 
 > ➡️ « Ça, c'est la théorie. Mais en vrai, vous l'avez déjà croisée plusieurs fois aujourd'hui… »
 
