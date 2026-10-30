@@ -30,7 +30,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Jeudi 29/10 · J-8 · Chapitres 01 et 02 + l'ouverture (1 h)
 - [ ] Apprendre par cœur les 2 premières minutes (diapos 1 à 3) : présentation, promesse, brise-glace.
-- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 15 min** (10 min pour le chapitre 01, 5 min pour le 02, sans la diapo 17, sautée par défaut).
+- [ ] Dire les diapos 4 à 17 à voix haute, deux fois. Viser **environ 16 min** (10 min pour le chapitre 01, 6 min pour le 02).
 - [ ] Préparer sa réponse à « le GPS, c'est vraiment de l'IA ? » (voir C6).
 - [ ] 🔎 Finir le bloc B.
 
@@ -51,7 +51,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
 - [ ] Noter l'heure à chaque point de contrôle (diapos 18, 28, 37 et 41) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
-- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 3 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 2 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 05 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
@@ -95,14 +95,14 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 |---|---|---|---|---|---|
 | 0 | Ouverture | 1-3 | 3 min 30 | Pas besoin d'être informaticien | Les mains levées |
 | 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
-| 2 | Au quotidien | 13-17 | 5 min | Vous l'utilisez déjà | La journée type, le quiz |
+| 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
 | 3 | Démos | 18-27 | 21 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
 | 4 | Enjeux | 28-32 | 5 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
 | 5 | Bonnes pratiques | 33-36 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
 | 6 | Demain + démo finale | 37-40 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
 | 7 | Conclusion | 41-42 | 2 min | 3 choses à retenir | Essayer dès ce soir |
 | 8 | Débat + merci | 43-44 | 25 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 26 + 3 min 30 de marge** | Fin à 1 h 30 au plus tard | |
+|  | **Total** | | **1 h 27 + 2 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 

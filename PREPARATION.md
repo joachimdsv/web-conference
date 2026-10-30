@@ -30,17 +30,17 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ### La durée : 1 h 30 au total, conférence et débat compris
 | Bloc | Durée | Fin prévue |
 |---|---|---|
-| Ouverture + chapitres 01 et 02 | 18 min 30 | 0:18 |
-| Démonstrations (chapitre 03) | 21 min 30 | 0:40 |
-| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:48 |
-| Et demain ? + démo finale | 10 min | 0:58 |
-| Conclusion | 2 min | 1:00 |
-| **Débat** | **25 min** | **1:25** |
-| Remerciements | 1 min | 1:26 |
-| Marge de sécurité | 3 min 30 | 1:30 |
+| Ouverture + chapitres 01 et 02 | 19 min 30 | 0:19 |
+| Démonstrations (chapitre 03) | 21 min 30 | 0:41 |
+| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:49 |
+| Et demain ? + démo finale | 10 min | 0:59 |
+| Conclusion | 2 min | 1:01 |
+| **Débat** | **25 min** | **1:26** |
+| Remerciements | 1 min | 1:27 |
+| Marge de sécurité | 2 min 30 | 1:30 |
 
 - **Environ 1 h de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
-- **Une diapo est sautée par défaut** : la 17 « usages surprenants ». Les flèches et la télécommande passent par-dessus, et elle est grisée dans la pellicule. Pour la montrer quand même, tapez 17 puis Entrée. Pour la remettre dans le déroulé, retirez `skip: true` dans `js/deck.js`. La diapo 10 « tokens » est de nouveau dans le déroulé, à passer vite (30 s).
+- **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
 - **La diapo 43 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
 - **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 05**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
