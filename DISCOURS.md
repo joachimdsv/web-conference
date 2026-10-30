@@ -173,12 +173,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 12 · Familles d'IA — 1 min · prévu à 12:30
 
-**🎯 L'IA, ce n'est pas que ChatGPT.**
+**🎯 L'IA, ce n'est pas que ChatGPT. (1 min : une phrase par carte, pas plus)**
 
-- Génératives : elles créent du texte, des images, du son, des vidéos (ChatGPT, Midjourney…).
-- Perceptives : elles reconnaissent, par exemple le visage qui déverrouille le téléphone ou la voix de l'assistant vocal.
-- Prédictives : elles anticipent : la météo, les recommandations Netflix, la détection de fraude à la carte bancaire.
-- Agentives : les plus récentes. Elles agissent seules : chercher sur internet, remplir un formulaire, enchaîner plusieurs tâches.
+- Génératives : « Elles créent : du texte, des images, du son, des vidéos. C'est ChatGPT, Midjourney… »
+- Perceptives : « Elles reconnaissent : le visage qui déverrouille votre téléphone, la voix de Siri ou de l'assistant vocal. »
+- Prédictives : « Elles anticipent : la météo, les films que Netflix vous propose, la détection de fraude sur votre carte bancaire. »
+- Agentives : « Les plus récentes. Elles agissent seules : chercher sur internet, remplir un formulaire, réserver, enchaîner plusieurs tâches. »
+- La phrase clé sur les agents : « C'est elles qui font le plus parler en ce moment : on ne demande plus à l'IA de répondre… on lui demande de faire. »
 
 > ➡️ « Ça, c'est la théorie. Mais en vrai, vous l'avez déjà croisée plusieurs fois aujourd'hui… »
 

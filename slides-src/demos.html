@@ -287,6 +287,17 @@
   .two-steps p { font-size: 28px; margin-top: 6px; }
   .two-steps .sep { display: grid; place-items: center; font: 800 64px/1 Inter, sans-serif; color: #7f8fe0; }
   .two-credits { position: absolute; left: 150px; right: 150px; bottom: 50px; font: 400 16px/1.4 Inter, sans-serif; color: var(--muted); }
+  /* Familles d'IA */
+  .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
+  .fam .card { display: grid; grid-template-columns: 120px 1fr; gap: 0 44px; align-items: center; padding: 40px 56px; border-top-color: var(--a); }
+  .fam .badge { width: 120px; height: 120px; border-radius: 30px; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); }
+  .fam .badge svg { width: 62px; height: 62px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .fam h3 { font: 700 60px/1.05 Sora, sans-serif; margin: 0 0 18px; letter-spacing: -.02em; }
+  .fam p { font: 500 36px/1.3 Inter, sans-serif; color: var(--ink); }
+  .fam .tag { position: absolute; top: 30px; right: 34px; font: 700 20px/1 'JetBrains Mono', monospace; letter-spacing: .1em;
+    text-transform: uppercase; color: #fff; background: var(--a); padding: 10px 16px; border-radius: 99px; }
 </style>
 </head>
 <body>
@@ -465,6 +476,24 @@
       <div class="txt"><div class="num" style="--c:#18b48a">2</div><div><h3>On la corrige</h3><p>Des humains notent ses réponses</p></div></div></div>
   </div>
   <p class="two-credits">Photos Wikimedia Commons : Long Room, Trinity College Dublin, David Iliff (Diliff), CC BY-SA 4.0 · texte corrigé à la main, Phoebe, CC BY-SA 3.0</p>
+</section>
+
+<!-- ===================================================== 01 · Familles d'IA (remplace la page 11 du PDF) -->
+<section class="slide light c01" id="familles">
+  <div class="content">
+    <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="fam">
+    <div class="card" style="--a:#6a5cf0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg></div>
+      <div><h3>Génératives</h3><p>ChatGPT, Midjourney</p></div></div>
+    <div class="card" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg></div>
+      <div><h3>Perceptives</h3><p>Face ID, Siri</p></div></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg></div>
+      <div><h3>Prédictives</h3><p>Netflix, la météo</p></div></div>
+    <div class="card" style="--a:#e5436a"><span class="tag">Le plus récent</span><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div>
+      <div><h3>Agentives</h3><p>Elles agissent à votre place</p></div></div>
+  </div>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->
