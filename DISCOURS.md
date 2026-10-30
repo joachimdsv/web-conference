@@ -80,6 +80,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 - Montrer l'encadré : « Depuis 2024, l'IA a même une définition dans la loi européenne. » Ne pas la lire en entier, elle est volontairement juridique.
 - La traduire simplement : « En clair, c'est une machine à qui on donne des informations, et qui en déduit toute seule quoi produire : une prédiction, un texte, une image, un conseil ou une décision. Autrement dit, elle fait des choses qui, jusqu'ici, demandaient l'intelligence d'un humain. »
+- Si on vous demande si elle est à jour : « Cette définition vient de l'OCDE, réécrite fin 2023 justement pour inclure les IA qui créent du texte et des images, comme ChatGPT. Elle est volontairement large : elle couvre aussi les nouvelles IA "agents" qui agissent seules. La révision de la loi en juillet 2026 ne l'a pas modifiée. »
 - Concrètement, elle sait faire trois choses :
   - Percevoir : voir (reconnaître un visage sur une photo), entendre (comprendre « Dis Siri »), lire un texte ;
   - Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une ;
