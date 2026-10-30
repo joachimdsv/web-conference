@@ -51,7 +51,7 @@ window.DECK = {
     },
     2: {
       title: 'Plan', minutes: 1,
-      notes: "🎯 Donner le fil de la soirée.\n• 6 étapes :\n  01 comprendre ce qu'est l'IA ;\n  02 voir qu'elle est déjà dans notre quotidien ;\n  03 la voir en action avec 6 démonstrations ;\n  04 réfléchir à ce qu'elle change ;\n  05 apprendre à bien s'en servir ;\n  06 regarder vers demain, avec une démo finale : on crée ensemble le site de la MJC ;\n  et pour finir, un temps de débat.\n• Il y aura des petits jeux : vous voterez à main levée.\n• À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête.\n➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »",
+      notes: "🎯 Donner le fil de la soirée, sans tout dévoiler.\n• En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »\n• Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« des démonstrations, en direct ») et la 06 (« et pour finir, un temps d'échange »).\n• Il y aura des petits jeux : vous voterez à main levée.\n• « À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »\n➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »",
     },
     3: {
       title: 'Brise-glace — Et vous ?', minutes: 1.5,

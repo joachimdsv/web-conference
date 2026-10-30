@@ -141,11 +141,12 @@
   /* Plan, ouverture, conclusion */
   .plan::after { background: linear-gradient(90deg, #4b5fe0, #6a5cf0, #8b5cf6); }
   .plan .kicker { color: #4b5fe0; }
-  .plan-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px 90px; margin-top: 74px; }
-  .plan-item { display: grid; grid-template-columns: 120px 1fr; }
-  .plan-item b { font: 800 66px/1 Sora, sans-serif; color: #7f93ea; }
-  .plan-item h3 { font: 700 42px/1.1 Sora, sans-serif; letter-spacing: -.01em; }
-  .plan-item p { font: 400 26px/1.4 Inter, sans-serif; color: var(--ink); margin-top: 10px; }
+  .plan-grid { position: absolute; left: 150px; right: 150px; top: 54%; transform: translateY(-50%);
+    display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 1fr; gap: 64px 90px; }
+  .plan-item { display: grid; grid-template-columns: 140px 1fr; align-items: start; }
+  .plan-item b { font: 800 80px/1 Sora, sans-serif; color: #7f93ea; }
+  .plan-item h3 { font: 700 48px/1.1 Sora, sans-serif; letter-spacing: -.015em; white-space: nowrap; }
+  .plan-item p { font: 400 31px/1.4 Inter, sans-serif; color: var(--ink); margin-top: 12px; }
   .plan-item.is-new b { color: #2bb89a; }
   .hands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; margin-top: 80px; }
   .hands .card { padding: 44px 40px 48px; }
@@ -170,17 +171,16 @@
 <body>
 
 <!-- ===================================================== Plan (remplace la page 2 du PDF) -->
-<section class="slide light plan" id="plan" data-net="bl">
+<section class="slide light plan" id="plan">
   <div class="content">
     <div class="kicker">Sommaire</div>
-    <h1>Plan de la présentation</h1>
     <div class="plan-grid">
-      <div class="plan-item"><b>01</b><div><h3>Qu'est-ce que l'IA ?</h3><p>Une définition simple, un peu d'histoire et comment elle apprend</p></div></div>
-      <div class="plan-item"><b>04</b><div><h3>Impacts et enjeux</h3><p>Éthique, fausses informations, emploi, environnement, règles</p></div></div>
-      <div class="plan-item"><b>02</b><div><h3>L'IA dans notre quotidien</h3><p>Santé, école, travail, loisirs : elle est déjà partout</p></div></div>
-      <div class="plan-item"><b>05</b><div><h3>Bonnes pratiques</h3><p>Bien lui demander, vérifier, protéger ses données</p></div></div>
-      <div class="plan-item"><b>03</b><div><h3>L'IA en pratique</h3><p>6 démonstrations, dont plusieurs en direct</p></div></div>
-      <div class="plan-item is-new"><b>06</b><div><h3>Et demain ?</h3><p>Perspectives, démo finale : le site de la MJC… puis le débat</p></div></div>
+      <div class="plan-item"><b>01</b><div><h3>Qu'est-ce que l'IA ?</h3><p>Ce qu'elle est, d'où elle vient, comment elle apprend</p></div></div>
+      <div class="plan-item"><b>04</b><div><h3>Impacts et enjeux</h3><p>Ce qu'elle change pour nous et pour la société</p></div></div>
+      <div class="plan-item"><b>02</b><div><h3>L'IA dans notre quotidien</h3><p>Là où on la croise déjà, souvent sans le savoir</p></div></div>
+      <div class="plan-item"><b>05</b><div><h3>Bonnes pratiques</h3><p>Les bons réflexes pour bien s'en servir</p></div></div>
+      <div class="plan-item"><b>03</b><div><h3>L'IA en pratique</h3><p>Des démonstrations, en direct</p></div></div>
+      <div class="plan-item is-new"><b>06</b><div><h3>Et demain ?</h3><p>Ce qui nous attend… et un temps d'échange</p></div></div>
     </div>
   </div>
 </section>

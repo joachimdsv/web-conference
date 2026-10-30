@@ -41,18 +41,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 2 · Plan — 1 min · prévu à 1:00
 
-**🎯 Donner le fil de la soirée.**
+**🎯 Donner le fil de la soirée, sans tout dévoiler.**
 
-- 6 étapes :
-  - 01 comprendre ce qu'est l'IA ;
-  - 02 voir qu'elle est déjà dans notre quotidien ;
-  - 03 la voir en action avec 6 démonstrations ;
-  - 04 réfléchir à ce qu'elle change ;
-  - 05 apprendre à bien s'en servir ;
-  - 06 regarder vers demain, avec une démo finale : on crée ensemble le site de la MJC ;
-  - et pour finir, un temps de débat.
+- En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »
+- Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« des démonstrations, en direct ») et la 06 (« et pour finir, un temps d'échange »).
 - Il y aura des petits jeux : vous voterez à main levée.
-- À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête.
+- « À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »
 
 > ➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »
 
