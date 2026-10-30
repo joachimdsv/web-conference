@@ -247,7 +247,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Le tri des déchets : « Dans les centres de tri, des caméras et des bras robotisés reconnaissent le plastique, le carton ou le métal sur les tapis. »
 - La traduction en direct : « Vous parlez dans votre langue, votre interlocuteur vous entend dans la sienne, presque instantanément. On y reviendra tout à l'heure avec une démo. »
 
-> ➡️ « Assez de théorie : maintenant, je vais vous montrer ce qu'elle sait faire… en direct. »
+> ➡️ « Et maintenant… place à la pratique. »
 
 ---
 
@@ -255,9 +255,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 18 · Chapitre 03 — En pratique — 30 s · prévu à 19:30
 
-**🎯 Annoncer la partie pratique.**
+**🎯 On passe à la pratique. (30 s : une respiration)**
 
-- « On va faire un tour des outils, puis passer aux démonstrations, en direct, et à un petit jeu du vrai ou faux. »
+- « Assez parlé ! Place à la pratique. Je vais vous montrer les outils qui existent, puis on va les tester ensemble, en direct. Et attention : vous allez devoir jouer… et peut-être vous faire piéger ! »
 - **⏱️ POINT DE CONTRÔLE 1 : on devrait en être à 20 min. Plus de 5 min de retard ? Passer vite sur le panorama (diapo 19) et raccourcir les démos 5 et 6 (voir leurs notes). Le reste du retard sera pris sur le débat.**
 
 ### 19 · Panorama — 1 min · prévu à 20:00

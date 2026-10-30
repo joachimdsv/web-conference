@@ -21,7 +21,7 @@ demo quiz
 demo metiers
 demo usages
 # Chapitre 03 — en pratique
-page 17
+demo chapitre-03
 page 18
 demo demos-programme
 demo demo1-images
