@@ -330,20 +330,21 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 23 · Démo 3 — Vidéo : filmée ou générée ? — 2 min 30 · prévu à 28:30
 
-**🎯 Bientôt, une vidéo ne sera plus une preuve.**
+**🎯 Bientôt, une vidéo ne sera plus une preuve. (2 min 30)**
 
-- *⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son. ⛶ pour en passer une en plein écran avec le son.*
-- « L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »
+- *⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son (media/demo3-video1.mp4 et media/demo3-video2.mp4). ⛶ pour en passer une en plein écran avec le son.*
+- « Dernier jeu : deux vidéos. L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »
 - *⚙️ Vote à main levée, puis révéler avec R.*
-- Revoir la vidéo IA en pointant ce qui cloche :
-  - la physique (l'eau, les tissus, les cheveux qui bougent bizarrement) ;
+- « Qu'est-ce qui vous a mis la puce à l'oreille ? » Puis revoir la vidéo IA en pointant ce qui cloche :
+  - la physique (l'eau, les tissus, les cheveux, les feuilles qui bougent bizarrement) ;
   - les mains et les visages ;
-  - le texte ;
-  - les objets qui apparaissent ou disparaissent.
-- Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. Avant de partager une vidéo choquante, on vérifie.
+  - le texte (panneaux, enseignes) ;
+  - les objets qui apparaissent ou disparaissent d'un plan à l'autre.
+- Le rebondissement : « Et en 2026, certaines IA font aussi le son, les voix et la musique… ça devient vraiment difficile à repérer. »
+- Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. « Avant de partager une vidéo choquante, on se pose la question : d'où vient-elle ? »
 - *⚙️ Réponses par défaut : 1 = filmée, 2 = IA. Ajuster dans la régie si besoin.*
 
-> ➡️ « Passons à des usages plus utiles au quotidien. »
+> ➡️ « Bon, assez de pièges ! Passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »
 
 ### 24 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 31:00
 

@@ -156,12 +156,12 @@ window.DECK = {
     },
     23: {
       title: 'Démo 3 — Vidéo : filmée ou générée ?', minutes: 2.5,
-      notes: "🎯 Bientôt, une vidéo ne sera plus une preuve.\n⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son. ⛶ pour en passer une en plein écran avec le son.\n• « L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »\n⚙️ Vote à main levée, puis révéler avec R.\n• Revoir la vidéo IA en pointant ce qui cloche :\n  la physique (l'eau, les tissus, les cheveux qui bougent bizarrement) ;\n  les mains et les visages ;\n  le texte ;\n  les objets qui apparaissent ou disparaissent.\n• Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. Avant de partager une vidéo choquante, on vérifie.\n⚙️ Réponses par défaut : 1 = filmée, 2 = IA. Ajuster dans la régie si besoin.\n➡️ « Passons à des usages plus utiles au quotidien. »",
+      notes: "🎯 Bientôt, une vidéo ne sera plus une preuve. (2 min 30)\n⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son (media/demo3-video1.mp4 et media/demo3-video2.mp4). ⛶ pour en passer une en plein écran avec le son.\n• « Dernier jeu : deux vidéos. L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »\n⚙️ Vote à main levée, puis révéler avec R.\n• « Qu'est-ce qui vous a mis la puce à l'oreille ? » Puis revoir la vidéo IA en pointant ce qui cloche :\n  la physique (l'eau, les tissus, les cheveux, les feuilles qui bougent bizarrement) ;\n  les mains et les visages ;\n  le texte (panneaux, enseignes) ;\n  les objets qui apparaissent ou disparaissent d'un plan à l'autre.\n• Le rebondissement : « Et en 2026, certaines IA font aussi le son, les voix et la musique… ça devient vraiment difficile à repérer. »\n• Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. « Avant de partager une vidéo choquante, on se pose la question : d'où vient-elle ? »\n⚙️ Réponses par défaut : 1 = filmée, 2 = IA. Ajuster dans la régie si besoin.\n➡️ « Bon, assez de pièges ! Passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »",
       elements: [
-        { id: 'V1', type: 'zone', label: 'Vidéo 1', rect: [7.8, 30.6, 41.1, 41.1], default: 'video-1' },
+        { id: 'V1', type: 'zone', label: 'Vidéo 1', rect: [5.7, 30.6, 43.2, 43.2], default: 'video-1' },
         { id: 'V2', type: 'zone', label: 'Vidéo 2', rect: [51.0, 30.6, 41.1, 41.1], default: 'video-2' },
-        { id: 'r1', type: 'answer', label: 'Réponse 1', rect: [7.8, 30.6, 41.1, 41.1], choices: ['🎥 Filmée', '🤖 Générée par IA'], answer: 0, pill: 'bottom' },
-        { id: 'r2', type: 'answer', label: 'Réponse 2', rect: [51.0, 30.6, 41.1, 41.1], choices: ['🎥 Filmée', '🤖 Générée par IA'], answer: 1, pill: 'bottom' },
+        { id: 'r1', type: 'answer', label: 'Réponse 1', rect: [5.7, 30.6, 43.2, 43.2], choices: ['Filmée', 'Générée par IA'], answer: 0, pill: 'bottom' },
+        { id: 'r2', type: 'answer', label: 'Réponse 2', rect: [51.0, 30.6, 41.1, 41.1], choices: ['Filmée', 'Générée par IA'], answer: 1, pill: 'bottom' },
       ],
     },
     24: {

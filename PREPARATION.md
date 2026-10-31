@@ -9,7 +9,10 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 
 ### À fournir (fichiers)
 - [x] **Démo 1 (diapo 20) : 3 affiches** : fournies dans `media/` (humain = affiche WPA des années 1930, domaine public ; IA réussie et IA ratée générées). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
-- [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur le même thème (une rivière, un chat, une rue…) : une filmée, une générée (Sora, Veo, Kling…).
+- [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur la même scène :
+  - **une filmée par vous au Val d'Ajol** (une rivière, une rue, des arbres dans le vent), en paysage, sans personne reconnaissable ;
+  - **la même scène générée par une IA vidéo** (Sora, Veo, Kling ou une appli gratuite), décrite précisément : « Plan fixe de 10 secondes, une petite rivière dans une forêt de sapins des Vosges, en automne, lumière douce, filmé au téléphone ».
+  - Les enregistrer sous `media/demo3-video1.mp4` (filmée) et `media/demo3-video2.mp4` (IA), puis retirer les `//` devant `video-1` et `video-2` dans `js/deck.js`. Ou glisser les fichiers sur les zones dans la régie.
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
   - l'affiche déjà générée : `media/demo2-affiche.jpg` est en place (titre raté) ; la remplacer la veille par une affiche faite avec ChatGPT si possible ;
   - le fichier Excel du budget ;
