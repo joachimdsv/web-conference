@@ -275,14 +275,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 On ne peut plus se fier à ses yeux seuls.**
 
-- *⚙️ PRÉPARÉ : les 3 affiches doivent être en place (A, B, C), même format, mêmes informations (titre, date, lieu).*
-- Règle du jeu : « Voici trois affiches pour la conférence de ce soir. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »
+- *⚙️ PRÉPARÉ : les 3 affiches s'affichent toutes seules (dossier media/). A = humain, B = IA réussie, C = IA ratée. Pour changer l'ordre : glisser les images sur les zones dans la régie et ajuster les réponses.*
+- Règle du jeu : « Voici trois affiches. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »
 - *⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.*
-- Commenter les votes : l'affiche ratée se repère assez bien (fautes, lettres bizarres). L'affiche réussie, elle, trompe beaucoup de monde.
-- « Cette affiche a été fabriquée en quelques secondes, avec une simple phrase. Un graphiste aurait mis plusieurs heures. »
-- *⚙️ Réponses par défaut : A = humain, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
-- Pour préparer l'affiche réussie (ChatGPT, Gemini ou Copilot) : « Crée une affiche verticale au format A3 pour une conférence grand public intitulée "L'intelligence artificielle", le jeudi 6 novembre 2026 à 20 h, à la MJC du Val d'Ajol, animée par Joachim Da Silva. Style moderne et chaleureux, couleurs bleu nuit et violet, une illustration simple et accueillante. Le texte doit être parfaitement lisible et sans faute. »
-- Pour l'affiche ratée : même demande, en ajoutant beaucoup de petit texte (programme détaillé, horaires, adresse complète, tarifs) et une foule de personnages. Ou utiliser un générateur gratuit moins performant. Garder une version où les défauts se voient.
+- A, humain : « Celle-ci a été dessinée et imprimée à la main, en sérigraphie, dans les années 1930, aux États-Unis. C'est l'affiche d'un centre d'art de quartier… un peu comme une MJC ! Conférences gratuites, cours gratuits, expositions gratuites. »
+- B, IA réussie : « Celle-ci, beaucoup d'entre vous l'ont crue ancienne. Elle a été fabriquée en quelques secondes par une IA, avec une simple phrase : "affiche des années 1930, une violoniste". Elle a imité le style sans rien comprendre à l'époque. »
+- C, IA ratée : « Et celle-ci se trahit : regardez le titre en bas, des lettres qui ne veulent rien dire. Et ce grand rectangle qui ne sert à rien, à travers lequel on voit les montagnes. »
+- Commenter les votes : l'affiche ratée se repère assez bien, l'affiche réussie trompe beaucoup de monde.
+- Sources : A = WPA Federal Art Project, Iowa (Library of Congress, domaine public). B et C générées avec Pollinations.ai (voir media/SOURCES.md).
 
 > ➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »
 

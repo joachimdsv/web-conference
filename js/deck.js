@@ -35,9 +35,9 @@ window.DECK = {
   // Médias livrés avec le site : déposez vos fichiers dans media/ puis décommentez / déclarez-les ici.
   // Ceux qui portent un id utilisé en `default` ci-dessous s'afficheront automatiquement dans les zones.
   media: [
-    // { id: 'photo-a', name: 'Démo 1 · Affiche A', src: 'media/demo1-a.jpg' },
-    // { id: 'photo-b', name: 'Démo 1 · Affiche B', src: 'media/demo1-b.jpg' },
-    // { id: 'photo-c', name: 'Démo 1 · Affiche C', src: 'media/demo1-c.jpg' },
+    { id: 'photo-a', name: 'Démo 1 · Affiche A (humain)', src: 'media/demo1-humain.jpg' },
+    { id: 'photo-b', name: 'Démo 1 · Affiche B (IA réussie)', src: 'media/demo1-ia-reussie.jpg' },
+    { id: 'photo-c', name: 'Démo 1 · Affiche C (IA ratée)', src: 'media/demo1-ia-ratee.jpg' },
     // { id: 'video-1', name: 'Démo 3 · Vidéo 1', src: 'media/demo3-video1.mp4' },
     // { id: 'video-2', name: 'Démo 3 · Vidéo 2', src: 'media/demo3-video2.mp4' },
     // { id: 'affiche', name: 'Démo 2 · Affiche (plan B)', src: 'media/demo2-affiche.png' },
@@ -125,11 +125,11 @@ window.DECK = {
     },
     20: {
       title: 'Démo 1 — Humain ou IA ? (3 affiches)', minutes: 3,
-      notes: "🎯 On ne peut plus se fier à ses yeux seuls.\n⚙️ PRÉPARÉ : les 3 affiches doivent être en place (A, B, C), même format, mêmes informations (titre, date, lieu).\n• Règle du jeu : « Voici trois affiches pour la conférence de ce soir. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »\n⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.\n• Commenter les votes : l'affiche ratée se repère assez bien (fautes, lettres bizarres). L'affiche réussie, elle, trompe beaucoup de monde.\n• « Cette affiche a été fabriquée en quelques secondes, avec une simple phrase. Un graphiste aurait mis plusieurs heures. »\n⚙️ Réponses par défaut : A = humain, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.\n• Pour préparer l'affiche réussie (ChatGPT, Gemini ou Copilot) : « Crée une affiche verticale au format A3 pour une conférence grand public intitulée \"L'intelligence artificielle\", le jeudi 6 novembre 2026 à 20 h, à la MJC du Val d'Ajol, animée par Joachim Da Silva. Style moderne et chaleureux, couleurs bleu nuit et violet, une illustration simple et accueillante. Le texte doit être parfaitement lisible et sans faute. »\n• Pour l'affiche ratée : même demande, en ajoutant beaucoup de petit texte (programme détaillé, horaires, adresse complète, tarifs) et une foule de personnages. Ou utiliser un générateur gratuit moins performant. Garder une version où les défauts se voient.\n➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »",
+      notes: "🎯 On ne peut plus se fier à ses yeux seuls.\n⚙️ PRÉPARÉ : les 3 affiches s'affichent toutes seules (dossier media/). A = humain, B = IA réussie, C = IA ratée. Pour changer l'ordre : glisser les images sur les zones dans la régie et ajuster les réponses.\n• Règle du jeu : « Voici trois affiches. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »\n⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.\n• A, humain : « Celle-ci a été dessinée et imprimée à la main, en sérigraphie, dans les années 1930, aux États-Unis. C'est l'affiche d'un centre d'art de quartier… un peu comme une MJC ! Conférences gratuites, cours gratuits, expositions gratuites. »\n• B, IA réussie : « Celle-ci, beaucoup d'entre vous l'ont crue ancienne. Elle a été fabriquée en quelques secondes par une IA, avec une simple phrase : \"affiche des années 1930, une violoniste\". Elle a imité le style sans rien comprendre à l'époque. »\n• C, IA ratée : « Et celle-ci se trahit : regardez le titre en bas, des lettres qui ne veulent rien dire. Et ce grand rectangle qui ne sert à rien, à travers lequel on voit les montagnes. »\n• Commenter les votes : l'affiche ratée se repère assez bien, l'affiche réussie trompe beaucoup de monde.\n• Sources : A = WPA Federal Art Project, Iowa (Library of Congress, domaine public). B et C générées avec Pollinations.ai (voir media/SOURCES.md).\n➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »",
       elements: [
-        { id: 'A', type: 'zone', label: 'Affiche A', rect: [7.8, 27.8, 26.6, 56.5], default: 'photo-a' },
-        { id: 'B', type: 'zone', label: 'Affiche B', rect: [36.7, 27.8, 26.6, 56.5], default: 'photo-b' },
-        { id: 'C', type: 'zone', label: 'Affiche C', rect: [65.6, 27.8, 26.6, 56.5], default: 'photo-c' },
+        { id: 'A', type: 'zone', label: 'Affiche A', rect: [7.8, 27.8, 26.6, 56.5], fit: 'contain', default: 'photo-a' },
+        { id: 'B', type: 'zone', label: 'Affiche B', rect: [36.7, 27.8, 26.6, 56.5], fit: 'contain', default: 'photo-b' },
+        { id: 'C', type: 'zone', label: 'Affiche C', rect: [65.6, 27.8, 26.6, 56.5], fit: 'contain', default: 'photo-c' },
         { id: 'rA', type: 'answer', label: 'Réponse A', rect: [7.8, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 0, pill: 'bottom' },
         { id: 'rB', type: 'answer', label: 'Réponse B', rect: [36.7, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 1, pill: 'bottom' },
         { id: 'rC', type: 'answer', label: 'Réponse C', rect: [65.6, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 2, pill: 'bottom' },
