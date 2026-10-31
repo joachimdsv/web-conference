@@ -197,13 +197,16 @@ window.DECK = {
     },
     26: {
       title: 'Démo 6 — Apprendre une langue', minutes: 2.5,
-      notes: "🎯 Un professeur patient, disponible à toute heure, qui ne juge pas.\n⚙️ EN DIRECT, de préférence à voix haute (mode vocal de l'appli ChatGPT ou Gemini, son relié à la sono).\n• Décortiquer le prompt :\n  on lui donne un rôle (un professeur patient) ;\n  un niveau (débutant) ;\n  une situation (au restaurant) ;\n  une méthode (une question à la fois, corrections en français).\n⚙️ Jouer la scène et faire exprès une erreur (« I want a pizza margarita ») pour montrer la correction bienveillante.\n• Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement. On ose parler, même avec un mauvais accent.\n• Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.\n⚙️ Proposer à une personne du public d'essayer une réplique !\n⏱️ En retard ? Montrer seulement une réplique, sans volontaire, ou passer directement à la suite après avoir lu le prompt (on gagne 2 min).\n➡️ « C'est impressionnant… mais ça pose aussi des questions. »",
+      notes: "🎯 Un professeur patient, disponible à toute heure, qui ne juge pas. (2 min 30)\n⚙️ EN DIRECT, à voix haute : mode vocal de l'appli ChatGPT ou Gemini (gratuit, avec une limite de durée), son du téléphone relié à la sono. TESTER LA VEILLE avec la sono de la MJC.\n• Décortiquer le prompt : « Toujours la même méthode : mon contexte (je pars à Londres, je suis débutant), la scène (le serveur, une question à la fois), et la méthode (corriger gentiment, en français). »\n• Le rôle : « Ici, je lui donne un rôle : pas pour qu'elle soit plus forte, mais pour qu'elle joue la scène avec moi. »\n⚙️ Jouer la scène et faire exprès une erreur (« I want a pizza margarita ») pour montrer la correction bienveillante.\n⚙️ « Qui veut commander son plat en anglais ? » Faire essayer une réplique à une personne du public : le moment le plus vivant, à garder même rapide.\n• Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement, autant de fois que nécessaire. On ose parler, même avec un mauvais accent.\n• Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.\n⚙️ Plan B : la conversation d'exemple est cachée à droite, R pour la révéler.\n⏱️ En retard ? Montrer seulement une réplique, sans volontaire, ou passer directement à la suite après avoir lu le prompt (on gagne 2 min).\n➡️ « C'est impressionnant… mais ça pose aussi des questions. »",
       prompts: [
-        { label: 'Prof d\'anglais', text: "Tu es mon professeur d'anglais, patient et encourageant. Je suis débutant. Jouons une scène : je commande au restaurant. Pose-moi une question à la fois, corrige mes erreurs en français, puis continue." },
+        { label: 'Serveur à Londres', text: "Je pars à Londres cet été et je suis débutant en anglais. Joue le serveur d'un restaurant : pose-moi une question à la fois, en anglais simple. Quand je fais une erreur, corrige-moi gentiment en français, puis continue la scène." },
       ],
       links: [
         { label: 'ChatGPT', url: 'https://chatgpt.com/' },
         { label: 'Gemini', url: 'https://gemini.google.com/' },
+      ],
+      elements: [
+        { id: 'chat', type: 'cover', label: 'Conversation d\'exemple (plan B)', rect: [54.7, 31.5, 37.5, 39.3], choices: ['Visible'], answer: 0, text: 'Exemple de conversation' },
       ],
     },
     // ---------- Chapitre 04 ----------

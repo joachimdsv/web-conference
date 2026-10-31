@@ -402,25 +402,23 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 26 · Démo 6 — Apprendre une langue — 2 min 30 · prévu à 37:30
 
-**🎯 Un professeur patient, disponible à toute heure, qui ne juge pas.**
+**🎯 Un professeur patient, disponible à toute heure, qui ne juge pas. (2 min 30)**
 
-- *⚙️ EN DIRECT, de préférence à voix haute (mode vocal de l'appli ChatGPT ou Gemini, son relié à la sono).*
-- Décortiquer le prompt :
-  - on lui donne un rôle (un professeur patient) ;
-  - un niveau (débutant) ;
-  - une situation (au restaurant) ;
-  - une méthode (une question à la fois, corrections en français).
+- *⚙️ EN DIRECT, à voix haute : mode vocal de l'appli ChatGPT ou Gemini (gratuit, avec une limite de durée), son du téléphone relié à la sono. TESTER LA VEILLE avec la sono de la MJC.*
+- Décortiquer le prompt : « Toujours la même méthode : mon contexte (je pars à Londres, je suis débutant), la scène (le serveur, une question à la fois), et la méthode (corriger gentiment, en français). »
+- Le rôle : « Ici, je lui donne un rôle : pas pour qu'elle soit plus forte, mais pour qu'elle joue la scène avec moi. »
 - *⚙️ Jouer la scène et faire exprès une erreur (« I want a pizza margarita ») pour montrer la correction bienveillante.*
-- Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement. On ose parler, même avec un mauvais accent.
+- *⚙️ « Qui veut commander son plat en anglais ? » Faire essayer une réplique à une personne du public : le moment le plus vivant, à garder même rapide.*
+- Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement, autant de fois que nécessaire. On ose parler, même avec un mauvais accent.
 - Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.
-- *⚙️ Proposer à une personne du public d'essayer une réplique !*
+- *⚙️ Plan B : la conversation d'exemple est cachée à droite, R pour la révéler.*
 - **⏱️ En retard ? Montrer seulement une réplique, sans volontaire, ou passer directement à la suite après avoir lu le prompt (on gagne 2 min).**
 
 > ➡️ « C'est impressionnant… mais ça pose aussi des questions. »
 
 <details><summary>Prompts de la démo</summary>
 
-- **Prof d'anglais** : Tu es mon professeur d'anglais, patient et encourageant. Je suis débutant. Jouons une scène : je commande au restaurant. Pose-moi une question à la fois, corrige mes erreurs en français, puis continue.
+- **Serveur à Londres** : Je pars à Londres cet été et je suis débutant en anglais. Joue le serveur d'un restaurant : pose-moi une question à la fois, en anglais simple. Quand je fais une erreur, corrige-moi gentiment en français, puis continue la scène.
 
 </details>
 

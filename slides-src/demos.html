@@ -400,6 +400,7 @@
   .traps p { font: 500 25px/1.3 Inter, sans-serif; color: var(--ink); }
   .pcard.xlp { width: 840px; }
   .pcard.xlp .prompt { font-size: 34px; }
+  .pcard.lang { width: 860px; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -811,28 +812,21 @@
 </section>
 
 <!-- ===================================================== Démo 6 · langue -->
-<section class="slide light" id="demo6-langue" data-net="bl">
+<section class="slide light" id="demo6-langue">
   <div class="content">
     <div class="kicker">03 · Démo n°6 · Au quotidien</div>
-    <h1 class="sm">Un prof de langue, disponible 24 h/24</h1>
-    <div class="row" style="margin-top:56px; align-items:flex-start">
-      <div class="card" style="flex:0 0 800px">
-        <div class="label">Exemple de prompt</div>
-        <p class="prompt">« Tu es mon professeur d'anglais, patient et encourageant. Je suis débutant. Jouons une scène : je commande au restaurant. Pose-moi une question à la fois, corrige mes erreurs en français, puis continue. »</p>
-      </div>
-      <div class="chat" style="flex:1">
-        <div class="bubble ai">Good evening! Are you ready to order? 🍝</div>
-        <div class="bubble me">Yes, I want a pizza margarita please</div>
-        <div class="bubble ai"><span class="fix">✏️ Plus poli : « I <b>would like</b> a margherita pizza, please. »</span>Very good! Would you like something to drink?</div>
-      </div>
-    </div>
-    <div class="chips" style="position:absolute; left:150px; bottom:90px">
-      <span class="chip">🎙️ Mode vocal : on parle à voix haute</span>
-      <span class="chip">🎯 Adapté à votre niveau</span>
-      <span class="chip">🔁 Sans jugement, autant de fois que nécessaire</span>
-    </div>
   </div>
-  <div class="live">En direct</div>
+  <div class="card pcard lang">
+    <div class="label">Exemple de prompt</div>
+    <p class="prompt">«&nbsp;<mark style="--hl:#4fd1a5">Je pars à Londres cet été et je suis débutant en anglais.</mark> <mark style="--hl:#7aa0ff">Joue le serveur d'un restaurant&nbsp;: pose-moi une question à la fois, en anglais simple.</mark> <mark style="--hl:#b39bff">Quand je fais une erreur, corrige-moi gentiment en français, puis continue la scène.</mark>&nbsp;»</p>
+    <div class="chips"><span class="chip" style="--hl:#4fd1a5"><i></i>Contexte</span><span class="chip" style="--hl:#7aa0ff"><i></i>La scène</span><span class="chip" style="--hl:#b39bff"><i></i>La méthode</span></div>
+  </div>
+  <!-- La conversation d'exemple est cachée au départ, révélée avec R -->
+  <div class="chat" data-zone="chat" style="position:absolute; left:1050px; right:150px; top:340px">
+    <div class="bubble ai">Good evening! Are you ready to order?</div>
+    <div class="bubble me">Yes, I want a pizza margarita please</div>
+    <div class="bubble ai"><span class="fix">Plus poli&nbsp;: «&nbsp;I <b>would like</b> a margherita pizza, please.&nbsp;»</span>Very good! Would you like something to drink?</div>
+  </div>
 </section>
 
 <!-- ===================================================== Démo finale · intro -->
