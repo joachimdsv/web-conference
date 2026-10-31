@@ -411,6 +411,34 @@
   .chap.notitle .pill { font-size: 40px; padding: 26px 42px; }
   .chap.notitle .chips { margin-top: 70px; gap: 24px; flex-wrap: nowrap; }
   .chap.notitle .chip { font-size: 38px; padding: 24px 36px; white-space: nowrap; }
+  /* Chapitre 04 · apports et coûts */
+  .c4k { color: #e8672f !important; }
+  .c4k.cost { color: #d43d5c !important; }
+  .c4grid { position: absolute; left: 150px; right: 150px; top: 230px; bottom: 190px; display: grid; gap: 36px; }
+  .c4grid.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .c4grid.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .c4grid.g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); }
+  .c4grid .card { display: flex; flex-direction: column; justify-content: center; padding: 40px 48px; border-top-color: var(--a); }
+  .c4grid .badge { flex: none; width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); margin-bottom: 26px; }
+  .c4grid .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .c4grid .row-h { display: flex; align-items: center; gap: 26px; margin-bottom: 18px; }
+  .c4grid .row-h .badge { margin-bottom: 0; }
+  .c4grid small { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--a); }
+  .c4grid .big { font: 800 92px/1 Sora, sans-serif; letter-spacing: -.03em; color: var(--a); margin: 6px 0 16px; }
+  .c4grid .big.md { font-size: 64px; }
+  .c4grid h3 { font: 700 40px/1.12 Sora, sans-serif; letter-spacing: -.015em; margin: 0 0 12px; }
+  .c4grid p { font: 500 28px/1.35 Inter, sans-serif; color: var(--ink); }
+  .c4grid p b { color: var(--navy); }
+  .c4src { position: absolute; left: 150px; right: 150px; bottom: 60px; font: 400 18px/1.4 Inter, sans-serif; color: var(--muted); }
+  .bars3 { display: flex; align-items: flex-end; gap: 26px; height: 230px; margin: 10px 0 20px; }
+  .bars3 div { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+  .bars3 i { display: block; width: 100%; border-radius: 14px 14px 4px 4px; background: var(--a); }
+  .bars3 span { font: 600 22px/1.2 Inter, sans-serif; color: var(--ink); margin-top: 10px; text-align: center; height: 54px; }
+  .timeline4 { display: grid; gap: 18px; margin-top: 8px; }
+  .timeline4 div { display: grid; grid-template-columns: 190px 1fr; gap: 20px; align-items: baseline; }
+  .timeline4 b { font: 700 28px/1.2 Sora, sans-serif; color: var(--a); }
+  .timeline4 span { font: 500 27px/1.3 Inter, sans-serif; color: var(--ink); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -709,8 +737,106 @@
   <div class="inner">
     <div class="pill">Chapitre 04</div>
     <h1>Impacts et enjeux</h1>
-    <div class="chips"><span class="chip">Opportunités et risques</span><span class="chip">Éthique</span><span class="chip">Les règles</span><span class="chip">Le travail</span></div>
+    <div class="chips"><span class="chip">Ce qu'elle apporte</span><span class="chip">Ce qu'elle coûte</span><span class="chip">Qui fixe les règles</span></div>
   </div>
+</section>
+
+<!-- ===================================================== 04 · ch4-temps -->
+<section class="slide light" id="ch4-temps">
+  <div class="content">
+    <div class="kicker c4k">04 · Ce qu'elle apporte · Du temps</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g3">
+    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><small>En France, 2026</small><div class="big">67&nbsp;%</div><p>des entreprises de 20 salariés et plus utilisent déjà l'IA générative</p></div>
+    <div class="card" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div><small>Mais…</small><div class="big">31&nbsp;%</div><p>seulement en constatent déjà un vrai gain de productivité</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><small>Le bon partage</small><h3>Automatiser des tâches, pas des humains</h3><p>Répétitif, tri, premier jet&nbsp;: l'IA. Juger, décider, la relation&nbsp;: l'humain.</p></div>
+  </div>
+  <p class="c4src">Source : Banque de France, enquête sur l'usage de l'IA dans les entreprises (février-avril 2026, publiée en septembre 2026).</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-decouvertes -->
+<section class="slide light" id="ch4-decouvertes">
+  <div class="content">
+    <div class="kicker c4k">04 · Ce qu'elle apporte · Des découvertes</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g4">
+    <div class="card" style="--a:#e5436a"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div><div><small>Santé · Suède, 2025</small><h3>+29&nbsp;% de cancers du sein détectés</h3></div></div><p>avec l'aide de l'IA au dépistage, et 44&nbsp;% de lecture en moins pour les radiologues</p></div>
+    <div class="card" style="--a:#18a984"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg></div><div><small>Médicaments · MIT, 2025</small><h3>De nouveaux antibiotiques</h3></div></div><p>imaginés par une IA contre des bactéries résistantes (testés sur la souris)</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10 16 1.5 1.5"/><path d="m14 8-1.5-1.5"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m16.5 10.5 1 1"/><path d="m17 6-2.891-2.891"/><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="m20 9 .891.891"/><path d="M3.109 14.109 4 15"/><path d="m6.5 12.5 1 1"/><path d="m7 18 2.891 2.891"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/></svg></div><div><small>Biologie · 2024</small><h3>Un prix Nobel de chimie</h3></div></div><p>pour AlphaFold, qui prédit la forme des protéines</p></div>
+    <div class="card" style="--a:#1596b8"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg></div><div><small>Météo · 2025</small><h3>Des prévisions par IA</h3></div></div><p>en service au Centre européen de prévisions météorologiques</p></div>
+  </div>
+  <p class="c4src">Sources : essai MASAI, The Lancet Digital Health (2025) · Collins et al., Cell (août 2025) · Nobel de chimie 2024 (Hassabis, Jumper, Baker) · ECMWF, modèle AIFS opérationnel depuis 2025.</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-planete -->
+<section class="slide light" id="ch4-planete">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La planète et nos portefeuilles</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g2">
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg></div><small>L'électricité des datacenters</small><div class="big">×&nbsp;2</div><p><b>415&nbsp;TWh en 2024, 945&nbsp;TWh prévus en 2030</b>&nbsp;: un peu plus que toute la consommation du Japon. Sans compter l'eau pour les refroidir.</p></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div><small>La mémoire part dans l'IA</small><div class="big">+15 à 20&nbsp;%</div><p><b>sur le prix des ordinateurs</b> annoncé par les grands fabricants pour fin 2026&nbsp;: la RAM est réservée en priorité aux datacenters de l'IA.</p></div>
+  </div>
+  <p class="c4src">Sources : Agence internationale de l'énergie, « Energy and AI » (avril 2025) · IDC et constructeurs (Lenovo, Dell, HP…), Le Monde Informatique (2026).</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-humains -->
+<section class="slide light" id="ch4-humains">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Les petites mains</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g2">
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg></div><small>Les travailleurs du clic</small><div class="big md">&lt;&nbsp;2&nbsp;$ de l'heure</div><p>payés à des travailleurs au Kenya pour lire et trier des textes violents, afin de rendre ChatGPT moins toxique.</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg></div><small>Les auteurs et les artistes</small><div class="big md">Sans accord</div><p>Des millions de livres, d'articles et d'images ont servi à entraîner les IA, souvent sans autorisation ni rémunération. Des procès sont en cours.</p></div>
+  </div>
+  <p class="c4src">Sources : enquête du magazine TIME (janvier 2023) sur le sous-traitant Sama · procès du New York Times contre OpenAI et Microsoft (depuis décembre 2023).</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-cerveau -->
+<section class="slide light" id="ch4-cerveau">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Notre cerveau</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g2">
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg></div><small>Activité du cerveau en écrivant un texte</small>
+      <div class="bars3"><div><i style="height:100%"></i><span>Sans outil</span></div><div><i style="height:62%; opacity:.75"></i><span>Moteur de recherche</span></div><div><i style="height:30%; opacity:.55"></i><span>ChatGPT</span></div></div>
+      <p>Ceux qui écrivaient avec ChatGPT avaient le cerveau le moins sollicité… et retenaient le moins ce qu'ils avaient écrit.</p></div>
+    <div class="card" style="--a:#1596b8"><div class="badge"><svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div><small>Comme le GPS</small><h3>Ce qu'on ne fait plus, on le perd</h3><p>Utilisée pour réfléchir à notre place, elle nous rend paresseux. Utilisée pour apprendre, elle peut nous rendre plus forts.</p></div>
+  </div>
+  <p class="c4src">Source : MIT Media Lab, « Your Brain on ChatGPT » (juin 2025) : 54 participants, mesures EEG, étude pas encore relue par des pairs. Barres illustratives (ordre des résultats, pas les valeurs).</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-securite -->
+<section class="slide light" id="ch4-securite">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Notre sécurité</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g3">
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg></div><small>Octobre 2026 · PHP2Shell</small><h3>Deux failles critiques trouvées grâce à l'IA</h3><p>dans PHP, utilisé par près de 3 sites web sur 4… et exploitées par des pirates quelques jours après.</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div><small>France · début 2026</small><h3>2<sup>e</sup> pays le plus touché par les fuites de données</h3><p>Cegedim Santé (~15&nbsp;millions de patients), ANTS (~11,7&nbsp;millions de comptes)…</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div><small>Pour tout le monde</small><h3>Des arnaques sur mesure</h3><p>E-mails sans fautes, voix clonées&nbsp;: l'IA rend le phishing plus crédible que jamais.</p></div>
+  </div>
+  <p class="c4src">Sources : avis de sécurité PHP (21 octobre 2026), CISA (liste des failles exploitées, 26 octobre 2026), Génération NT, Journal du Geek · Surfshark (1er trimestre 2026), ITPro.</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-democratie -->
+<section class="slide light" id="ch4-democratie">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La démocratie… et les règles</div>
+  </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g2">
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"/><path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z"/><path d="M22 19H2"/></svg></div><small>Désinformation et pouvoir</small><h3>Fausses vidéos, faux comptes</h3><p>4 ingérences étrangères détectées pendant les <b>municipales de mars 2026</b>. Et une technologie entre les mains de quelques géants, surtout américains et chinois.</p></div>
+    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></div><small>L'Europe fixe des règles · AI Act</small>
+      <div class="timeline4"><div><b>Févr. 2025</b><span>Interdits&nbsp;: noter les citoyens, manipuler…</span></div><div><b>Août 2026</b><span>Obligation de signaler les contenus faits par IA</span></div><div><b>Déc. 2027</b><span>Recrutement, crédit, école&nbsp;: très encadrés (reporté)</span></div></div></div>
+  </div>
+  <p class="c4src">Sources : Viginum (SGDSN), rapport public sur les municipales 2026 (juin 2026) · Règlement européen sur l'IA (2024/1689), calendrier modifié par le règlement « omnibus numérique » (2026).</p>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

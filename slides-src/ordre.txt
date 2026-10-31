@@ -32,10 +32,13 @@ demo demo5-excel
 demo demo6-langue
 # Chapitres 04 à 06
 demo chapitre-04
-page 23
-page 24
-page 25
-page 26
+demo ch4-temps
+demo ch4-decouvertes
+demo ch4-planete
+demo ch4-humains
+demo ch4-cerveau
+demo ch4-securite
+demo ch4-democratie
 page 27
 page 28
 page 29

@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 43 diapos · environ 60 min 30 de conférence + 25 min de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 46 diapos · environ 65 min de conférence + 25 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -13,12 +13,12 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Chapitre 01 · Qu'est-ce que l'IA ? | 4-12 | 3:30 | 10 min |
 | Chapitre 02 · L'IA dans notre quotidien | 13-17 | 13:30 | 6 min |
 | Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 19:30 | 21 min |
-| Chapitre 04 · Impacts et enjeux | 28-32 | 40:30 | 5 min |
-| Chapitre 05 · Les bonnes pratiques | 33-36 | 45:30 | 4 min |
-| Chapitre 06 · Et demain ? + démo finale | 37-40 | 49:30 | 10 min |
-| Conclusion | 41-42 | 59:30 | 26 min |
-| Débat et fin | 43-43 | 1:25:30 | 1 min |
-| Marge de sécurité | | 1:26:30 | 3 min 30 |
+| Chapitre 04 · Impacts et enjeux | 28-32 | 40:30 | 6 min |
+| Chapitre 05 · Les bonnes pratiques | 33-36 | 46:30 | 5 min |
+| Chapitre 06 · Et demain ? + démo finale | 37-40 | 51:30 | 3 min 30 |
+| Conclusion | 41-42 | 55:00 | 8 min |
+| Débat et fin | 43-46 | 1:03:00 | 28 min |
+| Marge de sécurité | | 1:31:00 | -1 min |
 
 Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
 
@@ -312,7 +312,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - orange = les textes exacts, entre guillemets, « sans faute » (les IA écrivent bien mieux ainsi) ;
   - violet = le style (illustration joyeuse, sapins, myrtilles, lampions) ;
   - rose = les contraintes (une bande vide pour les logos).
-- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 33.)
+- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 36.)
 - « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
 - *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher à droite.*
 - Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres (comme tout à l'heure !). « On ne recommence pas tout : on continue la conversation. » Prompt « Retouche » : agrandir le titre, ajouter des paniers de myrtilles et des lampions, vérifier l'orthographe.
@@ -427,77 +427,101 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Prendre du recul : ce qu'elle change pour nous. (30 s)**
 
 - « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, les risques, qui fixe les règles… et notre travail. »
-- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 40 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 35 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
+- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 40 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 38 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
 ---
 
-## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 5 min)
+## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 6 min)
 
-### 28 · Opportunités / risques — 1 min · prévu à 40:30
+### 28 · Ce qu'elle apporte — du temps — 1 min · prévu à 40:30
 
-**🎯 Ni bonne ni mauvaise : tout dépend de l'usage.**
+**🎯 Elle fait gagner du temps… mais pas automatiquement. (1 min)**
 
-- Opportunités :
-  - gagner du temps sur les tâches pénibles ;
-  - des progrès en médecine et en science ;
-  - l'accès au savoir pour tous (on se fait expliquer simplement, on traduit) ;
-  - de nouveaux outils pour créer.
-- Risques :
-  - les erreurs et les fausses informations (on l'a vu avec l'e-mail) ;
-  - les biais et les discriminations ;
-  - les atteintes à la vie privée ;
-  - la dépendance, quand on perd l'habitude de réfléchir ou d'écrire par soi-même.
-- « C'est comme internet ou un couteau de cuisine : l'outil n'est ni bon ni mauvais, c'est l'usage qui compte. »
+- « Commençons par le bon côté. En France, deux entreprises sur trois utilisent déjà l'IA générative. Mais seulement une sur trois de ces entreprises en voit déjà un vrai gain de productivité. » (Banque de France, enquête 2026 : 67 % des entreprises de 20 salariés et plus l'utilisent, 31 % des utilisatrices constatent un gain.)
+- « Elle est très forte pour les tâches répétitives : résumer, trier, faire un premier jet. Ça accélère énormément. »
+- « Mais l'humain reste indispensable pour juger, décider, et pour la relation. Et si ça tourne mal, c'est un humain qui en répond. L'idée, c'est d'automatiser des tâches… pas des humains. »
+- Si question sur l'emploi : la plupart des métiers seront transformés plutôt que supprimés ; ceux qui sauront s'en servir auront un avantage.
 
-### 29 · Questions éthiques — 1 min 30 · prévu à 41:30
+> ➡️ « Et au-delà du temps gagné, elle fait avancer la science. »
 
-**🎯 Quatre questions à se poser.**
+### 29 · Ce qu'elle apporte — des découvertes — 1 min 30 · prévu à 41:30
 
-- Biais : l'IA reproduit les préjugés présents dans ses exemples. Un outil de recrutement d'Amazon défavorisait les CV de femmes, parce qu'il avait appris sur des recrutements passés surtout masculins. Il a été abandonné.
-- Hallucinations : elle invente avec aplomb (de faux articles de loi, de fausses références, des livres qui n'existent pas).
-- Vie privée : ce que vous tapez peut être conservé et réutilisé. Il existe souvent un réglage pour le refuser.
-- Droits d'auteur : des livres, des articles de presse, des œuvres d'artistes ont servi à l'entraîner, souvent sans leur accord et sans rémunération. Des procès sont en cours, par exemple celui du New York Times contre OpenAI.
+**🎯 Elle accélère la recherche dans des domaines très concrets. (1 min 30)**
 
-### 30 · Qui décide des règles ? — 1 min · prévu à 43:00
+- Santé : « En Suède, un grand essai sur plus de 100 000 femmes : avec l'IA pour aider au dépistage du cancer du sein, on a trouvé 29 % de cancers en plus, et les radiologues ont eu 44 % de clichés en moins à lire. » (Essai MASAI, The Lancet Digital Health, 2025 : 338 cancers contre 262. C'est toujours le médecin qui décide.)
+- Médicaments : « Au MIT, une IA a imaginé de nouveaux antibiotiques contre des bactéries devenues résistantes. Ils ont marché sur la souris ; il faudra encore des années d'essais. » (Cell, août 2025.)
+- Biologie : « AlphaFold prédit la forme des protéines, un travail qui prenait parfois des années. Ses créateurs ont reçu le prix Nobel de chimie 2024. » (déjà cité : aller vite)
+- Météo : « Le Centre européen de prévisions météo utilise depuis 2025 un modèle d'IA, en plus des calculs classiques. »
 
-**🎯 Il faut des règles, et l'Europe a été la première à en écrire.**
+> ➡️ « Voilà la face brillante. Retournons la pièce : tout ça a un prix. Et d'abord, pour la planète… et pour nos portefeuilles. »
 
-- Europe : l'AI Act est la première grande loi au monde sur l'IA. Le principe : plus un usage est risqué, plus il est encadré.
-  - Interdit : par exemple, noter les citoyens selon leur comportement.
-  - Très contrôlé : le recrutement, la santé.
-  - Obligatoire : signaler quand un contenu a été fabriqué par une IA.
-  - Sa mise en place est progressive, entre 2024 et 2027 (calendrier à vérifier).
-- Démocratie : les fausses vidéos et les faux messages peuvent influencer les élections. En 2024, un faux message vocal imitant la voix de Joe Biden demandait aux électeurs de ne pas aller voter.
-- Souveraineté : quelques géants, surtout américains et chinois, concentrent cette technologie. L'Europe a aussi ses acteurs, comme Mistral AI en France.
+### 30 · Ce qu'elle coûte — planète et ressources — 1 min 30 · prévu à 43:00
 
-### 31 · Productivité — 1 min · prévu à 44:00
+**🎯 L'IA consomme énormément : électricité, eau… et composants. (1 min 30)**
 
-**🎯 Automatiser des tâches, pas des humains.**
+- L'électricité : « Les datacenters, ces immenses entrepôts d'ordinateurs, consommaient 415 térawattheures en 2024. L'Agence internationale de l'énergie prévoit plus du double en 2030 : un peu plus que toute la consommation du Japon. Et l'IA est le principal moteur de cette hausse. » (AIE, « Energy and AI », avril 2025.)
+- L'eau : « Il faut aussi beaucoup d'eau pour refroidir ces machines. »
+- Le bon réflexe : « Une image ou une vidéo consomme bien plus qu'une simple question. Utilisons-la quand elle apporte vraiment quelque chose. »
+- La mémoire (RAM) : « Les fabricants de mémoire réservent leur production aux datacenters de l'IA, qui paient plus cher. Résultat : pénurie, et les grands fabricants d'ordinateurs ont annoncé 15 à 20 % de hausse de prix pour la fin 2026. Votre prochain ordinateur ou téléphone coûtera plus cher… à cause de l'IA. » (IDC, Lenovo, Dell, HP… Le Monde Informatique, 2026. Les prévisions varient selon les analystes.)
 
-- L'IA excelle pour :
-  - les tâches répétitives ;
-  - résumer et trier ;
-  - produire un premier jet.
-- L'humain reste indispensable pour :
-  - juger et décider ;
-  - la relation et l'empathie ;
-  - la responsabilité (si ça tourne mal, c'est un humain qui en répond).
-- La plupart des métiers seront transformés plutôt que supprimés. Ceux qui sauront s'en servir auront un avantage.
-- Le coût caché : les centres de données qui font tourner ces IA consomment beaucoup d'électricité, et d'eau pour les refroidir. Une image ou une vidéo consomme bien plus qu'une simple question. Utilisons-la quand elle apporte vraiment quelque chose.
+> ➡️ « Il y a aussi un prix humain, qu'on ne voit jamais. »
+
+### 31 · Ce qu'elle coûte — les petites mains — 1 min · prévu à 44:30
+
+**🎯 Derrière l'IA, il y a des humains invisibles et mal payés. (1 min)**
+
+- Les travailleurs du clic : « Vous vous souvenez de l'étape 2 de l'apprentissage, quand des humains corrigent l'IA ? Une partie de ce travail est faite dans des pays pauvres. Une enquête du magazine TIME a révélé qu'au Kenya, des travailleurs étaient payés moins de 2 dollars de l'heure pour lire et trier des textes horribles, violents, afin de rendre ChatGPT moins toxique. » (TIME, janvier 2023, sous-traitant Sama. Depuis, des travailleurs du secteur se sont syndiqués à Nairobi.)
+- Les auteurs et les artistes : « Et pour apprendre, l'IA a "lu" des millions de livres, d'articles, d'images… souvent sans autorisation et sans payer leurs auteurs. Des procès sont en cours, comme celui du New York Times contre OpenAI. »
+- « L'IA n'est pas magique : elle repose sur le travail de beaucoup de gens… qu'on ne voit pas. »
+
+> ➡️ « Et il y a un prix… pour notre propre cerveau. »
+
+### 32 · Ce qu'elle coûte — notre cerveau — 1 min · prévu à 45:30
+
+**🎯 Ce qu'on ne fait plus, on le perd. (1 min)**
+
+- L'étude : « Des chercheurs du MIT ont mesuré l'activité du cerveau de personnes qui écrivaient un texte : sans aide, avec un moteur de recherche, ou avec ChatGPT. Ceux qui utilisaient ChatGPT avaient le cerveau le moins sollicité… et beaucoup étaient incapables de citer une phrase de leur propre texte. »
+- Honnêteté : « C'est une petite étude, 54 personnes, pas encore validée par d'autres chercheurs. Mais elle confirme ce qu'on observe tous. » (MIT Media Lab, juin 2025 ; les barres de la diapo montrent l'ordre des résultats, pas les valeurs exactes.)
+- L'image du GPS : « Depuis qu'on a le GPS, on ne sait plus lire une carte. C'est pareil : si on lui délègue toute notre réflexion, on perd l'habitude de réfléchir. »
+- Le bon usage : « Utilisée pour réfléchir à notre place, elle nous rend paresseux. Utilisée pour apprendre (explique-moi, interroge-moi, corrige-moi), elle peut nous rendre plus forts. » Pour les parents : pour les devoirs, « explique-moi », pas « fais-le à ma place ».
+
+> ➡️ « Autre prix, très concret : notre sécurité. »
+
+---
+
+## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 5 min)
+
+### 33 · Ce qu'elle coûte — notre sécurité — 1 min 30 · prévu à 46:30
+
+**🎯 L'IA est une arme à double tranchant : pour les défenseurs… et pour les pirates. (1 min 30)**
+
+- PHP2Shell (l'actualité) : « Il y a dix jours, le 21 octobre, deux failles très graves ont été corrigées en urgence dans PHP, une technologie qui fait tourner près de 3 sites web sur 4. Elles ont été trouvées par des chercheurs… avec l'aide de l'IA, en quelques semaines au lieu de plusieurs mois. Mais les pirates ont l'IA aussi : quelques jours plus tard, ces failles étaient déjà exploitées. » (Avis PHP du 21 octobre 2026 ; ajoutées le 26 octobre à la liste des failles exploitées de l'agence américaine CISA. Découvertes par Wiz et avec les outils d'OpenAI ; les détails varient selon les articles.)
+- Les fuites en France : « La France a été le 2e pays le plus touché au monde par les fuites de données au début de 2026 : Cegedim Santé, environ 15 millions de patients ; l'ANTS, environ 11,7 millions de comptes… » (Surfshark, 1er trimestre 2026. On n'a pas de preuve que l'IA soit derrière ces fuites précises, mais elle aide les pirates à exploiter les données volées.)
+- Pour tout le monde : « Avec ces données et l'IA, les arnaques deviennent sur mesure : des e-mails sans fautes, à votre nom, et même des voix clonées au téléphone. Le réflexe : en cas de doute, on raccroche et on rappelle soi-même. »
+
+> ➡️ « Et enfin, un enjeu pour nous tous, citoyens : la démocratie… et qui fixe les règles. »
+
+### 34 · Ce qu'elle coûte — démocratie et règles — 1 min 30 · prévu à 48:00
+
+**🎯 Une technologie puissante a besoin de règles, et l'Europe a été la première à en écrire. (1 min 30)**
+
+- Désinformation : « Fausses vidéos, faux comptes, faux articles : produire de la désinformation n'a jamais été aussi facile. Pendant les municipales de mars 2026, le service de l'État chargé de surveiller les ingérences, Viginum, a détecté 4 opérations venues de l'étranger. Et l'élection présidentielle de 2027 sera une cible. »
+- Pouvoir : « Cette technologie est entre les mains de quelques géants, surtout américains et chinois. L'Europe a ses acteurs, comme Mistral AI en France, mais c'est un vrai enjeu de souveraineté. »
+- Les règles, l'AI Act : « Le principe : plus un usage est risqué, plus il est encadré. »
+  - Depuis février 2025 : certains usages sont interdits, par exemple noter les citoyens selon leur comportement ;
+  - Depuis août 2026 : obligation de signaler les contenus fabriqués par une IA et de dire quand on parle à une IA ;
+  - Décembre 2027 : le recrutement, le crédit, l'école seront très encadrés (c'était prévu pour 2026, l'Europe l'a reporté).
+- (Calendrier : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en 2026. À revérifier juste avant la conférence.)
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
 
-### 32 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 45:00
+### 35 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 49:30
 
 **🎯 Annoncer les 3 réflexes.**
 
 - « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
 
----
-
-## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 4 min)
-
-### 33 · Le bon prompt — 1 min 30 · prévu à 45:30
+### 36 · Le bon prompt — 1 min 30 · prévu à 50:00
 
 **🎯 Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas.**
 
@@ -508,7 +532,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Rappel : c'est exactement ce qu'on a fait avec l'affiche. Chaque couleur était un ingrédient.
 - Astuce : si le résultat ne convient pas, on continue la conversation. « Plus court », « plus simple », « avec un exemple ».
 
-### 34 · Esprit critique — 1 min · prévu à 47:00
+---
+
+## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 3 min 30)
+
+### 37 · Esprit critique — 1 min · prévu à 51:30
 
 **🎯 Faites confiance, mais vérifiez.**
 
@@ -517,7 +545,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Relire : vous êtes responsable de ce que vous utilisez ou envoyez.
 - La règle d'or : jamais de données personnelles, médicales ou confidentielles. « N'écrivez rien que vous ne mettriez pas sur une carte postale. »
 
-### 35 · À faire / à éviter — 30 s · prévu à 48:00
+### 38 · À faire / à éviter — 30 s · prévu à 52:30
 
 **🎯 Un assistant, pas un cerveau de remplacement.**
 
@@ -534,7 +562,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Pour les parents : pour les devoirs, l'utiliser pour comprendre (« explique-moi autrement »), pas pour copier la réponse.
 - La phrase à retenir : « Utilisez-la comme un assistant, pas comme un cerveau de remplacement. »
 
-### 36 · Et demain ? — 1 min · prévu à 48:30
+### 39 · Et demain ? — 1 min · prévu à 53:00
 
 **🎯 Ce qui arrive… et ce que vous en attendez.**
 
@@ -542,15 +570,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Multimodalité : une seule IA qui voit, entend et parle. On peut déjà montrer un objet à la caméra du téléphone et lui poser une question à voix haute.
 - IA plus sobre : des modèles plus petits qui tournent directement sur le téléphone, sans internet. Ils consomment moins et respectent mieux la vie privée.
 - *⚙️ Demander : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
-- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 49 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 05.**
+- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 53 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 05.**
 
 > ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
 
----
-
-## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 10 min)
-
-### 37 · Démo finale — Le site de la MJC — 1 min · prévu à 49:30
+### 40 · Démo finale — Le site de la MJC — 1 min · prévu à 54:00
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
 
@@ -562,7 +586,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
 - *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
 
-### 38 · Démo finale — Le cahier des charges — 7 min · prévu à 50:30
+---
+
+## Conclusion (diapos 41 à 42, environ 8 min)
+
+### 41 · Démo finale — Le cahier des charges — 7 min · prévu à 55:00
 
 **🎯 On décrit, l'IA fabrique, on améliore ensemble.**
 
@@ -586,7 +614,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 39 · Démo finale — Bilan — 1 min · prévu à 57:30
+### 42 · Démo finale — Bilan — 1 min · prévu à 1:02:00
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -604,7 +632,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Si vous ne deviez retenir que trois choses ce soir… »
 
-### 40 · 3 choses à retenir — 1 min · prévu à 58:30
+---
+
+## Débat et fin (diapos 43 à 46, environ 28 min)
+
+### 43 · 3 choses à retenir — 1 min · prévu à 1:03:00
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -612,13 +644,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
 - 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
-- **⏱️ Prévu à 59 min. Le débat doit commencer vers 1 h 01, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
+- **⏱️ Prévu à 1 h 03. Le débat doit commencer vers 1 h 05, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
 
----
-
-## Conclusion (diapos 41 à 42, environ 26 min)
-
-### 41 · Pour essayer chez vous — 1 min · prévu à 59:30
+### 44 · Pour essayer chez vous — 1 min · prévu à 1:04:00
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -636,7 +664,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Et maintenant, c'est à vous : place au débat ! »
 
-### 42 · Débat — 25 min · prévu à 1:00:30
+### 45 · Débat — 25 min · prévu à 1:05:00
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -653,19 +681,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 🏠 La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
 - Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
-- **⏱️ De 1 h 01 à 1 h 26 environ. Vers 1 h 23 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
+- **⏱️ De 1 h 05 à 1 h 30 environ. Vers 1 h 23 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
 
 > ➡️ « Merci pour ces échanges… »
 
----
-
-## Débat et fin (diapos 43 à 43, environ 1 min)
-
-### 43 · Merci ! — 1 min · prévu à 1:25:30
+### 46 · Merci ! — 1 min · prévu à 1:30:00
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 
 - Remercier la MJC, les bénévoles et le public pour la richesse des échanges.
 - Rappeler la phrase de la soirée : « L'IA est un outil : c'est vous qui gardez la main. »
 - « Si vous avez encore des questions, je reste quelques minutes après. » Et annoncer l'atelier numérique de la MJC s'il existe.
-- **⏱️ Fin prévue vers 1 h 27. 1 h 30 maximum.**
+- **⏱️ Fin prévue vers 1 h 31. 1 h 30 maximum.**
