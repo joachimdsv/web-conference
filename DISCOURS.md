@@ -435,11 +435,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 28 · Ce qu'elle apporte — du temps — 1 min · prévu à 40:30
 
-**🎯 Elle fait gagner du temps… mais pas automatiquement. (1 min)**
+**🎯 Elle fait gagner un temps fou… mais pas automatiquement. (1 min)**
 
-- « Commençons par le bon côté. En France, deux entreprises sur trois utilisent déjà l'IA générative. Mais seulement une sur trois de ces entreprises en voit déjà un vrai gain de productivité. » (Banque de France, enquête 2026 : 67 % des entreprises de 20 salariés et plus l'utilisent, 31 % des utilisatrices constatent un gain.)
-- « Elle est très forte pour les tâches répétitives : résumer, trier, faire un premier jet. Ça accélère énormément. »
-- « Mais l'humain reste indispensable pour juger, décider, et pour la relation. Et si ça tourne mal, c'est un humain qui en répond. L'idée, c'est d'automatiser des tâches… pas des humains. »
+- L'accroche (lire le titre) : « Ce qui prenait une heure… prend une minute. Vous l'avez vu tout à l'heure. »
+- Les barres, en rappelant les démos : « L'e-mail au propriétaire : un quart d'heure à chercher ses mots… 10 secondes. Le tableau du budget : une heure… une minute. Le premier jet d'une affiche : une heure… 30 secondes. Regardez la taille des barres : c'est à la même échelle ! »
+- Honnêteté : « Ce sont des ordres de grandeur, et il faut ajouter le temps de relire et de corriger. »
+- Les entreprises (carte de droite) : « En France, deux entreprises sur trois l'utilisent déjà… mais seulement une sur trois en voit déjà le gain. Pourquoi ? Parce qu'il faut apprendre à bien s'en servir, et que le temps gagné est souvent repris par autre chose. » (Banque de France, 2026 : 67 % des entreprises de 20 salariés et plus l'utilisent, 31 % des utilisatrices constatent un gain. Ce n'est pas « 31 % de productivité en plus ».)
+- Le bon partage : « Le répétitif, le tri, le premier jet : l'IA. Juger, décider, la relation : l'humain. Automatiser des tâches… pas des humains. »
 - Si question sur l'emploi : la plupart des métiers seront transformés plutôt que supprimés ; ceux qui sauront s'en servir auront un avantage.
 
 > ➡️ « Et au-delà du temps gagné, elle fait avancer la science. »
