@@ -376,23 +376,26 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 25 · Démo 5 — Budget dans Excel — 2 min 30 · prévu à 35:00
 
-**🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français.**
+**🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français. (2 min 30)**
 
-- *⚙️ EN DIRECT. Copier le prompt « Budget ».*
-- « Je ne lui parle pas de formules ou de cellules : je lui décris ce que je veux, comme à quelqu'un. »
-- *⚙️ Télécharger le fichier, l'ouvrir dans Excel et cliquer sur un total : la formule est là, le calcul se fait tout seul.*
-- *⚙️ Copier le prompt « Amélioration » : la colonne « Écart » passe en rouge quand on dépasse le budget.*
+- *⚙️ EN DIRECT. Copier le prompt « Budget » dans ChatGPT. Le tableau d'exemple à droite est caché : R pour le révéler quand le fichier arrive.*
+- « Même méthode : le contexte (une famille de 4), la tâche, le format. Je ne lui parle pas de formules ou de cellules : je lui décris ce que je veux, comme à quelqu'un. »
+- *⚙️ Télécharger le fichier, l'ouvrir (Excel, LibreOffice ou Google Sheets) et cliquer sur un total : la formule est là, le calcul se fait tout seul. R pour montrer le tableau d'exemple.*
+- *⚙️ Copier le prompt « Amélioration » : la colonne « Écart » passe en rouge quand on dépasse le budget (ici, les courses : +32 €).*
 - Les réflexes :
   - vérifier un ou deux totaux à la main, car elle peut se tromper de case ;
   - tester avec des chiffres inventés ;
   - ne jamais y coller ses vrais relevés bancaires.
-- Ça marche aussi pour un planning de vacances, une liste de courses ou le suivi des cotisations d'une association.
-- *⚙️ Plan B : le fichier préparé à l'avance.*
+- « Ça marche aussi pour un planning de vacances, une liste de courses ou le suivi des cotisations d'une association. »
+- Bon à savoir : ChatGPT crée de vrais fichiers à télécharger, même en version gratuite (avec une limite d'usage). Pas besoin d'Excel pour les ouvrir.
+- *⚙️ Plan B : ouvrir media/budget-famille.xlsx (vraies formules, écart en rouge, graphique). Vérifier la veille qu'il s'ouvre sur l'ordinateur de la conférence.*
 - **⏱️ En retard ? Un seul prompt (« Budget »), sans l'amélioration : on gagne environ 1 min 30.**
+
+> ➡️ « Et pour finir avec le quotidien, une démo que vous pouvez faire dès ce soir, avec votre téléphone : apprendre une langue. »
 
 <details><summary>Prompts de la démo</summary>
 
-- **Budget** : Crée un tableau Excel pour suivre le budget mensuel de ma famille : revenus, dépenses par catégorie (logement, courses, transport, loisirs), un total automatique, le reste à vivre et un graphique. Utilise des montants d'exemple. Donne-moi le fichier à télécharger.
+- **Budget** : Nous sommes une famille de 4 personnes et nous voulons mieux suivre nos dépenses. Crée un tableau Excel pour notre budget du mois : les revenus, les dépenses par catégorie (logement, courses, transport, loisirs), avec le prévu et le réel, les totaux calculés automatiquement, le reste à vivre et un graphique. Mets des montants d'exemple et donne-moi le fichier à télécharger.
 - **Amélioration** : Ajoute une colonne « Écart » entre le prévu et le réel, en rouge quand je dépasse mon budget.
 
 </details>

@@ -15,6 +15,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
   - Les enregistrer sous `media/demo3-video1.mp4` (filmée) et `media/demo3-video2.mp4` (IA), puis retirer les `//` devant `video-1` et `video-2` dans `js/deck.js`. Ou glisser les fichiers sur les zones dans la régie.
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
   - l'affiche déjà générée : `media/demo2-affiche.jpg` est en place (titre raté) ; la remplacer la veille par une affiche faite avec ChatGPT si possible ;
+  - le budget Excel : `media/budget-famille.xlsx` est prêt (formules, écart en rouge, graphique) ;
   - le fichier Excel du budget ;
   - le site de la MJC déjà créé **et déjà en ligne**, avec son adresse et une capture d'écran.
 - [ ] Copier ces fichiers dans `media/` et décommenter les lignes correspondantes dans `js/deck.js`, ou simplement les glisser dans la régie la veille, sur l'ordinateur de la conférence.

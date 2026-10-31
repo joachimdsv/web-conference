@@ -7,3 +7,6 @@
 
 ## Démo 2 · Créer une affiche (diapo 22)
 - `demo2-affiche.jpg` (plan B) : générée par IA (Pollinations.ai) pour la « Fête de la Myrtille » de Saint-Myrtil, événement fictif. Le titre est mal écrit. Bas de l'image recadré pour retirer le filigrane.
+
+## Démo 5 · Budget dans Excel (diapo 25)
+- `budget-famille.xlsx` (plan B) : créé pour la conférence, montants d'exemple fictifs.

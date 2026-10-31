@@ -50,7 +50,7 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 | 22 | Créer une affiche (Fête de la Myrtille, fictive) | Direct | Compte ChatGPT / Copilot connecté · plan B : media/demo2-affiche.jpg (déjà en place) |
 | 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
 | 24 | Rédiger un e-mail + pièges | Direct | — |
-| 25 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
+| 25 | Budget dans Excel | Direct | Excel, LibreOffice ou Google Sheets pour ouvrir le fichier · plan B : `media/budget-famille.xlsx` (déjà prêt) |
 | 26 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
 | 37-39 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
 
