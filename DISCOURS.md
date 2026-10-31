@@ -307,11 +307,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - *⚙️ EN DIRECT. Copier le prompt « Affiche » (régie), le coller dans ChatGPT ou Copilot, et partager la fenêtre.*
 - « On va créer l'affiche d'une fête imaginaire : la Fête de la Myrtille, à Saint-Myrtil. Le "prompt", c'est simplement la demande qu'on écrit à l'IA. »
 - Pendant que l'image se fabrique (environ 30 secondes), expliquer les 5 couleurs du prompt affiché :
+  - vert = le contexte (qui je suis, à quoi sert l'affiche, pour qui) : le plus important !
   - bleu = le format (affiche verticale A3) ;
-  - vert = le sujet (la fête, le lieu, la date, les horaires) ;
-  - violet = le style (festif, les sapins des Vosges, une illustration colorée) ;
-  - orange = le texte exact à écrire (« Fête de la Myrtille ») ;
-  - rose = les contraintes (de la place pour les logos).
+  - orange = les textes exacts, entre guillemets, « sans faute » (les IA écrivent bien mieux ainsi) ;
+  - violet = le style (illustration joyeuse, sapins, myrtilles, lampions) ;
+  - rose = les contraintes (une bande vide pour les logos).
+- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 33.)
 - « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
 - *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher à droite.*
 - Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres (comme tout à l'heure !). « On ne recommence pas tout : on continue la conversation. » Prompt « Retouche » : agrandir le titre, ajouter des paniers de myrtilles et des lampions, vérifier l'orthographe.
@@ -322,7 +323,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 <details><summary>Prompts de la démo</summary>
 
-- **Affiche** : Crée une affiche verticale au format A3 pour la Fête de la Myrtille de Saint-Myrtil, le samedi 19 juin de 14 h à 22 h. Ambiance festive et familiale, forêts de sapins des Vosges en fond, style illustration colorée. Titre bien lisible : « Fête de la Myrtille ». Laisse de la place en bas pour les logos.
+- **Affiche** : Je suis bénévole au comité des fêtes de Saint-Myrtil, un village des Vosges. Crée l'affiche de notre Fête de la Myrtille : elle sera collée chez les commerçants et doit donner envie aux familles de venir. Affiche verticale, format A3. Textes à écrire exactement, sans faute : « Fête de la Myrtille » en grand titre, « Samedi 19 juin · 14 h – 22 h », « Saint-Myrtil ». Style : illustration joyeuse et colorée, forêts de sapins, paniers de myrtilles, lampions. Laisse une bande vide en bas pour les logos des partenaires.
 - **Retouche** : Agrandis le titre, ajoute des paniers de myrtilles et des lampions colorés, et vérifie que tout le texte est écrit sans faute.
 
 </details>

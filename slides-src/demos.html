@@ -381,7 +381,7 @@
   /* Démo 2 · affiche */
   .pcard { position: absolute; left: 150px; top: 200px; width: 1010px; height: 780px; padding: 50px 54px;
     display: flex; flex-direction: column; justify-content: center; }
-  .pcard .prompt { font: 500 40px/1.6 Inter, sans-serif; margin-top: 24px; }
+  .pcard .prompt { font: 500 33px/1.6 Inter, sans-serif; margin-top: 24px; }
   .pcard .prompt mark { border-bottom: none; background: color-mix(in srgb, var(--hl) 30%, transparent); border-radius: 8px; padding: 2px 8px;
     -webkit-box-decoration-break: clone; box-decoration-break: clone; }
   .pcard .chips { margin-top: 40px; gap: 12px; }
@@ -733,8 +733,9 @@
   </div>
   <div class="card pcard">
     <div class="label">Exemple de prompt</div>
-    <p class="prompt">«&nbsp;Crée <mark style="--hl:#7aa0ff">une affiche verticale au format A3</mark> pour <mark style="--hl:#4fd1a5">la Fête de la Myrtille de Saint-Myrtil, le samedi 19&nbsp;juin de 14&nbsp;h à 22&nbsp;h</mark>. <mark style="--hl:#b39bff">Ambiance festive et familiale, forêts de sapins des Vosges en fond, style illustration colorée</mark>. <mark style="--hl:#ffa86b">Titre bien lisible&nbsp;: «&nbsp;Fête de la Myrtille&nbsp;»</mark>. <mark style="--hl:#ff8fb0">Laisse de la place en bas pour les logos.</mark>&nbsp;»</p>
-    <div class="chips"><span class="chip" style="--hl:#7aa0ff"><i></i>Format</span><span class="chip" style="--hl:#4fd1a5"><i></i>Sujet</span><span class="chip" style="--hl:#b39bff"><i></i>Style</span><span class="chip" style="--hl:#ffa86b"><i></i>Texte</span><span class="chip" style="--hl:#ff8fb0"><i></i>Contraintes</span></div>
+    <p class="prompt">«&nbsp;<mark style="--hl:#4fd1a5">Je suis bénévole au comité des fêtes de Saint-Myrtil, un village des Vosges. Crée l'affiche de notre Fête de la Myrtille&nbsp;: elle sera collée chez les commerçants et doit donner envie aux familles de venir.</mark> <mark style="--hl:#7aa0ff">Affiche verticale, format A3.</mark> <mark style="--hl:#ffa86b">Textes à écrire exactement, sans faute&nbsp;: «&nbsp;Fête de la Myrtille&nbsp;» en grand titre, «&nbsp;Samedi 19&nbsp;juin · 14&nbsp;h – 22&nbsp;h&nbsp;», «&nbsp;Saint-Myrtil&nbsp;».</mark> <mark style="--hl:#b39bff">Style&nbsp;: illustration joyeuse et colorée, forêts de sapins, paniers de myrtilles, lampions.</mark> <mark style="--hl:#ff8fb0">Laisse une bande vide en bas pour les logos des partenaires.</mark>&nbsp;»</p>
+    <div class="chips"><span class="chip" style="--hl:#4fd1a5"><i></i>Contexte</span><span class="chip" style="--hl:#7aa0ff"><i></i>Format</span><span class="chip" style="--hl:#ffa86b"><i></i>Texte exact</span><span class="chip" style="--hl:#b39bff"><i></i>Style</span><span class="chip" style="--hl:#ff8fb0"><i></i>Contraintes</span></div>
+  </div>
   </div>
   <!-- Icône Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="frame" data-zone="affiche" style="left:1230px; top:200px; width:540px; height:780px"><b><svg class="fico" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg></b><span>L'affiche générée</span></div>
