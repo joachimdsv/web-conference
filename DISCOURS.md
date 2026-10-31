@@ -288,15 +288,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 21 · Démo 1 — Les indices — 1 min · prévu à 23:30
 
-**🎯 Quelques indices… mais surtout, vérifier la source.**
+**🎯 Quelques indices… mais surtout, vérifier la source. (1 min)**
 
-- *⚙️ Remontrer l'affiche ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.*
-- Le texte : des fautes, des lettres inventées, des mots qui ne veulent rien dire, une date ou un lieu incohérents.
-- Les personnages : des mains et des doigts étranges, des visages déformés dans la foule.
-- Les détails : des logos qui ressemblent à de vrais logos sans en être, des objets qui se fondent les uns dans les autres.
-- Le style : trop lisse, trop parfait, « déjà vu ».
-- LE réflexe : d'où vient cette affiche ? Qui l'a publiée ? On vérifie la date et le lieu sur le site officiel (ici, celui de la MJC). Pour une image, on peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
-- Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.
+- Le texte (gros plan de l'affiche C) : « Regardez le titre : des lettres qui ressemblent à des lettres, mais qui ne veulent rien dire. C'est l'indice le plus fréquent : fautes, lettres inventées, date ou lieu incohérents. »
+- Incohérences (gros plan de l'affiche C) : « Et ce grand rectangle : il ne sert à rien, et on voit les montagnes à travers. L'IA assemble des formes sans comprendre ce qu'elle dessine. »
+- Mains, visages : « Sur les personnages, regardez les mains : des doigts en trop ou fusionnés, des visages flous dans une foule. »
+- Le style : « Et parfois c'est trop lisse, trop parfait, une impression de "déjà vu". »
+- Pour des photos (si question) : les ombres et les reflets incohérents, les objets du fond qui se fondent les uns dans les autres.
+- LE réflexe (bande du bas) : « Mais le vrai réflexe, c'est de vérifier la source : d'où vient cette image ? Qui l'a publiée ? Pour une affiche, on vérifie la date et le lieu sur le site officiel. Pour une photo, on peut faire une "recherche d'image inversée" avec Google Lens, pour voir où elle apparaît ailleurs. »
+- « Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable. »
 
 > ➡️ « Et justement, si une IA sait faire une affiche… on va en créer une ensemble, en direct. »
 
