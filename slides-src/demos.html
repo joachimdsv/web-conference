@@ -387,6 +387,17 @@
   .pcard .chips { margin-top: 40px; gap: 12px; }
   .pcard .chip { font-size: 24px; padding: 12px 20px; }
   .frame .fico { width: 90px; height: 90px; stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  /* Démo 4 · e-mail */
+  .pcard.mail { width: 880px; }
+  .traps { position: absolute; left: 1070px; right: 150px; top: 200px; height: 780px;
+    display: grid; grid-template-rows: repeat(4, minmax(0, 1fr)); gap: 20px; }
+  .traps .card { display: grid; grid-template-columns: 96px 1fr; gap: 0 28px; align-items: center; padding: 20px 32px; border-top-color: var(--a); }
+  .traps .badge { width: 96px; height: 96px; border-radius: 26px; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); }
+  .traps .badge svg { width: 52px; height: 52px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .traps small { display: block; font: 700 20px/1 'JetBrains Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--a); margin-bottom: 8px; }
+  .traps h3 { font: 700 38px/1.1 Sora, sans-serif; letter-spacing: -.015em; margin: 0 0 6px; }
+  .traps p { font: 500 25px/1.3 Inter, sans-serif; color: var(--ink); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -751,28 +762,22 @@
 </section>
 
 <!-- ===================================================== Démo 4 · e-mail -->
-<section class="slide light" id="demo4-email" data-net="bl">
+<section class="slide light" id="demo4-email">
   <div class="content">
     <div class="kicker">03 · Démo n°4 · Au quotidien</div>
-    <h1 class="sm">Rédiger un e-mail… sans piège</h1>
-    <div class="row" style="margin-top:56px; align-items:stretch">
-      <div class="card" style="flex:1.05">
-        <div class="label">Exemple de prompt</div>
-        <p class="prompt">« Rédige un e-mail poli à mon propriétaire pour signaler une fuite d'eau sous l'évier depuis 3 jours. Ton cordial mais ferme, 10 lignes maximum. Je souhaite une intervention cette semaine. »</p>
-        <p class="prompt" style="color:var(--muted); font-size:26px; margin-top:26px">Puis : « Plus court » · « Plus chaleureux » · « Version pour un SMS »</p>
-      </div>
-      <div class="card" style="flex:1; border-top-color:var(--red)">
-        <div class="label" style="color:var(--red)">⚠️ Les pièges</div>
-        <ul class="warn" style="padding:0; margin-top:14px">
-          <li><span>🤥</span><strong>Il invente des détails</strong><small>dates, montants, articles de loi…</small></li>
-          <li><span>🔒</span><strong>Vos données personnelles</strong><small>ni adresse, ni n° de contrat dans le prompt</small></li>
-          <li><span>🤖</span><strong>Le ton « robot »</strong><small>formules toutes faites, vite repérées</small></li>
-          <li><span>👀</span><strong>Envoyer sans relire</strong><small>c'est vous qui signez !</small></li>
-        </ul>
-      </div>
-    </div>
   </div>
-  <div class="live">En direct</div>
+  <div class="card pcard mail">
+    <div class="label">Exemple de prompt</div>
+    <p class="prompt">«&nbsp;<mark style="--hl:#4fd1a5">Je suis locataire d'un appartement. Depuis 3&nbsp;jours, il y a une fuite d'eau sous l'évier de la cuisine.</mark> <mark style="--hl:#7aa0ff">Rédige un e-mail à mon propriétaire pour lui signaler et lui demander d'intervenir cette semaine.</mark> <mark style="--hl:#b39bff">Ton cordial mais ferme, 10&nbsp;lignes maximum.</mark>&nbsp;»</p>
+    <div class="chips"><span class="chip" style="--hl:#4fd1a5"><i></i>Contexte</span><span class="chip" style="--hl:#7aa0ff"><i></i>Tâche</span><span class="chip" style="--hl:#b39bff"><i></i>Ton et format</span></div>
+  </div>
+  <!-- Pièges révélés un par un (touche R) · Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="traps">
+    <div class="card" data-zone="t1" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></div><div><small>Piège 1</small><h3>Il invente</h3><p>dates, montants, articles de loi…</p></div></div>
+    <div class="card" data-zone="t2" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><div><small>Piège 2</small><h3>Vos données</h3><p>ni nom, ni adresse, ni n° de contrat</p></div></div>
+    <div class="card" data-zone="t3" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></div><div><small>Piège 3</small><h3>Le ton «&nbsp;robot&nbsp;»</h3><p>des formules toutes faites</p></div></div>
+    <div class="card" data-zone="t4" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg></div><div><small>Piège 4</small><h3>Envoyer sans relire</h3><p>c'est vous qui signez</p></div></div>
+  </div>
 </section>
 
 <!-- ===================================================== Démo 5 · Excel -->

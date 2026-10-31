@@ -348,20 +348,27 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 24 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 31:00
 
-**🎯 Un gain de temps énorme… à condition de connaître les pièges.**
+**🎯 Un gain de temps énorme… à condition de connaître les pièges. (4 min)**
 
-- *⚙️ EN DIRECT. Outils → Montrer une fenêtre, puis copier le prompt « E-mail ».*
-- Lire le résultat à voix haute : en 10 secondes, un e-mail poli et bien structuré. Un vrai gain de temps pour ceux qui n'aiment pas écrire.
-- *⚙️ Copier le prompt « Piège : la loi ».*
-- Piège 1, les inventions : elle cite un article de loi avec beaucoup d'assurance… mais est-ce le bon ? On vérifie sur service-public.fr ou Légifrance. Quand elle invente quelque chose qui a l'air vrai, on appelle ça une « hallucination ».
-- Bon à savoir : le propriétaire doit entretenir le logement (loi du 6 juillet 1989), mais les petites réparations, comme un joint de robinet, sont souvent à la charge du locataire (décret du 26 août 1987). L'IA ne vous l'aurait peut-être pas dit !
-- Piège 2, les données personnelles : on ne met jamais son adresse, le nom de son propriétaire ou son numéro de contrat. On les ajoute ensuite, dans sa propre messagerie.
-- Piège 3, le ton « robot » (« Je me permets de vous solliciter… »). Copier le prompt « Plus naturel » pour montrer la différence.
-- Piège 4, envoyer sans relire : c'est vous qui signez, c'est vous qui êtes responsable.
+- *⚙️ EN DIRECT. Outils → Montrer une fenêtre, puis copier le prompt « E-mail ». Les 4 pièges sont cachés : touche R pour les révéler un par un, au moment où on les montre.*
+- Montrer le prompt : « Même méthode que pour l'affiche : le contexte (je suis locataire, la fuite), la tâche (l'e-mail au propriétaire), le ton et le format. »
+- Lire le résultat à voix haute : en 10 secondes, un e-mail poli et bien construit. Un vrai gain de temps pour ceux qui n'aiment pas écrire.
+- *⚙️ Copier le prompt « Piège : la loi ». Puis R → Piège 1.*
+- Piège 1, il invente : elle cite un article de loi avec beaucoup d'assurance… mais est-ce le bon ? On vérifie sur service-public.fr ou Légifrance. Quand elle invente quelque chose qui a l'air vrai, on appelle ça une « hallucination ».
+- Si elle a raison (souvent : article 6 de la loi du 6 juillet 1989) : « Cette fois, elle a raison… mais qui d'entre vous serait allé vérifier ? » Et on vérifie sur Légifrance.
+- Bon à savoir (vérifié) : le propriétaire doit entretenir le logement et prend en charge les canalisations (loi du 6 juillet 1989, art. 6) ; mais les petites réparations, comme le joint d'un robinet, sont à la charge du locataire (décret du 26 août 1987). Tout dépend donc d'où vient la fuite : c'est le genre de nuance que l'IA oublie souvent.
+- *⚙️ R → Piège 2.*
+- Piège 2, vos données : « On ne met jamais son nom, son adresse ou son numéro de contrat dans le prompt. On les ajoute ensuite, dans sa propre messagerie. »
+- *⚙️ R → Piège 3, puis copier le prompt « Plus naturel ».*
+- Piège 3, le ton « robot » (« Je me permets de vous solliciter… ») : montrer la différence avec la version plus naturelle. On peut aussi demander « plus court », « plus chaleureux », « une version pour un SMS ».
+- *⚙️ R → Piège 4.*
+- Piège 4, envoyer sans relire : « C'est vous qui signez, c'est vous qui êtes responsable. »
+
+> ➡️ « Écrire, c'est bien. Mais elle sait aussi compter… enfin, presque. Voyons avec un budget. »
 
 <details><summary>Prompts de la démo</summary>
 
-- **E-mail** : Rédige un e-mail poli à mon propriétaire pour signaler une fuite d'eau sous l'évier depuis 3 jours. Ton cordial mais ferme, 10 lignes maximum. Je souhaite une intervention cette semaine.
+- **E-mail** : Je suis locataire d'un appartement. Depuis 3 jours, il y a une fuite d'eau sous l'évier de la cuisine. Rédige un e-mail à mon propriétaire pour lui signaler et lui demander d'intervenir cette semaine. Ton cordial mais ferme, 10 lignes maximum.
 - **Piège : la loi** : Ajoute la référence exacte de l'article de loi qui oblige le propriétaire à intervenir.
 - **Plus naturel** : Réécris-le de façon plus naturelle, comme si je l'avais écrit moi-même, sans formules toutes faites.
 
