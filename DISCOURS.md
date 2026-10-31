@@ -262,13 +262,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 19 · Programme des démos — 30 s · prévu à 20:00
 
-**🎯 Annoncer les 6 démos.**
+**🎯 Annoncer les 6 démos. (30 s : ne pas les détailler, elles arrivent)**
 
 - « Il existe des IA pour tout : écrire, dessiner, composer une chanson, faire une vidéo… On va en tester plusieurs. »
-- « Préparé » : fait à l'avance, parce que c'est trop long ou trop aléatoire en direct (images, vidéos).
-- « Direct » : devant vous, avec le risque que ça rate… et si ça rate, ce sera instructif aussi !
-- Et pour finir, la démo finale : le site de la MJC.
+- « Certaines démos sont préparées à l'avance, parce que c'est trop long ou trop aléatoire en direct, comme les images et les vidéos. Les autres, je les fais devant vous… avec le risque que ça rate. Et si ça rate, ce sera instructif aussi ! »
+- « Et pour finir, une démo plus ambitieuse : créer le site de la MJC, en direct. »
 - *⚙️ Avant de commencer : internet OK, comptes connectés, son branché.*
+
+> ➡️ « On commence par un jeu. Je vais vous montrer trois images… et vous allez me dire lesquelles sont vraies. »
 
 ### 20 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 20:30
 
