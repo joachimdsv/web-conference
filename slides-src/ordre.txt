@@ -22,7 +22,6 @@ demo metiers
 demo usages
 # Chapitre 03 — en pratique
 demo chapitre-03
-page 18
 demo demos-programme
 demo demo1-images
 demo demo1-indices

@@ -8,11 +8,11 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 1. Ce qu'il reste à fournir ou à décider
 
 ### À fournir (fichiers)
-- [ ] **Démo 1 (diapo 21) : 3 images**, toutes au même format (carré ou presque) et sur un même thème pour que la comparaison soit juste :
+- [ ] **Démo 1 (diapo 20) : 3 images**, toutes au même format (carré ou presque) et sur un même thème pour que la comparaison soit juste :
   - une **vraie photo** (idéalement prise par vous au Val d'Ajol, sans personne reconnaissable) ;
   - une **image d'IA réussie** sur le même sujet ;
   - une **image d'IA ratée** : demandez une scène avec des mains, du texte (une enseigne) ou une foule, ce sont les défauts les plus visibles.
-- [ ] **Démo 3 (diapo 24) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur le même thème (une rivière, un chat, une rue…) : une filmée, une générée (Sora, Veo, Kling…).
+- [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur le même thème (une rivière, un chat, une rue…) : une filmée, une générée (Sora, Veo, Kling…).
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
   - l'affiche déjà générée ;
   - le fichier Excel du budget ;
@@ -20,29 +20,29 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 - [ ] Copier ces fichiers dans `media/` et décommenter les lignes correspondantes dans `js/deck.js`, ou simplement les glisser dans la régie la veille, sur l'ordinateur de la conférence.
 
 ### À vérifier ou à remplacer par de vraies informations
-- [ ] **Date de l'affiche** : « samedi 20 juin, 14 h – 22 h » est un exemple inventé. Mettez une vraie date d'événement de la MJC, dans la diapo 23 (`slides-src/demos.html`) et dans le prompt (`js/deck.js`).
+- [ ] **Date de l'affiche** : « samedi 20 juin, 14 h – 22 h » est un exemple inventé. Mettez une vraie date d'événement de la MJC, dans la diapo 22 (`slides-src/demos.html`) et dans le prompt (`js/deck.js`).
 - [ ] **Activités de la MJC** citées dans le prompt du site (danse, théâtre, musique, informatique, sport) : à remplacer par les vraies.
-  Sinon le site contiendra des informations inventées. C'est d'ailleurs un bon exemple à commenter dans la diapo 40.
+  Sinon le site contiendra des informations inventées. C'est d'ailleurs un bon exemple à commenter dans la diapo 39.
 - [ ] **Couleurs du logo** (rose, violet, bleu, vert, jaune) : à vérifier.
-- [ ] **Diapo 42 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
+- [ ] **Diapo 41 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
 - [ ] **Accord de la MJC** pour créer et montrer publiquement un site à son nom pendant la démo.
 
 ### La durée : 1 h 30 au total, conférence et débat compris
 | Bloc | Durée | Fin prévue |
 |---|---|---|
 | Ouverture + chapitres 01 et 02 | 19 min 30 | 0:19 |
-| Démonstrations (chapitre 03) | 21 min 30 | 0:41 |
-| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:49 |
-| Et demain ? + démo finale | 10 min | 0:59 |
-| Conclusion | 2 min | 1:01 |
-| **Débat** | **25 min** | **1:26** |
-| Remerciements | 1 min | 1:27 |
-| Marge de sécurité | 2 min 30 | 1:30 |
+| Démonstrations (chapitre 03) | 20 min 30 | 0:40 |
+| Enjeux + bonnes pratiques (chapitres 04 et 05) | 8 min 30 | 0:48 |
+| Et demain ? + démo finale | 10 min | 0:58 |
+| Conclusion | 2 min | 1:00 |
+| **Débat** | **25 min** | **1:25** |
+| Remerciements | 1 min | 1:26 |
+| Marge de sécurité | 3 min 30 | 1:30 |
 
 - **Environ 1 h de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
-- **La diapo 43 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
-- **4 points de contrôle** (diapos 18, 28, 37 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
+- **La diapo 42 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
+- **4 points de contrôle** (diapos 18, 27, 36 et 40) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 05**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
   1. la diapo 11 « deux étapes » en une phrase : 30 s ;
   2. la démo 5 avec un seul prompt : 1 min 30 ;
@@ -86,7 +86,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | 05 · Bonnes pratiques | Bien demander, vérifier, ne rien partager de sensible. | « Parlez-lui comme à un stagiaire très doué qui ne vous connaît pas. » |
 | 06 · Démo finale | Elle fait le gros du travail en quelques minutes ; l'humain vérifie et décide. | « L'IA accélère, l'humain valide. » |
 | Conclusion | Les 3 choses à retenir, puis l'invitation à essayer. | Commencer par une petite tâche : une recette, un e-mail. |
-| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 43. |
+| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 42. |
 
 ### Des mots simples pour tous les publics
 | Au lieu de… | Dites plutôt… |

@@ -50,23 +50,23 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 28, 37 et 41) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
-- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 2 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 36 et 40) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
+- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 3 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 05 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
 ### Lundi 02/11 · J-4 · Corriger et préparer le débat (1 h 15)
 - [ ] Regarder la vidéo du filage en vitesse ×1,5. Relever les tics (« euh », « en fait »), les passages flous et les moments où vous lisez l'écran.
-- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 41 et 42).
+- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 40 et 41).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
-- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 43, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 43).
+- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 42, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 42).
 
 ### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
 - [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 15 à 20 min de débat à la fin**, en vous entraînant à animer (reformuler, relancer, donner la parole). C'est le moment de vérifier que tout tient en 1 h 30.
 - [ ] Leur demander ensuite :
   - quels mots ils n'ont pas compris ;
   - à quel moment ils ont décroché ;
-  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 41) ;
+  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 40) ;
   - quelle question ils auraient posée.
 - [ ] Corriger les notes en conséquence.
 
@@ -96,13 +96,13 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 0 | Ouverture | 1-3 | 3 min 30 | Pas besoin d'être informaticien | Les mains levées |
 | 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
 | 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
-| 3 | Démos | 18-27 | 21 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
-| 4 | Enjeux | 28-32 | 5 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
-| 5 | Bonnes pratiques | 33-36 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
-| 6 | Demain + démo finale | 37-40 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 41-42 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 43-44 | 25 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 27 + 2 min 30 de marge** | Fin à 1 h 30 au plus tard | |
+| 3 | Démos | 18-26 | 20 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
+| 4 | Enjeux | 27-31 | 5 min | Ni bonne ni mauvaise : l'usage | Les deux faces d'une pièce |
+| 5 | Bonnes pratiques | 32-35 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
+| 6 | Demain + démo finale | 36-39 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
+| 7 | Conclusion | 40-41 | 2 min | 3 choses à retenir | Essayer dès ce soir |
+| 8 | Débat + merci | 42-43 | 25 min + 1 min | C'est à vous ! | Les 4 questions de relance |
+|  | **Total** | | **1 h 26 + 3 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 
@@ -137,11 +137,11 @@ si quelqu'un demande « d'où vient ce chiffre ? », vous devez pouvoir répondr
 ### B. Le fonctionnement (diapos 5 à 12) : pour répondre sans jargon
 - [ ] Savoir expliquer en 30 secondes **pourquoi une IA « invente »** : elle choisit le mot le plus probable, pas le mot vrai.
 - [ ] **L'ajustement humain (diapo 11)** : comprendre le principe (des personnes notent les réponses) sans entrer dans le détail technique.
-- [ ] **Les IA « agentives » (diapos 12 et 37)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
+- [ ] **Les IA « agentives » (diapos 12 et 36)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
 - Sources : les vidéos de vulgarisation de Science Étonnante (YouTube) sur ChatGPT et les réseaux de neurones, la chaîne 3Blue1Brown (en anglais, très visuelle), le cours gratuit « Elements of AI ».
 
-### C. Les enjeux (diapos 29 à 32) : la partie la plus exposée aux questions
-- [ ] **C1. L'AI Act (diapo 31).** Le calendrier :
+### C. Les enjeux (diapos 28 à 31) : la partie la plus exposée aux questions
+- [ ] **C1. L'AI Act (diapo 30).** Le calendrier :
   - entrée en vigueur en août 2024 ;
   - interdictions depuis février 2025 ;
   - obligations pour les grands modèles depuis août 2025 ;
@@ -149,11 +149,11 @@ si quelqu'un demande « d'où vient ce chiffre ? », vous devez pouvoir répondr
 
   ⚠️ L'Union européenne discutait de **reporter certaines échéances**. Vérifiez où on en est **en novembre 2026**, et sachez citer 2 usages interdits (par exemple la notation sociale des citoyens).
   Sources : vie-publique.fr, le site de la CNIL, le site de la Commission européenne.
-- [ ] **C2. L'énergie et l'eau (diapo 32).** Trouver **un seul chiffre fiable** et sourcé, par exemple la part de l'électricité mondiale consommée par les centres de données selon l'Agence internationale de l'énergie (rapport « Energy and AI », 2025).
+- [ ] **C2. L'énergie et l'eau (diapo 31).** Trouver **un seul chiffre fiable** et sourcé, par exemple la part de l'électricité mondiale consommée par les centres de données selon l'Agence internationale de l'énergie (rapport « Energy and AI », 2025).
   Éviter les chiffres viraux du type « une question = une bouteille d'eau » : ils sont très contestés.
-- [ ] **C3. Les biais (diapo 30).** Un exemple concret, comme l'outil de recrutement d'Amazon abandonné parce qu'il défavorisait les femmes (révélé en 2018). Vérifier les détails.
-- [ ] **C4. Les fausses vidéos et les élections (diapo 31).** Un ou deux cas réels : par exemple le faux appel téléphonique imitant la voix de Joe Biden (janvier 2024), ou un cas français ou européen récent. Vérifier les faits.
-- [ ] **C5. Les droits d'auteur (diapo 30).** Où en sont les procès, par exemple le New York Times contre OpenAI, ou Getty Images contre Stability AI ? Retenir l'idée générale, sans détail juridique.
+- [ ] **C3. Les biais (diapo 29).** Un exemple concret, comme l'outil de recrutement d'Amazon abandonné parce qu'il défavorisait les femmes (révélé en 2018). Vérifier les détails.
+- [ ] **C4. Les fausses vidéos et les élections (diapo 30).** Un ou deux cas réels : par exemple le faux appel téléphonique imitant la voix de Joe Biden (janvier 2024), ou un cas français ou européen récent. Vérifier les faits.
+- [ ] **C5. Les droits d'auteur (diapo 29).** Où en sont les procès, par exemple le New York Times contre OpenAI, ou Getty Images contre Stability AI ? Retenir l'idée générale, sans détail juridique.
 - [ ] **C6. Le GPS, IA ou pas ? (diapo 15).** Nuance à connaître :
   - le calcul de l'itinéraire lui-même est un algorithme classique ;
   - c'est la **prévision du trafic** qui utilise l'IA.
@@ -170,7 +170,7 @@ Tout dépend des versions gratuites, qui changent souvent. **Testez avec les com
 - [ ] **Copilot** : la génération d'images est-elle gratuite et en quelle quantité ?
 - [ ] **Claude gratuit** : affiche-t-il l'aperçu du site directement ? Quelle limite de messages ?
 - [ ] **Netlify Drop** : faut-il un compte ? Combien de temps le site reste-t-il en ligne sans compte ? Créez un compte gratuit d'avance pour éviter toute surprise.
-- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 42.
+- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 41.
 - [ ] **Prix des versions payantes** : vérifier le tarif actuel, autour de 20 € par mois.
 - [ ] **Âge minimum** d'utilisation de ChatGPT et des autres outils, et les contrôles parentaux. Un parent posera la question.
 - [ ] **Confidentialité** : où se trouve le réglage qui empêche l'utilisation de vos conversations pour l'entraînement, dans ChatGPT et les autres ? Savoir le montrer.
@@ -181,7 +181,7 @@ Pour montrer que l'IA peut se tromper sur la loi, **il faut connaître la bonne 
 - [ ] La nuance : un simple joint qui fuit peut être à la charge du locataire, alors qu'une canalisation défectueuse revient au propriétaire. C'est une très bonne illustration pour le public.
 - Sources : service-public.fr (rubrique logement) et legifrance.gouv.fr.
 
-### F. Repérer les images et vidéos d'IA (diapos 21 à 24)
+### F. Repérer les images et vidéos d'IA (diapos 20 à 23)
 - [ ] Savoir montrer une **recherche d'image inversée** (Google Lens, TinEye), en direct si le temps le permet.
 - [ ] Les **étiquettes de contenu** : certains outils marquent maintenant les images générées (« Content Credentials », filigranes). Retenir l'idée principale.
 - [ ] Les détecteurs automatiques de textes d'IA **ne sont pas fiables**. Savoir le dire, avec une source.
