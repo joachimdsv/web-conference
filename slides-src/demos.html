@@ -378,6 +378,15 @@
     padding: 32px 56px; border-radius: 99px; box-shadow: 0 20px 50px rgba(80, 80, 200, .3); }
   .source-line svg { width: 48px; height: 48px; stroke: currentColor; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .source-line span { font-weight: 500; opacity: .85; }
+  /* Démo 2 · affiche */
+  .pcard { position: absolute; left: 150px; top: 200px; width: 1010px; height: 780px; padding: 50px 54px;
+    display: flex; flex-direction: column; justify-content: center; }
+  .pcard .prompt { font: 500 40px/1.6 Inter, sans-serif; margin-top: 24px; }
+  .pcard .prompt mark { border-bottom: none; background: color-mix(in srgb, var(--hl) 30%, transparent); border-radius: 8px; padding: 2px 8px;
+    -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  .pcard .chips { margin-top: 40px; gap: 12px; }
+  .pcard .chip { font-size: 24px; padding: 12px 20px; }
+  .frame .fico { width: 90px; height: 90px; stroke: currentColor; stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -718,25 +727,17 @@
 </section>
 
 <!-- ===================================================== Démo 2 · affiche -->
-<section class="slide light" id="demo2-affiche" data-net="tr">
+<section class="slide light" id="demo2-affiche">
   <div class="content">
     <div class="kicker">03 · Démo n°2</div>
-    <h1 class="sm">Créer une affiche<br>en un prompt</h1>
-    <div class="card" style="position:absolute; left:150px; top:420px; width:1000px; padding:36px 42px">
-      <div class="label">Exemple de prompt</div>
-      <p class="prompt">« Crée <mark style="--hl:#7aa0ff">une affiche verticale au format A3</mark> pour <mark style="--hl:#4fd1a5">la fête de la MJC du Val d'Ajol, le samedi 20 juin de 14 h à 22 h</mark>. <mark style="--hl:#b39bff">Ambiance festive et familiale, montagnes des Vosges en fond, style illustration colorée</mark>. <mark style="--hl:#ffa86b">Titre bien lisible : « Fête de la MJC »</mark>. <mark style="--hl:#ff8fb0">Laisse de la place en bas pour les logos.</mark> »</p>
-      <div class="chips" style="margin-top:26px; gap:10px">
-        <span class="chip" style="--hl:#7aa0ff; font-size:21px; padding:11px 18px"><i></i>Format</span>
-        <span class="chip" style="--hl:#4fd1a5; font-size:21px; padding:11px 18px"><i></i>Sujet</span>
-        <span class="chip" style="--hl:#b39bff; font-size:21px; padding:11px 18px"><i></i>Style</span>
-        <span class="chip" style="--hl:#ffa86b; font-size:21px; padding:11px 18px"><i></i>Texte</span>
-        <span class="chip" style="--hl:#ff8fb0; font-size:21px; padding:11px 18px"><i></i>Contraintes</span>
-      </div>
-    </div>
-    <p class="lead" style="position:absolute; left:150px; top:925px; width:1000px; font-size:27px">Puis on affine : « Agrandis le titre » · « Ajoute des lampions » · <b>⚠️ vérifiez l'orthographe !</b></p>
   </div>
-  <div class="live">En direct</div>
-  <div class="frame" data-zone="affiche" style="left:1230px; top:200px; width:540px; height:780px"><b>🎨</b><span>L'affiche générée</span></div>
+  <div class="card pcard">
+    <div class="label">Exemple de prompt</div>
+    <p class="prompt">«&nbsp;Crée <mark style="--hl:#7aa0ff">une affiche verticale au format A3</mark> pour <mark style="--hl:#4fd1a5">la Fête de la Myrtille de Saint-Myrtil, le samedi 19&nbsp;juin de 14&nbsp;h à 22&nbsp;h</mark>. <mark style="--hl:#b39bff">Ambiance festive et familiale, forêts de sapins des Vosges en fond, style illustration colorée</mark>. <mark style="--hl:#ffa86b">Titre bien lisible&nbsp;: «&nbsp;Fête de la Myrtille&nbsp;»</mark>. <mark style="--hl:#ff8fb0">Laisse de la place en bas pour les logos.</mark>&nbsp;»</p>
+    <div class="chips"><span class="chip" style="--hl:#7aa0ff"><i></i>Format</span><span class="chip" style="--hl:#4fd1a5"><i></i>Sujet</span><span class="chip" style="--hl:#b39bff"><i></i>Style</span><span class="chip" style="--hl:#ffa86b"><i></i>Texte</span><span class="chip" style="--hl:#ff8fb0"><i></i>Contraintes</span></div>
+  </div>
+  <!-- Icône Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="frame" data-zone="affiche" style="left:1230px; top:200px; width:540px; height:780px"><b><svg class="fico" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg></b><span>L'affiche générée</span></div>
 </section>
 
 <!-- ===================================================== Démo 3 · vidéos -->

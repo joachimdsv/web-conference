@@ -302,26 +302,28 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 22 · Démo 2 — Créer une affiche — 4 min · prévu à 24:30
 
-**🎯 Plus la demande est précise, plus le résultat vous ressemble.**
+**🎯 Plus la demande est précise, plus le résultat vous ressemble. (4 min)**
 
-- *⚙️ EN DIRECT. Copier le prompt « Affiche », le coller dans ChatGPT ou Copilot, et partager la fenêtre.*
-- « Le "prompt", c'est simplement la demande qu'on écrit à l'IA. »
-- Pendant que l'image se fabrique (environ 30 secondes), expliquer les 5 couleurs :
+- *⚙️ EN DIRECT. Copier le prompt « Affiche » (régie), le coller dans ChatGPT ou Copilot, et partager la fenêtre.*
+- « On va créer l'affiche d'une fête imaginaire : la Fête de la Myrtille, à Saint-Myrtil. Le "prompt", c'est simplement la demande qu'on écrit à l'IA. »
+- Pendant que l'image se fabrique (environ 30 secondes), expliquer les 5 couleurs du prompt affiché :
   - bleu = le format (affiche verticale A3) ;
-  - vert = le sujet (la fête, la date, les horaires) ;
-  - violet = le style (festif, les Vosges, une illustration colorée) ;
-  - orange = le texte exact à écrire ;
+  - vert = le sujet (la fête, le lieu, la date, les horaires) ;
+  - violet = le style (festif, les sapins des Vosges, une illustration colorée) ;
+  - orange = le texte exact à écrire (« Fête de la Myrtille ») ;
   - rose = les contraintes (de la place pour les logos).
 - « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
-- *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher sur la diapo.*
-- Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres. On demande une correction (prompt « Retouche »).
-- Conclusion : un formidable outil pour un premier jet. Mais on vérifie, on fait relire, et pour une vraie affiche on fait attention aux droits.
-- *⚙️ Plan B : l'affiche préparée à l'avance.*
+- *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher à droite.*
+- Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres (comme tout à l'heure !). « On ne recommence pas tout : on continue la conversation. » Prompt « Retouche » : agrandir le titre, ajouter des paniers de myrtilles et des lampions, vérifier l'orthographe.
+- Conclusion : « Un formidable outil pour un premier jet. Mais on vérifie, on fait relire, et pour une vraie affiche, on fait attention aux droits. »
+- *⚙️ Plan B (déjà en place à droite si rien n'est collé) : media/demo2-affiche.jpg, générée avec un outil gratuit… son titre est raté (« HORCAPLE »), ce qui illustre bien le besoin de vérifier. La remplacer la veille par une affiche faite avec ChatGPT si possible.*
+
+> ➡️ « Les images, c'est déjà bluffant. Mais avec la vidéo… c'est encore plus troublant. »
 
 <details><summary>Prompts de la démo</summary>
 
-- **Affiche** : Crée une affiche verticale au format A3 pour la fête de la MJC du Val d'Ajol, le samedi 20 juin de 14 h à 22 h. Ambiance festive et familiale, montagnes des Vosges en fond, style illustration colorée. Titre bien lisible : « Fête de la MJC ». Laisse de la place en bas pour les logos.
-- **Retouche** : Agrandis le titre, ajoute des lampions colorés et vérifie que tout le texte est écrit sans faute.
+- **Affiche** : Crée une affiche verticale au format A3 pour la Fête de la Myrtille de Saint-Myrtil, le samedi 19 juin de 14 h à 22 h. Ambiance festive et familiale, forêts de sapins des Vosges en fond, style illustration colorée. Titre bien lisible : « Fête de la Myrtille ». Laisse de la place en bas pour les logos.
+- **Retouche** : Agrandis le titre, ajoute des paniers de myrtilles et des lampions colorés, et vérifie que tout le texte est écrit sans faute.
 
 </details>
 

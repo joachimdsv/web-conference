@@ -11,13 +11,13 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 - [x] **Démo 1 (diapo 20) : 3 affiches** : fournies dans `media/` (humain = affiche WPA des années 1930, domaine public ; IA réussie et IA ratée générées). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
 - [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur le même thème (une rivière, un chat, une rue…) : une filmée, une générée (Sora, Veo, Kling…).
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
-  - l'affiche déjà générée ;
+  - l'affiche déjà générée : `media/demo2-affiche.jpg` est en place (titre raté) ; la remplacer la veille par une affiche faite avec ChatGPT si possible ;
   - le fichier Excel du budget ;
   - le site de la MJC déjà créé **et déjà en ligne**, avec son adresse et une capture d'écran.
 - [ ] Copier ces fichiers dans `media/` et décommenter les lignes correspondantes dans `js/deck.js`, ou simplement les glisser dans la régie la veille, sur l'ordinateur de la conférence.
 
 ### À vérifier ou à remplacer par de vraies informations
-- [ ] **Date de l'affiche** : « samedi 20 juin, 14 h – 22 h » est un exemple inventé. Mettez une vraie date d'événement de la MJC, dans la diapo 22 (`slides-src/demos.html`) et dans le prompt (`js/deck.js`).
+- [x] **Affiche de la démo 2** : événement fictif, la « Fête de la Myrtille » de Saint-Myrtil, samedi 19 juin, 14 h – 22 h.
 - [ ] **Activités de la MJC** citées dans le prompt du site (danse, théâtre, musique, informatique, sport) : à remplacer par les vraies.
   Sinon le site contiendra des informations inventées. C'est d'ailleurs un bon exemple à commenter dans la diapo 39.
 - [ ] **Couleurs du logo** (rose, violet, bleu, vert, jaune) : à vérifier.
