@@ -401,6 +401,16 @@
   .pcard.xlp { width: 840px; }
   .pcard.xlp .prompt { font-size: 34px; }
   .pcard.lang { width: 860px; }
+  .chap.ch4 { background:
+      radial-gradient(900px 700px at 0% 100%, rgba(150, 60, 90, .5), transparent 70%),
+      radial-gradient(1000px 700px at 85% 10%, rgba(200, 90, 50, .35), transparent 70%),
+      linear-gradient(135deg, #0a0b2a, #1a1a52 60%, #23205e); }
+  .chap.ch4::after { background: linear-gradient(90deg, #f07a3a, #ef4461); }
+  .chap.ch4 .pill { background: #e8672f; }
+  .chap.ch4 .big { color: rgba(255, 160, 120, .09); }
+  .chap.notitle .pill { font-size: 40px; padding: 26px 42px; }
+  .chap.notitle .chips { margin-top: 70px; gap: 24px; flex-wrap: nowrap; }
+  .chap.notitle .chip { font-size: 38px; padding: 24px 36px; white-space: nowrap; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -690,6 +700,15 @@
     <div class="pill">Chapitre 03</div>
     <h1>L'IA en pratique</h1>
     <div class="chips"><span class="chip">6 démos en direct</span><span class="chip">Humain ou IA&nbsp;?</span></div>
+  </div>
+</section>
+
+<!-- ===================================================== 04 · Ouverture du chapitre (remplace la page 22 du PDF) -->
+<section class="slide dark chap ch4 notitle" id="chapitre-04">
+  <div class="big">04</div>
+  <div class="inner">
+    <div class="pill">Chapitre 04 · Impacts et enjeux</div>
+    <div class="chips"><span class="chip">Opportunités et risques</span><span class="chip">Éthique</span><span class="chip">Les règles</span><span class="chip">Le travail</span></div>
   </div>
 </section>
 

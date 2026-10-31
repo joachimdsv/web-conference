@@ -424,9 +424,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 27 · Chapitre 04 — Impacts — 30 s · prévu à 40:00
 
-**🎯 Annoncer les enjeux.**
+**🎯 Prendre du recul : ce qu'elle change pour nous. (30 s)**
 
-- « On a vu ce qu'elle sait faire. Regardons maintenant ce qu'elle change pour nous : les opportunités, les risques, et qui fixe les règles. »
+- « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, les risques, qui fixe les règles… et notre travail. »
 - **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 40 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 35 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
 ---
