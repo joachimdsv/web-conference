@@ -35,9 +35,9 @@ window.DECK = {
   // Médias livrés avec le site : déposez vos fichiers dans media/ puis décommentez / déclarez-les ici.
   // Ceux qui portent un id utilisé en `default` ci-dessous s'afficheront automatiquement dans les zones.
   media: [
-    // { id: 'photo-a', name: 'Démo 1 · Image A', src: 'media/demo1-a.jpg' },
-    // { id: 'photo-b', name: 'Démo 1 · Image B', src: 'media/demo1-b.jpg' },
-    // { id: 'photo-c', name: 'Démo 1 · Image C', src: 'media/demo1-c.jpg' },
+    // { id: 'photo-a', name: 'Démo 1 · Affiche A', src: 'media/demo1-a.jpg' },
+    // { id: 'photo-b', name: 'Démo 1 · Affiche B', src: 'media/demo1-b.jpg' },
+    // { id: 'photo-c', name: 'Démo 1 · Affiche C', src: 'media/demo1-c.jpg' },
     // { id: 'video-1', name: 'Démo 3 · Vidéo 1', src: 'media/demo3-video1.mp4' },
     // { id: 'video-2', name: 'Démo 3 · Vidéo 2', src: 'media/demo3-video2.mp4' },
     // { id: 'affiche', name: 'Démo 2 · Affiche (plan B)', src: 'media/demo2-affiche.png' },
@@ -124,20 +124,20 @@ window.DECK = {
       notes: "🎯 Annoncer les 6 démos. (30 s : ne pas les détailler, elles arrivent)\n• « Il existe des IA pour tout : écrire, dessiner, composer une chanson, faire une vidéo… On va en tester plusieurs. »\n• « Certaines démos sont préparées à l'avance, parce que c'est trop long ou trop aléatoire en direct, comme les images et les vidéos. Les autres, je les fais devant vous… avec le risque que ça rate. Et si ça rate, ce sera instructif aussi ! »\n• « Et pour finir, une démo plus ambitieuse : créer le site de la MJC, en direct. »\n⚙️ Avant de commencer : internet OK, comptes connectés, son branché.\n➡️ « On commence par un jeu. Je vais vous montrer trois images… et vous allez me dire lesquelles sont vraies. »",
     },
     20: {
-      title: 'Démo 1 — Vraie photo ou IA ? (3 images)', minutes: 3,
-      notes: "🎯 On ne peut plus se fier à ses yeux seuls.\n⚙️ PRÉPARÉ : les 3 images doivent être en place (A, B, C).\n• Règle du jeu : « Parmi ces 3 images, une seule est une vraie photo. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. »\n⚙️ Pour chaque image : « Qui pense que c'est une vraie photo ? » (mains levées). Puis révéler avec R.\n• Commenter les votes : l'image ratée se repère assez bien. L'image réussie, elle, trompe beaucoup de monde.\n• « Cette image a été fabriquée en quelques secondes, gratuitement, avec une simple phrase. »\n⚙️ Réponses par défaut : A = vraie photo, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.",
+      title: 'Démo 1 — Humain ou IA ? (3 affiches)', minutes: 3,
+      notes: "🎯 On ne peut plus se fier à ses yeux seuls.\n⚙️ PRÉPARÉ : les 3 affiches doivent être en place (A, B, C), même format, mêmes informations (titre, date, lieu).\n• Règle du jeu : « Voici trois affiches pour la conférence de ce soir. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »\n⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.\n• Commenter les votes : l'affiche ratée se repère assez bien (fautes, lettres bizarres). L'affiche réussie, elle, trompe beaucoup de monde.\n• « Cette affiche a été fabriquée en quelques secondes, avec une simple phrase. Un graphiste aurait mis plusieurs heures. »\n⚙️ Réponses par défaut : A = humain, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.\n• Pour préparer l'affiche réussie (ChatGPT, Gemini ou Copilot) : « Crée une affiche verticale au format A3 pour une conférence grand public intitulée \"L'intelligence artificielle\", le jeudi 6 novembre 2026 à 20 h, à la MJC du Val d'Ajol, animée par Joachim Da Silva. Style moderne et chaleureux, couleurs bleu nuit et violet, une illustration simple et accueillante. Le texte doit être parfaitement lisible et sans faute. »\n• Pour l'affiche ratée : même demande, en ajoutant beaucoup de petit texte (programme détaillé, horaires, adresse complète, tarifs) et une foule de personnages. Ou utiliser un générateur gratuit moins performant. Garder une version où les défauts se voient.\n➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »",
       elements: [
-        { id: 'A', type: 'zone', label: 'Image A', rect: [7.8, 35.2, 26.6, 46.3], default: 'photo-a' },
-        { id: 'B', type: 'zone', label: 'Image B', rect: [36.7, 35.2, 26.6, 46.3], default: 'photo-b' },
-        { id: 'C', type: 'zone', label: 'Image C', rect: [65.6, 35.2, 26.6, 46.3], default: 'photo-c' },
-        { id: 'rA', type: 'answer', label: 'Réponse A', rect: [7.8, 35.2, 26.6, 46.3], choices: ['📸 Vraie photo', '🤖 IA réussie', '😬 IA ratée'], answer: 0, pill: 'bottom' },
-        { id: 'rB', type: 'answer', label: 'Réponse B', rect: [36.7, 35.2, 26.6, 46.3], choices: ['📸 Vraie photo', '🤖 IA réussie', '😬 IA ratée'], answer: 1, pill: 'bottom' },
-        { id: 'rC', type: 'answer', label: 'Réponse C', rect: [65.6, 35.2, 26.6, 46.3], choices: ['📸 Vraie photo', '🤖 IA réussie', '😬 IA ratée'], answer: 2, pill: 'bottom' },
+        { id: 'A', type: 'zone', label: 'Affiche A', rect: [7.8, 27.8, 26.6, 56.5], default: 'photo-a' },
+        { id: 'B', type: 'zone', label: 'Affiche B', rect: [36.7, 27.8, 26.6, 56.5], default: 'photo-b' },
+        { id: 'C', type: 'zone', label: 'Affiche C', rect: [65.6, 27.8, 26.6, 56.5], default: 'photo-c' },
+        { id: 'rA', type: 'answer', label: 'Réponse A', rect: [7.8, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 0, pill: 'bottom' },
+        { id: 'rB', type: 'answer', label: 'Réponse B', rect: [36.7, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 1, pill: 'bottom' },
+        { id: 'rC', type: 'answer', label: 'Réponse C', rect: [65.6, 27.8, 26.6, 56.5], choices: ['Faite par un humain', 'IA réussie', 'IA ratée'], answer: 2, pill: 'bottom' },
       ],
     },
     21: {
       title: 'Démo 1 — Les indices', minutes: 1,
-      notes: "🎯 Quelques indices… mais surtout, vérifier la source.\n⚙️ Remontrer l'image ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.\n• Mains et doigts : six doigts, des doigts fusionnés, des articulations étranges.\n• Texte : des lettres inventées, des panneaux illisibles.\n• Ombres et reflets : une lumière qui vient de deux côtés, un reflet absent dans un miroir.\n• Fond : des objets qui se fondent les uns dans les autres, des motifs qui se répètent.\n• Trop parfait : une peau trop lisse, un effet « plastique ».\n• LE réflexe : d'où vient cette image ? Qui l'a publiée ? Un média connu ? On peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.\n• Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.",
+      notes: "🎯 Quelques indices… mais surtout, vérifier la source.\n⚙️ Remontrer l'affiche ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.\n• Le texte : des fautes, des lettres inventées, des mots qui ne veulent rien dire, une date ou un lieu incohérents.\n• Les personnages : des mains et des doigts étranges, des visages déformés dans la foule.\n• Les détails : des logos qui ressemblent à de vrais logos sans en être, des objets qui se fondent les uns dans les autres.\n• Le style : trop lisse, trop parfait, « déjà vu ».\n• LE réflexe : d'où vient cette affiche ? Qui l'a publiée ? On vérifie la date et le lieu sur le site officiel (ici, celui de la MJC). Pour une image, on peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.\n• Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.\n➡️ « Et justement, si une IA sait faire une affiche… on va en créer une ensemble, en direct. »",
     },
     22: {
       title: 'Démo 2 — Créer une affiche', minutes: 4,

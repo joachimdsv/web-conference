@@ -35,7 +35,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] 🔎 Finir le bloc B.
 
 ### Vendredi 30/10 · J-7 · Fabriquer les médias des démos (1 h 30)
-- [ ] Démo 1 : générer l'image d'IA réussie et l'image ratée, et choisir la vraie photo.
+- [ ] Démo 1 : récupérer l'affiche faite par un humain, générer l'affiche d'IA réussie et l'affiche ratée.
 - [ ] Démo 3 : générer ou trouver les 2 vidéos (5 à 15 s, même thème).
 - [ ] Plans B : générer l'affiche et le fichier Excel, et les garder.
 - [ ] Glisser le tout dans la régie et vérifier l'affichage sur l'écran public.

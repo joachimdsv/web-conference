@@ -25,7 +25,7 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
   Contrôles depuis la régie : lecture/pause (`K`), ±10 s, position, volume, boucle. Les liens **YouTube** marchent aussi (avec internet).
   `→` ferme le média et revient aux diapos. Épinglez un média 📍 sur une diapo pour l'avoir sous la main.
 - **Quiz « IA ou pas IA ? » (diapo 15)** : révélez les réponses une par une (`R`) ou toutes d'un coup.
-- **Jeu « Vraie photo ou IA ? » (diapo 20)** : glissez une image directement sur la zone A ou B de l'aperçu, faites voter, puis révélez.
+- **Jeu « Humain ou IA ? » (diapo 20)** : glissez une affiche directement sur la zone A ou B de l'aperçu, faites voter, puis révélez.
 - **Montrer une fenêtre en direct** (onglet *Outils*) : partagez l'onglet du chatbot pendant les démos ; il s'affiche sur le projecteur sans quitter la présentation.
 - **Pointeur laser** (`L`), **stylo** (`D`), **surligneur** (`H`), **zoom** (`Z`, clic ou molette), effacer (`C`).
 - **Écran noir** (`B`), **blanc** (`W`), **pause** (`P`) avec message personnalisable.
@@ -45,14 +45,14 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 
 | Diapo | Démo | Mode | À préparer |
 |---|---|---|---|
-| 20 | Programme des 6 démos | — | — |
-| 21-22 | Vraie photo ou IA ? (3 images) | Préparé | 3 images : une vraie photo, une IA réussie, une IA ratée |
-| 23 | Créer une affiche | Direct | Compte ChatGPT / Copilot connecté · plan B : une affiche déjà générée |
-| 24 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
-| 25 | Rédiger un e-mail + pièges | Direct | — |
-| 26 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
-| 27 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
-| 38-40 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
+| 19 | Programme des 6 démos | — | — |
+| 20-21 | Humain ou IA ? (3 affiches) | Préparé | 3 affiches : une faite par un humain, une IA réussie, une IA ratée |
+| 22 | Créer une affiche | Direct | Compte ChatGPT / Copilot connecté · plan B : une affiche déjà générée |
+| 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
+| 24 | Rédiger un e-mail + pièges | Direct | — |
+| 25 | Budget dans Excel | Direct | Excel installé pour ouvrir le fichier · plan B : fichier préparé |
+| 26 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
+| 37-39 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
 
 Dans la régie, chaque diapo de démo affiche :
 - **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;

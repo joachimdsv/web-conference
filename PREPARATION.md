@@ -8,10 +8,10 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 1. Ce qu'il reste à fournir ou à décider
 
 ### À fournir (fichiers)
-- [ ] **Démo 1 (diapo 20) : 3 images**, toutes au même format (carré ou presque) et sur un même thème pour que la comparaison soit juste :
-  - une **vraie photo** (idéalement prise par vous au Val d'Ajol, sans personne reconnaissable) ;
-  - une **image d'IA réussie** sur le même sujet ;
-  - une **image d'IA ratée** : demandez une scène avec des mains, du texte (une enseigne) ou une foule, ce sont les défauts les plus visibles.
+- [ ] **Démo 1 (diapo 20) : 3 affiches** pour la conférence IA, au même format (vertical, type A3) et avec les mêmes informations (titre, date, lieu), pour que la comparaison soit juste :
+  - une **affiche faite par un humain** : la vraie affiche de la conférence (MJC), ou une affiche réalisée à la main / sur Canva sans IA ;
+  - une **affiche d'IA réussie** (prompt dans les notes de la diapo 20) ;
+  - une **affiche d'IA ratée** : demandez beaucoup de petit texte (programme, horaires, adresse) et des personnages, ou utilisez un générateur gratuit moins performant : fautes, lettres inventées et mains bizarres apparaissent.
 - [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur le même thème (une rivière, un chat, une rue…) : une filmée, une générée (Sora, Veo, Kling…).
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
   - l'affiche déjà générée ;

@@ -271,29 +271,34 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « On commence par un jeu. Je vais vous montrer trois images… et vous allez me dire lesquelles sont vraies. »
 
-### 20 · Démo 1 — Vraie photo ou IA ? (3 images) — 3 min · prévu à 20:30
+### 20 · Démo 1 — Humain ou IA ? (3 affiches) — 3 min · prévu à 20:30
 
 **🎯 On ne peut plus se fier à ses yeux seuls.**
 
-- *⚙️ PRÉPARÉ : les 3 images doivent être en place (A, B, C).*
-- Règle du jeu : « Parmi ces 3 images, une seule est une vraie photo. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. »
-- *⚙️ Pour chaque image : « Qui pense que c'est une vraie photo ? » (mains levées). Puis révéler avec R.*
-- Commenter les votes : l'image ratée se repère assez bien. L'image réussie, elle, trompe beaucoup de monde.
-- « Cette image a été fabriquée en quelques secondes, gratuitement, avec une simple phrase. »
-- *⚙️ Réponses par défaut : A = vraie photo, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
+- *⚙️ PRÉPARÉ : les 3 affiches doivent être en place (A, B, C), même format, mêmes informations (titre, date, lieu).*
+- Règle du jeu : « Voici trois affiches pour la conférence de ce soir. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »
+- *⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.*
+- Commenter les votes : l'affiche ratée se repère assez bien (fautes, lettres bizarres). L'affiche réussie, elle, trompe beaucoup de monde.
+- « Cette affiche a été fabriquée en quelques secondes, avec une simple phrase. Un graphiste aurait mis plusieurs heures. »
+- *⚙️ Réponses par défaut : A = humain, B = IA réussie, C = IA ratée. Ajuster dans la régie si l'ordre est différent.*
+- Pour préparer l'affiche réussie (ChatGPT, Gemini ou Copilot) : « Crée une affiche verticale au format A3 pour une conférence grand public intitulée "L'intelligence artificielle", le jeudi 6 novembre 2026 à 20 h, à la MJC du Val d'Ajol, animée par Joachim Da Silva. Style moderne et chaleureux, couleurs bleu nuit et violet, une illustration simple et accueillante. Le texte doit être parfaitement lisible et sans faute. »
+- Pour l'affiche ratée : même demande, en ajoutant beaucoup de petit texte (programme détaillé, horaires, adresse complète, tarifs) et une foule de personnages. Ou utiliser un générateur gratuit moins performant. Garder une version où les défauts se voient.
+
+> ➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »
 
 ### 21 · Démo 1 — Les indices — 1 min · prévu à 23:30
 
 **🎯 Quelques indices… mais surtout, vérifier la source.**
 
-- *⚙️ Remontrer l'image ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.*
-- Mains et doigts : six doigts, des doigts fusionnés, des articulations étranges.
-- Texte : des lettres inventées, des panneaux illisibles.
-- Ombres et reflets : une lumière qui vient de deux côtés, un reflet absent dans un miroir.
-- Fond : des objets qui se fondent les uns dans les autres, des motifs qui se répètent.
-- Trop parfait : une peau trop lisse, un effet « plastique ».
-- LE réflexe : d'où vient cette image ? Qui l'a publiée ? Un média connu ? On peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
+- *⚙️ Remontrer l'affiche ratée en grand (⛶ sur la diapo précédente) et entourer les défauts au stylo ou au zoom.*
+- Le texte : des fautes, des lettres inventées, des mots qui ne veulent rien dire, une date ou un lieu incohérents.
+- Les personnages : des mains et des doigts étranges, des visages déformés dans la foule.
+- Les détails : des logos qui ressemblent à de vrais logos sans en être, des objets qui se fondent les uns dans les autres.
+- Le style : trop lisse, trop parfait, « déjà vu ».
+- LE réflexe : d'où vient cette affiche ? Qui l'a publiée ? On vérifie la date et le lieu sur le site officiel (ici, celui de la MJC). Pour une image, on peut faire une « recherche d'image inversée » (Google Lens) pour voir où elle apparaît ailleurs.
 - Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable.
+
+> ➡️ « Et justement, si une IA sait faire une affiche… on va en créer une ensemble, en direct. »
 
 ### 22 · Démo 2 — Créer une affiche — 4 min · prévu à 24:30
 
