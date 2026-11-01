@@ -527,14 +527,17 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 35 · Ce qu'elle coûte — démocratie et règles — 1 min 30 · prévu à 49:00
 
-**🎯 Une technologie puissante a besoin de règles, et l'Europe a été la première à en écrire. (1 min 30)**
+**🎯 Une technologie aussi puissante a besoin de règles, et l'Europe a été la première à en écrire. (1 min 30)**
 
-- Désinformation : « Fausses vidéos, faux comptes, faux articles : produire de la désinformation n'a jamais été aussi facile. Pendant les municipales de mars 2026, le service de l'État chargé de surveiller les ingérences, Viginum, a détecté 4 opérations venues de l'étranger. Et l'élection présidentielle de 2027 sera une cible. »
-- Pouvoir : « Cette technologie est entre les mains de quelques géants, surtout américains et chinois. L'Europe a ses acteurs, comme Mistral AI en France, mais c'est un vrai enjeu de souveraineté. »
-- Les règles, l'AI Act : « Le principe : plus un usage est risqué, plus il est encadré. »
-  - Depuis février 2025 : certains usages sont interdits, par exemple noter les citoyens selon leur comportement ;
-  - Depuis août 2026 : obligation de signaler les contenus fabriqués par une IA et de dire quand on parle à une IA ;
+- L'accroche : « Qui contrôle l'IA… contrôle l'information. »
+- Le « 4 » : « Fausses vidéos, faux comptes, faux articles : produire de la désinformation n'a jamais été aussi facile. Pendant les municipales de mars 2026, le service de l'État chargé de surveiller les ingérences, Viginum, a détecté 4 opérations venues de l'étranger. Et l'élection présidentielle de 2027 sera une cible. » (Viginum, rapport public de juin 2026.)
+- Les drapeaux : « Et qui fabrique ces IA ? Surtout des géants américains et chinois. L'Europe a ses acteurs, comme Mistral AI en France, mais elle est loin derrière. C'est une question de souveraineté : qui décide de ce que ces IA disent, ou ne disent pas ? » (Taille des drapeaux illustrative.)
+- Les règles, l'AI Act : « Face à ça, l'Europe a écrit la première grande loi au monde sur l'IA. Le principe : plus un usage est risqué, plus il est encadré. »
+  - Février 2025 : certains usages sont interdits, par exemple noter les citoyens selon leur comportement ;
+  - Août 2026 : obligation d'étiqueter les contenus fabriqués par une IA et de dire quand on parle à une IA ;
   - Décembre 2027 : le recrutement, le crédit, l'école seront très encadrés (c'était prévu pour 2026, l'Europe l'a reporté).
+- Pour le public : « Depuis cet été, la loi oblige à signaler un contenu fabriqué par une IA. Une vidéo étonnante sans cette mention ? Méfiance. »
+- Le bon réflexe (bande du bas) : « Une vidéo choc avant une élection ? On vérifie avant de partager. »
 - (Calendrier : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en 2026. À revérifier juste avant la conférence.)
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
