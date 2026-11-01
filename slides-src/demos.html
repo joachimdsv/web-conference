@@ -569,6 +569,26 @@
   .demo2 .tl3 div { display: grid; grid-template-columns: 200px 1fr; align-items: center; gap: 18px; }
   .demo2 .tl3 b { font: 800 34px/1.1 Sora, sans-serif; color: var(--a); }
   .demo2 .tl3 span { font: 600 30px/1.25 Inter, sans-serif; color: var(--navy); }
+  /* Diapos 35-36 · démocratie et règles (v3) */
+  .fake { position: absolute; left: 150px; width: 1060px; top: 310px; bottom: 250px; padding: 32px 46px; display: flex; flex-direction: column; justify-content: center; border-top-color: #e5436a; }
+  .fake .kick { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: #e5436a; margin-bottom: 10px; }
+  .fake h3 { font: 700 36px/1.2 Sora, sans-serif; margin: 0 0 28px; }
+  .fake .nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .fake .nums b { display: block; font: 800 64px/1 Sora, sans-serif; color: var(--a); }
+  .fake .nums span { font: 600 24px/1.3 Inter, sans-serif; color: var(--ink); }
+  .four { position: absolute; left: 1250px; right: 150px; top: 310px; bottom: 250px; padding: 32px 40px; display: flex; flex-direction: column; justify-content: center; border-top-color: #f07a3a; }
+  .four .kick { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: #f07a3a; margin-bottom: 10px; }
+  .four b { display: block; font: 800 130px/1 Sora, sans-serif; color: #f07a3a; }
+  .four span { font: 600 27px/1.3 Inter, sans-serif; color: var(--navy); }
+  .pyr { position: absolute; left: 150px; width: 1100px; top: 330px; bottom: 140px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
+  .pyr div { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fff; height: 170px; clip-path: polygon(var(--i) 0, calc(100% - var(--i)) 0, 100% 100%, 0 100%); }
+  .pyr b { font: 800 40px/1.1 Sora, sans-serif; }
+  .pyr span { font: 600 25px/1.3 Inter, sans-serif; opacity: .95; margin-top: 6px; }
+  .rule { position: absolute; left: 1300px; right: 150px; top: 330px; bottom: 140px; display: flex; flex-direction: column; justify-content: center; padding: 36px 40px; border-top-color: #4b5fe0; }
+  .rule .kick { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: #4b5fe0; margin-bottom: 14px; }
+  .rule h3 { font: 800 44px/1.15 Sora, sans-serif; margin: 0 0 18px; }
+  .rule p { font: 500 26px/1.35 Inter, sans-serif; color: var(--ink); }
+  .hook.blue em { color: #4b5fe0; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -1016,23 +1036,32 @@
 <!-- ===================================================== 04 · ch4-democratie -->
 <section class="slide light" id="ch4-democratie">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La démocratie… et les règles</div>
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La démocratie</div>
   </div>
-  <div class="hook cost">Qui contrôle l'IA… <em>contrôle l'information.</em></div>
-  <div class="demo2">
-    <div class="card" style="--a:#e5436a">
-      <div class="row4"><b>4</b><span>ingérences étrangères pendant les municipales de mars 2026</span></div>
-      <hr>
-      <span class="kick">Qui la fabrique&nbsp;?</span>
-      <div class="flags"><figure><svg width="130" height="78" viewBox="0 0 130 78"><rect width="130" height="78" fill="#fff"/><rect y="0.00" width="130" height="6.00" fill="#b22234"/><rect y="12.00" width="130" height="6.00" fill="#b22234"/><rect y="24.00" width="130" height="6.00" fill="#b22234"/><rect y="36.00" width="130" height="6.00" fill="#b22234"/><rect y="48.00" width="130" height="6.00" fill="#b22234"/><rect y="60.00" width="130" height="6.00" fill="#b22234"/><rect y="72.00" width="130" height="6.00" fill="#b22234"/><rect width="52.0" height="42.00" fill="#3c3b6e"/></svg><figcaption>États-Unis</figcaption></figure><figure><svg width="118" height="79" viewBox="0 0 118 79"><rect width="118" height="79" fill="#de2910"/><polygon points="19.7,7.9 22.3,16.1 30.9,16.1 23.9,21.1 26.6,29.3 19.7,24.3 12.7,29.3 15.4,21.1 8.4,16.1 17.0,16.1" fill="#ffde00"/></svg><figcaption>Chine</figcaption></figure><figure><svg width="66" height="44" viewBox="0 0 66 44"><rect width="66" height="44" fill="#003399"/><circle cx="47.7" cy="22.0" r="1.7" fill="#ffcc00"/><circle cx="45.7" cy="29.3" r="1.7" fill="#ffcc00"/><circle cx="40.3" cy="34.7" r="1.7" fill="#ffcc00"/><circle cx="33.0" cy="36.7" r="1.7" fill="#ffcc00"/><circle cx="25.7" cy="34.7" r="1.7" fill="#ffcc00"/><circle cx="20.3" cy="29.3" r="1.7" fill="#ffcc00"/><circle cx="18.3" cy="22.0" r="1.7" fill="#ffcc00"/><circle cx="20.3" cy="14.7" r="1.7" fill="#ffcc00"/><circle cx="25.7" cy="9.3" r="1.7" fill="#ffcc00"/><circle cx="33.0" cy="7.3" r="1.7" fill="#ffcc00"/><circle cx="40.3" cy="9.3" r="1.7" fill="#ffcc00"/><circle cx="45.7" cy="14.7" r="1.7" fill="#ffcc00"/></svg><figcaption>Europe</figcaption></figure></div>
-    </div>
-    <div class="card" style="--a:#4b5fe0">
-      <span class="kick" style="margin-bottom:24px">L'Europe fixe des règles · AI Act</span>
-      <div class="tl3"><div><b>Févr. 2025</b><span>Usages interdits</span></div><div><b>Août 2026</b><span>Étiquette «&nbsp;fait par IA&nbsp;»</span></div><div><b>Déc. 2027</b><span>Recrutement, crédit, école</span></div></div>
-    </div>
+  <div class="hook cost">Une fausse voix coûte 150&nbsp;$… <em>et vise une élection.</em></div>
+  <div class="card fake">
+    <span class="kick">États-Unis · janvier 2024</span>
+    <h3>La fausse voix du président appelle les électeurs&nbsp;: «&nbsp;N'allez pas voter.&nbsp;»</h3>
+    <div class="nums"><div style="--a:#e5436a"><b>150&nbsp;$</b><span>pour la fabriquer</span></div><div style="--a:#f07a3a"><b>5&nbsp;000</b><span>électeurs appelés</span></div><div style="--a:#8b5cf6"><b>6&nbsp;M$</b><span>d'amende pour son auteur</span></div></div>
   </div>
-  <div class="tipband" style="background:#fdeef2; border-color:#f6c3cf; color:#8e1f3a"><svg viewBox="0 0 24 24" style="stroke:#e5436a"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>Une vidéo choc avant une élection&nbsp;? On vérifie avant de partager.</div>
-  <p class="c4src">Sources : Viginum (SGDSN), rapport public sur les municipales 2026 (juin 2026) · Règlement européen sur l'IA (2024/1689), calendrier modifié par l'« omnibus numérique » (2026). Taille des drapeaux : illustrative.</p>
+  <div class="card four"><span class="kick">En France · mars 2026</span><b>4</b><span>ingérences étrangères détectées pendant les municipales</span></div>
+  <div class="tipband" style="background:#fdeef2; border-color:#f6c3cf; color:#8e1f3a"><svg viewBox="0 0 24 24" style="stroke:#e5436a"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>Une vidéo ou un message choc avant une élection&nbsp;? On vérifie avant de partager.</div>
+  <p class="c4src">Sources : FCC (amende de 6 millions de dollars, septembre 2024), NPR, CBS News · Viginum (SGDSN), rapport public sur les municipales 2026 (juin 2026).</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-regles -->
+<section class="slide light" id="ch4-regles">
+  <div class="content">
+    <div class="kicker c4k" style="color:#4b5fe0 !important">04 · Qui fixe les règles&nbsp;?</div>
+  </div>
+  <div class="hook blue">L'Europe a écrit… <em>la première loi au monde sur l'IA.</em></div>
+  <div class="pyr">
+    <div style="--i:150px; width:560px; background:#e5436a"><b>Interdit</b><span>noter les citoyens, manipuler</span></div>
+    <div style="--i:150px; width:830px; background:#f07a3a"><b>Très encadré</b><span>recrutement, crédit, école</span></div>
+    <div style="--i:150px; width:1100px; background:#4b5fe0"><b>Transparent</b><span>dire quand c'est une IA, étiqueter ses contenus</span></div>
+  </div>
+  <div class="card rule"><span class="kick">AI Act · le principe</span><h3>Plus c'est risqué, plus c'est encadré.</h3><p>Pour vous&nbsp;: un contenu fait par IA doit désormais être signalé.</p></div>
+  <p class="c4src">Source : Règlement européen sur l'IA (2024/1689) : interdictions depuis février 2025, transparence depuis août 2026, usages à haut risque à partir de décembre 2027 (« omnibus numérique », 2026).</p>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

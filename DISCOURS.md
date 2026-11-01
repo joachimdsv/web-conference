@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 47 diapos · environ 66 min de conférence + 25 min de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 48 diapos · environ 66 min 30 de conférence + 23 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -15,10 +15,10 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 19:30 | 21 min |
 | Chapitre 04 · Impacts et enjeux | 28-32 | 40:30 | 5 min 30 |
 | Chapitre 05 · Les bonnes pratiques | 33-36 | 46:00 | 5 min |
-| Chapitre 06 · Et demain ? + démo finale | 37-40 | 51:00 | 4 min |
-| Conclusion | 41-42 | 55:00 | 8 min |
-| Débat et fin | 43-47 | 1:03:00 | 29 min |
-| Marge de sécurité | | 1:32:00 | -2 min |
+| Chapitre 06 · Et demain ? + démo finale | 37-40 | 51:00 | 3 min 30 |
+| Conclusion | 41-42 | 54:30 | 2 min |
+| Débat et fin | 43-48 | 56:30 | 34 min |
+| Marge de sécurité | | 1:30:30 | -1 min -30 |
 
 Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
 
@@ -312,7 +312,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - orange = les textes exacts, entre guillemets, « sans faute » (les IA écrivent bien mieux ainsi) ;
   - violet = le style (illustration joyeuse, sapins, myrtilles, lampions) ;
   - rose = les contraintes (une bande vide pour les logos).
-- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 37.)
+- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 38.)
 - « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
 - *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher à droite.*
 - Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres (comme tout à l'heure !). « On ne recommence pas tout : on continue la conversation. » Prompt « Retouche » : agrandir le titre, ajouter des paniers de myrtilles et des lampions, vérifier l'orthographe.
@@ -427,7 +427,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Prendre du recul : ce qu'elle change pour nous. (30 s)**
 
 - « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, les risques, qui fixe les règles… et notre travail. »
-- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 40 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 39 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
+- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 40 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 40 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
 ---
 
@@ -525,34 +525,43 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Et enfin, un enjeu pour nous tous, citoyens : la démocratie… et qui fixe les règles. »
 
-### 35 · Ce qu'elle coûte — démocratie et règles — 1 min 30 · prévu à 49:00
+### 35 · Ce qu'elle coûte — la démocratie — 1 min · prévu à 49:00
 
-**🎯 Une technologie aussi puissante a besoin de règles, et l'Europe a été la première à en écrire. (1 min 30)**
+**🎯 Avec l'IA, on ne peut plus croire tout ce qu'on voit ou entend. (1 min)**
 
-- L'accroche : « Qui contrôle l'IA… contrôle l'information. »
-- Le « 4 » : « Fausses vidéos, faux comptes, faux articles : produire de la désinformation n'a jamais été aussi facile. Pendant les municipales de mars 2026, le service de l'État chargé de surveiller les ingérences, Viginum, a détecté 4 opérations venues de l'étranger. Et l'élection présidentielle de 2027 sera une cible. » (Viginum, rapport public de juin 2026.)
-- Les drapeaux : « Et qui fabrique ces IA ? Surtout des géants américains et chinois. L'Europe a ses acteurs, comme Mistral AI en France, mais elle est loin derrière. C'est une question de souveraineté : qui décide de ce que ces IA disent, ou ne disent pas ? » (Taille des drapeaux illustrative.)
-- Les règles, l'AI Act : « Face à ça, l'Europe a écrit la première grande loi au monde sur l'IA. Le principe : plus un usage est risqué, plus il est encadré. »
-  - Février 2025 : certains usages sont interdits, par exemple noter les citoyens selon leur comportement ;
-  - Août 2026 : obligation d'étiqueter les contenus fabriqués par une IA et de dire quand on parle à une IA ;
-  - Décembre 2027 : le recrutement, le crédit, l'école seront très encadrés (c'était prévu pour 2026, l'Europe l'a reporté).
-- Pour le public : « Depuis cet été, la loi oblige à signaler un contenu fabriqué par une IA. Une vidéo étonnante sans cette mention ? Méfiance. »
-- Le bon réflexe (bande du bas) : « Une vidéo choc avant une élection ? On vérifie avant de partager. »
+- L'accroche : « Une fausse voix coûte 150 dollars… et vise une élection. »
+- L'exemple : « Janvier 2024, aux États-Unis. Deux jours avant une élection, 5 000 électeurs reçoivent un appel. C'est la voix du président Biden : "N'allez pas voter." Sauf que ce n'était pas lui : c'était une voix fabriquée par une IA, pour 150 dollars. Son auteur a écopé de 6 millions de dollars d'amende. » (Commission américaine des communications, FCC, 2024 ; NPR, CBS News.)
+- En France : « Et chez nous ? Pendant les municipales de mars 2026, Viginum, le service de l'État qui surveille les ingérences, a détecté 4 opérations venues de l'étranger. La présidentielle de 2027 sera une cible. » (Viginum, rapport de juin 2026.)
+- En une phrase, si on a le temps : « Et ces IA sont fabriquées surtout par des géants américains et chinois. Qui décide de ce qu'elles disent, ou ne disent pas ? L'Europe a Mistral, mais elle est loin derrière. »
+- Le bon réflexe (bande du bas) : « Une vidéo ou un message choc avant une élection ? On vérifie avant de partager. »
+
+> ➡️ « Alors, face à tout ça… qui fixe les règles ? »
+
+### 36 · Qui fixe les règles ? — 1 min · prévu à 50:00
+
+**🎯 L'Europe a écrit la première loi au monde sur l'IA : plus c'est risqué, plus c'est encadré. (1 min)**
+
+- L'accroche : « L'Europe a écrit la première loi au monde sur l'IA : l'AI Act. »
+- Le principe : « Plus un usage est risqué, plus il est encadré. Imaginez une pyramide. »
+- En haut, interdit : « Ce qui est trop dangereux est interdit : noter les citoyens selon leur comportement, comme en Chine, ou manipuler les gens à leur insu. » (Depuis février 2025.)
+- Au milieu, très encadré : « Quand l'IA peut changer une vie, elle est très surveillée : le recrutement, un prêt à la banque, l'école. » (À partir de décembre 2027 : c'était prévu pour 2026, l'Europe l'a reporté.)
+- En bas, transparent : « Et pour tout le reste, la transparence : dire quand on parle à une IA, et étiqueter les contenus fabriqués par une IA. » (Depuis août 2026.)
+- Pour le public : « Concrètement, pour vous : une vidéo ou une image fabriquée par une IA doit désormais être signalée. Une vidéo étonnante sans cette mention ? Méfiance. »
 - (Calendrier : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en 2026. À revérifier juste avant la conférence.)
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
 
-### 36 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 50:30
+---
+
+## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 3 min 30)
+
+### 37 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 51:00
 
 **🎯 Annoncer les 3 réflexes.**
 
 - « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
 
----
-
-## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 4 min)
-
-### 37 · Le bon prompt — 1 min 30 · prévu à 51:00
+### 38 · Le bon prompt — 1 min 30 · prévu à 51:30
 
 **🎯 Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas.**
 
@@ -563,7 +572,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Rappel : c'est exactement ce qu'on a fait avec l'affiche. Chaque couleur était un ingrédient.
 - Astuce : si le résultat ne convient pas, on continue la conversation. « Plus court », « plus simple », « avec un exemple ».
 
-### 38 · Esprit critique — 1 min · prévu à 52:30
+### 39 · Esprit critique — 1 min · prévu à 53:00
 
 **🎯 Faites confiance, mais vérifiez.**
 
@@ -572,7 +581,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Relire : vous êtes responsable de ce que vous utilisez ou envoyez.
 - La règle d'or : jamais de données personnelles, médicales ou confidentielles. « N'écrivez rien que vous ne mettriez pas sur une carte postale. »
 
-### 39 · À faire / à éviter — 30 s · prévu à 53:30
+### 40 · À faire / à éviter — 30 s · prévu à 54:00
 
 **🎯 Un assistant, pas un cerveau de remplacement.**
 
@@ -589,7 +598,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Pour les parents : pour les devoirs, l'utiliser pour comprendre (« explique-moi autrement »), pas pour copier la réponse.
 - La phrase à retenir : « Utilisez-la comme un assistant, pas comme un cerveau de remplacement. »
 
-### 40 · Et demain ? — 1 min · prévu à 54:00
+---
+
+## Conclusion (diapos 41 à 42, environ 2 min)
+
+### 41 · Et demain ? — 1 min · prévu à 54:30
 
 **🎯 Ce qui arrive… et ce que vous en attendez.**
 
@@ -597,15 +610,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Multimodalité : une seule IA qui voit, entend et parle. On peut déjà montrer un objet à la caméra du téléphone et lui poser une question à voix haute.
 - IA plus sobre : des modèles plus petits qui tournent directement sur le téléphone, sans internet. Ils consomment moins et respectent mieux la vie privée.
 - *⚙️ Demander : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
-- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 54 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 05.**
+- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 55 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 09.**
 
 > ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
 
----
-
-## Conclusion (diapos 41 à 42, environ 8 min)
-
-### 41 · Démo finale — Le site de la MJC — 1 min · prévu à 55:00
+### 42 · Démo finale — Le site de la MJC — 1 min · prévu à 55:30
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
 
@@ -617,7 +626,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
 - *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
 
-### 42 · Démo finale — Le cahier des charges — 7 min · prévu à 56:00
+---
+
+## Débat et fin (diapos 43 à 48, environ 34 min)
+
+### 43 · Démo finale — Le cahier des charges — 7 min · prévu à 56:30
 
 **🎯 On décrit, l'IA fabrique, on améliore ensemble.**
 
@@ -641,11 +654,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
----
-
-## Débat et fin (diapos 43 à 47, environ 29 min)
-
-### 43 · Démo finale — Bilan — 1 min · prévu à 1:03:00
+### 44 · Démo finale — Bilan — 1 min · prévu à 1:03:30
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -663,7 +672,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Si vous ne deviez retenir que trois choses ce soir… »
 
-### 44 · 3 choses à retenir — 1 min · prévu à 1:04:00
+### 45 · 3 choses à retenir — 1 min · prévu à 1:04:30
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -671,9 +680,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
 - 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
-- **⏱️ Prévu à 1 h 04. Le débat doit commencer vers 1 h 06, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
+- **⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
 
-### 45 · Pour essayer chez vous — 1 min · prévu à 1:05:00
+### 46 · Pour essayer chez vous — 1 min · prévu à 1:05:30
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -691,7 +700,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Et maintenant, c'est à vous : place au débat ! »
 
-### 46 · Débat — 25 min · prévu à 1:06:00
+### 47 · Débat — 23 min · prévu à 1:06:30
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -708,15 +717,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 🏠 La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
 - Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
-- **⏱️ De 1 h 06 à 1 h 31 environ. Vers 1 h 23 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
+- **⏱️ De 1 h 07 à 1 h 30 environ. Vers 1 h 27 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
 
 > ➡️ « Merci pour ces échanges… »
 
-### 47 · Merci ! — 1 min · prévu à 1:31:00
+### 48 · Merci ! — 1 min · prévu à 1:29:30
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 
 - Remercier la MJC, les bénévoles et le public pour la richesse des échanges.
 - Rappeler la phrase de la soirée : « L'IA est un outil : c'est vous qui gardez la main. »
 - « Si vous avez encore des questions, je reste quelques minutes après. » Et annoncer l'atelier numérique de la MJC s'il existe.
-- **⏱️ Fin prévue vers 1 h 32. 1 h 30 maximum.**
+- **⏱️ Fin prévue vers 1 h 31. 1 h 30 maximum.**

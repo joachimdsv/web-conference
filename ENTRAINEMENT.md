@@ -50,23 +50,23 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 40 et 44) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
-- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat et 3 min 30 de marge. Un premier filage dépasse presque toujours : c'est normal.
-- [ ] **Décider des coupes** si la conférence dépasse 1 h 05 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 41 et 45) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
+- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 23 min de débat. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] **Décider des coupes** si la conférence dépasse 1 h 09 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
 ### Lundi 02/11 · J-4 · Corriger et préparer le débat (1 h 15)
 - [ ] Regarder la vidéo du filage en vitesse ×1,5. Relever les tics (« euh », « en fait »), les passages flous et les moments où vous lisez l'écran.
-- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 44 et 45).
+- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 45 et 46).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
-- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 46, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 46).
+- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 47, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 47).
 
 ### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
 - [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 15 à 20 min de débat à la fin**, en vous entraînant à animer (reformuler, relancer, donner la parole). C'est le moment de vérifier que tout tient en 1 h 30.
 - [ ] Leur demander ensuite :
   - quels mots ils n'ont pas compris ;
   - à quel moment ils ont décroché ;
-  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 44) ;
+  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 45) ;
   - quelle question ils auraient posée.
 - [ ] Corriger les notes en conséquence.
 
@@ -97,12 +97,12 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
 | 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
 | 3 | Démos | 18-26 | 20 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
-| 4 | Enjeux | 27-35 | 10 min 30 | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
-| 5 | Bonnes pratiques | 36-39 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
-| 6 | Demain + démo finale | 40-43 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 44-45 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 46-47 | 25 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 32 : 2 min de trop** | Fin à 1 h 30 au plus tard | |
+| 4 | Enjeux | 27-36 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
+| 5 | Bonnes pratiques | 37-40 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
+| 6 | Demain + démo finale | 41-44 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
+| 7 | Conclusion | 45-46 | 2 min | 3 choses à retenir | Essayer dès ce soir |
+| 8 | Débat + merci | 47-48 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
+|  | **Total** | | **1 h 30 min 30 : 30 s de trop** | Fin à 1 h 30 au plus tard | |
 
 ---
 
@@ -137,17 +137,17 @@ si quelqu'un demande « d'où vient ce chiffre ? », vous devez pouvoir répondr
 ### B. Le fonctionnement (diapos 5 à 12) : pour répondre sans jargon
 - [ ] Savoir expliquer en 30 secondes **pourquoi une IA « invente »** : elle choisit le mot le plus probable, pas le mot vrai.
 - [ ] **L'ajustement humain (diapo 11)** : comprendre le principe (des personnes notent les réponses) sans entrer dans le détail technique.
-- [ ] **Les IA « agentives » (diapos 12 et 40)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
+- [ ] **Les IA « agentives » (diapos 12 et 41)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
 - Sources : les vidéos de vulgarisation de Science Étonnante (YouTube) sur ChatGPT et les réseaux de neurones, la chaîne 3Blue1Brown (en anglais, très visuelle), le cours gratuit « Elements of AI ».
 
-### C. Les enjeux (diapos 27 à 35) : la partie la plus exposée aux questions
+### C. Les enjeux (diapos 27 à 36) : la partie la plus exposée aux questions
 Fil rouge : « ce qu'elle apporte… et ce qu'elle coûte ». Tous les chiffres des diapos sont sourcés en bas de page ; les relire la veille.
 - [ ] **C1. Les gains (diapos 28 et 29).** Retenir 2 chiffres : 67 % des entreprises françaises de 20 salariés et plus utilisent l'IA générative, 31 % constatent déjà un gain (Banque de France, 2026) ; +29 % de cancers du sein détectés au dépistage avec l'IA (essai MASAI, Suède, 2025).
 - [ ] **C2. Planète et argent (diapos 30 et 31).** 700 milliards de dollars d'investissements des 4 géants en 2026 (environ 2 milliards par jour) ; plus de 7 puces mémoire haut de gamme sur 10 vers les datacenters (TrendForce). 415 TWh en 2024, ~945 TWh en 2030 (AIE). Hausse du prix des PC de 15 à 20 % annoncée pour fin 2026 : les prévisions des analystes varient, rester prudent. Éviter les chiffres viraux du type « une question = une bouteille d'eau ».
 - [ ] **C3. Les petites mains (diapo 32).** Enquête TIME (janvier 2023) : 12,50 $ de l'heure payés au sous-traitant Sama, 1,32 à 2 $ reçus par les travailleurs au Kenya. Accord Anthropic avec des auteurs : 1,5 milliard de dollars, approuvé en juillet 2026. Où en est le procès du New York Times contre OpenAI ?
 - [ ] **C4. Le cerveau (diapo 33).** Étude PNAS 2025 (Bastani et al.) : près de 1 000 lycéens en maths, +48 % aux exercices avec ChatGPT, −17 % au contrôle sans lui ; pas de baisse avec une IA « prof » qui donne des indices. Regarder le documentaire de Micode « La fabrique à idiots » (Underscore_) pour avoir d'autres exemples.
 - [ ] **C5. La sécurité (diapo 34).** PHP2Shell (21 octobre 2026) : suivre l'actualité jusqu'au jour J (nombre de sites touchés, attaques). Les chiffres des fuites françaises (Surfshark, Cegedim, ANTS) viennent de la presse : vérifier les plus récents. Voix clonées : 3 secondes d'audio suffisent (McAfee, 2023).
-- [ ] **C6. Démocratie et AI Act (diapo 35).** Viginum : 4 ingérences étrangères aux municipales de mars 2026. AI Act : interdictions depuis février 2025, transparence depuis août 2026, haut risque reporté à décembre 2027 (omnibus numérique). Revérifier le calendrier la semaine de la conférence.
+- [ ] **C6. Démocratie et AI Act (diapos 35 et 36).** Fausse voix de Biden (janvier 2024) : 150 $, 5 000 électeurs, 6 millions $ d'amende (FCC). Viginum : 4 ingérences étrangères aux municipales de mars 2026. AI Act : interdictions depuis février 2025, transparence depuis août 2026, haut risque reporté à décembre 2027 (omnibus numérique). Revérifier le calendrier la semaine de la conférence.
 - [ ] **C7. Le GPS, IA ou pas ? (diapo 15).** Nuance à connaître :
   - le calcul de l'itinéraire lui-même est un algorithme classique ;
   - c'est la **prévision du trafic** qui utilise l'IA.
@@ -164,7 +164,7 @@ Tout dépend des versions gratuites, qui changent souvent. **Testez avec les com
 - [ ] **Copilot** : la génération d'images est-elle gratuite et en quelle quantité ?
 - [ ] **Claude gratuit** : affiche-t-il l'aperçu du site directement ? Quelle limite de messages ?
 - [ ] **Netlify Drop** : faut-il un compte ? Combien de temps le site reste-t-il en ligne sans compte ? Créez un compte gratuit d'avance pour éviter toute surprise.
-- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 45.
+- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 46.
 - [ ] **Prix des versions payantes** : vérifier le tarif actuel, autour de 20 € par mois.
 - [ ] **Âge minimum** d'utilisation de ChatGPT et des autres outils, et les contrôles parentaux. Un parent posera la question.
 - [ ] **Confidentialité** : où se trouve le réglage qui empêche l'utilisation de vos conversations pour l'entraînement, dans ChatGPT et les autres ? Savoir le montrer.
