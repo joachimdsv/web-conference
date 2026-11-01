@@ -484,11 +484,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 32 · Ce qu'elle coûte — les petites mains — 1 min · prévu à 45:00
 
-**🎯 Derrière l'IA, il y a des humains invisibles et mal payés. (1 min)**
+**🎯 Derrière l'IA, il y a des humains invisibles… et mal payés. (1 min)**
 
-- Les travailleurs du clic : « Vous vous souvenez de l'étape 2 de l'apprentissage, quand des humains corrigent l'IA ? Une partie de ce travail est faite dans des pays pauvres. Une enquête du magazine TIME a révélé qu'au Kenya, des travailleurs étaient payés moins de 2 dollars de l'heure pour lire et trier des textes horribles, violents, afin de rendre ChatGPT moins toxique. » (TIME, janvier 2023, sous-traitant Sama. Depuis, des travailleurs du secteur se sont syndiqués à Nairobi.)
-- Les auteurs et les artistes : « Et pour apprendre, l'IA a "lu" des millions de livres, d'articles, d'images… souvent sans autorisation et sans payer leurs auteurs. Des procès sont en cours, comme celui du New York Times contre OpenAI. »
-- « L'IA n'est pas magique : elle repose sur le travail de beaucoup de gens… qu'on ne voit pas. »
+- L'accroche : « Derrière la machine… des humains invisibles. »
+- Le rappel (vignette) : « Vous vous souvenez de l'étape 2 de l'apprentissage, "on la corrige" ? Des humains lisent ses réponses et les notent. Une partie de ce travail est faite dans des pays pauvres. »
+- Les barres : « Une enquête du magazine TIME a révélé qu'au Kenya, l'entreprise qui a créé ChatGPT payait son sous-traitant 12,50 dollars de l'heure… et les travailleurs, eux, touchaient entre 1,32 et 2 dollars. Pour lire et trier, toute la journée, des textes horribles et violents, afin que ChatGPT apprenne à les refuser. Regardez la différence. » (TIME, janvier 2023 ; le sous-traitant Sama dit que les 12,50 $ couvraient aussi l'encadrement et les locaux. Depuis, des travailleurs du secteur se sont syndiqués à Nairobi.)
+- Les auteurs : « Et pour apprendre, les IA ont "lu" des millions de livres, souvent sans autorisation. Cette année, l'entreprise Anthropic a accepté de verser 1,5 milliard de dollars à des auteurs dont les livres piratés avaient servi à entraîner ses IA : environ 3 000 dollars par livre. C'est le plus gros accord de ce genre, et d'autres procès sont en cours, comme celui du New York Times contre OpenAI. » (Accord Bartz contre Anthropic, approuvé définitivement le 20 juillet 2026 ; Anthropic n'a pas reconnu sa responsabilité.)
+- La phrase à retenir : « L'IA n'est pas magique : elle repose sur le travail de beaucoup de gens… qu'on ne voit pas, et qu'on ne paie pas toujours. »
 
 > ➡️ « Et il y a un prix… pour notre propre cerveau. »
 

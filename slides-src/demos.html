@@ -490,6 +490,18 @@
   .ptag s { font: 700 46px/1 Sora, sans-serif; color: var(--muted); }
   .ptag b { font: 800 70px/1 Sora, sans-serif; color: var(--a); }
   .ptag i { font-style: normal; font: 700 40px/1 Sora, sans-serif; color: var(--muted); }
+  /* Diapo 32 · petites mains */
+  .hands2 { position: absolute; left: 150px; right: 150px; top: 320px; bottom: 150px; display: grid; grid-template-columns: 1.25fr 1fr; gap: 36px; }
+  .hands2 .card { padding: 36px 48px; display: flex; flex-direction: column; justify-content: center; border-top-color: var(--a); }
+  .hands2 .top { display: flex; align-items: center; gap: 24px; margin-bottom: 22px; }
+  .hands2 .thumb { width: 150px; height: 100px; border-radius: 14px; object-fit: cover; object-position: 50% 52%; box-shadow: 0 6px 18px rgba(60, 70, 160, .18); flex: none; }
+  .hands2 .kick { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--a); margin-bottom: 8px; }
+  .hands2 .top p { font: 500 25px/1.3 Inter, sans-serif; color: var(--ink); }
+  .hands2 .lab { font: 600 23px/1.2 Inter, sans-serif; color: var(--ink); margin: 14px 0 8px; }
+  .hands2 .bar { display: flex; align-items: center; gap: 18px; }
+  .hands2 .bar i { display: block; height: 56px; border-radius: 10px; flex: none; }
+  .hands2 .bar span { font: 800 40px/1 Sora, sans-serif; white-space: nowrap; }
+  .hands2 p.after { font: 500 26px/1.35 Inter, sans-serif; color: var(--ink); margin-top: 20px; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -875,12 +887,21 @@
   <div class="content">
     <div class="kicker c4k cost">04 · Ce qu'elle coûte · Les petites mains</div>
   </div>
-  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
-  <div class="c4grid g2">
-    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg></div><small>Les travailleurs du clic</small><div class="big md">&lt;&nbsp;2&nbsp;$ de l'heure</div><p>payés à des travailleurs au Kenya pour lire et trier des textes violents, afin de rendre ChatGPT moins toxique.</p></div>
-    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg></div><small>Les auteurs et les artistes</small><div class="big md">Sans accord</div><p>Des millions de livres, d'articles et d'images ont servi à entraîner les IA, souvent sans autorisation ni rémunération. Des procès sont en cours.</p></div>
+  <div class="hook cost">Derrière la machine… <em>des humains invisibles.</em></div>
+  <div class="hands2">
+    <div class="card" style="--a:#f07a3a">
+      <div class="top"><img class="thumb" src="images/apprentissage/correction.jpg" alt=""><div><span class="kick">Les travailleurs du clic · Kenya</span><p>Vous vous souvenez de «&nbsp;On la corrige&nbsp;»&nbsp;? Ce sont eux.</p></div></div>
+      <div class="lab">Payé de l'heure par l'entreprise d'IA au sous-traitant</div>
+      <div class="bar"><i style="width:560px; background:#c9cee6"></i><span style="color:var(--muted)">12,50&nbsp;$</span></div>
+      <div class="lab">Reçu de l'heure par le travailleur</div>
+      <div class="bar"><i style="width:90px; background:#f07a3a"></i><span style="color:#f07a3a">1,32 à 2&nbsp;$</span></div>
+      <p class="after">pour lire et trier des textes violents, afin de rendre ChatGPT moins toxique.</p>
+    </div>
+    <div class="c4grid" style="position:static; display:block">
+      <div class="card" style="--a:#8b5cf6; height:100%"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg></div><small>Les auteurs · 2026</small><div class="big md">1,5&nbsp;milliard&nbsp;$</div><p>versés par l'entreprise Anthropic à des auteurs, dont les livres piratés avaient servi à entraîner ses IA. Le plus gros accord de ce genre&nbsp;: environ 3&nbsp;000&nbsp;$ par livre.</p></div>
+    </div>
   </div>
-  <p class="c4src">Sources : enquête du magazine TIME (janvier 2023) sur le sous-traitant Sama · procès du New York Times contre OpenAI et Microsoft (depuis décembre 2023).</p>
+  <p class="c4src">Sources : enquête du magazine TIME (janvier 2023) sur le sous-traitant Sama, barres à la même échelle · accord Bartz contre Anthropic, approuvé définitivement en juillet 2026 (Bloomberg Law, Jurist). Photo : texte corrigé à la main, Phoebe, CC BY-SA 3.0.</p>
 </section>
 
 <!-- ===================================================== 04 · ch4-cerveau -->
