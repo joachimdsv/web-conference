@@ -34,11 +34,11 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | Ouverture + chapitres 01 et 02 | 19 min 30 | 0:19 |
 | Démonstrations (chapitre 03) | 20 min 30 | 0:40 |
 | Enjeux + bonnes pratiques (chapitres 04 et 05) | 13 min | 0:53 |
-| Et demain ? + démo finale | 11 min | 1:04 |
+| Et demain ? + démo finale | 11 min 30 | 1:04 |
 | Conclusion | 2 min | 1:06 |
 | **Débat** | **23 min** | **1:29** |
 | Remerciements | 1 min | 1:30 |
-| Marge de sécurité | 0 | 1:30 |
+| Marge de sécurité | **−30 s** | à rattraper (diapo 10 ou 17 en accéléré) |
 
 - **Environ 1 h 05 de conférence, puis 23 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
