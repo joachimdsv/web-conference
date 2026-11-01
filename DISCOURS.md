@@ -680,7 +680,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
 - 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
-- **⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.**
+- **⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
 
 ### 46 · Pour essayer chez vous — 1 min · prévu à 1:05:30
 

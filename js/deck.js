@@ -259,7 +259,7 @@ window.DECK = {
     // ---------- Conclusion ----------
     45: {
       title: '3 choses à retenir', minutes: 1,
-      notes: "🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.\n• 1. Elle prédit, elle ne sait pas. Elle peut se tromper avec assurance : vérifiez ce qui compte.\n• 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.\n• 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.\n• Conclure : « L'IA est un outil. C'est vous qui gardez la main. »\n⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 05 pour garder au moins 20 minutes d'échanges.",
+      notes: "🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.\n• 1. Elle prédit, elle ne sait pas. Elle peut se tromper avec assurance : vérifiez ce qui compte.\n• 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.\n• 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.\n• Conclure : « L'IA est un outil. C'est vous qui gardez la main. »\n⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.",
     },
     46: {
       title: 'Pour essayer chez vous', minutes: 1,
