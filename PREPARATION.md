@@ -38,7 +38,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | Conclusion | 2 min | 1:05 |
 | **Débat** | **25 min** | **1:30** |
 | Remerciements | 1 min | 1:31 |
-| Marge de sécurité | **−1 min 30** | ⚠️ à régler |
+| Marge de sécurité | **−2 min** | ⚠️ à régler |
 
 - **Environ 1 h de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
