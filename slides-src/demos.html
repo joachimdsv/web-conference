@@ -614,6 +614,18 @@
   .recipe span { display: block; font: 600 26px/1.3 Inter, sans-serif; color: var(--ink); margin-top: 12px; }
   .recipe i { font-style: normal; font: 800 64px/1 Sora, sans-serif; color: #9aa3cf; }
   .seen { position: absolute; left: 150px; right: 150px; top: 720px; text-align: center; font: 600 30px/1.3 Inter, sans-serif; color: var(--muted); }
+  /* Diapo 39 · les 3 réflexes */
+  .refl { position: absolute; left: 150px; right: 150px; top: 340px; bottom: 220px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; }
+  .refl .card { padding: 36px 40px; display: flex; flex-direction: column; border-top-color: var(--a); }
+  .refl .badge { width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); margin-bottom: 22px; }
+  .refl .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .refl small { font: 700 26px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--a); }
+  .refl h3 { font: 800 44px/1.1 Sora, sans-serif; margin: 8px 0 14px; }
+  .refl p { font: 500 27px/1.35 Inter, sans-serif; color: var(--ink); }
+  .postcard { margin-top: 18px; border-radius: 12px; background: #fffaf0; border: 2px solid #ead9b8; padding: 16px 18px; display: grid; grid-template-columns: 1fr 70px; gap: 12px;
+    box-shadow: 0 8px 20px rgba(120, 90, 30, .15); transform: rotate(-2deg); }
+  .postcard em { font: italic 500 27px/1.35 Georgia, serif; color: #6b5a3a; }
+  .postcard i { display: block; width: 70px; height: 84px; border: 3px dashed #e5436a; border-radius: 6px; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -1114,6 +1126,20 @@
   </div>
   <p class="seen">La recette que vous avez vue pendant les démos.</p>
   <div class="tipband" style="background:#e9f8f1; border-color:#b5e8d2; color:#0f6b46"><svg viewBox="0 0 24 24" style="stroke:#18a058"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>Pas satisfait&nbsp;? On continue la conversation&nbsp;: «&nbsp;plus court&nbsp;», «&nbsp;plus simple&nbsp;», «&nbsp;avec un exemple&nbsp;».</div>
+</section>
+
+<!-- ===================================================== 05 · Les 3 réflexes (remplace les pages 29 et 30 du PDF) -->
+<section class="slide light ch5l" id="reflexes">
+  <div class="content">
+    <div class="kicker" style="color:#18a058">05 · Les 3 réflexes</div>
+  </div>
+  <div class="hook">Un assistant brillant… <em>mais c'est vous qui signez.</em></div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="refl">
+    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><small>1</small><h3>Bien demander</h3><p>Contexte + tâche + format.</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div><small>2</small><h3>Vérifier</h3><p>Santé, droit, argent&nbsp;: on recoupe. Et on relit avant d'envoyer.</p></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><small>3</small><h3>Protéger ses données</h3><div class="postcard"><em>«&nbsp;Rien que vous ne mettriez pas sur une carte postale.&nbsp;»</em><i></i></div></div>
+  </div>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

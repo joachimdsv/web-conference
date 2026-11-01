@@ -50,23 +50,23 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 41 et 45) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 40 et 44) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
 - [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 23 min de débat. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 09 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
 ### Lundi 02/11 · J-4 · Corriger et préparer le débat (1 h 15)
 - [ ] Regarder la vidéo du filage en vitesse ×1,5. Relever les tics (« euh », « en fait »), les passages flous et les moments où vous lisez l'écran.
-- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 45 et 46).
+- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 44 et 45).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
-- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 47, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 47).
+- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 46, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 46).
 
 ### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
 - [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 15 à 20 min de débat à la fin**, en vous entraînant à animer (reformuler, relancer, donner la parole). C'est le moment de vérifier que tout tient en 1 h 30.
 - [ ] Leur demander ensuite :
   - quels mots ils n'ont pas compris ;
   - à quel moment ils ont décroché ;
-  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 45) ;
+  - ce qu'ils ont retenu (on espère les 3 messages de la diapo 44) ;
   - quelle question ils auraient posée.
 - [ ] Corriger les notes en conséquence.
 
@@ -98,11 +98,11 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
 | 3 | Démos | 18-26 | 20 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
 | 4 | Enjeux | 27-36 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
-| 5 | Bonnes pratiques | 37-40 | 2 min 30 | Demander, vérifier, protéger | Le stagiaire |
-| 6 | Demain + démo finale | 41-44 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 45-46 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 47-48 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 29 30 + 30 s de marge** | Fin à 1 h 30 au plus tard | |
+| 5 | Bonnes pratiques | 37-39 | 2 min | Demander, vérifier, protéger | Le stagiaire |
+| 6 | Demain + démo finale | 40-43 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
+| 7 | Conclusion | 44-45 | 2 min | 3 choses à retenir | Essayer dès ce soir |
+| 8 | Débat + merci | 46-47 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
+|  | **Total** | | **1 h 29 + 1 min de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 
@@ -137,7 +137,7 @@ si quelqu'un demande « d'où vient ce chiffre ? », vous devez pouvoir répondr
 ### B. Le fonctionnement (diapos 5 à 12) : pour répondre sans jargon
 - [ ] Savoir expliquer en 30 secondes **pourquoi une IA « invente »** : elle choisit le mot le plus probable, pas le mot vrai.
 - [ ] **L'ajustement humain (diapo 11)** : comprendre le principe (des personnes notent les réponses) sans entrer dans le détail technique.
-- [ ] **Les IA « agentives » (diapos 12 et 41)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
+- [ ] **Les IA « agentives » (diapos 12 et 40)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
 - Sources : les vidéos de vulgarisation de Science Étonnante (YouTube) sur ChatGPT et les réseaux de neurones, la chaîne 3Blue1Brown (en anglais, très visuelle), le cours gratuit « Elements of AI ».
 
 ### C. Les enjeux (diapos 27 à 36) : la partie la plus exposée aux questions
@@ -164,7 +164,7 @@ Tout dépend des versions gratuites, qui changent souvent. **Testez avec les com
 - [ ] **Copilot** : la génération d'images est-elle gratuite et en quelle quantité ?
 - [ ] **Claude gratuit** : affiche-t-il l'aperçu du site directement ? Quelle limite de messages ?
 - [ ] **Netlify Drop** : faut-il un compte ? Combien de temps le site reste-t-il en ligne sans compte ? Créez un compte gratuit d'avance pour éviter toute surprise.
-- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 46.
+- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 45.
 - [ ] **Prix des versions payantes** : vérifier le tarif actuel, autour de 20 € par mois.
 - [ ] **Âge minimum** d'utilisation de ChatGPT et des autres outils, et les contrôles parentaux. Un parent posera la question.
 - [ ] **Confidentialité** : où se trouve le réglage qui empêche l'utilisation de vos conversations pour l'entraînement, dans ChatGPT et les autres ? Savoir le montrer.

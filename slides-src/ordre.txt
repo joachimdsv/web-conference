@@ -43,8 +43,7 @@ demo ch4-democratie
 demo ch4-regles
 demo chapitre-05
 demo prompt-rappel
-page 29
-page 30
+demo reflexes
 page 31
 # Démo finale
 demo finale-intro
