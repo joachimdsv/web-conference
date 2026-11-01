@@ -41,7 +41,7 @@ demo ch4-cerveau
 demo ch4-securite
 demo ch4-democratie
 demo ch4-regles
-page 27
+demo chapitre-05
 page 28
 page 29
 page 30

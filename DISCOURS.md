@@ -556,9 +556,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 37 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 51:00
 
-**🎯 Annoncer les 3 réflexes.**
+**🎯 Rassurer : la plupart des pièges s'évitent avec 3 réflexes. (30 s : une respiration)**
 
-- « Trois réflexes simples : bien demander, vérifier, protéger ses données. »
+- « On a vu les bons côtés et les risques. La bonne nouvelle : la plupart des pièges s'évitent avec trois réflexes simples. Bien demander, vérifier, protéger ses données. Et vous les avez déjà vus en action pendant les démos. »
 
 ### 38 · Le bon prompt — 1 min 30 · prévu à 51:30
 
