@@ -577,7 +577,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - L'accroche : « Un assistant brillant… mais c'est vous qui signez. »
 - 1, bien demander : « On vient de le voir : contexte, tâche, format. »
 - 2, vérifier : « Pour tout ce qui est important, la santé, le droit, l'argent, on recoupe avec une source fiable. Vous vous souvenez de l'article de loi de la démo de l'e-mail ? Et on relit avant d'envoyer : c'est vous qui êtes responsable. » Astuce : poser la question autrement ; si les réponses se contredisent, méfiance.
-- 3, protéger ses données : « La règle d'or : n'écrivez rien que vous ne mettriez pas sur une carte postale. Pas de numéro de sécurité sociale, pas de dossier médical, pas d'informations confidentielles de votre travail. »
+- 3, protéger ses données : « Ce que vous tapez dans une IA peut être conservé, et parfois relu ou réutilisé pour l'entraîner. Donc jamais de mot de passe, de numéro de sécurité sociale, d'IBAN, ni de dossier médical. Et pas d'informations confidentielles de votre travail. »
 - La phrase pour conclure le chapitre : « Utilisez-la comme un assistant… pas comme un cerveau de remplacement. »
 
 > ➡️ « Et demain ? Qu'est-ce qui nous attend ? »
