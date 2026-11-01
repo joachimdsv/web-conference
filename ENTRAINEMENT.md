@@ -98,11 +98,11 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
 | 3 | Démos | 18-26 | 20 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
 | 4 | Enjeux | 27-36 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
-| 5 | Bonnes pratiques | 37-40 | 3 min 30 | Demander, vérifier, protéger | Le stagiaire |
+| 5 | Bonnes pratiques | 37-40 | 2 min 30 | Demander, vérifier, protéger | Le stagiaire |
 | 6 | Demain + démo finale | 41-44 | 10 min | L'IA accélère, l'humain valide | Le site de la MJC |
 | 7 | Conclusion | 45-46 | 2 min | 3 choses à retenir | Essayer dès ce soir |
 | 8 | Débat + merci | 47-48 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 30 min 30 : 30 s de trop** | Fin à 1 h 30 au plus tard | |
+|  | **Total** | | **1 h 29 30 + 30 s de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 

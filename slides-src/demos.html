@@ -605,6 +605,15 @@
   .chap.ch5::after { background: linear-gradient(90deg, #18a984, #1596b8); }
   .chap.ch5 .pill { background: #18a058; }
   .chap.ch5 .big { color: rgba(120, 230, 180, .08); }
+  /* Diapo 38 · rappel éclair du prompt */
+  .ch5l::after { background: linear-gradient(90deg, #18a984, #1596b8); }
+  .ch5l .hook em { color: #18a058; }
+  .recipe { position: absolute; left: 150px; right: 150px; top: 440px; display: flex; align-items: center; justify-content: center; gap: 28px; }
+  .recipe div { padding: 34px 50px; border-radius: 28px; background: color-mix(in srgb, var(--hl) 28%, #fff); border: 3px solid var(--hl); text-align: center; }
+  .recipe b { display: block; font: 800 64px/1 Sora, sans-serif; color: var(--navy); }
+  .recipe span { display: block; font: 600 26px/1.3 Inter, sans-serif; color: var(--ink); margin-top: 12px; }
+  .recipe i { font-style: normal; font: 800 64px/1 Sora, sans-serif; color: #9aa3cf; }
+  .seen { position: absolute; left: 150px; right: 150px; top: 720px; text-align: center; font: 600 30px/1.3 Inter, sans-serif; color: var(--muted); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -1090,6 +1099,21 @@
     <h1>Bonnes pratiques</h1>
     <div class="chips"><span class="chip">Bien demander</span><span class="chip">Vérifier</span><span class="chip">Protéger ses données</span></div>
   </div>
+</section>
+
+<!-- ===================================================== 05 · Le bon prompt, rappel éclair (remplace la page 28 du PDF) -->
+<section class="slide light ch5l" id="prompt-rappel">
+  <div class="content">
+    <div class="kicker" style="color:#18a058">05 · Bien demander</div>
+  </div>
+  <div class="hook">Parlez-lui comme à un stagiaire très doué…<br><em>qui ne vous connaît pas.</em></div>
+  <div class="recipe">
+    <div style="--hl:#4fd1a5"><b>Contexte</b><span>qui, pour qui, pourquoi</span></div><i>+</i>
+    <div style="--hl:#7aa0ff"><b>Tâche</b><span>ce que vous voulez</span></div><i>+</i>
+    <div style="--hl:#b39bff"><b>Format</b><span>longueur, ton, forme</span></div>
+  </div>
+  <p class="seen">La recette que vous avez vue pendant les démos.</p>
+  <div class="tipband" style="background:#e9f8f1; border-color:#b5e8d2; color:#0f6b46"><svg viewBox="0 0 24 24" style="stroke:#18a058"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>Pas satisfait&nbsp;? On continue la conversation&nbsp;: «&nbsp;plus court&nbsp;», «&nbsp;plus simple&nbsp;», «&nbsp;avec un exemple&nbsp;».</div>
 </section>
 
 <!-- ===================================================== 03 · Programme des démos -->

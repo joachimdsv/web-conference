@@ -42,7 +42,7 @@ demo ch4-securite
 demo ch4-democratie
 demo ch4-regles
 demo chapitre-05
-page 28
+demo prompt-rappel
 page 29
 page 30
 page 31
