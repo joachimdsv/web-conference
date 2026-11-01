@@ -440,7 +440,7 @@
   .timeline4 b { font: 700 28px/1.2 Sora, sans-serif; color: var(--a); }
   .timeline4 span { font: 500 27px/1.3 Inter, sans-serif; color: var(--ink); }
   /* Diapo 28 · du temps (visuel) */
-  .hook { position: absolute; left: 150px; right: 150px; top: 180px; font: 800 74px/1.05 Sora, sans-serif; letter-spacing: -.03em; color: var(--navy); }
+  .hook { position: absolute; left: 150px; right: 150px; top: 180px; font: 800 66px/1.08 Sora, sans-serif; letter-spacing: -.03em; color: var(--navy); }
   .hook em { font-style: normal; color: #18a984; }
   .race { position: absolute; left: 150px; width: 1060px; top: 380px; display: grid; gap: 34px; }
   .race .r { display: grid; grid-template-columns: 96px 1fr; gap: 0 28px; align-items: center; }
@@ -461,6 +461,11 @@
   .firms p { font: 600 30px/1.3 Inter, sans-serif; color: var(--ink); }
   .firms p b { color: #4b5fe0; } .firms p b.g { color: #18a984; }
   .firms hr { border: none; border-top: 2px dashed #dfe3f3; margin: 26px 0; }
+  .c4grid.g4.hooked { top: 320px; bottom: 140px; gap: 30px 36px; }
+  .c4grid.g4.hooked .card { display: grid; grid-template-columns: 92px auto; grid-template-rows: auto auto; gap: 0 30px; align-content: center; padding: 30px 44px; }
+  .c4grid.g4.hooked .badge { grid-row: span 2; margin: 0; align-self: center; }
+  .c4grid.g4.hooked .big { font-size: 78px; margin: 4px 0 8px; }
+  .c4grid.g4.hooked p { font-size: 26px; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -797,14 +802,15 @@
   <div class="content">
     <div class="kicker c4k">04 · Ce qu'elle apporte · Des découvertes</div>
   </div>
+  <div class="hook">Et surtout… <em>elle voit ce qu'on ne voyait pas.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
-  <div class="c4grid g4">
-    <div class="card" style="--a:#e5436a"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div><div><small>Santé · Suède, 2025</small><h3>+29&nbsp;% de cancers du sein détectés</h3></div></div><p>avec l'aide de l'IA au dépistage, et 44&nbsp;% de lecture en moins pour les radiologues</p></div>
-    <div class="card" style="--a:#18a984"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg></div><div><small>Médicaments · MIT, 2025</small><h3>De nouveaux antibiotiques</h3></div></div><p>imaginés par une IA contre des bactéries résistantes (testés sur la souris)</p></div>
-    <div class="card" style="--a:#8b5cf6"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10 16 1.5 1.5"/><path d="m14 8-1.5-1.5"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m16.5 10.5 1 1"/><path d="m17 6-2.891-2.891"/><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="m20 9 .891.891"/><path d="M3.109 14.109 4 15"/><path d="m6.5 12.5 1 1"/><path d="m7 18 2.891 2.891"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/></svg></div><div><small>Biologie · 2024</small><h3>Un prix Nobel de chimie</h3></div></div><p>pour AlphaFold, qui prédit la forme des protéines</p></div>
-    <div class="card" style="--a:#1596b8"><div class="row-h"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/></svg></div><div><small>Météo · 2025</small><h3>Des prévisions par IA</h3></div></div><p>en service au Centre européen de prévisions météorologiques</p></div>
+  <div class="c4grid g4 hooked">
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div><div><small>Santé · Suède, 2025</small><div class="big">+29&nbsp;%</div></div><p>de cancers du sein détectés au dépistage, avec l'IA aux côtés des radiologues</p></div>
+    <div class="card" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg></div><div><small>Agriculture · 2024</small><div class="big">−87&nbsp;%</div></div><p>d'herbicide&nbsp;: des caméras repèrent chaque mauvaise herbe et ne traitent qu'elle</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg></div><div><small>Médicaments · MIT, 2025</small><div class="big">Des millions</div></div><p>de molécules imaginées par une IA… dont de nouveaux antibiotiques contre des bactéries résistantes</p></div>
+    <div class="card" style="--a:#1596b8"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg></div><div><small>Parole · Californie, 2025</small><div class="big">18&nbsp;ans</div></div><p>de silence&nbsp;: une femme paralysée parle à nouveau, avec sa propre voix, grâce à un implant et une IA</p></div>
   </div>
-  <p class="c4src">Sources : essai MASAI, The Lancet Digital Health (2025) · Collins et al., Cell (août 2025) · Nobel de chimie 2024 (Hassabis, Jumper, Baker) · ECMWF, modèle AIFS opérationnel depuis 2025.</p>
+  <p class="c4src">Sources : essai MASAI, The Lancet Digital Health (2025) · Université du Nebraska-Lincoln, essai du pulvérisateur Greeneye (2024) · Collins et al., Cell (août 2025) · UC Berkeley et UCSF, Nature Neuroscience (mars 2025).</p>
 </section>
 
 <!-- ===================================================== 04 · ch4-planete -->

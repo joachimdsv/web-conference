@@ -448,12 +448,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 29 · Ce qu'elle apporte — des découvertes — 1 min 30 · prévu à 41:30
 
-**🎯 Elle accélère la recherche dans des domaines très concrets. (1 min 30)**
+**🎯 Elle ne remplace pas les chercheurs : elle les aide à voir plus, et plus vite. (1 min 30)**
 
-- Santé : « En Suède, un grand essai sur plus de 100 000 femmes : avec l'IA pour aider au dépistage du cancer du sein, on a trouvé 29 % de cancers en plus, et les radiologues ont eu 44 % de clichés en moins à lire. » (Essai MASAI, The Lancet Digital Health, 2025 : 338 cancers contre 262. C'est toujours le médecin qui décide.)
-- Médicaments : « Au MIT, une IA a imaginé de nouveaux antibiotiques contre des bactéries devenues résistantes. Ils ont marché sur la souris ; il faudra encore des années d'essais. » (Cell, août 2025.)
-- Biologie : « AlphaFold prédit la forme des protéines, un travail qui prenait parfois des années. Ses créateurs ont reçu le prix Nobel de chimie 2024. » (déjà cité : aller vite)
-- Météo : « Le Centre européen de prévisions météo utilise depuis 2025 un modèle d'IA, en plus des calculs classiques. »
+- L'accroche : « Et surtout… elle voit ce qu'on ne voyait pas. Quatre exemples. »
+- Santé (+29 %) : « En Suède, un grand essai sur plus de 100 000 femmes : avec l'IA pour aider au dépistage du cancer du sein, on a trouvé 29 % de cancers en plus. Et les radiologues ont eu presque moitié moins de clichés à lire. C'est toujours le médecin qui décide. » (Essai MASAI, The Lancet Digital Health, 2025 : 338 cancers contre 262, −44 % de lecture.)
+- Agriculture (−87 %) : « Dans les champs, des caméras sur le pulvérisateur reconnaissent chaque mauvaise herbe, et ne traitent qu'elle, au lieu d'arroser tout le champ. Résultat dans un essai universitaire : 87 % d'herbicide en moins. Bon pour la nature… et pour le portefeuille de l'agriculteur. » (Université du Nebraska-Lincoln, système Greeneye, 2024. Les fabricants annoncent 70 à 90 % ; ces machines restent chères.)
+- Médicaments (des millions) : « Au MIT, une IA a imaginé des millions de molécules, et parmi elles, de nouveaux antibiotiques contre des bactéries devenues résistantes. Ils ont marché sur la souris ; il faudra encore des années d'essais avant la pharmacie. » (Cell, août 2025.)
+- Parole (18 ans) : « Et mon exemple préféré : en Californie, une femme paralysée après un AVC ne pouvait plus parler depuis 18 ans. Grâce à un implant dans le cerveau et une IA qui traduit ses pensées en mots, elle a pu parler à nouveau, presque en temps réel… avec sa propre voix, reconstituée à partir d'une vidéo de son mariage. » (UC Berkeley et UCSF, Nature Neuroscience, mars 2025. Encore expérimental : vocabulaire limité, pas toujours exact.)
+- En réserve si question : AlphaFold (prix Nobel de chimie 2024, déjà cité diapo 16) ; les papyrus d'Herculanum, brûlés par le Vésuve il y a 2 000 ans, dont l'IA a permis de lire un titre en 2025 sans les dérouler.
 
 > ➡️ « Voilà la face brillante. Retournons la pièce : tout ça a un prix. Et d'abord, pour la planète… et pour nos portefeuilles. »
 
