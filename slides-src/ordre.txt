@@ -35,6 +35,7 @@ demo chapitre-04
 demo ch4-temps
 demo ch4-decouvertes
 demo ch4-planete
+demo ch4-finance
 demo ch4-humains
 demo ch4-cerveau
 demo ch4-securite

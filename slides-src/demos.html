@@ -466,6 +466,30 @@
   .c4grid.g4.hooked .badge { grid-row: span 2; margin: 0; align-self: center; }
   .c4grid.g4.hooked .big { font-size: 78px; margin: 4px 0 8px; }
   .c4grid.g4.hooked p { font-size: 26px; }
+  /* Diapos 30-31 · planète et finance */
+  .hook.cost em { color: #d43d5c; }
+  .energy { position: absolute; left: 150px; width: 1090px; top: 330px; bottom: 250px; padding: 44px 52px; display: flex; flex-direction: column; justify-content: center; border-top-color: #f07a3a; }
+  .energy .hb { display: grid; grid-template-columns: 210px 1fr; align-items: center; gap: 24px; margin-top: 30px; }
+  .energy .hb b { font: 700 32px/1.1 Sora, sans-serif; color: var(--navy); }
+  .energy .hb b small { display: block; font: 500 20px/1.2 Inter, sans-serif; color: var(--muted); margin-top: 4px; }
+  .energy .hb div { display: flex; align-items: center; gap: 18px; }
+  .energy .hb i { display: block; height: 70px; border-radius: 12px; background: #f6b48e; }
+  .energy .hb.big i { background: #f07a3a; }
+  .energy .hb span { font: 800 40px/1 Sora, sans-serif; color: #f07a3a; white-space: nowrap; }
+  .energy .japan { font: 600 26px/1.3 Inter, sans-serif; color: var(--ink); margin-top: 28px; }
+  .energy .japan b { color: #f07a3a; }
+  .side1 { position: absolute; left: 1280px; right: 150px; top: 330px; bottom: 250px; padding: 44px 44px; display: flex; flex-direction: column; justify-content: center; border-top-color: #1596b8; }
+  .side1 .badge { width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center; background: color-mix(in srgb, #1596b8 13%, #fff); color: #1596b8; margin-bottom: 24px; }
+  .side1 .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .side1 h3 { font: 700 40px/1.12 Sora, sans-serif; margin: 0 0 12px; }
+  .side1 p { font: 500 27px/1.35 Inter, sans-serif; color: var(--ink); }
+  .tipband { position: absolute; left: 150px; right: 150px; bottom: 120px; display: flex; align-items: center; gap: 22px; padding: 26px 40px; border-radius: 22px;
+    background: #fff4e8; border: 2px solid #ffd2ad; font: 600 30px/1.3 Inter, sans-serif; color: #8a4512; }
+  .tipband svg { flex: none; width: 44px; height: 44px; stroke: #f07a3a; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .ptag { display: inline-flex; align-items: center; gap: 18px; margin: 8px 0 14px; }
+  .ptag s { font: 700 46px/1 Sora, sans-serif; color: var(--muted); }
+  .ptag b { font: 800 70px/1 Sora, sans-serif; color: var(--a); }
+  .ptag i { font-style: normal; font: 700 40px/1 Sora, sans-serif; color: var(--muted); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -816,14 +840,34 @@
 <!-- ===================================================== 04 · ch4-planete -->
 <section class="slide light" id="ch4-planete">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La planète et nos portefeuilles</div>
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La planète</div>
   </div>
+  <div class="hook cost">Retournons la pièce… <em>tout ça a un prix.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
-  <div class="c4grid g2">
-    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></svg></div><small>L'électricité des datacenters</small><div class="big">×&nbsp;2</div><p><b>415&nbsp;TWh en 2024, 945&nbsp;TWh prévus en 2030</b>&nbsp;: un peu plus que toute la consommation du Japon. Sans compter l'eau pour les refroidir.</p></div>
-    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div><small>La mémoire part dans l'IA</small><div class="big">+15 à 20&nbsp;%</div><p><b>sur le prix des ordinateurs</b> annoncé par les grands fabricants pour fin 2026&nbsp;: la RAM est réservée en priorité aux datacenters de l'IA.</p></div>
+  <div class="card energy">
+    <div class="label" style="color:#f07a3a">L'électricité consommée par les datacenters dans le monde</div>
+    <div class="hb"><b>2024</b><div><i style="width:246px"></i><span>415&nbsp;TWh</span></div></div>
+    <div class="hb big"><b>2030<small>prévision</small></b><div><i style="width:560px"></i><span>945&nbsp;TWh</span></div></div>
+    <p class="japan"><b>Plus du double en 6 ans</b>&nbsp;: un peu plus que toute la consommation électrique du Japon.</p>
   </div>
-  <p class="c4src">Sources : Agence internationale de l'énergie, « Energy and AI » (avril 2025) · IDC et constructeurs (Lenovo, Dell, HP…), Le Monde Informatique (2026).</p>
+  <div class="card side1"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div><h3>Et de l'eau</h3><p>beaucoup d'eau pour refroidir ces machines, jour et nuit.</p></div>
+  <div class="tipband"><svg viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>Le bon réflexe&nbsp;: une image ou une vidéo consomme bien plus qu'une simple question.</div>
+  <p class="c4src">Source : Agence internationale de l'énergie, « Energy and AI » (avril 2025). Barres à la même échelle.</p>
+</section>
+
+<!-- ===================================================== 04 · ch4-finance -->
+<section class="slide light" id="ch4-finance">
+  <div class="content">
+    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Nos portefeuilles</div>
+  </div>
+  <div class="hook cost">Une course à l'argent… <em>que nous payons aussi.</em></div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="c4grid g3" style="top:330px; bottom:150px">
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></div><small>Les géants, 2026</small><div class="big md">2&nbsp;milliards&nbsp;$</div><p><b>par jour</b>, investis dans l'IA et les datacenters par Amazon, Microsoft, Google et Meta (environ 700&nbsp;milliards sur l'année).</p></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div><small>La mémoire part dans l'IA</small><div class="big md">7&nbsp;sur&nbsp;10</div><p>Plus de 7 puces mémoire haut de gamme sur 10 produites en 2026 partent dans les datacenters&nbsp;: c'est la pénurie.</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg></div><small>Résultat pour nous</small><div class="ptag"><s>800&nbsp;€</s><i>→</i><b>950&nbsp;€</b></div><p>Les fabricants annoncent <b>+15 à 20&nbsp;%</b> sur le prix des ordinateurs fin 2026 (exemple de prix).</p></div>
+  </div>
+  <p class="c4src">Sources : prévisions d'investissement des entreprises (Forbes, octobre 2026 ; entre 700 et 745 milliards de dollars selon les estimations) · TrendForce (2026) · IDC et constructeurs, Le Monde Informatique (2026).</p>
 </section>
 
 <!-- ===================================================== 04 · ch4-humains -->
