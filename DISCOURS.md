@@ -584,12 +584,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 40 · Et demain ? — 1 min · prévu à 53:00
 
-**🎯 Ce qui arrive… et ce que vous en attendez.**
+**🎯 Demain, elle ne fera plus que répondre : elle agira… et vous, qu'en attendez-vous ? (1 min)**
 
-- Agents autonomes : des IA qui enchaînent les tâches seules (chercher, comparer, réserver). Question : à qui la faute si elles se trompent ?
-- Multimodalité : une seule IA qui voit, entend et parle. On peut déjà montrer un objet à la caméra du téléphone et lui poser une question à voix haute.
-- IA plus sobre : des modèles plus petits qui tournent directement sur le téléphone, sans internet. Ils consomment moins et respectent mieux la vie privée.
-- *⚙️ Demander : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
+- L'accroche : « Et demain ? Elle ne fera plus que répondre… elle agira. »
+- Elle fait pour vous : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
+- Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! » (Robot NEO de 1X ; Europe à partir de 2027.)
+- Plus sobre : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
+- *⚙️ La question au public (bande du bas) : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
 - **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 53 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 09.**
 
 > ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »

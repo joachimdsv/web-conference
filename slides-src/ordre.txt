@@ -44,7 +44,7 @@ demo ch4-regles
 demo chapitre-05
 demo prompt-rappel
 demo reflexes
-page 31
+demo demain
 # Démo finale
 demo finale-intro
 demo finale-prompt
