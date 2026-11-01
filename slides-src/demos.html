@@ -502,6 +502,20 @@
   .hands2 .bar i { display: block; height: 56px; border-radius: 10px; flex: none; }
   .hands2 .bar span { font: 800 40px/1 Sora, sans-serif; white-space: nowrap; }
   .hands2 p.after { font: 500 26px/1.35 Inter, sans-serif; color: var(--ink); margin-top: 20px; }
+  /* Diapo 33 · cerveau */
+  .brain2 { position: absolute; left: 150px; right: 150px; top: 320px; bottom: 150px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 36px; }
+  .brain2 .card { padding: 36px 48px; display: flex; flex-direction: column; justify-content: center; border-top-color: var(--a); }
+  .brain2 .kick { display: block; font: 700 22px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--a); margin-bottom: 12px; }
+  .brain2 h3 { font: 700 34px/1.2 Sora, sans-serif; margin: 0 0 22px; color: var(--navy); }
+  .brain2 .grp { display: grid; grid-template-columns: 240px 1fr; align-items: center; gap: 18px; margin: 12px 0; }
+  .brain2 .grp b { font: 800 56px/1 Sora, sans-serif; }
+  .brain2 .grp b small { display: block; font: 600 22px/1.2 Inter, sans-serif; color: var(--ink); margin-top: 6px; }
+  .brain2 .ppl { display: flex; gap: 6px; }
+  .brain2 .ppl svg { width: 46px; height: 46px; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .brain2 .badge { width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); margin-bottom: 22px; }
+  .brain2 .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .brain2 p { font: 500 27px/1.35 Inter, sans-serif; color: var(--ink); }
+  .brain2 .tip { margin-top: 22px; padding: 18px 22px; border-radius: 16px; background: color-mix(in srgb, var(--a) 10%, #fff); font: 600 25px/1.35 Inter, sans-serif; color: var(--navy); }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -909,14 +923,19 @@
   <div class="content">
     <div class="kicker c4k cost">04 · Ce qu'elle coûte · Notre cerveau</div>
   </div>
+  <div class="hook cost">Quand elle pense pour nous… <em>on oublie.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
-  <div class="c4grid g2">
-    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg></div><small>Activité du cerveau en écrivant un texte</small>
-      <div class="bars3"><div><i style="height:100%"></i><span>Sans outil</span></div><div><i style="height:62%; opacity:.75"></i><span>Moteur de recherche</span></div><div><i style="height:30%; opacity:.55"></i><span>ChatGPT</span></div></div>
-      <p>Ceux qui écrivaient avec ChatGPT avaient le cerveau le moins sollicité… et retenaient le moins ce qu'ils avaient écrit.</p></div>
-    <div class="card" style="--a:#1596b8"><div class="badge"><svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div><small>Comme le GPS</small><h3>Ce qu'on ne fait plus, on le perd</h3><p>Utilisée pour réfléchir à notre place, elle nous rend paresseux. Utilisée pour apprendre, elle peut nous rendre plus forts.</p></div>
+  <div class="brain2">
+    <div class="card" style="--a:#e5436a">
+      <span class="kick">Une expérience du MIT</span>
+      <h3>Juste après avoir écrit un texte, impossible d'en citer une seule phrase&nbsp;:</h3>
+      <div class="grp"><b style="color:#e5436a">83&nbsp;%<small>avec ChatGPT</small></b><div class="ppl"><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#e5436a"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg></div></div>
+      <div class="grp"><b style="color:#18a984">11&nbsp;%<small>sans aide</small></b><div class="ppl"><svg viewBox="0 0 24 24" style="stroke:#18a984"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg><svg viewBox="0 0 24 24" style="stroke:#c9cee6"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg></div></div>
+    </div>
+    <div class="card" style="--a:#1596b8"><div class="badge"><svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div><span class="kick">Comme le GPS</span><h3 style="font-size:40px">Ce qu'on ne fait plus, on le perd.</h3>
+      <div class="tip">Pour les devoirs&nbsp;: «&nbsp;explique-moi&nbsp;», pas «&nbsp;fais-le à ma place&nbsp;».</div></div>
   </div>
-  <p class="c4src">Source : MIT Media Lab, « Your Brain on ChatGPT » (juin 2025) : 54 participants, mesures EEG, étude pas encore relue par des pairs. Barres illustratives (ordre des résultats, pas les valeurs).</p>
+  <p class="c4src">Source : MIT Media Lab, « Your Brain on ChatGPT » (juin 2025), première séance d'écriture. Petite étude (54 participants), pas encore relue par d'autres chercheurs.</p>
 </section>
 
 <!-- ===================================================== 04 · ch4-securite -->

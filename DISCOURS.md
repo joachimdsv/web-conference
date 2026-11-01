@@ -502,10 +502,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Ce qu'on ne fait plus, on le perd. (1 min)**
 
-- L'étude : « Des chercheurs du MIT ont mesuré l'activité du cerveau de personnes qui écrivaient un texte : sans aide, avec un moteur de recherche, ou avec ChatGPT. Ceux qui utilisaient ChatGPT avaient le cerveau le moins sollicité… et beaucoup étaient incapables de citer une phrase de leur propre texte. »
-- Honnêteté : « C'est une petite étude, 54 personnes, pas encore validée par d'autres chercheurs. Mais elle confirme ce qu'on observe tous. » (MIT Media Lab, juin 2025 ; les barres de la diapo montrent l'ordre des résultats, pas les valeurs exactes.)
-- L'image du GPS : « Depuis qu'on a le GPS, on ne sait plus lire une carte. C'est pareil : si on lui délègue toute notre réflexion, on perd l'habitude de réfléchir. »
-- Le bon usage : « Utilisée pour réfléchir à notre place, elle nous rend paresseux. Utilisée pour apprendre (explique-moi, interroge-moi, corrige-moi), elle peut nous rendre plus forts. » Pour les parents : pour les devoirs, « explique-moi », pas « fais-le à ma place ».
+- *⚙️ Question à la salle d'abord : « Qui connaît encore par cœur le numéro de téléphone d'un proche ? Levez la main. » (Peu de mains.) « Avant les téléphones portables, on en connaissait des dizaines. »*
+- L'accroche : « Quand elle pense pour nous… on oublie. »
+- L'expérience : « Des chercheurs du MIT ont demandé à des étudiants d'écrire un texte : certains seuls, d'autres avec ChatGPT. Juste après, on leur a demandé de citer une phrase de leur propre texte. Avec ChatGPT, 83 % n'y arrivaient pas, 8 sur 10 ! Sans aide, seulement 11 %. Et en mesurant l'activité de leur cerveau, ceux qui utilisaient ChatGPT étaient les moins sollicités. »
+- Honnêteté : « C'est une petite étude, 54 personnes, pas encore validée par d'autres chercheurs. Mais elle confirme ce qu'on observe tous. » (MIT Media Lab, juin 2025, première séance d'écriture.)
+- Le GPS : « Depuis qu'on a le GPS, on ne sait plus lire une carte. C'est pareil : ce qu'on ne fait plus, on le perd. »
+- Le bon usage : « Utilisée pour réfléchir à notre place, elle nous rend paresseux. Utilisée pour apprendre, elle peut nous rendre plus forts. » Pour les parents : « Pour les devoirs : "explique-moi", pas "fais-le à ma place". »
 
 > ➡️ « Autre prix, très concret : notre sécurité. »
 
