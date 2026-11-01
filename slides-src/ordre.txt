@@ -45,6 +45,7 @@ demo chapitre-05
 demo prompt-rappel
 demo reflexes
 demo demain
+demo demain-risques
 # Démo finale
 demo finale-intro
 demo finale-prompt

@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 47 diapos · environ 65 min de conférence + 23 min de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 48 diapos · environ 66 min de conférence + 23 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -16,9 +16,9 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Chapitre 04 · Impacts et enjeux | 28-32 | 40:30 | 5 min 30 |
 | Chapitre 05 · Les bonnes pratiques | 33-36 | 46:00 | 5 min |
 | Chapitre 06 · Et demain ? + démo finale | 37-40 | 51:00 | 3 min |
-| Conclusion | 41-42 | 54:00 | 8 min |
-| Débat et fin | 43-47 | 1:02:00 | 27 min |
-| Marge de sécurité | | 1:29:00 | 1 min |
+| Conclusion | 41-42 | 54:00 | 2 min |
+| Débat et fin | 43-48 | 56:00 | 34 min |
+| Marge de sécurité | | 1:30:00 | 0 s |
 
 Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
 
@@ -590,16 +590,27 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Elle fait pour vous : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
 - Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! » (Robot NEO de 1X ; Europe à partir de 2027.)
 - Plus sobre : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
-- *⚙️ La question au public (bande du bas) : « Et vous, qu'attendez-vous de l'IA ? » Recueillir 2 ou 3 réponses.*
 - **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 53 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 09.**
 
-> ➡️ « Justement, je vous propose une dernière démo, la plus ambitieuse. »
+> ➡️ « Voilà le futur rêvé. Mais il y a aussi un revers… »
 
 ---
 
-## Conclusion (diapos 41 à 42, environ 8 min)
+## Conclusion (diapos 41 à 42, environ 2 min)
 
-### 41 · Démo finale — Le site de la MJC — 1 min · prévu à 54:00
+### 41 · Et demain ? Le revers — 1 min · prévu à 54:00
+
+**🎯 Le futur n'est pas écrit : il peut aussi nous échapper, si on laisse faire. (1 min)**
+
+- L'accroche : « Mais si on la laisse faire… elle peut nous échapper. »
+- Nos emplois : « Le Fonds monétaire international estime que près de 4 emplois sur 10 dans le monde seront touchés par l'IA, et 6 sur 10 dans les pays riches comme la France. Touchés, ça ne veut pas dire supprimés : certains seront aidés, d'autres remplacés. Toute la question, c'est de nous y préparer. » (FMI, janvier 2024.)
+- Qui décide ? : « Des IA qui agissent seules, c'est pratique… mais si elle se trompe en réservant, en payant, en envoyant un e-mail ? Et si un pirate lui donne de fausses consignes ? Plus on lui délègue, plus on perd le contrôle. »
+- Tout surveiller : « Reconnaître chaque visage dans la rue, noter chaque citoyen selon son comportement : techniquement, c'est déjà possible, et certains pays le font. En Europe, c'est interdit… pour l'instant, et c'est à nous de veiller à ce que ça le reste. »
+- *⚙️ La question au public (bande du bas) : « Et vous : plutôt confiant, ou plutôt inquiet ? » Main levée pour chaque réponse, puis 1 ou 2 réactions. Ça prépare le débat.*
+
+> ➡️ « Le futur dépendra de ce qu'on en fait. Alors, pour finir, je vous propose une dernière démo, la plus ambitieuse : la preuve qu'elle peut nous aider… si c'est nous qui gardons la main. »
+
+### 42 · Démo finale — Le site de la MJC — 1 min · prévu à 55:00
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
 
@@ -611,7 +622,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
 - *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
 
-### 42 · Démo finale — Le cahier des charges — 7 min · prévu à 55:00
+---
+
+## Débat et fin (diapos 43 à 48, environ 34 min)
+
+### 43 · Démo finale — Le cahier des charges — 7 min · prévu à 56:00
 
 **🎯 On décrit, l'IA fabrique, on améliore ensemble.**
 
@@ -635,11 +650,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
----
-
-## Débat et fin (diapos 43 à 47, environ 27 min)
-
-### 43 · Démo finale — Bilan — 1 min · prévu à 1:02:00
+### 44 · Démo finale — Bilan — 1 min · prévu à 1:03:00
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -657,7 +668,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Si vous ne deviez retenir que trois choses ce soir… »
 
-### 44 · 3 choses à retenir — 1 min · prévu à 1:03:00
+### 45 · 3 choses à retenir — 1 min · prévu à 1:04:00
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -665,9 +676,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 2. Parlez-lui comme à un stagiaire : contexte, tâche, format. Plus vous êtes précis, meilleur est le résultat.
 - 3. Vos données sont précieuses : rien de personnel, de médical ou de confidentiel.
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
-- **⏱️ Prévu à 1 h 03. Le débat doit commencer vers 1 h 05, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
+- **⏱️ Prévu à 1 h 04. Le débat doit commencer vers 1 h 06, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
 
-### 45 · Pour essayer chez vous — 1 min · prévu à 1:04:00
+### 46 · Pour essayer chez vous — 1 min · prévu à 1:05:00
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -685,7 +696,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Et maintenant, c'est à vous : place au débat ! »
 
-### 46 · Débat — 23 min · prévu à 1:05:00
+### 47 · Débat — 23 min · prévu à 1:06:00
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -702,15 +713,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - 🏠 La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
 - Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
-- **⏱️ De 1 h 05 à 1 h 28 environ. Vers 1 h 25 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
+- **⏱️ De 1 h 06 à 1 h 29 environ. Vers 1 h 26 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
 
 > ➡️ « Merci pour ces échanges… »
 
-### 47 · Merci ! — 1 min · prévu à 1:28:00
+### 48 · Merci ! — 1 min · prévu à 1:29:00
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 
 - Remercier la MJC, les bénévoles et le public pour la richesse des échanges.
 - Rappeler la phrase de la soirée : « L'IA est un outil : c'est vous qui gardez la main. »
 - « Si vous avez encore des questions, je reste quelques minutes après. » Et annoncer l'atelier numérique de la MJC s'il existe.
-- **⏱️ Fin prévue vers 1 h 29. 1 h 30 maximum.**
+- **⏱️ Fin prévue vers 1 h 30. 1 h 30 maximum.**
