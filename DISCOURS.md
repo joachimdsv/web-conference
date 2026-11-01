@@ -539,14 +539,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 36 · Qui fixe les règles ? — 1 min · prévu à 50:00
 
-**🎯 L'Europe a écrit la première loi au monde sur l'IA : plus c'est risqué, plus c'est encadré. (1 min)**
+**🎯 L'Europe a écrit la première loi au monde sur l'IA, et elle fonctionne comme un feu tricolore. (1 min)**
 
-- L'accroche : « L'Europe a écrit la première loi au monde sur l'IA : l'AI Act. »
-- Le principe : « Plus un usage est risqué, plus il est encadré. Imaginez une pyramide. »
-- En haut, interdit : « Ce qui est trop dangereux est interdit : noter les citoyens selon leur comportement, comme en Chine, ou manipuler les gens à leur insu. » (Depuis février 2025.)
-- Au milieu, très encadré : « Quand l'IA peut changer une vie, elle est très surveillée : le recrutement, un prêt à la banque, l'école. » (À partir de décembre 2027 : c'était prévu pour 2026, l'Europe l'a reporté.)
-- En bas, transparent : « Et pour tout le reste, la transparence : dire quand on parle à une IA, et étiqueter les contenus fabriqués par une IA. » (Depuis août 2026.)
-- Pour le public : « Concrètement, pour vous : une vidéo ou une image fabriquée par une IA doit désormais être signalée. Une vidéo étonnante sans cette mention ? Méfiance. »
+- L'accroche : « Face à tout ça, l'Europe a écrit la première loi au monde sur l'IA : l'AI Act. Et elle marche comme un feu tricolore. »
+- Rouge, interdit : « Ce qui est trop dangereux est interdit : noter les citoyens selon leur comportement, comme ça se fait en Chine, ou manipuler les gens à leur insu. » (Depuis février 2025.)
+- Orange, sous surveillance : « Quand l'IA peut changer une vie, elle est surveillée de près : trier des CV pour un recrutement, accorder un prêt à la banque, noter des élèves. Il faudra prouver qu'elle est fiable et qu'un humain garde la main. » (À partir de décembre 2027 : c'était prévu pour 2026, l'Europe l'a reporté.)
+- Vert, autorisé mais signalé : « Pour tout le reste, c'est autorisé… à condition d'être transparent : on doit vous dire quand vous parlez à une IA, et une image ou une vidéo fabriquée par une IA doit le dire. » (Depuis août 2026.)
+- Pour le public : « Concrètement : une vidéo étonnante sans cette mention ? Méfiance. »
 - (Calendrier : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en 2026. À revérifier juste avant la conférence.)
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
