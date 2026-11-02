@@ -41,7 +41,7 @@ window.DECK = {
     // { id: 'video-1', name: 'Démo 3 · Vidéo 1', src: 'media/demo3-video1.mp4' },
     // { id: 'video-2', name: 'Démo 3 · Vidéo 2', src: 'media/demo3-video2.mp4' },
     { id: 'affiche', name: 'Démo 2 · Affiche (plan B)', src: 'media/demo2-affiche.jpg' },
-    // { id: 'site', name: 'Démo finale · Site (plan B)', src: 'media/site-mjc.png' },
+    { id: 'site', name: 'Démo finale · Site (plan B)', src: 'media/site-mjc.png' },
   ],
 
   slides: {
@@ -230,7 +230,7 @@ window.DECK = {
     // ---------- Démo finale ----------
     42: {
       title: 'Démo finale — Le site de la MJC', minutes: 1,
-      notes: "🎯 Le défi : un vrai site internet, en direct, en quelques minutes.\n• « Pour finir, un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »\n• Les 4 étapes :\n  1. je décris le site en français ;\n  2. l'IA le fabrique ;\n  3. on l'améliore ensemble, avec vos idées ;\n  4. on le met en ligne, et vous l'ouvrez sur votre téléphone.\n⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.",
+      notes: "🎯 Le défi : un vrai site internet, en direct, en quelques minutes… et c'est la salle qui décide. (1 min)\n• L'accroche : « On vient de dire que tout dépend de qui garde la main. Alors pour finir, c'est vous qui allez décider. Un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »\n• Les 4 étapes, une phrase chacune : « Je le décris en français, comme à un graphiste. L'IA le fabrique, en une minute. Vous proposez des améliorations. Et on le met en ligne : vous l'ouvrirez sur vos téléphones. »\n⚙️ Faire participer tout de suite : « Pendant que ça se fabrique, réfléchissez : qu'est-ce que vous aimeriez voir sur le site de la MJC ? Une couleur, une rubrique, une photo ? »\n⚙️ Plan B (sans le dire) : le site préparé, media/site-mjc/index.html, à mettre en ligne la veille sur Netlify Drop (noter l'adresse), et sa capture media/site-mjc.png.\n➡️ « C'est parti. »",
       links: [
         { label: 'Claude', url: 'https://claude.ai/' },
         { label: 'ChatGPT', url: 'https://chatgpt.com/' },

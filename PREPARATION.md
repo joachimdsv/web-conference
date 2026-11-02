@@ -16,6 +16,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 - [ ] **Plans B**, si internet ou un outil ne fonctionne pas :
   - l'affiche déjà générée : `media/demo2-affiche.jpg` est en place (titre raté) ; la remplacer la veille par une affiche faite avec ChatGPT si possible ;
   - le budget Excel : `media/budget-famille.xlsx` est prêt (formules, écart en rouge, graphique) ;
+  - le site de la MJC : `media/site-mjc/index.html` est prêt (fait avec le même cahier des charges, bandeau « démonstration, informations fictives »). **La veille** : le glisser sur Netlify Drop (app.netlify.com/drop), noter l'adresse obtenue et tester le QR code. Capture d'écran : `media/site-mjc.png` (dans la régie, média « Site (plan B) ») ;
   - le fichier Excel du budget ;
   - le site de la MJC déjà créé **et déjà en ligne**, avec son adresse et une capture d'écran.
 - [ ] Copier ces fichiers dans `media/` et décommenter les lignes correspondantes dans `js/deck.js`, ou simplement les glisser dans la régie la veille, sur l'ordinateur de la conférence.

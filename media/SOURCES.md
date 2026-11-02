@@ -10,3 +10,6 @@
 
 ## Démo 5 · Budget dans Excel (diapo 25)
 - `budget-famille.xlsx` (plan B) : créé pour la conférence, montants d'exemple fictifs.
+
+## Démo finale · Le site de la MJC (diapos 42 à 44)
+- `site-mjc/index.html` et `site-mjc.png` (plan B) : site de démonstration créé pour la conférence. Horaires, dates et coordonnées fictifs, signalés par un bandeau.

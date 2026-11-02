@@ -613,15 +613,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 42 · Démo finale — Le site de la MJC — 1 min · prévu à 55:30
 
-**🎯 Le défi : un vrai site internet, en direct, en quelques minutes.**
+**🎯 Le défi : un vrai site internet, en direct, en quelques minutes… et c'est la salle qui décide. (1 min)**
 
-- « Pour finir, un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »
-- Les 4 étapes :
-  - 1. je décris le site en français ;
-  - 2. l'IA le fabrique ;
-  - 3. on l'améliore ensemble, avec vos idées ;
-  - 4. on le met en ligne, et vous l'ouvrez sur votre téléphone.
-- *⚙️ Plan B (sans le dire) : la capture d'écran du site préparé et son adresse en ligne.*
+- L'accroche : « On vient de dire que tout dépend de qui garde la main. Alors pour finir, c'est vous qui allez décider. Un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »
+- Les 4 étapes, une phrase chacune : « Je le décris en français, comme à un graphiste. L'IA le fabrique, en une minute. Vous proposez des améliorations. Et on le met en ligne : vous l'ouvrirez sur vos téléphones. »
+- *⚙️ Faire participer tout de suite : « Pendant que ça se fabrique, réfléchissez : qu'est-ce que vous aimeriez voir sur le site de la MJC ? Une couleur, une rubrique, une photo ? »*
+- *⚙️ Plan B (sans le dire) : le site préparé, media/site-mjc/index.html, à mettre en ligne la veille sur Netlify Drop (noter l'adresse), et sa capture media/site-mjc.png.*
+
+> ➡️ « C'est parti. »
 
 ---
 
