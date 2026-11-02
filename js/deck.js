@@ -259,6 +259,6 @@ window.DECK = {
       { id: 'd4', type: 'answer', label: "La MJC", rect: [50.9, 54.6, 41.3, 22.2], choices: ['💬 En débat'], answer: 0, pill: 'none' },
       ],
     },
-    45: { title: 'Merci !', minutes: 1, notes: "🎯 Terminer à l'heure, sur une note chaleureuse.\n• Remercier la MJC, les bénévoles et le public pour la richesse des échanges.\n• Rappeler la phrase de la soirée : « L'IA est un outil : c'est vous qui gardez la main. »\n• « Si vous avez encore des questions, je reste quelques minutes après. » Et annoncer l'atelier numérique de la MJC s'il existe.\n⏱️ Fin prévue vers 1 h 29. 1 h 30 maximum." },
+    45: { title: 'Merci !', minutes: 1, notes: "🎯 Terminer à l'heure, sur une note chaleureuse.\n• Remercier la MJC, les bénévoles et le public pour la richesse des échanges.\n• Montrer la phrase affichée, et la redire lentement : « L'IA est un outil : c'est vous qui gardez la main. »\n• « Si vous avez encore des questions, je reste quelques minutes après. » Et annoncer l'atelier numérique de la MJC s'il existe.\n⏱️ Fin prévue vers 1 h 29. 1 h 30 maximum." },
   },
 };

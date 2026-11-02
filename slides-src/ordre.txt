@@ -52,4 +52,4 @@ demo finale-intro
 demo pour-essayer
 # Débat, puis remerciements
 demo debat
-page 32
+demo merci
