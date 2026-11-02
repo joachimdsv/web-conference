@@ -35,7 +35,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Bonjour à tous, merci d'être venus, et merci à la MJC du Val d'Ajol de m'accueillir.
 - Me présenter en 2 ou 3 phrases : qui je suis, mon lien avec le numérique, pourquoi j'ai eu envie de faire cette conférence.
 - La promesse : « Ce soir, pas besoin d'être informaticien. Vous allez comprendre ce qu'est l'IA, la voir travailler en direct, et repartir avec de bons réflexes. »
-- Durée : environ une heure de conférence, puis 25 minutes de débat ensemble. Fin à 1 h 30 au plus tard.
+- Durée : environ une heure de conférence, puis un peu plus de 20 minutes de débat ensemble. Fin à 1 h 30 au plus tard.
 
 > ➡️ « Voici le programme. »
 

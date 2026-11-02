@@ -48,7 +48,7 @@ window.DECK = {
     // ---------- Ouverture ----------
     1: {
       title: 'Titre', minutes: 1,
-      notes: "🎯 Créer le contact et rassurer.\n• Bonjour à tous, merci d'être venus, et merci à la MJC du Val d'Ajol de m'accueillir.\n• Me présenter en 2 ou 3 phrases : qui je suis, mon lien avec le numérique, pourquoi j'ai eu envie de faire cette conférence.\n• La promesse : « Ce soir, pas besoin d'être informaticien. Vous allez comprendre ce qu'est l'IA, la voir travailler en direct, et repartir avec de bons réflexes. »\n• Durée : environ une heure de conférence, puis 25 minutes de débat ensemble. Fin à 1 h 30 au plus tard.\n➡️ « Voici le programme. »",
+      notes: "🎯 Créer le contact et rassurer.\n• Bonjour à tous, merci d'être venus, et merci à la MJC du Val d'Ajol de m'accueillir.\n• Me présenter en 2 ou 3 phrases : qui je suis, mon lien avec le numérique, pourquoi j'ai eu envie de faire cette conférence.\n• La promesse : « Ce soir, pas besoin d'être informaticien. Vous allez comprendre ce qu'est l'IA, la voir travailler en direct, et repartir avec de bons réflexes. »\n• Durée : environ une heure de conférence, puis un peu plus de 20 minutes de débat ensemble. Fin à 1 h 30 au plus tard.\n➡️ « Voici le programme. »",
     },
     2: {
       title: 'Plan', minutes: 1,
