@@ -57,9 +57,9 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Lundi 02/11 · J-4 · Corriger et préparer le débat (1 h 15)
 - [ ] Regarder la vidéo du filage en vitesse ×1,5. Relever les tics (« euh », « en fait »), les passages flous et les moments où vous lisez l'écran.
-- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 43 et 44).
+- [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 43 et 43).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
-- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 45, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 45).
+- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 44, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 44).
 
 ### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
 - [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 15 à 20 min de débat à la fin**, en vous entraînant à animer (reformuler, relancer, donner la parole). C'est le moment de vérifier que tout tient en 1 h 30.
@@ -100,9 +100,9 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 4 | Enjeux | 27-36 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
 | 5 | Bonnes pratiques | 37-39 | 2 min | Demander, vérifier, protéger | Le stagiaire |
 | 6 | Demain + démo finale | 40-42 | 10 min 30 | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 43-44 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 45-46 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
-|  | **Total** | | **1 h 29 30 + 30 s de marge** | Fin à 1 h 30 au plus tard | |
+| 7 | Conclusion | 43 | 2 min | 3 choses à retenir | Essayer dès ce soir |
+| 8 | Débat + merci | 44-45 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
+|  | **Total** | | **1 h 28 30 + 1 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
 
@@ -164,7 +164,7 @@ Tout dépend des versions gratuites, qui changent souvent. **Testez avec les com
 - [ ] **Copilot** : la génération d'images est-elle gratuite et en quelle quantité ?
 - [ ] **Claude gratuit** : affiche-t-il l'aperçu du site directement ? Quelle limite de messages ?
 - [ ] **Netlify Drop** : faut-il un compte ? Combien de temps le site reste-t-il en ligne sans compte ? Créez un compte gratuit d'avance pour éviter toute surprise.
-- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 44.
+- [ ] **Le Chat (Mistral)** : ce qu'il sait faire gratuitement, pour en parler diapo 43.
 - [ ] **Prix des versions payantes** : vérifier le tarif actuel, autour de 20 € par mois.
 - [ ] **Âge minimum** d'utilisation de ChatGPT et des autres outils, et les contrôles parentaux. Un parent posera la question.
 - [ ] **Confidentialité** : où se trouve le réglage qui empêche l'utilisation de vos conversations pour l'entraînement, dans ChatGPT et les autres ? Savoir le montrer.

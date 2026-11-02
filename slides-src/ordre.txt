@@ -49,7 +49,6 @@ demo demain-risques
 # Démo finale
 demo finale-intro
 # Conclusion
-demo a-retenir
 demo pour-essayer
 # Débat, puis remerciements
 demo debat
