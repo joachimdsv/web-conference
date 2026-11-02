@@ -664,17 +664,17 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
-- *⚙️ Commencer par les réactions spontanées : « Vos questions, vos avis, vos expériences ? Qui veut commencer ? »*
+- *⚙️ Démarrer sur le vote de la diapo 41 : « Tout à l'heure, certains étaient plutôt inquiets : qui veut nous dire pourquoi ? Et les plus confiants ? » Puis : « Vos questions, vos avis, vos expériences ? »*
 - Animer :
   - donner la parole à tour de rôle, en priorité à ceux qui n'ont pas encore parlé ;
   - reformuler en une phrase avant de répondre (« Si je comprends bien, vous vous demandez… ») ;
   - répondre court (1 minute maximum) puis renvoyer à la salle : « Qui a un avis différent ? » ;
   - il n'y a pas de bonne réponse : c'est un échange, pas un cours.
 - *⚙️ Si ça s'essouffle, relancer avec une question de la diapo. Touche R ou boutons de la régie pour encadrer « En débat » celle dont on parle.*
-- 👧 Les enfants : plutôt apprendre à s'en servir avec esprit critique qu'interdire ; aide pour comprendre ou triche pour les devoirs ? âge minimum des services ; accompagner, comme pour internet.
-- ⚖️ Soigner, recruter, juger : l'IA aide à repérer, l'humain décide. La loi européenne classe ces usages « à haut risque ». Qui est responsable en cas d'erreur ?
-- 🏷️ Signaler l'IA : la loi européenne impose de signaler certains contenus, comme les fausses vidéos. Et un e-mail simplement relu par l'IA ? Où placer la limite ?
-- 🏠 La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
+- L'école : « Une aide pour apprendre… ou une triche ? » Rappel de la diapo 33 : avec ChatGPT, les lycéens réussissaient mieux les exercices… et moins bien le contrôle ; avec une IA « prof », pas de baisse. Pistes : apprendre à s'en servir avec esprit critique plutôt qu'interdire ; « explique-moi » plutôt que « fais-le à ma place » ; accompagner, comme pour internet.
+- Le travail : « Votre métier : aidé… ou remplacé ? » Rappel : 4 emplois sur 10 touchés dans le monde (FMI), ça ne veut pas dire supprimés. Pistes : quelles tâches lui confieriez-vous ? Qui doit former les salariés ? Qui est responsable si l'IA se trompe ?
+- La planète et les inégalités : « Faut-il la limiter ? La rendre gratuite pour tous ? » Rappels : l'électricité des datacenters double d'ici 2030 ; les meilleures IA sont payantes. Pistes : l'utiliser seulement quand elle apporte vraiment quelque chose ; des ateliers gratuits pour que tout le monde en profite.
+- La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
 - Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
 - **⏱️ De 1 h 05 à 1 h 28 environ. Vers 1 h 25 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**

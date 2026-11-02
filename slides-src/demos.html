@@ -674,6 +674,13 @@
   .qrbox .qr.todo { border: 4px dashed #c9cee6; border-radius: 20px; font: 600 22px/1.3 Inter, sans-serif; color: var(--muted); padding: 20px; }
   .qrbox b { font: 800 34px/1.15 Sora, sans-serif; margin-top: 22px; }
   .qrbox span { font: 500 23px/1.3 Inter, sans-serif; color: var(--ink); margin-top: 8px; }
+  /* Diapo 44 · débat */
+  .deb4 { position: absolute; left: 150px; right: 150px; top: 320px; bottom: 250px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 30px 34px; }
+  .deb4 .card { display: grid; grid-template-columns: 92px 1fr; gap: 0 28px; align-items: center; padding: 26px 36px; }
+  .deb4 .badge { width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 22%, transparent); color: color-mix(in srgb, var(--a) 70%, #fff); }
+  .deb4 .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .deb4 small { display: block; font: 700 22px/1 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, var(--a) 70%, #fff); margin-bottom: 10px; }
+  .deb4 h3 { font: 700 36px/1.2 Sora, sans-serif; color: #fff; margin: 0; }
   /* Familles d'IA */
   .fam { position: absolute; left: 150px; right: 150px; top: 210px; bottom: 110px;
     display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 44px 50px; }
@@ -1459,18 +1466,19 @@
 </section>
 
 <!-- ===================================================== Débat -->
-<section class="slide dark teal final" id="debat" data-net="br">
+<section class="slide dark teal final" id="debat">
   <div class="content">
     <div class="kicker">À vous la parole</div>
     <h1>Place au débat</h1>
-    <div class="debate">
-      <div class="card" data-zone="d1"><div class="ico">👧</div><h3>Faut-il apprendre l'IA à nos enfants… ou les en protéger ?</h3></div>
-      <div class="card" data-zone="d2"><div class="ico">⚖️</div><h3>Une IA pour vous soigner, recruter, juger : jusqu'où ?</h3></div>
-      <div class="card" data-zone="d3"><div class="ico">🏷️</div><h3>Faut-il toujours signaler ce qui est fait par une IA ?</h3></div>
-      <div class="card" data-zone="d4"><div class="ico">🏠</div><h3>Et ici, à la MJC : qu'aimeriez-vous faire avec l'IA ?</h3></div>
-    </div>
-    <p class="lead" style="position:absolute; left:150px; bottom:84px; font-weight:600; color:#e4e7ff">Une question, un avis, une expérience ? <span style="color:#6fd8c0">Levez la main ✋</span></p>
   </div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="deb4">
+    <div class="card" data-zone="d1" style="--a:#7c5cff"><div class="badge"><svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div><div><small>L'école</small><h3>Une aide pour apprendre… ou une triche&nbsp;?</h3></div></div>
+    <div class="card" data-zone="d2" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg></div><div><small>Le travail</small><h3>Votre métier&nbsp;: aidé… ou remplacé&nbsp;?</h3></div></div>
+    <div class="card" data-zone="d3" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div><div><small>La planète, les inégalités</small><h3>Faut-il la limiter&nbsp;? La rendre gratuite pour tous&nbsp;?</h3></div></div>
+    <div class="card" data-zone="d4" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><div><small>La MJC</small><h3>Qu'aimeriez-vous faire ici avec l'IA&nbsp;?</h3></div></div>
+  </div>
+  <div class="askband"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>Une question, un avis, une expérience&nbsp;? Levez la main.</div>
 </section>
 
 <script>
