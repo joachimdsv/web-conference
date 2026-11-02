@@ -48,7 +48,6 @@ demo demain
 demo demain-risques
 # Démo finale
 demo finale-intro
-demo finale-bilan
 # Conclusion
 demo a-retenir
 demo pour-essayer
