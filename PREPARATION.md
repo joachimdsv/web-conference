@@ -17,7 +17,6 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
   - l'affiche déjà générée : `media/demo2-affiche.jpg` est en place (titre raté) ; la remplacer la veille par une affiche faite avec ChatGPT si possible ;
   - le budget Excel : `media/budget-famille.xlsx` est prêt (formules, écart en rouge, graphique) ;
   - le site de la MJC : `media/site-mjc/index.html` est prêt (fait avec le même cahier des charges, bandeau « démonstration, informations fictives »). **La veille** : le glisser sur Netlify Drop (app.netlify.com/drop), noter l'adresse obtenue et tester le QR code. Capture d'écran : `media/site-mjc.png` (dans la régie, média « Site (plan B) ») ;
-  - la page récap à emporter : `media/recap/index.html` (outils, idées, 3 réflexes). **La veille** : la mettre en ligne sur Netlify Drop, puis coller son adresse dans `RECAP_URL` (section `pour-essayer` de `slides-src/demos.html`) et relancer `tools/construire-diapos.sh` : le QR code apparaît sur la diapo 43. Sans adresse, la diapo affiche un cadre vide ;
   - le fichier Excel du budget ;
   - le site de la MJC déjà créé **et déjà en ligne**, avec son adresse et une capture d'écran.
 - [ ] Copier ces fichiers dans `media/` et décommenter les lignes correspondantes dans `js/deck.js`, ou simplement les glisser dans la régie la veille, sur l'ordinateur de la conférence.
