@@ -13,3 +13,6 @@
 
 ## Démo finale · Le site de la MJC (diapos 42 à 43)
 - `site-mjc/index.html` et `site-mjc.png` (plan B) : site de démonstration créé pour la conférence. Horaires, dates et coordonnées fictifs, signalés par un bandeau.
+
+## Diapo 43 · Pour essayer chez vous
+- `recap/index.html` : page récapitulative à emporter (QR code), créée pour la conférence.

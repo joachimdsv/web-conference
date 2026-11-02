@@ -650,18 +650,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 43 · Pour essayer chez vous — 1 min · prévu à 1:03:30
 
-**🎯 Donner envie d'essayer, dès ce soir.**
+**🎯 Donner envie d'essayer, dès ce soir, avec une seule question. (1 min)**
 
-- Elles ont toutes une version gratuite :
-  - ChatGPT, la plus connue ;
-  - Le Chat, de l'entreprise française Mistral ;
-  - Gemini, de Google ;
-  - Copilot, de Microsoft, qui fait aussi des images.
-- Conseil : commencer par une petite tâche du quotidien.
-  - Une recette avec ce qu'il reste dans le frigo.
-  - Un e-mail difficile à écrire.
-  - Le résumé d'un long article.
-  - L'explication d'un courrier administratif (en retirant vos informations personnelles).
+- L'accroche : « Ce soir, en rentrant, essayez… avec une seule question. »
+- Les outils : « Les quatre ont une version gratuite : ChatGPT, le plus connu ; Le Chat, l'IA française de Mistral ; Gemini, de Google ; Copilot, de Microsoft, qui fait aussi des images. »
+- Les idées : « Commencez par une petite chose du quotidien : une recette avec ce qu'il reste dans le frigo, un e-mail difficile à écrire, ou un courrier administratif à comprendre, en retirant vos informations personnelles. »
+- Le QR code : « Et pour ne rien oublier, scannez ce code : vous retrouverez les outils, ces idées et les trois réflexes sur votre téléphone. »
 - Si la MJC propose un atelier numérique, l'annoncer ici.
 - **⏱️ Prévu à 1 h 04. Le débat doit commencer vers 1 h 05, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
 
