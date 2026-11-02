@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 48 diapos · environ 66 min 30 de conférence + 23 min de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 47 diapos · environ 66 min 30 de conférence + 23 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -16,8 +16,8 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Chapitre 04 · Impacts et enjeux | 28-32 | 40:30 | 5 min 30 |
 | Chapitre 05 · Les bonnes pratiques | 33-36 | 46:00 | 5 min |
 | Chapitre 06 · Et demain ? + démo finale | 37-40 | 51:00 | 3 min |
-| Conclusion | 41-42 | 54:00 | 2 min 30 |
-| Débat et fin | 43-48 | 56:30 | 34 min |
+| Conclusion | 41-42 | 54:00 | 9 min 30 |
+| Débat et fin | 43-47 | 1:03:30 | 27 min |
 | Marge de sécurité | | 1:30:30 | -1 min -30 |
 
 Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
@@ -596,7 +596,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ---
 
-## Conclusion (diapos 41 à 42, environ 2 min 30)
+## Conclusion (diapos 41 à 42, environ 9 min 30)
 
 ### 41 · Et demain ? Le revers — 1 min 30 · prévu à 54:00
 
@@ -611,25 +611,15 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Le futur dépendra de ce qu'on en fait. Alors, pour finir, je vous propose une dernière démo, la plus ambitieuse : la preuve qu'elle peut nous aider… si c'est nous qui gardons la main. »
 
-### 42 · Démo finale — Le site de la MJC — 1 min · prévu à 55:30
+### 42 · Démo finale — Le site de la MJC — 8 min · prévu à 55:30
 
-**🎯 Le défi : un vrai site internet, en direct, en quelques minutes… et c'est la salle qui décide. (1 min)**
+**🎯 Le défi : un vrai site internet, en direct, en quelques minutes… et c'est la salle qui décide. (8 min en tout : 1 min d'annonce, 7 min de démo)**
 
 - L'accroche : « On vient de dire que tout dépend de qui garde la main. Alors pour finir, c'est vous qui allez décider. Un vrai projet : créer en direct le site internet de la MJC. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »
 - Les 4 étapes, une phrase chacune : « Je le décris en français, comme à un graphiste. L'IA le fabrique, en une minute. Vous proposez des améliorations. Et on le met en ligne : vous l'ouvrirez sur vos téléphones. »
 - *⚙️ Faire participer tout de suite : « Pendant que ça se fabrique, réfléchissez : qu'est-ce que vous aimeriez voir sur le site de la MJC ? Une couleur, une rubrique, une photo ? »*
 - *⚙️ Plan B (sans le dire) : le site préparé, media/site-mjc/index.html, à mettre en ligne la veille sur Netlify Drop (noter l'adresse), et sa capture media/site-mjc.png.*
-
-> ➡️ « C'est parti. »
-
----
-
-## Débat et fin (diapos 43 à 48, environ 34 min)
-
-### 43 · Démo finale — Le cahier des charges — 7 min · prévu à 56:30
-
-**🎯 On décrit, l'IA fabrique, on améliore ensemble.**
-
+- — LA DÉMO —
 - *⚙️ Copier le prompt « Site vitrine », le coller dans Claude (le site s'affiche directement) ou dans ChatGPT, et partager la fenêtre.*
 - Lire le prompt : « Je le décris comme je le ferais à un graphiste : pour qui, quelles rubriques, quel style, et lisible sur téléphone. »
 - Pendant que le texte défile : « Ce que vous voyez défiler, c'est le code, la langue dans laquelle sont écrits les sites. Pas besoin de la comprendre : l'IA l'écrit pour nous. »
@@ -650,7 +640,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 </details>
 
-### 44 · Démo finale — Bilan — 1 min · prévu à 1:03:30
+---
+
+## Débat et fin (diapos 43 à 47, environ 27 min)
+
+### 43 · Démo finale — Bilan — 1 min · prévu à 1:03:30
 
 **🎯 L'IA accélère, l'humain valide.**
 
@@ -668,7 +662,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Si vous ne deviez retenir que trois choses ce soir… »
 
-### 45 · 3 choses à retenir — 1 min · prévu à 1:04:30
+### 44 · 3 choses à retenir — 1 min · prévu à 1:04:30
 
 **🎯 Les 3 messages à emporter. Les dire lentement, en regardant la salle.**
 
@@ -678,7 +672,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Conclure : « L'IA est un outil. C'est vous qui gardez la main. »
 - **⏱️ Prévu à 1 h 05. Le débat doit commencer vers 1 h 07, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
 
-### 46 · Pour essayer chez vous — 1 min · prévu à 1:05:30
+### 45 · Pour essayer chez vous — 1 min · prévu à 1:05:30
 
 **🎯 Donner envie d'essayer, dès ce soir.**
 
@@ -696,7 +690,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Et maintenant, c'est à vous : place au débat ! »
 
-### 47 · Débat — 23 min · prévu à 1:06:30
+### 46 · Débat — 23 min · prévu à 1:06:30
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -717,7 +711,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 > ➡️ « Merci pour ces échanges… »
 
-### 48 · Merci ! — 1 min · prévu à 1:29:30
+### 47 · Merci ! — 1 min · prévu à 1:29:30
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 
