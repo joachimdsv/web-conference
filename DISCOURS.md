@@ -614,11 +614,11 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - *⚙️ Plan B (sans le dire) : le site préparé, media/site-mjc/index.html, à mettre en ligne la veille sur Netlify Drop (noter l'adresse), et sa capture media/site-mjc.png.*
 - — LA DÉMO —
 - *⚙️ Copier le prompt « Site vitrine », le coller dans Claude (le site s'affiche directement) ou dans ChatGPT, et partager la fenêtre.*
-- Lire le prompt : « Je le décris comme je le ferais à un graphiste : pour qui, quelles rubriques, quel style, et lisible sur téléphone. »
-- Pendant que le texte défile : « Ce que vous voyez défiler, c'est le code, la langue dans laquelle sont écrits les sites. Pas besoin de la comprendre : l'IA l'écrit pour nous. »
+- Lire le prompt : « Même recette que tout à l'heure : le contexte d'abord (qui je suis, pour qui est le site), puis ce que je veux (les rubriques), puis la forme (le style, lisible sur téléphone). »
+- Pendant que le texte défile : « Ce que vous voyez défiler, c'est le code HTML, la langue dans laquelle sont écrits les sites. Pas besoin de la comprendre : l'IA l'écrit pour nous. »
 - *⚙️ Montrer le résultat et le faire défiler.*
 - *⚙️ Demander à la salle : « Qu'est-ce que vous ajouteriez ? » Choisir 1 ou 2 idées (galerie photo, couleurs du logo, inscription aux ateliers, gros caractères) et copier le prompt correspondant.*
-- *⚙️ Mise en ligne : télécharger le fichier, le glisser sur Netlify Drop, puis Outils → QR code à l'écran avec l'adresse obtenue.*
+- *⚙️ Mise en ligne (l'« hébergement », écrit sur la 4e carte) : télécharger le fichier, le glisser sur Netlify Drop, puis Outils → QR code à l'écran avec l'adresse obtenue.*
 - « Sortez vos téléphones : ce site existe vraiment, maintenant, sur internet. »
 - Faire remarquer que l'IA a inventé des choses (horaires, adresse, textes…). Ça prépare le bilan.
 - **⏱️ Temps idéal : 8 min. En retard, une seule amélioration ; très en retard, montrer le site du plan B déjà en ligne et passer directement au QR code.**
@@ -629,7 +629,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 
 <details><summary>Prompts de la démo</summary>
 
-- **Site vitrine** : Crée un site vitrine d'une seule page pour la MJC du Val d'Ajol (Vosges). Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Donne-moi le site complet dans un seul fichier.
+- **Site vitrine** : Je suis bénévole à la MJC du Val d'Ajol, une maison des jeunes et de la culture des Vosges, ouverte à tous les âges. Nous voulons un site pour faire connaître nos activités aux familles du village. Crée un site vitrine d'une seule page. Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Donne-moi le site complet dans un seul fichier.
 - **Galerie** : Ajoute une section galerie photo avec 6 vignettes qui s'agrandissent au clic.
 - **Couleurs** : Reprends les couleurs du logo de la MJC : rose, violet, bleu, vert et jaune vif sur fond clair.
 - **Inscription** : Ajoute un formulaire d'inscription aux ateliers : nom, e-mail, atelier choisi, message.

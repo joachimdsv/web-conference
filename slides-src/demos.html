@@ -694,6 +694,7 @@
   .fin4 .badge { width: 72px; height: 72px; border-radius: 20px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 22%, transparent); color: color-mix(in srgb, var(--a) 70%, #fff); }
   .fin4 .badge svg { width: 40px; height: 40px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .fin4 h3 { font: 800 40px/1.1 Sora, sans-serif; color: #fff; margin: 0 0 10px; }
+  .fin4 small { display: block; font: 700 19px/1 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, var(--a) 70%, #fff); margin-bottom: 10px; }
   .fin4 p { font: 500 25px/1.35 Inter, sans-serif; color: #c7cdf5; }
   /* Diapo 41 · pour essayer */
   .try { position: absolute; left: 150px; right: 150px; top: 330px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px 34px; }
@@ -1424,10 +1425,10 @@
   <div class="hook dk">Un vrai site… <em>et c'est vous qui décidez.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="fin4">
-    <div class="card" style="--a:#4b5fe0"><div class="top"><div class="n">1</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg></div></div><h3>On décrit</h3><p>En français, comme à un graphiste</p></div>
-    <div class="card" style="--a:#8b5cf6"><div class="top"><div class="n">2</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div></div><h3>L'IA fabrique</h3><p>Le site entier, en une minute</p></div>
-    <div class="card" style="--a:#f07a3a"><div class="top"><div class="n">3</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div></div><h3>Vous proposez</h3><p>Une couleur, une rubrique, une idée</p></div>
-    <div class="card" style="--a:#18a984"><div class="top"><div class="n">4</div><div class="badge"><svg viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div></div><h3>En ligne&nbsp;!</h3><p>Sur vos téléphones, pour de vrai</p></div>
+    <div class="card" style="--a:#4b5fe0"><div class="top"><div class="n">1</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg></div></div><small>Le prompt</small><h3>On décrit</h3><p>En français, comme à un graphiste</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="top"><div class="n">2</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div></div><small>Le code HTML</small><h3>L'IA fabrique</h3><p>Le site entier, en une minute</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="top"><div class="n">3</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div></div><small>Vos idées</small><h3>Vous proposez</h3><p>Une couleur, une rubrique, une idée</p></div>
+    <div class="card" style="--a:#18a984"><div class="top"><div class="n">4</div><div class="badge"><svg viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div></div><small>L'hébergement</small><h3>En ligne&nbsp;!</h3><p>Sur vos téléphones, pour de vrai</p></div>
   </div>
 </section>
 
