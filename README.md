@@ -72,7 +72,8 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 ## Personnaliser
 
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
-- `presentation/presentation.pptx` et `presentation.pdf` : la présentation complète à jour (version de secours, sans le site).
+- **`presentation/presentation-finale.pdf`** : la version à projeter **sans la régie** (58 pages). Elle est capturée depuis l'écran de projection : les affiches, le tableau Excel et la conversation sont en place, et chaque révélation (réponses du quiz, affiches IA / pas IA, probabilités, pièges de l'e-mail…) est une page de plus, comme une animation. Flèche droite = étape suivante. Pour la régénérer : `python3 -m http.server 8765`, puis `NODE_PATH=$(npm root -g) node tools/pdf-final.js` et `python3 tools/pdf-assembler.py`.
+- `presentation/presentation.pptx` et `presentation.pdf` : les diapos seules, sans les médias ni les révélations (version de secours).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
   l'ordre des 43 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
   (Node + Playwright et Python avec Pillow / python-pptx).

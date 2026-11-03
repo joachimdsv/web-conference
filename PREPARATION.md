@@ -55,6 +55,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 2. Le jour J : check-list matérielle
 
 **La veille**
+- [ ] **Sans la régie ?** Projeter `presentation/presentation-finale.pdf` en plein écran (chaque révélation est une page). Les notes à dire sont dans `DISCOURS.md` (à imprimer). Pour les démos en direct, basculer vers la fenêtre du navigateur (Alt+Tab), puis revenir au PDF. Diapo 21 : la page montre l'affiche de secours ; si l'affiche a été refaite la veille, régénérer le PDF.
 - [ ] **Affiche de secours (démo 2, diapo 21)** : générer l'affiche de la Fête de la Myrtille avec ChatGPT (prompt « Affiche » de la régie), vérifier que le texte est sans faute, et l'enregistrer à la place de `media/demo2-affiche.jpg` (l'actuelle a un titre raté, « HORCAPLE »).
 - [ ] Répétition complète chronométrée, démos comprises.
 - [ ] Ouvrir la régie sur l'ordinateur de la conférence et y glisser les médias (ils restent mémorisés dans le navigateur).
