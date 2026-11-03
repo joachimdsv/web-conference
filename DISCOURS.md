@@ -344,11 +344,12 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Montrer le prompt : « Même méthode que pour l'affiche : le contexte (je suis locataire, la fuite), la tâche (l'e-mail au propriétaire), le ton et le format. »
 - Lire le résultat à voix haute : en 10 secondes, un e-mail poli et bien construit. Un vrai gain de temps pour ceux qui n'aiment pas écrire.
 - *⚙️ Copier le prompt « Piège : la loi ». Puis R → Piège 1.*
-- Piège 1, il invente : elle cite un article de loi avec beaucoup d'assurance… mais est-ce le bon ? On vérifie sur service-public.fr ou Légifrance. Quand elle invente quelque chose qui a l'air vrai, on appelle ça une « hallucination ».
+- Piège 1, il invente : elle cite un article de loi avec beaucoup d'assurance… mais est-ce le bon ? On vérifie sur service-public.fr ou Légifrance. Quand elle invente quelque chose qui a l'air vrai, on appelle ça une « hallucination » : c'est le mot écrit sur la carte, celui de la diapo 9.
 - Si elle a raison (souvent : article 6 de la loi du 6 juillet 1989) : « Cette fois, elle a raison… mais qui d'entre vous serait allé vérifier ? » Et on vérifie sur Légifrance.
 - Bon à savoir (vérifié) : le propriétaire doit entretenir le logement et prend en charge les canalisations (loi du 6 juillet 1989, art. 6) ; mais les petites réparations, comme le joint d'un robinet, sont à la charge du locataire (décret du 26 août 1987). Tout dépend donc d'où vient la fuite : c'est le genre de nuance que l'IA oublie souvent.
 - *⚙️ R → Piège 2.*
 - Piège 2, vos données : « On ne met jamais son nom, son adresse ou son numéro de contrat dans le prompt. On les ajoute ensuite, dans sa propre messagerie. »
+- À savoir (à dire) : « Et par défaut, vos conversations avec ChatGPT peuvent servir à entraîner l'IA. On peut le désactiver dans les paramètres, rubrique "Contrôle des données". » (Option « Améliorer le modèle pour tous ».)
 - *⚙️ R → Piège 3, puis copier le prompt « Plus naturel ».*
 - Piège 3, le ton « robot » (« Je me permets de vous solliciter… ») : montrer la différence avec la version plus naturelle. On peut aussi demander « plus court », « plus chaleureux », « une version pour un SMS ».
 - *⚙️ R → Piège 4.*
