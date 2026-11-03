@@ -212,14 +212,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 ### 14 · L'IA sans le savoir — 1 min · prévu à 14:00
 
-**🎯 Vous l'utilisez déjà sans le savoir. (1 min ; les exemples sont à l'oral, les cartes ne montrent que le moment)**
+**🎯 Vous l'utilisez déjà sans le savoir. (1 min ; chaque carte montre le moment et un exemple, développer à l'oral)**
 
 - La reprise de la diapo 3 : « Tout à l'heure, certains d'entre vous n'ont pas levé la main quand j'ai demandé qui avait déjà utilisé une IA… Pourtant, ce matin, vous l'avez sûrement déjà croisée. Regardez. »
 - Matin, Trajet : « Le matin, le GPS qui vous fait éviter les bouchons : il prédit le trafic à partir des déplacements de millions de téléphones. »
-- Journée, Smartphone : « Dans la journée, votre téléphone classe vos photos par visage… et le clavier vous propose le mot suivant. C'est le principe de ChatGPT, en miniature ! »
-- Travail, Messagerie : « Au travail, les spams sont triés tout seuls, et la traduction automatique vous dépanne. »
-- Soirée, Achats : « Le soir, si vous payez en ligne, votre banque bloque un paiement qui paraît suspect. Et les sites marchands vous proposent "vous aimerez aussi…". Et Netflix, on en a déjà parlé ! »
-- *⚙️ Montrer la question en bas : « Et vous, combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
+- Midi, Smartphone : « À midi, votre téléphone classe vos photos par visage… et le clavier vous propose le mot suivant. C'est le principe de ChatGPT, en miniature ! »
+- Après-midi, Messagerie : « L'après-midi, au travail, les spams sont triés tout seuls, et la traduction automatique vous dépanne. »
+- Soir, Achats : « Le soir, si vous payez en ligne, votre banque bloque un paiement qui paraît suspect. Et les sites marchands vous proposent "vous aimerez aussi…". Et Netflix, on en a déjà parlé ! »
+- *⚙️ Question à la salle (à l'oral, elle n'est plus sur la diapo) : « Et vous, combien en avez-vous croisé aujourd'hui ? Une ? Trois ? Plus de cinq ? » (mains levées)*
 - Conclure : « Elle travaille surtout en coulisses : on ne la voit pas, mais elle est là. »
 
 > ➡️ « Bon, maintenant que vous êtes des experts… on va vérifier ça avec un petit quiz ! »
