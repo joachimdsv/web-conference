@@ -55,9 +55,13 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Mettre tout le monde à l'aise, novices comme habitués.**
 
 - *⚙️ Dire : « Levez la main, il n'y a pas de mauvaise réponse ! » (ce n'est plus écrit sur la diapo). Poser les 3 questions une par une, laisser le temps aux mains de se lever, commenter ce qu'on voit.*
-- « Qui a déjà utilisé ChatGPT ou une autre IA ? » → « Beaucoup d'entre vous ! » ou « Quelques-uns… vous allez voir, c'est très simple. »
+- « Qui a déjà utilisé ChatGPT ou une autre IA ? »
+  - Presque personne : « Parfait, vous allez tout découvrir ce soir. »
+  - Presque tout le monde : « Alors vous allez voir qu'elle sait faire bien plus que ce que vous imaginez… et qu'elle se trompe aussi. »
+  - 🔸 Repérer ceux qui n'ont pas levé la main : on les retrouve à la diapo 14.
 - « Qui s'en sert au moins une fois par semaine ? »
 - « Qui s'en méfie un peu… ou beaucoup ? » → « Très bien : c'est une méfiance saine, on va en parler. »
+  - 🔸 Retenir à peu près combien de mains : on reposera la question au débat (diapo 44).
 - « Que vous l'utilisiez tous les jours ou jamais, vous êtes au bon endroit. »
 
 > ➡️ « Commençons par le commencement : c'est quoi, au juste, l'intelligence artificielle ? »
@@ -203,6 +207,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Vous l'utilisez déjà sans le savoir. (1 min ; les exemples sont à l'oral, les cartes ne montrent que le moment)**
 
+- La reprise de la diapo 3 : « Tout à l'heure, certains d'entre vous n'ont pas levé la main quand j'ai demandé qui avait déjà utilisé une IA… Pourtant, ce matin, vous l'avez sûrement déjà croisée. Regardez. »
 - Matin, Trajet : « Le matin, le GPS qui vous fait éviter les bouchons : il prédit le trafic à partir des déplacements de millions de téléphones. »
 - Journée, Smartphone : « Dans la journée, votre téléphone classe vos photos par visage… et le clavier vous propose le mot suivant. C'est le principe de ChatGPT, en miniature ! »
 - Travail, Messagerie : « Au travail, les spams sont triés tout seuls, et la traduction automatique vous dépanne. »
@@ -666,6 +671,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
+- Reprise de la diapo 3 : « Au début de la soirée, plusieurs d'entre vous ont dit s'en méfier. Après tout ce qu'on a vu… vous vous en méfiez plus, ou moins ? » (main levée, 1 ou 2 réactions)
 - Lancer : « Max Tegmark, dans La Vie 3.0, dit que la vraie question n'est pas "que va-t-il se passer ?", mais "que voulons-nous qu'il se passe ?". Il imagine une douzaine de futurs possibles. J'en ai gardé quatre. »
 - Lire les 4 cartes, une phrase chacune :
   - L'outil : « L'IA reste un assistant, très puissant, mais ce sont les humains qui décident. »
