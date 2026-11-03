@@ -1,6 +1,6 @@
 # Web Conférence — contrôle de présentation en direct
 
-Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (43 diapos, démos et débat inclus, 1 h 30 au total) et la piloter en direct :
+Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (44 diapos, démos et débat inclus, 1 h 30 au total) et la piloter en direct :
 vidéos, images, quiz révélés en live, pointeur laser, annotations, zoom, partage d'une fenêtre, télécommande sur téléphone.
 
 ## Les 3 pages
@@ -50,7 +50,7 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 | 22 | Rédiger un e-mail + pièges | Direct | — |
 | 23 | Budget dans Excel | Direct | Excel, LibreOffice ou Google Sheets pour ouvrir le fichier · plan B : `media/budget-famille.xlsx` (déjà prêt) |
 | 24 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
-| 40 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
+| 25 puis 42 | Le grand défi : le site de la MJC (lancé à la fin des démos, résultat juste avant le débat) | Direct | Compte Claude ou ChatGPT, compte Netlify (optionnel) · plan B : capture du site préparé, déjà affichée sur la diapo 42 |
 
 Dans la régie, chaque diapo de démo affiche :
 - **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;
@@ -72,10 +72,10 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 ## Personnaliser
 
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
-- **`presentation/presentation-finale.pdf`** : la version à projeter **sans la régie** (58 pages). Elle est capturée depuis l'écran de projection : les affiches, le tableau Excel et la conversation sont en place, et chaque révélation (réponses du quiz, affiches IA / pas IA, probabilités, pièges de l'e-mail…) est une page de plus, comme une animation. Flèche droite = étape suivante. Pour la régénérer : `python3 -m http.server 8765`, puis `NODE_PATH=$(npm root -g) node tools/pdf-final.js` et `python3 tools/pdf-assembler.py`.
+- **`presentation/presentation-finale.pdf`** : la version à projeter **sans la régie** (59 pages). Elle est capturée depuis l'écran de projection : les affiches, le tableau Excel et la conversation sont en place, et chaque révélation (réponses du quiz, affiches IA / pas IA, probabilités, pièges de l'e-mail…) est une page de plus, comme une animation. Flèche droite = étape suivante. Pour la régénérer : `python3 -m http.server 8765`, puis `NODE_PATH=$(npm root -g) node tools/pdf-final.js` et `python3 tools/pdf-assembler.py`.
 - `presentation/presentation.pptx` et `presentation.pdf` : les diapos seules, sans les médias ni les révélations (version de secours).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
-  l'ordre des 43 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
+  l'ordre des 44 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
   (Node + Playwright et Python avec Pillow / python-pptx).
 - Nouvelle version du PowerPoint d'origine : exportez-la en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
 - `media/` : vidéos à embarquer avec le site (voir `media/README.md`).

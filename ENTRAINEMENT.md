@@ -42,14 +42,14 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 
 ### Samedi 31/10 · J-6 · Les démos en direct (2 h)
 - [ ] Faire chaque démo **3 fois de suite** en conditions réelles : régie, écran public, partage de fenêtre, chrono.
-  - Images : 3 min · affiche : 4 min · e-mail : 4 min · Excel : 2 min 30 · langue : 2 min 30 · démo finale : 7 min.
+  - Images : 3 min · affiche : 4 min · e-mail : 4 min · Excel : 2 min 30 · langue : 2 min 30 · lancement du défi : 2 min · résultat du défi : 3 min.
 - [ ] Pour chaque démo, écrire sur la fiche : « si ça plante, je dis… et je montre… » (plan B).
-- [ ] Démo finale : la faire **en entier jusqu'à la mise en ligne** et garder l'adresse du site comme plan B.
+- [ ] Grand défi : lancer le prompt du site, le laisser tourner, et vérifier le résultat 20 minutes plus tard ; garder le site préparé comme plan B.
 - [ ] 🔎 Bloc C (les enjeux) : chercher un exemple concret et récent pour chaque risque.
 
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
-- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 25, 38 et 41) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
+- [ ] Noter l'heure à chaque point de contrôle (diapos 18, 29, 39 et 41) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
 - [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 25 min de débat. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 09 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
@@ -58,7 +58,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Regarder la vidéo du filage en vitesse ×1,5. Relever les tics (« euh », « en fait »), les passages flous et les moments où vous lisez l'écran.
 - [ ] Apprendre par cœur les **transitions** (section 4) et la **conclusion** (diapos 41 et 41).
 - [ ] Entraînement aux questions : se faire poser les questions de la section 6 à l'oral, et répondre en **30 secondes maximum** chacune.
-- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 42, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 42).
+- [ ] Préparer le débat : pour chacune des 4 questions de la diapo 43, noter 2 arguments « pour », 2 arguments « contre », et une question pour relancer la salle (pistes dans les notes de la diapo 43).
 
 ### Mardi 03/11 · J-3 · Filage devant un public test (2 h)
 - [ ] Deuxième filage devant 1 à 3 personnes **non spécialistes** (famille, amis, voisins), **avec 15 à 20 min de débat à la fin**, en vous entraînant à animer (reformuler, relancer, donner la parole). C'est le moment de vérifier que tout tient en 1 h 30.
@@ -72,7 +72,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 ### Mercredi 04/11 · J-2 · Répétition technique sur place (1 h 30)
 - [ ] **Si possible, aller à la MJC** : tester le projecteur, le son, le Wi-Fi, la régie, l'écran public et la télécommande dans la vraie salle.
 - [ ] Repérer depuis où vous parlerez, où poser l'ordinateur, et vérifier que l'écran est lisible depuis le fond.
-- [ ] Refaire les deux démos les plus risquées : l'affiche et la démo finale.
+- [ ] Refaire les deux démos les plus risquées : l'affiche et le grand défi.
 - [ ] Vérifier les limites des comptes gratuits, pour ne pas épuiser le quota d'images la veille.
 
 ### Jeudi 05/11 · J-1 · Dernier filage léger et préparation du matériel (1 h)
@@ -84,7 +84,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Le matin : relire la fiche-mémoire, dire l'ouverture à voix haute 2 fois, ne rien apprendre de nouveau.
 - [ ] Arriver **1 h avant** et dérouler la check-list « Sur place » de `PREPARATION.md`.
 - [ ] 10 minutes avant : échauffement de la voix (bâiller, articuler « Le chat est sur le tapis » exagérément), un verre d'eau à portée de main.
-- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:20 au début des démos, 0:38 aux enjeux, 0:51 à « Et demain ? », 1:02 à la conclusion, débat de 1:03 à 1:28 (début au plus tard à 1:09), **fin vers 1:29**.
+- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:20 au début des démos, 0:38 au lancement du grand défi, 0:42 aux enjeux, 0:53 à « Et demain ? », 0:56 au résultat du défi, débat de 1:00 à 1:28 (début au plus tard à 1:09), **fin vers 1:29**.
 
 ---
 
@@ -95,12 +95,12 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 | 0 | Ouverture | 1-3 | 3 min 30 | Pas besoin d'être informaticien | Les mains levées |
 | 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
 | 2 | Au quotidien | 13-17 | 6 min 30 | Vous l'utilisez déjà | La journée type, le quiz, la mer qui monte |
-| 3 | Démos | 18-24 | 18 min | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
-| 4 | Enjeux | 25-34 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
-| 5 | Bonnes pratiques | 35-37 | 2 min | Demander, vérifier, protéger | Le stagiaire |
-| 6 | Demain + démo finale | 38-40 | 10 min 30 | L'IA accélère, l'humain valide | Le site de la MJC |
-| 7 | Conclusion | 41 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 42-43 | 25 min + 1 min | C'est à vous ! | Le vote « Quel futur voulez-vous ? » |
+| 3 | Démos + lancement du grand défi | 18-25 | 20 min | Bluffante… et parfois fausse | Les affiches pièges, l'article de loi inventé, le site lancé |
+| 4 | Bonnes pratiques | 26-28 | 2 min | Demander, vérifier, protéger | Le stagiaire |
+| 5 | Enjeux | 29-38 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
+| 6 | Demain | 39-40 | 2 min 30 | Le futur n'est pas écrit | Les fourmis et le barrage |
+| 7 | Essayer + résultat du défi | 41-42 | 4 min | L'IA est un outil, c'est vous qui gardez la main | Le site construit pendant la conférence |
+| 8 | Débat + merci | 43-44 | 28 min + 1 min | C'est à vous ! | Le vote « Quel futur voulez-vous ? » |
 |  | **Total** | | **1 h 28 30 + 1 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---
@@ -110,11 +110,12 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - **Brise-glace → Chapitre 01** : « Que vous l'utilisiez tous les jours ou que vous vous en méfiiez, commençons par le commencement : c'est quoi, au juste, l'intelligence artificielle ? »
 - **01 → 02** : « Ça, c'est la théorie. Mais en vrai, vous l'avez déjà croisée plusieurs fois aujourd'hui… »
 - **02 → 03** : « Assez parlé : place à la pratique ! Je vais vous montrer ce qu'elle sait faire… et où elle se trompe. »
-- **03 → 04** : « Impressionnant, n'est-ce pas ? Justement : ce qui impressionne pose aussi des questions. »
-- **04 → 05** : « Alors, concrètement, comment bien s'en servir ? Trois réflexes. »
-- **05 → 06** : « Et demain ? … Justement, je vous propose une dernière démo, la plus ambitieuse. »
-- **Démo finale → Conclusion** : « Si vous ne deviez retenir que trois choses ce soir… »
-- **Conclusion → Débat** : « Et maintenant, c'est à vous : place au débat ! Vos questions, vos avis, vos expériences ? »
+- **Démos → Grand défi** : « Et maintenant, un dernier défi, beaucoup plus ambitieux… »
+- **Grand défi → 04** : « Et pendant qu'elle travaille… voyons comment bien s'en servir. »
+- **04 → 05** : « Bien s'en servir, c'est une chose. Mais prenons du recul : qu'est-ce qu'elle change pour nous ? »
+- **05 → 06** : « Et demain ? Qu'est-ce qui nous attend ? »
+- **Essayer → Résultat du défi** : « Vous vous souvenez du défi lancé tout à l'heure ? Allons voir ce qu'elle a fait pendant qu'on parlait. »
+- **Résultat → Débat** : « Et maintenant, c'est à vous : place au débat ! Vos questions, vos avis, vos expériences ? »
 - **Fin** : « Merci pour ces échanges. L'IA est un outil : c'est vous qui gardez la main. Merci à tous ! »
 
 ---
@@ -136,17 +137,17 @@ si quelqu'un demande « d'où vient ce chiffre ? », vous devez pouvoir répondr
 ### B. Le fonctionnement (diapos 5 à 12) : pour répondre sans jargon
 - [ ] Savoir expliquer en 30 secondes **pourquoi une IA « invente »** : elle choisit le mot le plus probable, pas le mot vrai.
 - [ ] **L'ajustement humain (diapo 11)** : comprendre le principe (des personnes notent les réponses) sans entrer dans le détail technique.
-- [ ] **Les IA « agentives » (diapos 12 et 38)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
+- [ ] **Les IA « agentives » (diapos 12 et 39)** : trouver un exemple parlant d'agent qui agit seul, comme réserver ou remplir un formulaire. Vérifier ce qui existe réellement en novembre 2026.
 - Sources : les vidéos de vulgarisation de Science Étonnante (YouTube) sur ChatGPT et les réseaux de neurones, la chaîne 3Blue1Brown (en anglais, très visuelle), le cours gratuit « Elements of AI ».
 
-### C. Les enjeux (diapos 25 à 34) : la partie la plus exposée aux questions
+### C. Les enjeux (diapos 29 à 38) : la partie la plus exposée aux questions
 Fil rouge : « ce qu'elle apporte… et ce qu'elle coûte ». Tous les chiffres des diapos sont sourcés en bas de page ; les relire la veille.
-- [ ] **C1. Les gains (diapos 26 et 27).** Retenir 2 chiffres : 67 % des entreprises françaises de 20 salariés et plus utilisent l'IA générative, 31 % constatent déjà un gain (Banque de France, 2026) ; +29 % de cancers du sein détectés au dépistage avec l'IA (essai MASAI, Suède, 2025).
-- [ ] **C2. Planète et argent (diapos 28 et 29).** 700 milliards de dollars d'investissements des 4 géants en 2026 (environ 2 milliards par jour) ; plus de 7 puces mémoire haut de gamme sur 10 vers les datacenters (TrendForce). 415 TWh en 2024, ~945 TWh en 2030 (AIE). Hausse du prix des PC de 15 à 20 % annoncée pour fin 2026 : les prévisions des analystes varient, rester prudent. Éviter les chiffres viraux du type « une question = une bouteille d'eau ».
-- [ ] **C3. Les petites mains (diapo 30).** Enquête TIME (janvier 2023) : 12,50 $ de l'heure payés au sous-traitant Sama, 1,32 à 2 $ reçus par les travailleurs au Kenya. Accord Anthropic avec des auteurs : 1,5 milliard de dollars, approuvé en juillet 2026. Où en est le procès du New York Times contre OpenAI ?
-- [ ] **C4. Le cerveau (diapo 31).** Étude PNAS 2025 (Bastani et al.) : près de 1 000 lycéens en maths, +48 % aux exercices avec ChatGPT, −17 % au contrôle sans lui ; pas de baisse avec une IA « prof » qui donne des indices. Regarder le documentaire de Micode « La fabrique à idiots » (Underscore_) pour avoir d'autres exemples.
-- [ ] **C5. La sécurité (diapo 32).** PHP2Shell (21 octobre 2026) : suivre l'actualité jusqu'au jour J (nombre de sites touchés, attaques). Les chiffres des fuites françaises (Surfshark, Cegedim, ANTS) viennent de la presse : vérifier les plus récents. Voix clonées : 3 secondes d'audio suffisent (McAfee, 2023).
-- [ ] **C6. Démocratie et AI Act (diapos 33 et 34).** Fausse voix de Biden (janvier 2024) : 150 $, 5 000 électeurs, 6 millions $ d'amende (FCC). Viginum : 4 ingérences étrangères aux municipales de mars 2026. AI Act : interdictions depuis février 2025, marquage des images et vidéos d'IA à partir du 2 décembre 2026, haut risque reporté au 2 décembre 2027 (omnibus numérique ; vérifié le 3 novembre 2026). Viginum : portée « très limitée ».
+- [ ] **C1. Les gains (diapos 30 et 31).** Retenir 2 chiffres : 67 % des entreprises françaises de 20 salariés et plus utilisent l'IA générative, 31 % constatent déjà un gain (Banque de France, 2026) ; +29 % de cancers du sein détectés au dépistage avec l'IA (essai MASAI, Suède, 2025).
+- [ ] **C2. Planète et argent (diapos 32 et 33).** 700 milliards de dollars d'investissements des 4 géants en 2026 (environ 2 milliards par jour) ; plus de 7 puces mémoire haut de gamme sur 10 vers les datacenters (TrendForce). 415 TWh en 2024, ~945 TWh en 2030 (AIE). Hausse du prix des PC de 15 à 20 % annoncée pour fin 2026 : les prévisions des analystes varient, rester prudent. Éviter les chiffres viraux du type « une question = une bouteille d'eau ».
+- [ ] **C3. Les petites mains (diapo 34).** Enquête TIME (janvier 2023) : 12,50 $ de l'heure payés au sous-traitant Sama, 1,32 à 2 $ reçus par les travailleurs au Kenya. Accord Anthropic avec des auteurs : 1,5 milliard de dollars, approuvé en juillet 2026. Où en est le procès du New York Times contre OpenAI ?
+- [ ] **C4. Le cerveau (diapo 35).** Étude PNAS 2025 (Bastani et al.) : près de 1 000 lycéens en maths, +48 % aux exercices avec ChatGPT, −17 % au contrôle sans lui ; pas de baisse avec une IA « prof » qui donne des indices. Regarder le documentaire de Micode « La fabrique à idiots » (Underscore_) pour avoir d'autres exemples.
+- [ ] **C5. La sécurité (diapo 36).** PHP2Shell (21 octobre 2026) : suivre l'actualité jusqu'au jour J (nombre de sites touchés, attaques). Les chiffres des fuites françaises (Surfshark, Cegedim, ANTS) viennent de la presse : vérifier les plus récents. Voix clonées : 3 secondes d'audio suffisent (McAfee, 2023).
+- [ ] **C6. Démocratie et AI Act (diapos 37 et 38).** Fausse voix de Biden (janvier 2024) : 150 $, 5 000 électeurs, 6 millions $ d'amende (FCC). Viginum : 4 ingérences étrangères aux municipales de mars 2026. AI Act : interdictions depuis février 2025, marquage des images et vidéos d'IA à partir du 2 décembre 2026, haut risque reporté au 2 décembre 2027 (omnibus numérique ; vérifié le 3 novembre 2026). Viginum : portée « très limitée ».
 - [ ] **C7. Le GPS, IA ou pas ? (diapo 15).** Nuance à connaître :
   - le calcul de l'itinéraire lui-même est un algorithme classique ;
   - c'est la **prévision du trafic** qui utilise l'IA.

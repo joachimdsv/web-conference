@@ -29,25 +29,26 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | Bloc | Durée | Fin prévue |
 |---|---|---|
 | Ouverture + chapitres 01 et 02 | 20 min | 0:20 |
-| Démonstrations (chapitre 03) | 18 min | 0:38 |
-| Enjeux + bonnes pratiques (chapitres 04 et 05) | 13 min | 0:51 |
-| Et demain ? + démo finale | 10 min 30 | 1:01 |
-| Conclusion | 1 min | 1:02 |
-| **Débat** | **25 min** | **1:27** |
-| Remerciements | 1 min | 1:28 |
+| Démonstrations + lancement du grand défi (chapitre 03) | 20 min | 0:40 |
+| Bonnes pratiques (chapitre 04) | 2 min | 0:42 |
+| Impacts et enjeux (chapitre 05) | 11 min | 0:53 |
+| Et demain ? | 2 min 30 | 0:55 |
+| Pour essayer + résultat du grand défi | 4 min | 0:59 |
+| **Débat** | **28 min** | **1:28** |
+| Remerciements | 1 min | 1:29 |
 | Marge de sécurité | 1 min 30 | 1:30 |
 
 - **Environ 1 h 02 de conférence, puis 25 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
-- **La diapo 42 « Quel futur voulez-vous ? »** lance le débat par un vote à main levée sur 4 futurs possibles (l'outil, le gardien, le frein, le relais), tirés des scénarios de Max Tegmark dans *La Vie 3.0*. La touche R (ou les boutons de la régie) encadre la carte dont on parle. Les notes gardent 4 thèmes de relance (école, travail, planète, MJC) et des conseils d'animation.
-- **Inspirations de *La Vie 3.0* (Max Tegmark)** : diapo 5 (l'intelligence, c'est atteindre des objectifs complexes ; intelligente ≠ consciente), diapo 16 (la mer qui monte sur le paysage des compétences), diapo 39 (le danger, c'est la compétence, pas la méchanceté : les fourmis et le barrage), diapo 42 (quel futur voulez-vous ?).
-- **4 points de contrôle** (diapos 18, 25, 38 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
+- **La diapo 43 « Quel futur voulez-vous ? »** lance le débat par un vote à main levée sur 4 futurs possibles (l'outil, le gardien, le frein, le relais), tirés des scénarios de Max Tegmark dans *La Vie 3.0*. La touche R (ou les boutons de la régie) encadre la carte dont on parle. Les notes gardent 4 thèmes de relance (école, travail, planète, MJC) et des conseils d'animation.
+- **Inspirations de *La Vie 3.0* (Max Tegmark)** : diapo 5 (l'intelligence, c'est atteindre des objectifs complexes ; intelligente ≠ consciente), diapo 16 (la mer qui monte sur le paysage des compétences), diapo 40 (le danger, c'est la compétence, pas la méchanceté : les fourmis et le barrage), diapo 43 (quel futur voulez-vous ?).
+- **4 points de contrôle** (diapos 18, 29, 39 et 41) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 09**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
   1. la diapo 11 « deux étapes » en une phrase : 30 s ;
-  2. la démo 5 avec un seul prompt : 1 min 30 ;
-  3. la démo 6 sans volontaire : 2 min ;
-  4. la démo finale avec une seule amélioration, ou le plan B déjà en ligne : 2 à 4 min.
-- **En avance ?** Rien ne presse : le débat dispose de plus de temps. Vous pouvez aussi prendre un volontaire pour la démo 5 ou faire une amélioration de plus sur le site.
+  2. la démo 4 (Excel) avec un seul prompt : 1 min 30 ;
+  3. la démo 5 (langue) sans volontaire : 2 min ;
+  4. le résultat du grand défi en une minute, sans mise en ligne : 2 min.
+- **En avance ?** Rien ne presse : le débat dispose de plus de temps. Vous pouvez aussi prendre un volontaire pour la démo 5 ou mettre le site du grand défi en ligne avec un QR code.
 - **Ne jamais dépasser 1 h 30** : vers 1 h 23, « Encore une ou deux interventions ? ». Remercier vers 1 h 25, et proposer à ceux qui ont encore des questions de venir vous voir après.
 
 ---
@@ -83,11 +84,11 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | 01 · Qu'est-ce que l'IA ? | Elle n'est pas intelligente comme nous : elle repère des régularités dans des milliards d'exemples et devine la suite la plus probable. | Un perroquet ultra doué qui aurait lu toute une bibliothèque. « Le chat est sur le… tapis ! » |
 | 02 · Au quotidien | Vous l'utilisez déjà sans le savoir. | Une journée type : GPS, clavier du téléphone, anti-spam, Netflix. |
 | 03 · Démos | Elle crée des images et des textes bluffants… et parfois faux. | Le jeu des affiches : même nous, on se fait avoir. |
-| 04 · Enjeux | Ni bonne ni mauvaise : tout dépend de l'usage. Vigilance sur les fausses informations, la vie privée et l'énergie. | L'e-mail avec l'article de loi inventé. |
-| 05 · Bonnes pratiques | Bien demander, vérifier, ne rien partager de sensible. | « Parlez-lui comme à un stagiaire très doué qui ne vous connaît pas. » |
-| 06 · Démo finale | Elle fait le gros du travail en quelques minutes ; l'humain vérifie et décide. | « L'IA accélère, l'humain valide. » |
+| 05 · Enjeux | Ni bonne ni mauvaise : tout dépend de l'usage. Vigilance sur les fausses informations, la vie privée et l'énergie. | L'e-mail avec l'article de loi inventé. |
+| 04 · Bonnes pratiques | Bien demander, vérifier, ne rien partager de sensible. | « Parlez-lui comme à un stagiaire très doué qui ne vous connaît pas. » |
+| Le grand défi | Lancé à la fin des démos, elle construit le site seule ; on regarde le résultat juste avant le débat : l'humain vérifie et décide. | « L'IA accélère, l'humain valide. » |
 | Conclusion | Les 3 choses à retenir, puis l'invitation à essayer. | Commencer par une petite tâche : une recette, un e-mail. |
-| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 42. |
+| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Le vote « Quel futur voulez-vous ? » (diapo 43). |
 
 ### Des mots simples pour tous les publics
 | Au lieu de… | Dites plutôt… |

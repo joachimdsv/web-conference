@@ -688,7 +688,7 @@
   .tom.tom4 p { font-size: 25px; }
   /* Diapo 40 · démo finale intro */
   .fin4 { position: absolute; left: 150px; right: 150px; top: 330px; bottom: 170px; align-items: stretch; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
-  .fin4 .card { padding: 40px 34px; display: flex; flex-direction: column; justify-content: center; }
+  .fin4 .card { padding: 70px 34px 40px; display: flex; flex-direction: column; justify-content: flex-start; }
   .fin4 .top { display: flex; align-items: center; gap: 16px; margin-bottom: 22px; }
   .fin4 .n { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; font: 800 26px/1 Sora, sans-serif; color: #fff; background: var(--a); }
   .fin4 .badge { width: 72px; height: 72px; border-radius: 20px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 22%, transparent); color: color-mix(in srgb, var(--a) 70%, #fff); }
@@ -727,6 +727,19 @@
   .merci-line { position: absolute; left: 136px; top: 560px; padding: 20px 30px; border-radius: 22px; background: #fff;
     box-shadow: 0 12px 34px rgba(60, 70, 160, .16); font: 700 42px/1.2 Sora, sans-serif; color: #17204f; letter-spacing: -.01em; }
   .merci-line em { font-style: normal; color: #4b5fe0; }
+  .browser { position: absolute; left: 150px; top: 320px; width: 1000px; height: 590px; border-radius: 18px; overflow: hidden; background: #0f1640; border: 2px solid rgba(255,255,255,.18); box-shadow: 0 24px 60px rgba(0,0,0,.35); }
+  .browser .bar { height: 40px; display: flex; align-items: center; gap: 10px; padding: 0 18px; background: rgba(255,255,255,.08); }
+  .browser .bar i { width: 13px; height: 13px; border-radius: 50%; background: rgba(255,255,255,.35); }
+  .browser .screen { position: absolute; inset: 40px 0 0; display: grid; place-items: center; color: rgba(255,255,255,.4); font: 600 26px/1 Inter, sans-serif; }
+  .res2 { position: absolute; left: 1190px; right: 150px; top: 320px; height: 470px; display: grid; grid-template-rows: 1fr 1fr; gap: 26px; }
+  .res2 .card { display: grid; grid-template-columns: 76px 1fr; gap: 0 22px; align-items: center; padding: 22px 28px; }
+  .res2 .badge { width: 76px; height: 76px; border-radius: 22px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 22%, transparent); color: var(--a); }
+  .res2 .badge svg { width: 42px; height: 42px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .res2 small { display: block; font: 700 19px/1 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--a); margin-bottom: 8px; }
+  .res2 h3 { font: 800 34px/1.1 Sora, sans-serif; color: #fff; margin: 0 0 8px; }
+  .res2 p { font: 500 23px/1.35 Inter, sans-serif; color: #c7cdf5; }
+  .res-line { position: absolute; left: 1190px; right: 150px; top: 816px; padding: 20px 28px; border-radius: 20px; background: #fff; font: 800 27px/1.2 Sora, sans-serif; color: #17204f; }
+  .res-line em { font-style: normal; color: #18a984; }
   .merci-contacts { position: absolute; left: 136px; top: 560px; min-height: 236px; box-sizing: border-box; align-content: center; padding: 30px 40px; border-radius: 22px; background: #fff; box-shadow: 0 12px 34px rgba(60, 70, 160, .16); display: grid; gap: 16px; }
   .merci-contacts div { display: flex; align-items: center; gap: 20px; font: 700 40px/1.1 Sora, sans-serif; color: #17204f; letter-spacing: -.01em; }
   .merci-contacts svg { width: 42px; height: 42px; flex: none; stroke: #4b5fe0; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
@@ -752,11 +765,11 @@
     <div class="kicker">Sommaire</div>
     <div class="plan-grid">
       <div class="plan-item" style="--c:#4b5fe0"><b>01</b><div><h3>Qu'est-ce que l'IA ?</h3><p>Comment elle fonctionne</p></div></div>
-      <div class="plan-item" style="--c:#e8672f"><b>04</b><div><h3>Impacts et enjeux</h3><p>Ce qu'elle apporte, ce qu'elle coûte</p></div></div>
+      <div class="plan-item" style="--c:#18a058"><b>04</b><div><h3>Bonnes pratiques</h3><p>3 réflexes à retenir</p></div></div>
       <div class="plan-item" style="--c:#1596b8"><b>02</b><div><h3>L'IA dans notre quotidien</h3><p>Elle est déjà partout</p></div></div>
-      <div class="plan-item" style="--c:#18a058"><b>05</b><div><h3>Bonnes pratiques</h3><p>3 réflexes à retenir</p></div></div>
+      <div class="plan-item" style="--c:#e8672f"><b>05</b><div><h3>Impacts et enjeux</h3><p>Ce qu'elle apporte, ce qu'elle coûte</p></div></div>
       <div class="plan-item" style="--c:#7c5cff"><b>03</b><div><h3>L'IA en pratique</h3><p>5 démos en direct</p></div></div>
-      <div class="plan-item" style="--c:#14a38a"><b>06</b><div><h3>Et demain ?</h3><p>La démo finale et le débat</p></div></div>
+      <div class="plan-item" style="--c:#14a38a"><b>06</b><div><h3>Et demain ?</h3><p>Le résultat du défi, et le débat</p></div></div>
     </div>
   </div>
 </section>
@@ -1010,21 +1023,21 @@
     <defs>
       <clipPath id="pay-clip"><rect x="150" y="300" width="1620" height="660" rx="28"/></clipPath>
       <linearGradient id="pay-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf3ff"/><stop offset="1" stop-color="#fdf6ea"/></linearGradient>
-      <linearGradient id="pay-land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc49a"/><stop offset="1" stop-color="#3e7a5f"/></linearGradient>
-      <linearGradient id="pay-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8fe8" stop-opacity=".78"/><stop offset="1" stop-color="#173f9e" stop-opacity=".92"/></linearGradient>
+      <linearGradient id="pay-land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8bcfa6"/><stop offset="1" stop-color="#3e7a5f"/></linearGradient>
+      <linearGradient id="pay-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8fe8" stop-opacity=".8"/><stop offset="1" stop-color="#173f9e" stop-opacity=".95"/></linearGradient>
     </defs>
     <g clip-path="url(#pay-clip)">
       <rect x="150" y="300" width="1620" height="660" fill="url(#pay-sky)"/>
-      <path d="M150 960 L150 921.8 L156 919.1 L162 916.3 L168 913.6 L174 910.8 L180 908.2 L186 905.6 L192 903.0 L198 900.5 L204 898.2 L210 895.9 L216 893.7 L222 891.7 L228 889.8 L234 888.1 L240 886.5 L246 885.1 L252 883.8 L258 882.7 L264 881.8 L270 881.1 L276 880.5 L282 880.2 L288 880.0 L294 880.0 L300 880.3 L306 880.7 L312 881.3 L318 882.1 L324 883.0 L330 884.2 L336 885.5 L342 887.0 L348 888.6 L354 890.4 L360 892.4 L366 894.4 L372 896.6 L378 898.9 L384 901.3 L390 899.0 L396 894.4 L402 889.8 L408 885.3 L414 880.8 L420 876.4 L426 872.2 L432 868.0 L438 864.1 L444 860.3 L450 856.7 L456 853.3 L462 850.2 L468 847.3 L474 844.7 L480 842.4 L486 840.4 L492 838.7 L498 837.3 L504 836.2 L510 835.5 L516 835.1 L522 835.0 L528 835.3 L534 835.9 L540 836.9 L546 838.2 L552 839.8 L558 841.7 L564 843.9 L570 846.4 L576 849.2 L582 852.2 L588 855.5 L594 859.0 L600 862.8 L606 866.7 L612 870.8 L618 875.0 L624 875.8 L630 869.6 L636 863.4 L642 857.3 L648 851.3 L654 845.6 L660 840.0 L666 834.7 L672 829.7 L678 824.9 L684 820.5 L690 816.5 L696 812.9 L702 809.7 L708 806.9 L714 804.6 L720 802.7 L726 801.3 L732 800.4 L738 800.0 L744 800.1 L750 800.7 L756 801.7 L762 803.3 L768 805.3 L774 807.8 L780 810.7 L786 814.1 L792 817.8 L798 822.0 L804 826.5 L810 815.1 L816 799.9 L822 784.8 L828 769.8 L834 755.2 L840 741.0 L846 727.5 L852 714.7 L858 702.8 L864 691.9 L870 682.0 L876 673.4 L882 666.0 L888 659.9 L894 655.3 L900 652.1 L906 650.3 L912 650.1 L918 651.3 L924 654.0 L930 658.2 L936 663.8 L942 670.8 L948 679.0 L954 688.5 L960 699.0 L966 710.6 L972 723.1 L978 736.4 L984 750.4 L990 739.6 L996 722.9 L1002 707.0 L1008 692.1 L1014 678.4 L1020 665.9 L1026 654.9 L1032 645.5 L1038 637.8 L1044 631.8 L1050 627.7 L1056 625.4 L1062 625.1 L1068 626.7 L1074 630.2 L1080 635.6 L1086 642.7 L1092 651.6 L1098 662.1 L1104 674.1 L1110 687.4 L1116 701.9 L1122 717.5 L1128 734.0 L1134 751.1 L1140 745.7 L1146 729.3 L1152 713.9 L1158 699.8 L1164 687.1 L1170 676.1 L1176 666.9 L1182 659.6 L1188 654.3 L1194 651.1 L1200 650.0 L1206 651.1 L1212 654.3 L1218 659.6 L1224 666.9 L1230 676.1 L1236 687.1 L1242 682.9 L1248 665.5 L1254 648.2 L1260 631.1 L1266 614.1 L1272 597.3 L1278 580.9 L1284 564.9 L1290 549.3 L1296 534.2 L1302 519.7 L1308 505.7 L1314 492.5 L1320 480.0 L1326 468.2 L1332 457.3 L1338 447.2 L1344 438.0 L1350 429.7 L1356 422.4 L1362 416.1 L1368 410.8 L1374 406.6 L1380 403.4 L1386 401.2 L1392 400.1 L1398 400.1 L1404 401.2 L1410 403.4 L1416 406.6 L1422 410.8 L1428 416.1 L1434 422.4 L1440 429.7 L1446 438.0 L1452 447.2 L1458 457.3 L1464 468.2 L1470 480.0 L1476 474.8 L1482 457.5 L1488 441.2 L1494 425.8 L1500 411.5 L1506 398.4 L1512 386.4 L1518 375.8 L1524 366.4 L1530 358.4 L1536 351.8 L1542 346.7 L1548 343.0 L1554 340.7 L1560 340.0 L1566 340.7 L1572 343.0 L1578 346.7 L1584 351.8 L1590 358.4 L1596 366.4 L1602 375.8 L1608 386.4 L1614 398.4 L1620 411.5 L1626 425.8 L1632 441.2 L1638 457.5 L1644 474.8 L1650 492.9 L1656 491.1 L1662 480.9 L1668 472.0 L1674 464.6 L1680 458.7 L1686 454.3 L1692 451.4 L1698 450.1 L1704 450.3 L1710 452.2 L1716 455.6 L1722 460.5 L1728 466.9 L1734 474.8 L1740 484.2 L1746 494.8 L1752 506.8 L1758 520.0 L1764 534.4 L1770 549.8 L1770 960 Z" fill="url(#pay-land)"/>
-      <path d="M150 960 L150 685.7 L156 685.1 L162 684.6 L168 684.3 L174 684.1 L180 684.0 L186 684.1 L192 684.3 L198 684.7 L204 685.2 L210 685.9 L216 686.6 L222 687.4 L228 688.3 L234 689.3 L240 690.2 L246 691.1 L252 692.0 L258 692.9 L264 693.7 L270 694.4 L276 695.0 L282 695.4 L288 695.8 L294 696.0 L300 696.0 L306 695.9 L312 695.6 L318 695.2 L324 694.7 L330 694.0 L336 693.3 L342 692.5 L348 691.6 L354 690.7 L360 689.7 L366 688.8 L372 687.9 L378 687.0 L384 686.2 L390 685.5 L396 685.0 L402 684.5 L408 684.2 L414 684.0 L420 684.0 L426 684.1 L432 684.4 L438 684.8 L444 685.4 L450 686.0 L456 686.8 L462 687.6 L468 688.5 L474 689.4 L480 690.4 L486 691.3 L492 692.2 L498 693.1 L504 693.9 L510 694.5 L516 695.1 L522 695.5 L528 695.8 L534 696.0 L540 696.0 L546 695.8 L552 695.6 L558 695.1 L564 694.6 L570 693.9 L576 693.1 L582 692.3 L588 691.4 L594 690.5 L600 689.5 L606 688.6 L612 687.7 L618 686.8 L624 686.1 L630 685.4 L636 684.9 L642 684.4 L648 684.2 L654 684.0 L660 684.0 L666 684.2 L672 684.5 L678 684.9 L684 685.5 L690 686.2 L696 686.9 L702 687.8 L708 688.7 L714 689.6 L720 690.6 L726 691.5 L732 692.4 L738 693.2 L744 694.0 L750 694.7 L756 695.2 L762 695.6 L768 695.9 L774 696.0 L780 696.0 L786 695.8 L792 695.5 L798 695.0 L804 694.4 L810 693.8 L816 693.0 L822 692.1 L828 691.2 L834 690.3 L840 689.3 L846 688.4 L852 687.5 L858 686.7 L864 685.9 L870 685.3 L876 684.8 L882 684.4 L888 684.1 L894 684.0 L900 684.0 L906 684.2 L912 684.6 L918 685.0 L924 685.6 L930 686.3 L936 687.1 L942 688.0 L948 688.9 L954 689.8 L960 690.8 L966 691.7 L972 692.6 L978 693.4 L984 694.1 L990 694.8 L996 695.3 L1002 695.7 L1008 695.9 L1014 696.0 L1020 695.9 L1026 695.7 L1032 695.4 L1038 694.9 L1044 694.3 L1050 693.6 L1056 692.8 L1062 691.9 L1068 691.0 L1074 690.1 L1080 689.1 L1086 688.2 L1092 687.3 L1098 686.5 L1104 685.8 L1110 685.2 L1116 684.7 L1122 684.3 L1128 684.1 L1134 684.0 L1140 684.1 L1146 684.3 L1152 684.7 L1158 685.1 L1164 685.8 L1170 686.5 L1176 687.3 L1182 688.2 L1188 689.1 L1194 690.0 L1200 691.0 L1206 691.9 L1212 692.8 L1218 693.6 L1224 694.3 L1230 694.9 L1236 695.4 L1242 695.7 L1248 695.9 L1254 696.0 L1260 695.9 L1266 695.7 L1272 695.3 L1278 694.8 L1284 694.2 L1290 693.4 L1296 692.6 L1302 691.7 L1308 690.8 L1314 689.9 L1320 688.9 L1326 688.0 L1332 687.1 L1338 686.4 L1344 685.7 L1350 685.1 L1356 684.6 L1362 684.2 L1368 684.0 L1374 684.0 L1380 684.1 L1386 684.4 L1392 684.7 L1398 685.3 L1404 685.9 L1410 686.6 L1416 687.5 L1422 688.4 L1428 689.3 L1434 690.2 L1440 691.2 L1446 692.1 L1452 692.9 L1458 693.7 L1464 694.4 L1470 695.0 L1476 695.5 L1482 695.8 L1488 696.0 L1494 696.0 L1500 695.9 L1506 695.6 L1512 695.2 L1518 694.7 L1524 694.0 L1530 693.3 L1536 692.4 L1542 691.6 L1548 690.6 L1554 689.7 L1560 688.7 L1566 687.8 L1572 687.0 L1578 686.2 L1584 685.5 L1590 684.9 L1596 684.5 L1602 684.2 L1608 684.0 L1614 684.0 L1620 684.1 L1626 684.4 L1632 684.8 L1638 685.4 L1644 686.0 L1650 686.8 L1656 687.6 L1662 688.5 L1668 689.5 L1674 690.4 L1680 691.4 L1686 692.3 L1692 693.1 L1698 693.9 L1704 694.5 L1710 695.1 L1716 695.5 L1722 695.8 L1728 696.0 L1734 696.0 L1740 695.8 L1746 695.5 L1752 695.1 L1758 694.5 L1764 693.9 L1770 693.1 L1770 960 Z" fill="url(#pay-sea)"/>
-      <path d="M150 690 L150 685.7 L156 685.1 L162 684.6 L168 684.3 L174 684.1 L180 684.0 L186 684.1 L192 684.3 L198 684.7 L204 685.2 L210 685.9 L216 686.6 L222 687.4 L228 688.3 L234 689.3 L240 690.2 L246 691.1 L252 692.0 L258 692.9 L264 693.7 L270 694.4 L276 695.0 L282 695.4 L288 695.8 L294 696.0 L300 696.0 L306 695.9 L312 695.6 L318 695.2 L324 694.7 L330 694.0 L336 693.3 L342 692.5 L348 691.6 L354 690.7 L360 689.7 L366 688.8 L372 687.9 L378 687.0 L384 686.2 L390 685.5 L396 685.0 L402 684.5 L408 684.2 L414 684.0 L420 684.0 L426 684.1 L432 684.4 L438 684.8 L444 685.4 L450 686.0 L456 686.8 L462 687.6 L468 688.5 L474 689.4 L480 690.4 L486 691.3 L492 692.2 L498 693.1 L504 693.9 L510 694.5 L516 695.1 L522 695.5 L528 695.8 L534 696.0 L540 696.0 L546 695.8 L552 695.6 L558 695.1 L564 694.6 L570 693.9 L576 693.1 L582 692.3 L588 691.4 L594 690.5 L600 689.5 L606 688.6 L612 687.7 L618 686.8 L624 686.1 L630 685.4 L636 684.9 L642 684.4 L648 684.2 L654 684.0 L660 684.0 L666 684.2 L672 684.5 L678 684.9 L684 685.5 L690 686.2 L696 686.9 L702 687.8 L708 688.7 L714 689.6 L720 690.6 L726 691.5 L732 692.4 L738 693.2 L744 694.0 L750 694.7 L756 695.2 L762 695.6 L768 695.9 L774 696.0 L780 696.0 L786 695.8 L792 695.5 L798 695.0 L804 694.4 L810 693.8 L816 693.0 L822 692.1 L828 691.2 L834 690.3 L840 689.3 L846 688.4 L852 687.5 L858 686.7 L864 685.9 L870 685.3 L876 684.8 L882 684.4 L888 684.1 L894 684.0 L900 684.0 L906 684.2 L912 684.6 L918 685.0 L924 685.6 L930 686.3 L936 687.1 L942 688.0 L948 688.9 L954 689.8 L960 690.8 L966 691.7 L972 692.6 L978 693.4 L984 694.1 L990 694.8 L996 695.3 L1002 695.7 L1008 695.9 L1014 696.0 L1020 695.9 L1026 695.7 L1032 695.4 L1038 694.9 L1044 694.3 L1050 693.6 L1056 692.8 L1062 691.9 L1068 691.0 L1074 690.1 L1080 689.1 L1086 688.2 L1092 687.3 L1098 686.5 L1104 685.8 L1110 685.2 L1116 684.7 L1122 684.3 L1128 684.1 L1134 684.0 L1140 684.1 L1146 684.3 L1152 684.7 L1158 685.1 L1164 685.8 L1170 686.5 L1176 687.3 L1182 688.2 L1188 689.1 L1194 690.0 L1200 691.0 L1206 691.9 L1212 692.8 L1218 693.6 L1224 694.3 L1230 694.9 L1236 695.4 L1242 695.7 L1248 695.9 L1254 696.0 L1260 695.9 L1266 695.7 L1272 695.3 L1278 694.8 L1284 694.2 L1290 693.4 L1296 692.6 L1302 691.7 L1308 690.8 L1314 689.9 L1320 688.9 L1326 688.0 L1332 687.1 L1338 686.4 L1344 685.7 L1350 685.1 L1356 684.6 L1362 684.2 L1368 684.0 L1374 684.0 L1380 684.1 L1386 684.4 L1392 684.7 L1398 685.3 L1404 685.9 L1410 686.6 L1416 687.5 L1422 688.4 L1428 689.3 L1434 690.2 L1440 691.2 L1446 692.1 L1452 692.9 L1458 693.7 L1464 694.4 L1470 695.0 L1476 695.5 L1482 695.8 L1488 696.0 L1494 696.0 L1500 695.9 L1506 695.6 L1512 695.2 L1518 694.7 L1524 694.0 L1530 693.3 L1536 692.4 L1542 691.6 L1548 690.6 L1554 689.7 L1560 688.7 L1566 687.8 L1572 687.0 L1578 686.2 L1584 685.5 L1590 684.9 L1596 684.5 L1602 684.2 L1608 684.0 L1614 684.0 L1620 684.1 L1626 684.4 L1632 684.8 L1638 685.4 L1644 686.0 L1650 686.8 L1656 687.6 L1662 688.5 L1668 689.5 L1674 690.4 L1680 691.4 L1686 692.3 L1692 693.1 L1698 693.9 L1704 694.5 L1710 695.1 L1716 695.5 L1722 695.8 L1728 696.0 L1734 696.0 L1740 695.8 L1746 695.5 L1752 695.1 L1758 694.5 L1764 693.9 L1770 693.1" fill="none" stroke="#bfe0ff" stroke-width="4"/>
+      <path d="M150 960 L150 914.9 L154 911.5 L158 908.1 L162 904.9 L166 901.7 L170 898.7 L174 895.7 L178 892.9 L182 890.2 L186 887.6 L190 885.2 L194 883.0 L198 880.9 L202 878.9 L206 877.2 L210 875.6 L214 874.2 L218 873.0 L222 872.0 L226 871.2 L230 870.6 L234 870.2 L238 870.0 L242 870.0 L246 870.2 L250 870.6 L254 871.2 L258 872.0 L262 873.0 L266 874.2 L270 875.6 L274 877.2 L278 878.9 L282 880.9 L286 883.0 L290 885.2 L294 887.6 L298 890.2 L302 892.9 L306 895.7 L310 898.7 L314 901.7 L318 904.9 L322 903.9 L326 899.6 L330 895.3 L334 891.1 L338 887.0 L342 882.9 L346 879.0 L350 875.3 L354 871.6 L358 868.2 L362 864.8 L366 861.7 L370 858.7 L374 855.9 L378 853.4 L382 851.0 L386 848.8 L390 846.9 L394 845.2 L398 843.7 L402 842.5 L406 841.5 L410 840.8 L414 840.3 L418 840.0 L422 840.0 L426 840.3 L430 840.8 L434 841.5 L438 842.5 L442 843.7 L446 845.2 L450 846.9 L454 848.8 L458 851.0 L462 853.4 L466 855.9 L470 858.7 L474 861.7 L478 864.8 L482 868.2 L486 871.6 L490 875.3 L494 879.0 L498 882.9 L502 879.9 L506 874.5 L510 869.1 L514 863.8 L518 858.7 L522 853.7 L526 848.8 L530 844.1 L534 839.5 L538 835.2 L542 831.0 L546 827.1 L550 823.4 L554 819.9 L558 816.7 L562 813.7 L566 811.1 L570 808.6 L574 806.5 L578 804.7 L582 803.1 L586 801.9 L590 801.0 L594 800.4 L598 800.0 L602 800.0 L606 800.4 L610 801.0 L614 801.9 L618 803.1 L622 804.7 L626 806.5 L630 808.6 L634 811.1 L638 813.7 L642 816.7 L646 819.9 L650 823.4 L654 827.1 L658 831.0 L662 833.8 L666 823.8 L670 813.7 L674 803.7 L678 793.7 L682 783.8 L686 774.0 L690 764.4 L694 754.9 L698 745.6 L702 736.6 L706 727.8 L710 719.3 L714 711.2 L718 703.3 L722 695.9 L726 688.8 L730 682.1 L734 675.9 L738 670.1 L742 664.7 L746 659.9 L750 655.6 L754 651.7 L758 648.4 L762 645.7 L766 643.4 L770 641.8 L774 640.6 L778 640.1 L782 640.1 L786 640.6 L790 641.8 L794 643.4 L798 645.7 L802 648.4 L806 651.7 L810 655.6 L814 659.9 L818 664.7 L822 670.1 L826 675.9 L830 682.1 L834 688.8 L838 695.9 L842 703.3 L846 711.2 L850 719.3 L854 727.8 L858 736.6 L862 745.6 L866 754.9 L870 757.8 L874 748.1 L878 738.6 L882 729.3 L886 720.3 L890 711.5 L894 703.1 L898 695.1 L902 687.4 L906 680.1 L910 673.3 L914 666.9 L918 660.9 L922 655.4 L926 650.5 L930 646.0 L934 642.1 L938 638.7 L942 635.8 L946 633.5 L950 631.8 L954 630.6 L958 630.1 L962 630.1 L966 630.6 L970 631.8 L974 633.5 L978 635.8 L982 638.7 L986 642.1 L990 646.0 L994 650.5 L998 655.4 L1002 660.9 L1006 666.9 L1010 673.3 L1014 680.1 L1018 687.4 L1022 695.1 L1026 703.1 L1030 711.5 L1034 720.3 L1038 729.3 L1042 738.6 L1046 748.1 L1050 751.3 L1054 741.3 L1058 731.5 L1062 722.0 L1066 712.7 L1070 703.8 L1074 695.1 L1078 686.9 L1082 679.0 L1086 671.5 L1090 664.5 L1094 657.9 L1098 651.7 L1102 646.1 L1106 641.0 L1110 636.4 L1114 632.4 L1118 628.9 L1122 626.0 L1126 623.6 L1130 621.8 L1134 620.7 L1138 620.1 L1142 620.1 L1146 620.7 L1150 621.8 L1154 623.6 L1158 626.0 L1162 628.9 L1166 632.4 L1170 636.4 L1174 641.0 L1178 646.1 L1182 651.7 L1186 657.9 L1190 664.5 L1194 671.5 L1198 679.0 L1202 686.9 L1206 695.1 L1210 703.8 L1214 712.7 L1218 707.7 L1222 693.7 L1226 679.9 L1230 666.2 L1234 652.8 L1238 639.7 L1242 626.9 L1246 614.4 L1250 602.4 L1254 590.8 L1258 579.7 L1262 569.1 L1266 559.1 L1270 549.7 L1274 540.8 L1278 532.6 L1282 525.1 L1286 518.2 L1290 512.0 L1294 506.6 L1298 501.9 L1302 498.0 L1306 494.9 L1310 492.5 L1314 490.9 L1318 490.1 L1322 490.1 L1326 490.9 L1330 492.5 L1334 494.9 L1338 498.0 L1342 501.9 L1346 506.6 L1350 512.0 L1354 518.2 L1358 525.1 L1362 532.6 L1366 540.8 L1370 549.7 L1374 559.1 L1378 569.1 L1382 579.7 L1386 590.8 L1390 602.4 L1394 614.4 L1398 626.9 L1402 639.7 L1406 652.8 L1410 640.0 L1414 625.6 L1418 611.4 L1422 597.6 L1426 584.2 L1430 571.2 L1434 558.7 L1438 546.8 L1442 535.4 L1446 524.5 L1450 514.3 L1454 504.8 L1458 495.9 L1462 487.8 L1466 480.4 L1470 473.8 L1474 467.9 L1478 462.9 L1482 458.6 L1486 455.2 L1490 452.7 L1494 451.0 L1498 450.1 L1502 450.1 L1506 451.0 L1510 452.7 L1514 455.2 L1518 458.6 L1522 462.9 L1526 467.9 L1530 473.8 L1534 480.4 L1538 487.8 L1542 495.9 L1546 504.8 L1550 514.3 L1554 524.5 L1558 535.4 L1562 546.8 L1566 558.7 L1570 571.2 L1574 584.2 L1578 597.6 L1582 611.4 L1586 625.6 L1590 640.0 L1594 639.2 L1598 625.5 L1602 612.2 L1606 599.3 L1610 586.8 L1614 574.8 L1618 563.2 L1622 552.3 L1626 541.8 L1630 532.0 L1634 522.8 L1638 514.3 L1642 506.4 L1646 499.3 L1650 492.9 L1654 487.3 L1658 482.4 L1662 478.3 L1666 475.0 L1670 472.6 L1674 470.9 L1678 470.1 L1682 470.1 L1686 470.9 L1690 472.6 L1694 475.0 L1698 478.3 L1702 482.4 L1706 487.3 L1710 492.9 L1714 499.3 L1718 506.4 L1722 514.3 L1726 522.8 L1730 532.0 L1734 541.8 L1738 552.3 L1742 563.2 L1746 574.8 L1750 586.8 L1754 599.3 L1758 612.2 L1762 625.5 L1766 639.2 L1770 653.1 L1770 960 Z" fill="url(#pay-land)"/>
+      <path d="M150 960 L150 695.2 L154 695.1 L158 695.0 L162 695.0 L166 695.1 L170 695.2 L174 695.4 L178 695.7 L182 696.0 L186 696.4 L190 696.8 L194 697.3 L198 697.8 L202 698.3 L206 698.9 L210 699.5 L214 700.1 L218 700.6 L222 701.2 L226 701.8 L230 702.3 L234 702.8 L238 703.3 L242 703.7 L246 704.1 L250 704.4 L254 704.6 L258 704.8 L262 704.9 L266 705.0 L270 705.0 L274 704.9 L278 704.7 L282 704.5 L286 704.2 L290 703.9 L294 703.5 L298 703.1 L302 702.6 L306 702.1 L310 701.5 L314 700.9 L318 700.4 L322 699.8 L326 699.2 L330 698.6 L334 698.1 L338 697.5 L342 697.0 L346 696.6 L350 696.2 L354 695.8 L358 695.5 L362 695.3 L366 695.1 L370 695.0 L374 695.0 L378 695.0 L382 695.1 L386 695.3 L390 695.6 L394 695.9 L398 696.2 L402 696.6 L406 697.1 L410 697.6 L414 698.1 L418 698.7 L422 699.2 L426 699.8 L430 700.4 L434 701.0 L438 701.6 L442 702.1 L446 702.6 L450 703.1 L454 703.5 L458 703.9 L462 704.3 L466 704.5 L470 704.8 L474 704.9 L478 705.0 L482 705.0 L486 704.9 L490 704.8 L494 704.6 L498 704.4 L502 704.0 L506 703.7 L510 703.3 L514 702.8 L518 702.3 L522 701.7 L526 701.2 L530 700.6 L534 700.0 L538 699.4 L542 698.8 L546 698.3 L550 697.7 L554 697.2 L558 696.8 L562 696.3 L566 696.0 L570 695.6 L574 695.4 L578 695.2 L582 695.1 L586 695.0 L590 695.0 L594 695.1 L598 695.2 L602 695.4 L606 695.7 L610 696.1 L614 696.4 L618 696.9 L622 697.4 L626 697.9 L630 698.4 L634 699.0 L638 699.6 L642 700.2 L646 700.7 L650 701.3 L654 701.9 L658 702.4 L662 702.9 L666 703.4 L670 703.8 L674 704.1 L678 704.4 L682 704.7 L686 704.9 L690 705.0 L694 705.0 L698 705.0 L702 704.9 L706 704.7 L710 704.5 L714 704.2 L718 703.8 L722 703.4 L726 703.0 L730 702.5 L734 702.0 L738 701.4 L742 700.8 L746 700.2 L750 699.7 L754 699.1 L758 698.5 L762 698.0 L766 697.4 L770 697.0 L774 696.5 L778 696.1 L782 695.8 L786 695.5 L790 695.3 L794 695.1 L798 695.0 L802 695.0 L806 695.1 L810 695.2 L814 695.4 L818 695.6 L822 695.9 L826 696.3 L830 696.7 L834 697.2 L838 697.7 L842 698.2 L846 698.8 L850 699.3 L854 699.9 L858 700.5 L862 701.1 L866 701.7 L870 702.2 L874 702.7 L878 703.2 L882 703.6 L886 704.0 L890 704.3 L894 704.6 L898 704.8 L902 704.9 L906 705.0 L910 705.0 L914 704.9 L918 704.8 L922 704.6 L926 704.3 L930 704.0 L934 703.6 L938 703.2 L942 702.7 L946 702.2 L950 701.6 L954 701.1 L958 700.5 L962 699.9 L966 699.3 L970 698.7 L974 698.2 L978 697.6 L982 697.1 L986 696.7 L990 696.3 L994 695.9 L998 695.6 L1002 695.3 L1006 695.2 L1010 695.0 L1014 695.0 L1018 695.0 L1022 695.1 L1026 695.3 L1030 695.5 L1034 695.8 L1038 696.1 L1042 696.5 L1046 697.0 L1050 697.5 L1054 698.0 L1058 698.5 L1062 699.1 L1066 699.7 L1070 700.3 L1074 700.9 L1078 701.4 L1082 702.0 L1086 702.5 L1090 703.0 L1094 703.4 L1098 703.8 L1102 704.2 L1106 704.5 L1110 704.7 L1114 704.9 L1118 705.0 L1122 705.0 L1126 705.0 L1130 704.8 L1134 704.7 L1138 704.4 L1142 704.1 L1146 703.8 L1150 703.3 L1154 702.9 L1158 702.4 L1162 701.9 L1166 701.3 L1170 700.7 L1174 700.1 L1178 699.6 L1182 699.0 L1186 698.4 L1190 697.9 L1194 697.3 L1198 696.9 L1202 696.4 L1206 696.0 L1210 695.7 L1214 695.4 L1218 695.2 L1222 695.1 L1226 695.0 L1230 695.0 L1234 695.1 L1238 695.2 L1242 695.4 L1246 695.7 L1250 696.0 L1254 696.4 L1258 696.8 L1262 697.3 L1266 697.8 L1270 698.3 L1274 698.9 L1278 699.4 L1282 700.0 L1286 700.6 L1290 701.2 L1294 701.8 L1298 702.3 L1302 702.8 L1306 703.3 L1310 703.7 L1314 704.1 L1318 704.4 L1322 704.6 L1326 704.8 L1330 704.9 L1334 705.0 L1338 705.0 L1342 704.9 L1346 704.7 L1350 704.5 L1354 704.3 L1358 703.9 L1362 703.5 L1366 703.1 L1370 702.6 L1374 702.1 L1378 701.5 L1382 701.0 L1386 700.4 L1390 699.8 L1394 699.2 L1398 698.6 L1402 698.1 L1406 697.5 L1410 697.1 L1414 696.6 L1418 696.2 L1422 695.8 L1426 695.5 L1430 695.3 L1434 695.1 L1438 695.0 L1442 695.0 L1446 695.0 L1450 695.1 L1454 695.3 L1458 695.5 L1462 695.8 L1466 696.2 L1470 696.6 L1474 697.1 L1478 697.6 L1482 698.1 L1486 698.6 L1490 699.2 L1494 699.8 L1498 700.4 L1502 701.0 L1506 701.5 L1510 702.1 L1514 702.6 L1518 703.1 L1522 703.5 L1526 703.9 L1530 704.3 L1534 704.5 L1538 704.7 L1542 704.9 L1546 705.0 L1550 705.0 L1554 704.9 L1558 704.8 L1562 704.6 L1566 704.4 L1570 704.1 L1574 703.7 L1578 703.3 L1582 702.8 L1586 702.3 L1590 701.8 L1594 701.2 L1598 700.6 L1602 700.0 L1606 699.4 L1610 698.9 L1614 698.3 L1618 697.8 L1622 697.3 L1626 696.8 L1630 696.4 L1634 696.0 L1638 695.7 L1642 695.4 L1646 695.2 L1650 695.1 L1654 695.0 L1658 695.0 L1662 695.1 L1666 695.2 L1670 695.4 L1674 695.7 L1678 696.0 L1682 696.4 L1686 696.9 L1690 697.3 L1694 697.9 L1698 698.4 L1702 699.0 L1706 699.6 L1710 700.1 L1714 700.7 L1718 701.3 L1722 701.9 L1726 702.4 L1730 702.9 L1734 703.4 L1738 703.8 L1742 704.1 L1746 704.4 L1750 704.7 L1754 704.8 L1758 705.0 L1762 705.0 L1766 705.0 L1770 704.9 L1770 960 Z" fill="url(#pay-sea)"/>
+      <path d="M150 700 L150 695.2 L154 695.1 L158 695.0 L162 695.0 L166 695.1 L170 695.2 L174 695.4 L178 695.7 L182 696.0 L186 696.4 L190 696.8 L194 697.3 L198 697.8 L202 698.3 L206 698.9 L210 699.5 L214 700.1 L218 700.6 L222 701.2 L226 701.8 L230 702.3 L234 702.8 L238 703.3 L242 703.7 L246 704.1 L250 704.4 L254 704.6 L258 704.8 L262 704.9 L266 705.0 L270 705.0 L274 704.9 L278 704.7 L282 704.5 L286 704.2 L290 703.9 L294 703.5 L298 703.1 L302 702.6 L306 702.1 L310 701.5 L314 700.9 L318 700.4 L322 699.8 L326 699.2 L330 698.6 L334 698.1 L338 697.5 L342 697.0 L346 696.6 L350 696.2 L354 695.8 L358 695.5 L362 695.3 L366 695.1 L370 695.0 L374 695.0 L378 695.0 L382 695.1 L386 695.3 L390 695.6 L394 695.9 L398 696.2 L402 696.6 L406 697.1 L410 697.6 L414 698.1 L418 698.7 L422 699.2 L426 699.8 L430 700.4 L434 701.0 L438 701.6 L442 702.1 L446 702.6 L450 703.1 L454 703.5 L458 703.9 L462 704.3 L466 704.5 L470 704.8 L474 704.9 L478 705.0 L482 705.0 L486 704.9 L490 704.8 L494 704.6 L498 704.4 L502 704.0 L506 703.7 L510 703.3 L514 702.8 L518 702.3 L522 701.7 L526 701.2 L530 700.6 L534 700.0 L538 699.4 L542 698.8 L546 698.3 L550 697.7 L554 697.2 L558 696.8 L562 696.3 L566 696.0 L570 695.6 L574 695.4 L578 695.2 L582 695.1 L586 695.0 L590 695.0 L594 695.1 L598 695.2 L602 695.4 L606 695.7 L610 696.1 L614 696.4 L618 696.9 L622 697.4 L626 697.9 L630 698.4 L634 699.0 L638 699.6 L642 700.2 L646 700.7 L650 701.3 L654 701.9 L658 702.4 L662 702.9 L666 703.4 L670 703.8 L674 704.1 L678 704.4 L682 704.7 L686 704.9 L690 705.0 L694 705.0 L698 705.0 L702 704.9 L706 704.7 L710 704.5 L714 704.2 L718 703.8 L722 703.4 L726 703.0 L730 702.5 L734 702.0 L738 701.4 L742 700.8 L746 700.2 L750 699.7 L754 699.1 L758 698.5 L762 698.0 L766 697.4 L770 697.0 L774 696.5 L778 696.1 L782 695.8 L786 695.5 L790 695.3 L794 695.1 L798 695.0 L802 695.0 L806 695.1 L810 695.2 L814 695.4 L818 695.6 L822 695.9 L826 696.3 L830 696.7 L834 697.2 L838 697.7 L842 698.2 L846 698.8 L850 699.3 L854 699.9 L858 700.5 L862 701.1 L866 701.7 L870 702.2 L874 702.7 L878 703.2 L882 703.6 L886 704.0 L890 704.3 L894 704.6 L898 704.8 L902 704.9 L906 705.0 L910 705.0 L914 704.9 L918 704.8 L922 704.6 L926 704.3 L930 704.0 L934 703.6 L938 703.2 L942 702.7 L946 702.2 L950 701.6 L954 701.1 L958 700.5 L962 699.9 L966 699.3 L970 698.7 L974 698.2 L978 697.6 L982 697.1 L986 696.7 L990 696.3 L994 695.9 L998 695.6 L1002 695.3 L1006 695.2 L1010 695.0 L1014 695.0 L1018 695.0 L1022 695.1 L1026 695.3 L1030 695.5 L1034 695.8 L1038 696.1 L1042 696.5 L1046 697.0 L1050 697.5 L1054 698.0 L1058 698.5 L1062 699.1 L1066 699.7 L1070 700.3 L1074 700.9 L1078 701.4 L1082 702.0 L1086 702.5 L1090 703.0 L1094 703.4 L1098 703.8 L1102 704.2 L1106 704.5 L1110 704.7 L1114 704.9 L1118 705.0 L1122 705.0 L1126 705.0 L1130 704.8 L1134 704.7 L1138 704.4 L1142 704.1 L1146 703.8 L1150 703.3 L1154 702.9 L1158 702.4 L1162 701.9 L1166 701.3 L1170 700.7 L1174 700.1 L1178 699.6 L1182 699.0 L1186 698.4 L1190 697.9 L1194 697.3 L1198 696.9 L1202 696.4 L1206 696.0 L1210 695.7 L1214 695.4 L1218 695.2 L1222 695.1 L1226 695.0 L1230 695.0 L1234 695.1 L1238 695.2 L1242 695.4 L1246 695.7 L1250 696.0 L1254 696.4 L1258 696.8 L1262 697.3 L1266 697.8 L1270 698.3 L1274 698.9 L1278 699.4 L1282 700.0 L1286 700.6 L1290 701.2 L1294 701.8 L1298 702.3 L1302 702.8 L1306 703.3 L1310 703.7 L1314 704.1 L1318 704.4 L1322 704.6 L1326 704.8 L1330 704.9 L1334 705.0 L1338 705.0 L1342 704.9 L1346 704.7 L1350 704.5 L1354 704.3 L1358 703.9 L1362 703.5 L1366 703.1 L1370 702.6 L1374 702.1 L1378 701.5 L1382 701.0 L1386 700.4 L1390 699.8 L1394 699.2 L1398 698.6 L1402 698.1 L1406 697.5 L1410 697.1 L1414 696.6 L1418 696.2 L1422 695.8 L1426 695.5 L1430 695.3 L1434 695.1 L1438 695.0 L1442 695.0 L1446 695.0 L1450 695.1 L1454 695.3 L1458 695.5 L1462 695.8 L1466 696.2 L1470 696.6 L1474 697.1 L1478 697.6 L1482 698.1 L1486 698.6 L1490 699.2 L1494 699.8 L1498 700.4 L1502 701.0 L1506 701.5 L1510 702.1 L1514 702.6 L1518 703.1 L1522 703.5 L1526 703.9 L1530 704.3 L1534 704.5 L1538 704.7 L1542 704.9 L1546 705.0 L1550 705.0 L1554 704.9 L1558 704.8 L1562 704.6 L1566 704.4 L1570 704.1 L1574 703.7 L1578 703.3 L1582 702.8 L1586 702.3 L1590 701.8 L1594 701.2 L1598 700.6 L1602 700.0 L1606 699.4 L1610 698.9 L1614 698.3 L1618 697.8 L1622 697.3 L1626 696.8 L1630 696.4 L1634 696.0 L1638 695.7 L1642 695.4 L1646 695.2 L1650 695.1 L1654 695.0 L1658 695.0 L1662 695.1 L1666 695.2 L1670 695.4 L1674 695.7 L1678 696.0 L1682 696.4 L1686 696.9 L1690 697.3 L1694 697.9 L1698 698.4 L1702 699.0 L1706 699.6 L1710 700.1 L1714 700.7 L1718 701.3 L1722 701.9 L1726 702.4 L1730 702.9 L1734 703.4 L1738 703.8 L1742 704.1 L1746 704.4 L1750 704.7 L1754 704.8 L1758 705.0 L1762 705.0 L1766 705.0 L1770 704.9" fill="none" stroke="#bfe0ff" stroke-width="4"/>
+      <path d="M168 905 v14 H672 v-14" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><text x="420" y="948" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="22" letter-spacing="2" fill="#fff">DÉJÀ SOUS L'EAU</text><path d="M708 905 v14 H1212 v-14" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><text x="960" y="948" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="22" letter-spacing="2" fill="#fff">LE RIVAGE : ÇA ARRIVE</text><path d="M1248 905 v14 H1752 v-14" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><text x="1500" y="948" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="22" letter-spacing="2" fill="#fff">ENCORE AU SEC</text>
     </g>
-    <g transform="translate(200,360)"><circle cx="0" cy="0" r="13" fill="#1e4fa8"/><text x="30" y="10" font-family="Inter" font-weight="600" font-size="30" fill="#1d2140">Déjà sous l'eau</text></g><g transform="translate(200,418)"><circle cx="0" cy="0" r="13" fill="#f07a3a"/><text x="30" y="10" font-family="Inter" font-weight="600" font-size="30" fill="#1d2140">Le rivage : ça arrive</text></g><g transform="translate(200,476)"><circle cx="0" cy="0" r="13" fill="#18a984"/><text x="30" y="10" font-family="Inter" font-weight="600" font-size="30" fill="#1d2140">Les sommets : encore humain</text></g>
-    <g transform="translate(187,548)"><text x="0" y="0" font-family="JetBrains Mono" font-weight="700" font-size="21" letter-spacing="2" fill="#4b5fe0">LE PARADOXE DE MORAVEC</text><text x="0" y="38" font-family="Inter" font-weight="500" font-size="26" fill="#1d2140">Facile pour nous, difficile pour elle…</text><text x="0" y="72" font-family="Inter" font-weight="500" font-size="26" fill="#1d2140">et inversement.</text></g>
-    <g transform="translate(290,844)"><rect x="-73.0" y="-26" width="146" height="52" rx="26" fill="#1e4fa8"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Calcul</text></g><g transform="translate(520,799)"><rect x="-73.0" y="-26" width="146" height="52" rx="26" fill="#1e4fa8"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Échecs</text></g><g transform="translate(740,764)"><rect x="-98.5" y="-26" width="197" height="52" rx="26" fill="#1e4fa8"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Jeu de go</text></g><g transform="translate(905,600)"><rect x="-90.0" y="-26" width="180" height="52" rx="26" fill="#f07a3a"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Traduire</text></g><g transform="translate(1060,560)"><rect x="-73.0" y="-26" width="146" height="52" rx="26" fill="#f07a3a"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Écrire</text></g><g transform="translate(1215,590)"><rect x="-64.5" y="-26" width="129" height="52" rx="26" fill="#f07a3a"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Coder</text></g><g transform="translate(1380,380)"><rect x="-124.0" y="-26" width="248" height="52" rx="26" fill="#18a984"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Prendre soin</text></g><g transform="translate(1560,318)"><rect x="-90.0" y="-26" width="180" height="52" rx="26" fill="#18a984"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Inventer</text></g><g transform="translate(1590,540)"><rect x="-166.5" y="-26" width="333" height="52" rx="26" fill="#18a984"/><text x="0" y="10" text-anchor="middle" font-family="Inter" font-weight="700" font-size="28" fill="#fff">Réparer l'imprévu</text></g>
-    <g transform="translate(1735,682)"><path d="M0 0 v-60 m-16 18 l16 -18 l16 18" fill="none" stroke="#1e4fa8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(180,638)"><path d="M10 52 V8 M-4 22 L10 8 L24 22" fill="none" stroke="#1e4fa8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="40" y="34" font-family="Inter" font-weight="700" font-size="26" fill="#1e4fa8">L'IA monte</text></g>
+    <g transform="translate(240,840)"><rect x="-64" y="-23" width="129" height="46" rx="23" fill="#1e4fa8"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Calcul</text></g><g transform="translate(420,810)"><rect x="-64" y="-23" width="129" height="46" rx="23" fill="#1e4fa8"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Échecs</text></g><g transform="translate(600,770)"><rect x="-88" y="-23" width="176" height="46" rx="23" fill="#1e4fa8"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Jeu de go</text></g><g transform="translate(780,606)"><rect x="-80" y="-23" width="160" height="46" rx="23" fill="#f07a3a"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Traduire</text></g><g transform="translate(960,596)"><rect x="-64" y="-23" width="129" height="46" rx="23" fill="#f07a3a"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Écrire</text></g><g transform="translate(1140,586)"><rect x="-57" y="-23" width="114" height="46" rx="23" fill="#f07a3a"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Coder</text></g><g transform="translate(1320,456)"><rect x="-72" y="-23" width="144" height="46" rx="23" fill="#18a984"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Soigner</text></g><g transform="translate(1500,416)"><rect x="-80" y="-23" width="160" height="46" rx="23" fill="#18a984"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">Inventer</text></g><g transform="translate(1680,436)"><rect x="-88" y="-23" width="176" height="46" rx="23" fill="#18a984"/><text x="0" y="9" text-anchor="middle" font-family="Inter" font-weight="700" font-size="25" fill="#fff">L'imprévu</text></g>
   </svg>
-  <p class="c4src">D'après le «&nbsp;paysage des compétences humaines&nbsp;» de Hans Moravec, repris par Max Tegmark dans <i>La Vie 3.0</i> (2017), mis à jour pour 2026.</p>
+  <p class="c4src"><b>Le paradoxe de Moravec</b>&nbsp;: ce qui est facile pour nous est difficile pour elle, et inversement. · D'après le «&nbsp;paysage des compétences humaines&nbsp;» de Hans Moravec, repris par Max Tegmark dans <i>La Vie 3.0</i> (2017), mis à jour pour 2026.</p>
 </section>
 
 <!-- ===================================================== 02 · Usages surprenants (remplace la page 16 du PDF ; diapo de réserve) -->
@@ -1035,7 +1048,7 @@
   <div class="hook blue">Elle se cache aussi… <em>là où on ne l'attend pas.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="wow">
-    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10 16 1.5 1.5"/><path d="m14 8-1.5-1.5"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m16.5 10.5 1 1"/><path d="m17 6-2.891-2.891"/><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="m20 9 .891.891"/><path d="M3.109 14.109 4 15"/><path d="m6.5 12.5 1 1"/><path d="m7 18 2.891 2.891"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/></svg></div><h3>Les protéines</h3><p>Un prix Nobel en 2024</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10 16 1.5 1.5"/><path d="m14 8-1.5-1.5"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m16.5 10.5 1 1"/><path d="m17 6-2.891-2.891"/><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="m20 9 .891.891"/><path d="M3.109 14.109 4 15"/><path d="m6.5 12.5 1 1"/><path d="m7 18 2.891 2.891"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/></svg></div><h3>Soigner plus vite</h3><p>Elle prédit la forme des protéines pour créer des médicaments</p></div>
     <div class="card" style="--a:#18a984"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/><path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"/><path d="m14 16-3 3 3 3"/><path d="M8.293 13.596 7.196 9.5 3.1 10.598"/><path d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"/><path d="m13.378 9.633 4.096 1.098 1.097-4.096"/></svg></div><h3>Trier les déchets</h3><p>Des robots trieurs</p></div>
     <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg></div><h3>Traduire en direct</h3><p>Chacun parle sa langue</p></div>
   </div>
@@ -1047,15 +1060,15 @@
   <div class="inner">
     <div class="pill">Chapitre 03</div>
     <h1>L'IA en pratique</h1>
-    <div class="chips"><span class="chip">Images</span><span class="chip">E-mail</span><span class="chip">Excel</span><span class="chip">Langues</span><span class="chip fin">Et en final&nbsp;: le site de la MJC</span></div>
+    <div class="chips"><span class="chip">Images</span><span class="chip">E-mail</span><span class="chip">Excel</span><span class="chip">Langues</span><span class="chip fin">Et un grand défi&nbsp;: le site de la MJC</span></div>
   </div>
 </section>
 
 <!-- ===================================================== 04 · Ouverture du chapitre (remplace la page 22 du PDF) -->
 <section class="slide dark chap ch4" id="chapitre-04">
-  <div class="big">04</div>
+  <div class="big">05</div>
   <div class="inner">
-    <div class="pill">Chapitre 04</div>
+    <div class="pill">Chapitre 05</div>
     <h1>Impacts et enjeux</h1>
     <div class="chips"><span class="chip">Ce qu'elle apporte</span><span class="chip">Ce qu'elle coûte</span><span class="chip">Qui fixe les règles</span></div>
   </div>
@@ -1064,7 +1077,7 @@
 <!-- ===================================================== 04 · ch4-temps -->
 <section class="slide light" id="ch4-temps">
   <div class="content">
-    <div class="kicker c4k">04 · Ce qu'elle apporte · Du temps</div>
+    <div class="kicker c4k">05 · Ce qu'elle apporte · Du temps</div>
   </div>
   <div class="hook">Ce qui prenait une heure… <em>prend une minute.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1093,7 +1106,7 @@
 <!-- ===================================================== 04 · ch4-decouvertes -->
 <section class="slide light" id="ch4-decouvertes">
   <div class="content">
-    <div class="kicker c4k">04 · Ce qu'elle apporte · Des découvertes</div>
+    <div class="kicker c4k">05 · Ce qu'elle apporte · Des découvertes</div>
   </div>
   <div class="hook">Et surtout… <em>elle voit ce qu'on ne voyait pas.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1109,7 +1122,7 @@
 <!-- ===================================================== 04 · ch4-planete -->
 <section class="slide light" id="ch4-planete">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La planète</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · La planète</div>
   </div>
   <div class="hook cost">Retournons la pièce… <em>tout ça a un prix.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1127,7 +1140,7 @@
 <!-- ===================================================== 04 · ch4-finance -->
 <section class="slide light" id="ch4-finance">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Nos portefeuilles</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · Nos portefeuilles</div>
   </div>
   <div class="hook cost">Une course à l'argent… <em>que nous payons aussi.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1142,7 +1155,7 @@
 <!-- ===================================================== 04 · ch4-humains -->
 <section class="slide light" id="ch4-humains">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Les petites mains</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · Les petites mains</div>
   </div>
   <div class="hook cost">Derrière la machine… <em>des humains invisibles.</em></div>
   <div class="hands2">
@@ -1164,7 +1177,7 @@
 <!-- ===================================================== 04 · ch4-cerveau -->
 <section class="slide light" id="ch4-cerveau">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Notre cerveau</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · Notre cerveau</div>
   </div>
   <div class="hook cost">Apprendre, c'est l'effort… <em>que l'IA nous fait sauter.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1187,7 +1200,7 @@
 <!-- ===================================================== 04 · ch4-securite -->
 <section class="slide light" id="ch4-securite">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · Notre sécurité</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · Notre sécurité</div>
   </div>
   <div class="hook cost">L'IA trouve les failles… <em>les pirates aussi.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1206,7 +1219,7 @@
 <!-- ===================================================== 04 · ch4-democratie -->
 <section class="slide light" id="ch4-democratie">
   <div class="content">
-    <div class="kicker c4k cost">04 · Ce qu'elle coûte · La démocratie</div>
+    <div class="kicker c4k cost">05 · Ce qu'elle coûte · La démocratie</div>
   </div>
   <div class="hook cost">Une fausse voix coûte 150&nbsp;$… <em>et vise une élection.</em></div>
   <div class="card fake">
@@ -1222,7 +1235,7 @@
 <!-- ===================================================== 04 · ch4-regles -->
 <section class="slide light" id="ch4-regles">
   <div class="content">
-    <div class="kicker c4k" style="color:#4b5fe0 !important">04 · Qui fixe les règles&nbsp;? · L\'AI Act</div>
+    <div class="kicker c4k" style="color:#4b5fe0 !important">05 · Qui fixe les règles&nbsp;? · L\'AI Act</div>
   </div>
   <div class="hook blue">L'Europe a écrit… <em>la première loi au monde sur l'IA.</em></div>
   <div class="feu">
@@ -1238,9 +1251,9 @@
 
 <!-- ===================================================== 05 · Ouverture du chapitre (remplace la page 27 du PDF) -->
 <section class="slide dark chap ch5" id="chapitre-05">
-  <div class="big">05</div>
+  <div class="big">04</div>
   <div class="inner">
-    <div class="pill">Chapitre 05</div>
+    <div class="pill">Chapitre 04</div>
     <h1>Bonnes pratiques</h1>
     <div class="chips"><span class="chip">Bien demander</span><span class="chip">Vérifier</span><span class="chip">Protéger ses données</span></div>
   </div>
@@ -1249,7 +1262,7 @@
 <!-- ===================================================== 05 · Le bon prompt, rappel éclair (remplace la page 28 du PDF) -->
 <section class="slide light ch5l" id="prompt-rappel">
   <div class="content">
-    <div class="kicker" style="color:#18a058">05 · Bien demander&nbsp;: le prompt</div>
+    <div class="kicker" style="color:#18a058">04 · Bien demander&nbsp;: le prompt</div>
   </div>
   <div class="hook">Parlez-lui comme à un stagiaire très doué…<br><em>qui ne vous connaît pas.</em></div>
   <div class="recipe">
@@ -1264,7 +1277,7 @@
 <!-- ===================================================== 05 · Les 3 réflexes (remplace les pages 29 et 30 du PDF) -->
 <section class="slide light ch5l" id="reflexes">
   <div class="content">
-    <div class="kicker" style="color:#18a058">05 · Les 3 réflexes</div>
+    <div class="kicker" style="color:#18a058">04 · Les 3 réflexes</div>
   </div>
   <div class="hook">Un assistant brillant… <em>mais c'est vous qui signez.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
@@ -1428,15 +1441,15 @@
 <!-- ===================================================== Démo finale · intro -->
 <section class="slide dark teal final" id="finale-intro">
   <div class="content">
-    <div class="kicker">Démo finale · Le site de la MJC</div>
+    <div class="kicker">03 · Le grand défi</div>
   </div>
-  <div class="hook dk">Un vrai site… <em>et c'est vous qui décidez.</em></div>
+  <div class="hook dk">Le site de la MJC… <em>pendant qu'on continue.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="fin4">
-    <div class="card" style="--a:#4b5fe0"><div class="top"><div class="n">1</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg></div></div><small>Le prompt</small><h3>On décrit</h3><p>En français, comme à un graphiste</p></div>
-    <div class="card" style="--a:#8b5cf6"><div class="top"><div class="n">2</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div></div><small>Le code HTML</small><h3>L'IA fabrique</h3><p>Le site entier, en une minute</p></div>
-    <div class="card" style="--a:#f07a3a"><div class="top"><div class="n">3</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div></div><small>Vos idées</small><h3>Vous proposez</h3><p>Une couleur, une rubrique, une idée</p></div>
-    <div class="card" style="--a:#18a984"><div class="top"><div class="n">4</div><div class="badge"><svg viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div></div><small>L'hébergement</small><h3>En ligne&nbsp;!</h3><p>Sur vos téléphones, pour de vrai</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="top"><div class="n">1</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div></div><small>Vos idées</small><h3>Vous proposez</h3><p>Une couleur, une rubrique, une idée</p></div>
+    <div class="card" style="--a:#4b5fe0"><div class="top"><div class="n">2</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg></div></div><small>Le prompt</small><h3>On lance</h3><p>Le site de la MJC, décrit en français</p></div>
+    <div class="card" style="--a:#8b5cf6"><div class="top"><div class="n">3</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div></div><small>Un agent</small><h3>Elle travaille</h3><p>Seule, pendant la suite de la conférence</p></div>
+    <div class="card" style="--a:#18a984"><div class="top"><div class="n">4</div><div class="badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div></div><small>Le résultat</small><h3>À la fin</h3><p>Juste avant le débat</p></div>
   </div>
 </section>
 
@@ -1523,6 +1536,21 @@
   <div class="ideas"><small>Toutes gratuites · pour commencer</small>
     <div class="chips"><span class="chip">Une recette avec ce qu'il y a dans le frigo</span><span class="chip">Un e-mail difficile</span><span class="chip">Comprendre un courrier</span></div>
   </div>
+</section>
+
+<!-- ===================================================== Le grand défi · résultat -->
+<section class="slide dark teal final" id="finale-resultat">
+  <div class="content">
+    <div class="kicker">Le grand défi · Le résultat</div>
+  </div>
+  <div class="hook dk">Pendant qu'on parlait… <em>elle a construit un site.</em></div>
+  <div class="browser"><div class="bar"><i></i><i></i><i></i></div><div class="screen" data-zone="site"><span>Le site obtenu</span></div></div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <div class="res2">
+    <div class="card" style="--a:#6fd8c0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div><div><small>Fait par l'IA, seule</small><h3>Tout le site</h3><p>Textes, mise en page, code HTML&nbsp;: en quelques minutes.</p></div></div>
+    <div class="card" style="--a:#ffb347"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div><div><small>Reste à faire</small><h3>Le regard humain</h3><p>Vérifier ce qu'elle a inventé, mettre les vraies photos, le tenir à jour.</p></div></div>
+  </div>
+  <div class="res-line">L'IA est un outil&nbsp;: <em>c'est vous qui gardez la main.</em></div>
 </section>
 
 <!-- ===================================================== Débat -->

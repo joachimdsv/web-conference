@@ -3,7 +3,6 @@
 #   demo ID  -> slides-src/rendu/ID.jpg (section de demos.html)
 # Après modification : tools/construire-diapos.sh, puis adapter les numéros dans js/deck.js.
 page 01
-# Plan mis à jour + question d'ouverture
 demo plan
 demo brise-glace
 demo chapitre-01
@@ -20,7 +19,6 @@ demo sans-le-savoir
 demo quiz
 demo metiers
 demo usages
-# Chapitre 03 — en pratique
 demo chapitre-03
 demo demo1-images
 demo demo1-indices
@@ -28,7 +26,10 @@ demo demo2-affiche
 demo demo4-email
 demo demo5-excel
 demo demo6-langue
-# Chapitres 04 à 06
+demo finale-intro
+demo chapitre-05
+demo prompt-rappel
+demo reflexes
 demo chapitre-04
 demo ch4-temps
 demo ch4-decouvertes
@@ -39,15 +40,9 @@ demo ch4-cerveau
 demo ch4-securite
 demo ch4-democratie
 demo ch4-regles
-demo chapitre-05
-demo prompt-rappel
-demo reflexes
 demo demain
 demo demain-risques
-# Démo finale
-demo finale-intro
-# Conclusion
 demo pour-essayer
-# Débat, puis remerciements
+demo finale-resultat
 demo debat
 demo merci
