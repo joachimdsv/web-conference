@@ -154,6 +154,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Pourquoi ce hasard ? « Si elle prenait toujours le mot favori, ses textes seraient monotones et répétitifs. Ce petit hasard les rend plus naturels et plus créatifs. »
 - Elle fait ça mot après mot, très vite, et ça finit par donner des textes entiers.
 - Le point essentiel : « C'est pour ça que si vous posez deux fois la même question, vous n'aurez pas exactement la même réponse. Et c'est aussi pour ça qu'elle se trompe parfois : de temps en temps, elle tire un mot moins probable… et elle continue sur sa lancée, avec assurance. Elle cherche ce qui est probable, pas ce qui est vrai. »
+- Le mot à connaître : « Quand elle invente quelque chose avec assurance, on appelle ça une hallucination. Vous en verrez une en direct tout à l'heure, dans la démo de l'e-mail. »
+- Le nom technique (en haut de la diapo) : « ChatGPT est ce qu'on appelle un LLM, un grand modèle de langage : un programme qui a lu d'énormes quantités de textes pour apprendre à deviner la suite. »
 - En réserve pour le débat : les concepteurs règlent la dose de hasard avec un paramètre appelé « température ». Basse : elle prend presque toujours le mot favori (prévisible, mais plat). Haute : elle ose des mots moins probables (créatif, mais plus risqué). Les assistants comme ChatGPT utilisent un réglage intermédiaire. Autre raison des réponses différentes : le contexte (ce qui a été dit avant, la version de l'outil) n'est jamais tout à fait le même.
 
 > ➡️ « Et d'ailleurs, ces mots qu'elle devine… ce ne sont même pas vraiment des mots. »
