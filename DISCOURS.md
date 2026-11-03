@@ -54,7 +54,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Mettre tout le monde à l'aise, novices comme habitués.**
 
-- *⚙️ Poser les 3 questions une par une, laisser le temps aux mains de se lever, commenter ce qu'on voit.*
+- *⚙️ Dire : « Levez la main, il n'y a pas de mauvaise réponse ! » (ce n'est plus écrit sur la diapo). Poser les 3 questions une par une, laisser le temps aux mains de se lever, commenter ce qu'on voit.*
 - « Qui a déjà utilisé ChatGPT ou une autre IA ? » → « Beaucoup d'entre vous ! » ou « Quelques-uns… vous allez voir, c'est très simple. »
 - « Qui s'en sert au moins une fois par semaine ? »
 - « Qui s'en méfie un peu… ou beaucoup ? » → « Très bien : c'est une méfiance saine, on va en parler. »
@@ -609,7 +609,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - L'exemple concret, si le temps le permet : « Et quand on la laisse agir seule, une erreur va très vite. En 2012, un programme de la société de bourse Knight Capital s'est emballé : 440 millions de dollars perdus en 45 minutes. » (Exemple cité dans La Vie 3.0 ; c'était un bug, pas une IA moderne.)
 - Tout surveiller : « Reconnaître chaque visage dans la rue, noter chaque citoyen selon son comportement : techniquement, c'est déjà possible, et certains pays le font. En Europe, c'est interdit… pour l'instant, et c'est à nous de veiller à ce que ça le reste. »
 - Les inégalités : « Les meilleures IA coûtent cher : la version gratuite est limitée, l'abonnement courant coûte une vingtaine d'euros par mois, et les versions les plus puissantes jusqu'à environ 200 dollars par mois. Ceux qui peuvent payer travaillent plus vite, apprennent plus vite, gagnent plus… et l'écart se creuse : entre les personnes, entre les entreprises, entre les pays. Et ceux qui possèdent ces IA, quelques géants, gagnent un pouvoir énorme. C'est aussi pour ça que les ateliers gratuits, comme à la MJC, comptent. »
-- *⚙️ La question au public (bande du bas) : « Et vous : plutôt confiant, ou plutôt inquiet ? » Main levée pour chaque réponse, puis 1 ou 2 réactions. Ça prépare le débat.*
+- *⚙️ La question au public (à l'oral, elle n'est plus sur la diapo) : « Et vous : plutôt confiant, ou plutôt inquiet ? » Main levée pour chaque réponse, puis 1 ou 2 réactions. Ça prépare le débat.*
 
 > ➡️ « Le futur dépendra de ce qu'on en fait. Alors, pour finir, je vous propose une dernière démo, la plus ambitieuse : la preuve qu'elle peut nous aider… si c'est nous qui gardons la main. »
 
