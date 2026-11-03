@@ -494,6 +494,8 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - L'accroche : « Apprendre, c'est l'effort… que l'IA nous fait sauter. »
 - Comment on apprend (ligne du haut) : « Souvenez-vous de l'école. D'abord la leçon : la théorie rentre dans un coin de notre tête. Puis les exercices : on applique, on se trompe, on cherche. Puis la correction, la note : on voit nos erreurs. Et c'est tout ce chemin, avec ses efforts, qui fait que ça reste. »
 - Avec l'IA (ligne du bas) : « Aujourd'hui, on peut poser la question et obtenir directement la réponse. On saute l'effort… et le cerveau n'a rien eu à faire, donc il ne garde rien. »
+- Le mot (écrit en petit) : « Les chercheurs appellent ça la décharge cognitive : on décharge l'effort sur la machine… et le cerveau ne s'entraîne plus. »
+- Le mot (écrit en petit) : « Les chercheurs appellent ça la décharge cognitive : on décharge l'effort sur la machine… et le cerveau ne s'entraîne plus. »
 - L'expérience (carte de droite) : « Des chercheurs l'ont mesuré avec près de 1 000 lycéens, en maths. Ceux qui s'entraînaient avec ChatGPT réussissaient beaucoup mieux leurs exercices : +48 %. Mais au contrôle, sans ChatGPT, ils faisaient 17 % de moins que ceux qui n'avaient jamais eu l'IA. Ils avaient eu les bonnes réponses… sans apprendre. » (Bastani et al., PNAS, 2025, lycées en Turquie.)
 - La bonne nouvelle : « Le même groupe avec une IA "prof", qui donne des indices mais pas la réponse, n'a pas eu cette baisse. Tout dépend donc de la façon de s'en servir. »
 - Pour les parents : « Pour les devoirs : "explique-moi", "pose-moi des questions", "corrige-moi"… pas "fais-le à ma place". »
