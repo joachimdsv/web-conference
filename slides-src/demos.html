@@ -401,6 +401,8 @@
     padding: 32px 56px; border-radius: 99px; box-shadow: 0 20px 50px rgba(80, 80, 200, .3); }
   .source-line svg { width: 48px; height: 48px; stroke: currentColor; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .source-line span { font-weight: 500; opacity: .85; }
+  .source-sub { position: absolute; left: 0; right: 0; bottom: 52px; text-align: center; font: 600 24px/1 'JetBrains Mono', monospace; letter-spacing: .04em; color: #4b5fe0; }
+  #demo1-indices .source-line { bottom: 120px; }
   /* Démo 2 · affiche */
   .pcard { position: absolute; left: 150px; top: 200px; width: 1010px; height: 780px; padding: 50px 54px;
     display: flex; flex-direction: column; justify-content: center; }
@@ -1314,9 +1316,10 @@
     <div class="card" style="--a:#18a984"><div class="vis"><svg viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg></div>
       <div class="txt"><h3>Mains, visages</h3><p>Doigts en trop, traits flous</p></div></div>
     <div class="card" style="--a:#8b5cf6"><div class="vis"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></div>
-      <div class="txt"><h3>Le style</h3><p>Trop lisse, «&nbsp;déjà vu&nbsp;»</p></div></div>
+      <div class="txt"><h3>Le style</h3><p>Un indice, pas une preuve</p></div></div>
   </div>
   <div class="source-line"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Le vrai réflexe&nbsp;: <span>vérifier la source</span></div>
+  <p class="source-sub">Recherche d'image inversée&nbsp;: Google Lens, TinEye</p>
 </section>
 
 <!-- ===================================================== Démo 2 · affiche -->

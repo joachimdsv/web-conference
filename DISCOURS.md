@@ -301,9 +301,9 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Le texte (gros plan de l'affiche C) : « Regardez l'enseigne du bâtiment : des lettres qui ressemblent à des lettres, mais qui ne veulent rien dire. C'est l'indice le plus fréquent : fautes, lettres inventées, date ou lieu incohérents. »
 - Incohérences (gros plan de l'affiche C) : « Et ce QR code : il a l'air vrai, mais il ne mène nulle part. L'IA dessine ce qui ressemble à un QR code, sans comprendre à quoi il sert. Même chose pour les logos de partenaires qui n'ont jamais donné leur accord. »
 - Mains, visages : « Sur les personnages, regardez les mains : des doigts en trop ou fusionnés, des visages flous dans une foule. »
-- Le style : « Et parfois c'est trop lisse, trop parfait, une impression de "déjà vu". »
+- Le style : « Trop lisse, trop parfait, une impression de "déjà vu" : ça peut être une IA… mais souvenez-vous de Jupiter : ça peut aussi être un graphiste talentueux. Le style, c'est un indice, pas une preuve. »
 - Pour des photos (si question) : les ombres et les reflets incohérents, les objets du fond qui se fondent les uns dans les autres.
-- LE réflexe (bande du bas) : « Mais le vrai réflexe, c'est de vérifier la source : d'où vient cette image ? Qui l'a publiée ? Pour une affiche, on vérifie la date et le lieu sur le site officiel. Pour une photo, on peut faire une "recherche d'image inversée" avec Google Lens, pour voir où elle apparaît ailleurs. »
+- LE réflexe (bande du bas, avec le nom des outils en dessous) : « Mais le vrai réflexe, c'est de vérifier la source : d'où vient cette image ? Qui l'a publiée ? Pour une affiche, on vérifie la date et le lieu sur le site officiel. Pour une photo, on peut faire une "recherche d'image inversée" avec Google Lens, pour voir où elle apparaît ailleurs. »
 - « Les IA progressent vite : ces défauts seront de moins en moins visibles. Le réflexe de vérifier la source, lui, restera toujours valable. »
 
 > ➡️ « Et justement, si une IA sait faire une affiche… on va en créer une ensemble, en direct. »
