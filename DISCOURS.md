@@ -401,6 +401,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - *⚙️ Jouer la scène et faire exprès une erreur (« I want a pizza margarita ») pour montrer la correction bienveillante.*
 - *⚙️ « Qui veut commander son plat en anglais ? » Faire essayer une réplique à une personne du public : le moment le plus vivant, à garder même rapide.*
 - Les atouts : disponible 24 h/24, patient, adapté à votre niveau, sans jugement, autant de fois que nécessaire. On ose parler, même avec un mauvais accent.
+- La traduction en direct (promesse de la diapo 17) : « Et ce même mode vocal sait aussi traduire en direct : vous parlez français, il répond en anglais à votre interlocuteur. C'est l'usage surprenant dont je vous parlais tout à l'heure. »
 - Les limites : elle ne remplace pas un vrai échange avec des humains, ni un voyage, ni un professeur pour progresser vraiment.
 - *⚙️ Plan B : la conversation d'exemple est cachée à droite, R pour la révéler.*
 - **⏱️ En retard ? Montrer seulement une réplique, sans volontaire, ou passer directement à la suite après avoir lu le prompt (on gagne 2 min).**
