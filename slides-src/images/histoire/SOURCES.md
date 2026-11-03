@@ -7,4 +7,4 @@
 | deep-blue.jpg | [Say hello to Deep Blue (2586059148).jpg](https://commons.wikimedia.org/wiki/File:Say_hello_to_Deep_Blue_(2586059148).jpg) | Erik Pitti | CC BY 2.0 |
 | hinton.jpg | [Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (cropped1).jpg](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(cropped1).jpg) | Arthur Petron | CC BY-SA 4.0 |
 | chatgpt.png | [ChatGPT logo.svg](https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg) | OpenAI (marque) | Domaine public (Commons) |
-| manus.jpg | [Manus AI Agent Mobile app screenshot.jpg](https://commons.wikimedia.org/wiki/File:Manus_AI_Agent_Mobile_app_screenshot.jpg) | « AI Editor User » | Domaine public (Commons) |
+| agent.svg | Illustration réalisée pour la conférence avec des icônes Lucide (bot, mouse-pointer) | Lucide | ISC |
