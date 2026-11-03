@@ -51,7 +51,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 ### Dimanche 01/11 · J-5 · Premier filage complet (2 h 30)
 - [ ] Faire la conférence **en entier, sans s'arrêter**, en vous filmant avec le téléphone.
 - [ ] Noter l'heure à chaque point de contrôle (diapos 18, 27, 40 et 43) et la comparer au déroulé de `DISCOURS.md` (0:18 · 0:40 · 0:48 · 0:58).
-- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 23 min de débat. Un premier filage dépasse presque toujours : c'est normal.
+- [ ] Objectif : **finir la conclusion vers 1 h**, pour garder 22 min 30 de débat. Un premier filage dépasse presque toujours : c'est normal.
 - [ ] **Décider des coupes** si la conférence dépasse 1 h 09 (le débat n'aurait plus ses 20 minutes minimum), en suivant l'ordre des coupes de `PREPARATION.md`.
 - [ ] Mettre à jour les notes dans la régie : elles s'impriment ensuite avec vos modifications.
 
@@ -95,13 +95,13 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 |---|---|---|---|---|---|
 | 0 | Ouverture | 1-3 | 3 min 30 | Pas besoin d'être informaticien | Les mains levées |
 | 1 | Qu'est-ce que l'IA ? | 4-12 | 10 min | Elle devine, elle ne pense pas | Le perroquet, « Le chat est sur le… » |
-| 2 | Au quotidien | 13-17 | 6 min | Vous l'utilisez déjà | La journée type, le quiz |
+| 2 | Au quotidien | 13-17 | 6 min 30 | Vous l'utilisez déjà | La journée type, le quiz, la mer qui monte |
 | 3 | Démos | 18-26 | 20 min 30 | Bluffante… et parfois fausse | Les images pièges, l'article de loi inventé |
 | 4 | Enjeux | 27-36 | 11 min | Ce qu'elle apporte… et ce qu'elle coûte | La pièce qu'on retourne |
 | 5 | Bonnes pratiques | 37-39 | 2 min | Demander, vérifier, protéger | Le stagiaire |
 | 6 | Demain + démo finale | 40-42 | 10 min 30 | L'IA accélère, l'humain valide | Le site de la MJC |
 | 7 | Conclusion | 43 | 2 min | 3 choses à retenir | Essayer dès ce soir |
-| 8 | Débat + merci | 44-45 | 23 min + 1 min | C'est à vous ! | Les 4 questions de relance |
+| 8 | Débat + merci | 44-45 | 22 min 30 + 1 min | C'est à vous ! | Le vote « Quel futur voulez-vous ? » |
 |  | **Total** | | **1 h 28 30 + 1 min 30 de marge** | Fin à 1 h 30 au plus tard | |
 
 ---

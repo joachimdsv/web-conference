@@ -32,18 +32,19 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ### La durée : 1 h 30 au total, conférence et débat compris
 | Bloc | Durée | Fin prévue |
 |---|---|---|
-| Ouverture + chapitres 01 et 02 | 19 min 30 | 0:19 |
+| Ouverture + chapitres 01 et 02 | 20 min | 0:20 |
 | Démonstrations (chapitre 03) | 20 min 30 | 0:40 |
 | Enjeux + bonnes pratiques (chapitres 04 et 05) | 13 min | 0:53 |
 | Et demain ? + démo finale | 10 min 30 | 1:03 |
 | Conclusion | 1 min | 1:04 |
-| **Débat** | **23 min** | **1:27** |
+| **Débat** | **22 min 30** | **1:27** |
 | Remerciements | 1 min | 1:28 |
 | Marge de sécurité | 1 min 30 | 1:30 |
 
-- **Environ 1 h 05 de conférence, puis 23 minutes de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
+- **Environ 1 h 05 de conférence, puis 22 minutes 30 de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
-- **La diapo 44 « Place au débat »** propose 4 questions de relance. La touche R (ou les boutons de la régie) encadre celle dont on parle. Les notes donnent des pistes pour chacune et des conseils d'animation.
+- **La diapo 44 « Quel futur voulez-vous ? »** lance le débat par un vote à main levée sur 4 futurs possibles (l'outil, le gardien, le frein, le relais), tirés des scénarios de Max Tegmark dans *La Vie 3.0*. La touche R (ou les boutons de la régie) encadre la carte dont on parle. Les notes gardent 4 thèmes de relance (école, travail, planète, MJC) et des conseils d'animation.
+- **Inspirations de *La Vie 3.0* (Max Tegmark)** : diapo 5 (l'intelligence, c'est atteindre des objectifs complexes ; intelligente ≠ consciente), diapo 16 (la mer qui monte sur le paysage des compétences), diapo 41 (le danger, c'est la compétence, pas la méchanceté : les fourmis et le barrage), diapo 44 (quel futur voulez-vous ?).
 - **4 points de contrôle** (diapos 18, 27, 40 et 43) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 09**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
   1. la diapo 11 « deux étapes » en une phrase : 30 s ;
