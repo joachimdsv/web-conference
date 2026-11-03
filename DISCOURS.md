@@ -1,6 +1,6 @@
 # Le discours, diapo par diapo
 
-L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 44 diapos · environ 65 min de conférence + 22 min 30 de débat, pour 90 min maximum, tout compris.
+L'intelligence artificielle · Conférence · MJC du Val d'Ajol · 06/11/2026 · 43 diapos · environ 62 min 30 de conférence + 25 min de débat, pour 90 min maximum, tout compris.
 
 Légende : 🎯 le message à faire passer · • à dire · ⚙️ à faire · ⏱️ point de contrôle du temps · ➡️ transition vers la suite · 🔸 à raccourcir si on est en retard · ⏭️ diapo sautée par défaut.
 Ces points sont aussi dans les notes de la régie, sur la télécommande, et dans la page imprimable 🖨️ Notes.
@@ -12,15 +12,15 @@ Ces points sont aussi dans les notes de la régie, sur la télécommande, et dan
 | Ouverture | 1-3 | 0:00 | 3 min 30 |
 | Chapitre 01 · Qu'est-ce que l'IA ? | 4-12 | 3:30 | 10 min |
 | Chapitre 02 · L'IA dans notre quotidien | 13-17 | 13:30 | 6 min 30 |
-| Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 20:00 | 22 min |
-| Chapitre 04 · Impacts et enjeux | 28-32 | 42:00 | 6 min |
-| Chapitre 05 · Les bonnes pratiques | 33-36 | 48:00 | 4 min |
-| Chapitre 06 · Et demain ? + démo finale | 37-40 | 52:00 | 4 min |
-| Conclusion | 41-42 | 56:00 | 9 min |
-| Débat et fin | 43-44 | 1:05:00 | 23 min 30 |
+| Chapitre 03 · L'IA en pratique : les démonstrations | 18-27 | 20:00 | 21 min |
+| Chapitre 04 · Impacts et enjeux | 28-32 | 41:00 | 6 min |
+| Chapitre 05 · Les bonnes pratiques | 33-36 | 47:00 | 3 min |
+| Chapitre 06 · Et demain ? + démo finale | 37-40 | 50:00 | 11 min 30 |
+| Conclusion | 41-42 | 1:01:30 | 26 min |
+| Débat et fin | 43-43 | 1:27:30 | 1 min |
 | Marge de sécurité | | 1:28:30 | 1 min 30 |
 
-Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
+Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l'avance ou le retard en continu. En cas de retard, c'est le débat qui l'absorbe (20 minutes minimum).
 
 > Fichier généré à partir de `js/deck.js` (`node tools/generer-discours.js`) : modifiez les notes là-bas, pas ici.
 
@@ -44,7 +44,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 **🎯 Donner le fil de la soirée, sans tout dévoiler.**
 
 - En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »
-- Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« six démos, en direct ») et la 06 : « Et à la fin, on fabriquera ensemble quelque chose en direct… je ne vous en dis pas plus. Puis on prendra le temps d'en débattre. »
+- Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« cinq démos, en direct ») et la 06 : « Et à la fin, on fabriquera ensemble quelque chose en direct… je ne vous en dis pas plus. Puis on prendra le temps d'en débattre. »
 - Il y aura des petits jeux : vous voterez à main levée.
 - « Le débat, ce sera pour vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »
 
@@ -61,7 +61,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
   - 🔸 Repérer ceux qui n'ont pas levé la main : on les retrouve à la diapo 14.
 - « Qui s'en sert au moins une fois par semaine ? »
 - « Qui s'en méfie un peu… ou beaucoup ? » → « Très bien : c'est une méfiance saine, on va en parler. »
-  - 🔸 Retenir à peu près combien de mains : on reposera la question au débat (diapo 43).
+  - 🔸 Retenir à peu près combien de mains : on reposera la question au débat (diapo 42).
 - « Que vous l'utilisiez tous les jours ou jamais, vous êtes au bon endroit. »
 
 > ➡️ « Commençons par le commencement : c'est quoi, au juste, l'intelligence artificielle ? »
@@ -75,7 +75,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 **🎯 Partir de ce que le public imagine.**
 
 - *⚙️ Demander : « Quel mot vous vient quand on dit "intelligence artificielle" ? » Reprendre 1 ou 2 réponses (robot, ChatGPT, Terminator, danger…).*
-- Si quelqu'un dit « Terminator » ou « robot » : « Gardez ce mot en tête, on y reviendra à la fin. » (Reprise à la diapo 40.)
+- Si quelqu'un dit « Terminator » ou « robot » : « Gardez ce mot en tête, on y reviendra à la fin. » (Reprise à la diapo 39.)
 - « Le cinéma nous a montré des robots qui pensent et qui ont des sentiments. La réalité est à la fois plus simple… et plus impressionnante. »
 - Annoncer les 3 temps du chapitre : une définition, un peu d'histoire, comment elle fonctionne.
 
@@ -178,7 +178,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 - Photo 1, la bibliothèque. Étape 1, le pré-entraînement : « Elle "lit" une immense quantité de textes, sites internet, livres, articles, et s'entraîne des milliards de fois à deviner le mot suivant. Pour donner un ordre d'idée : l'IA de Meta, Llama 3, a lu 15 000 milliards de tokens, nos petits morceaux de tout à l'heure. Des dizaines de millions de livres ! Elle devient très forte en langue… mais elle a aussi lu le pire d'internet. »
 - Photo 2, le texte annoté au stylo. Étape 2, l'ajustement humain : « Ensuite, des personnes lui posent des questions et notent ses réponses : utile ? polie ? dangereuse ? Elle apprend ainsi à se comporter en assistant serviable. » Le nom technique : RLHF, apprentissage par renforcement à partir de retours humains.
-- La reprise : « Ces humains qui corrigent, on en reparlera : ils sont souvent très mal payés, au Kenya ou ailleurs. » (Diapo 31.)
+- La reprise : « Ces humains qui corrigent, on en reparlera : ils sont souvent très mal payés, au Kenya ou ailleurs. » (Diapo 30.)
 - L'image à retenir : « L'élève qui a lu toute la bibliothèque… puis le professeur qui corrige ses copies. »
 
 > ➡️ « Voilà pour ChatGPT et les IA qui écrivent. Mais il existe d'autres familles d'IA… »
@@ -246,10 +246,10 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 - L'image : « C'est une image du chercheur Hans Moravec, reprise par le physicien Max Tegmark dans son livre La Vie 3.0. Imaginez un paysage : chaque colline, c'est une compétence humaine. Et l'IA, c'est la mer qui monte. »
 - Sous l'eau : « Le calcul, depuis longtemps. Les échecs, depuis 1997. Le jeu de go, on l'a vu tout à l'heure. Là, l'humain n'a plus aucune chance. »
 - Le rivage : « Traduire, écrire un texte, et même coder, écrire des programmes informatiques : l'eau est en train de les atteindre, vous le verrez dans les démos. Et dans tous les métiers : à l'hôpital, elle aide à lire les radios ; dans l'industrie, ici dans les Vosges, elle prévoit les pannes d'une machine ; à l'école, elle propose des exercices sur mesure. »
-- Le paradoxe de Moravec (écrit à gauche) : « Ce qui est difficile pour nous, calculer, jouer aux échecs, est facile pour la machine. Et ce qui est facile pour nous, marcher, plier du linge, est très difficile pour elle. C'est pour ça que les sommets restent au sec. Vous verrez à la fin un robot qui plie le linge… encore souvent piloté à distance par un humain ! » (Diapo 39.)
+- Le paradoxe de Moravec (écrit à gauche) : « Ce qui est difficile pour nous, calculer, jouer aux échecs, est facile pour la machine. Et ce qui est facile pour nous, marcher, plier du linge, est très difficile pour elle. C'est pour ça que les sommets restent au sec. Vous verrez à la fin un robot qui plie le linge… encore souvent piloté à distance par un humain ! » (Diapo 38.)
 - Les sommets : « Ce qui reste au sec, Tegmark le résume en trois questions à se poser sur un métier : est-ce qu'il demande de s'occuper des autres ? D'inventer des solutions nouvelles ? De se débrouiller dans un environnement imprévu ? Une infirmière, un artiste, un plombier qui intervient dans une vieille maison : la mer aura du mal à monter jusque-là. »
 - *⚙️ Question à la salle : « Et vous, votre métier, il est plutôt sur le rivage ou sur un sommet ? » (2 ou 3 réponses, ça prépare le débat)*
-- Conclure : « La mer monte, mais on peut choisir où construire. » (On y reviendra avec le revers, diapo 40.)
+- Conclure : « La mer monte, mais on peut choisir où construire. » (On y reviendra avec le revers, diapo 39.)
 - Sources : H. Moravec, « When will computer hardware match the human brain? » (1998) ; M. Tegmark, La Vie 3.0 (Dunod, 2018), chapitre 3. AlphaGo bat Lee Sedol en mars 2016.
 
 > ➡️ « Et elle se cache aussi là où on ne l'attend pas… »
@@ -266,16 +266,16 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 ---
 
-## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 22 min)
+## Chapitre 03 · L'IA en pratique : les démonstrations (diapos 18 à 27, environ 21 min)
 
 ### 18 · Chapitre 03 — En pratique — 1 min · prévu à 20:00
 
 **🎯 On passe à la pratique, et on annonce les démos. (1 min)**
 
 - « Assez parlé ! Place à la pratique. Je vais vous montrer ce qu'elle sait faire, et on va la tester ensemble, en direct. Et attention : vous allez devoir jouer… et peut-être vous faire piéger ! »
-- Les étiquettes, sans les détailler : « Des images, des vidéos, un e-mail, un tableau Excel, une langue étrangère… Certaines démos sont préparées à l'avance, parce que c'est trop long ou trop aléatoire en direct, comme les images et les vidéos. Les autres, je les fais devant vous… avec le risque que ça rate. Et si ça rate, ce sera instructif aussi ! Et pour finir, une démo plus ambitieuse : créer le site de la MJC, en direct. »
+- Les étiquettes, sans les détailler : « Des images, un e-mail, un tableau Excel, une langue étrangère… Certaines démos sont préparées à l'avance, parce que c'est trop long ou trop aléatoire en direct, comme les images. Les autres, je les fais devant vous… avec le risque que ça rate. Et si ça rate, ce sera instructif aussi ! Et pour finir, une démo plus ambitieuse : créer le site de la MJC, en direct. »
 - *⚙️ Avant de commencer : internet OK, comptes connectés, son branché.*
-- **⏱️ POINT DE CONTRÔLE 1 : on devrait en être à 20 min. Plus de 5 min de retard ? Raccourcir les démos 5 et 6 (voir leurs notes). Le reste du retard sera pris sur le débat.**
+- **⏱️ POINT DE CONTRÔLE 1 : on devrait en être à 20 min. Plus de 5 min de retard ? Raccourcir les démos 4 et 5 (voir leurs notes). Le reste du retard sera pris sur le débat.**
 
 > ➡️ « On commence par un jeu. Je vais vous montrer trois affiches… à vous de deviner. »
 
@@ -320,14 +320,14 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
   - orange = les textes exacts, entre guillemets, « sans faute » (les IA écrivent bien mieux ainsi) ;
   - violet = le style (illustration joyeuse, sapins, myrtilles, lampions) ;
   - rose = les contraintes (une bande vide pour les logos).
-- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 37.)
+- L'idée reçue : « On croit souvent qu'il faut écrire "Tu es un graphiste expert". En réalité, ce qui compte, c'est de lui expliquer votre situation, comme à un vrai graphiste : qui vous êtes, à quoi sert l'affiche, et ce qui doit être écrit dessus. » (On retrouvera cette méthode à la diapo 36.)
 - « Une demande vague donne un résultat banal. Une demande précise donne un résultat qui vous ressemble. »
 - *⚙️ Copier l'image, Ctrl+V dans la régie, puis « → affiche » pour l'afficher à droite.*
 - Regarder ensemble le texte de l'affiche : il y a souvent des fautes ou des lettres bizarres (comme tout à l'heure !). « On ne recommence pas tout : on continue la conversation. » Prompt « Retouche » : agrandir le titre, ajouter des paniers de myrtilles et des lampions, vérifier l'orthographe.
 - Conclusion : « Un formidable outil pour un premier jet. Mais on vérifie, on fait relire, et pour une vraie affiche, on fait attention aux droits. »
 - *⚙️ Plan B (déjà en place à droite si rien n'est collé) : media/demo2-affiche.jpg, générée avec un outil gratuit… son titre est raté (« HORCAPLE »), ce qui illustre bien le besoin de vérifier. La remplacer la veille par une affiche faite avec ChatGPT si possible.*
 
-> ➡️ « Les images, c'est déjà bluffant. Mais avec la vidéo… c'est encore plus troublant. »
+> ➡️ « Bon, assez de pièges ! Passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »
 
 <details><summary>Prompts de la démo</summary>
 
@@ -336,25 +336,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 </details>
 
-### 22 · Démo 3 — Vidéo : filmée ou générée ? — 2 min 30 · prévu à 29:00
-
-**🎯 Bientôt, une vidéo ne sera plus une preuve. (2 min 30)**
-
-- *⚙️ PRÉPARÉ. Les 2 vidéos tournent en boucle, sans le son (media/demo3-video1.mp4 et media/demo3-video2.mp4). ⛶ pour en passer une en plein écran avec le son.*
-- « Dernier jeu : deux vidéos. L'une a été filmée par une vraie caméra. L'autre a été entièrement inventée par une IA, à partir d'une simple phrase. Laquelle ? »
-- *⚙️ Vote à main levée, puis révéler avec R.*
-- « Qu'est-ce qui vous a mis la puce à l'oreille ? » Puis revoir la vidéo IA en pointant ce qui cloche :
-  - la physique (l'eau, les tissus, les cheveux, les feuilles qui bougent bizarrement) ;
-  - les mains et les visages ;
-  - le texte (panneaux, enseignes) ;
-  - les objets qui apparaissent ou disparaissent d'un plan à l'autre.
-- Le rebondissement : « Et en 2026, certaines IA font aussi le son, les voix et la musique… ça devient vraiment difficile à repérer. »
-- Le danger : les « deepfakes », ces fausses vidéos de personnalités qui leur font dire n'importe quoi. « Avant de partager une vidéo choquante, on se pose la question : d'où vient-elle ? »
-- *⚙️ Réponses par défaut : 1 = filmée, 2 = IA. Ajuster dans la régie si besoin.*
-
-> ➡️ « Bon, assez de pièges ! Passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »
-
-### 23 · Démo 4 — Rédiger un e-mail (pièges) — 4 min · prévu à 31:30
+### 22 · Démo 3 — Rédiger un e-mail (pièges) — 4 min · prévu à 29:00
 
 **🎯 Un gain de temps énorme… à condition de connaître les pièges. (4 min)**
 
@@ -382,7 +364,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 </details>
 
-### 24 · Démo 5 — Budget dans Excel — 2 min 30 · prévu à 35:30
+### 23 · Démo 4 — Budget dans Excel — 2 min 30 · prévu à 33:00
 
 **🎯 Plus besoin de connaître les formules : on décrit ce qu'on veut en français. (2 min 30)**
 
@@ -408,7 +390,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 </details>
 
-### 25 · Démo 6 — Apprendre une langue — 2 min 30 · prévu à 38:00
+### 24 · Démo 5 — Apprendre une langue — 2 min 30 · prévu à 35:30
 
 **🎯 Un professeur patient, disponible à toute heure, qui ne juge pas. (2 min 30)**
 
@@ -430,14 +412,14 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 </details>
 
-### 26 · Chapitre 04 — Impacts — 30 s · prévu à 40:30
+### 25 · Chapitre 04 — Impacts — 30 s · prévu à 38:00
 
 **🎯 Prendre du recul : ce qu'elle change pour nous. (30 s)**
 
 - « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, les risques, qui fixe les règles… et notre travail. »
-- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 41 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 40 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
+- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 38 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 40 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
-### 27 · Ce qu'elle apporte — du temps — 1 min · prévu à 41:00
+### 26 · Ce qu'elle apporte — du temps — 1 min · prévu à 38:30
 
 **🎯 Elle fait gagner un temps fou… mais pas automatiquement. (1 min)**
 
@@ -450,11 +432,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Et au-delà du temps gagné, elle fait avancer la science. »
 
----
-
-## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 6 min)
-
-### 28 · Ce qu'elle apporte — des découvertes — 1 min 30 · prévu à 42:00
+### 27 · Ce qu'elle apporte — des découvertes — 1 min 30 · prévu à 39:30
 
 **🎯 Elle ne remplace pas les chercheurs : elle les aide à voir plus, et plus vite. (1 min 30)**
 
@@ -467,7 +445,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Voilà la face brillante. Retournons la pièce : tout ça a un prix. »
 
-### 29 · Ce qu'elle coûte — la planète — 1 min · prévu à 43:30
+---
+
+## Chapitre 04 · Impacts et enjeux (diapos 28 à 32, environ 6 min)
+
+### 28 · Ce qu'elle coûte — la planète — 1 min · prévu à 41:00
 
 **🎯 Retourner la pièce : l'IA consomme énormément d'énergie. (1 min)**
 
@@ -478,7 +460,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Et ce prix, on le paie aussi… avec notre portefeuille. »
 
-### 30 · Ce qu'elle coûte — nos portefeuilles — 1 min · prévu à 44:30
+### 29 · Ce qu'elle coûte — nos portefeuilles — 1 min · prévu à 42:00
 
 **🎯 La course à l'IA coûte des fortunes… et fait monter nos prix. (1 min)**
 
@@ -490,7 +472,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Il y a aussi un prix humain, qu'on ne voit jamais. »
 
-### 31 · Ce qu'elle coûte — les petites mains — 1 min · prévu à 45:30
+### 30 · Ce qu'elle coûte — les petites mains — 1 min · prévu à 43:00
 
 **🎯 Derrière l'IA, il y a des humains invisibles… et mal payés. (1 min)**
 
@@ -502,7 +484,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Et il y a un prix… pour notre propre cerveau. »
 
-### 32 · Ce qu'elle coûte — notre cerveau — 1 min 30 · prévu à 46:30
+### 31 · Ce qu'elle coûte — notre cerveau — 1 min 30 · prévu à 44:00
 
 **🎯 On apprend grâce à l'effort : si l'IA le fait à notre place, rien ne reste. (1 min 30)**
 
@@ -516,11 +498,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Autre prix, très concret : notre sécurité. »
 
----
-
-## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 4 min)
-
-### 33 · Ce qu'elle coûte — notre sécurité — 1 min 30 · prévu à 48:00
+### 32 · Ce qu'elle coûte — notre sécurité — 1 min 30 · prévu à 45:30
 
 **🎯 L'IA est une arme à double tranchant : pour les défenseurs… et pour les pirates. (1 min 30)**
 
@@ -533,7 +511,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Et enfin, un enjeu pour nous tous, citoyens : la démocratie… et qui fixe les règles. »
 
-### 34 · Ce qu'elle coûte — la démocratie — 1 min · prévu à 49:30
+---
+
+## Chapitre 05 · Les bonnes pratiques (diapos 33 à 36, environ 3 min)
+
+### 33 · Ce qu'elle coûte — la démocratie — 1 min · prévu à 47:00
 
 **🎯 Avec l'IA, on ne peut plus croire tout ce qu'on voit ou entend. (1 min)**
 
@@ -545,7 +527,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Alors, face à tout ça… qui fixe les règles ? »
 
-### 35 · Qui fixe les règles ? — 1 min · prévu à 50:30
+### 34 · Qui fixe les règles ? — 1 min · prévu à 48:00
 
 **🎯 L'Europe a écrit la première loi au monde sur l'IA, et elle fonctionne comme un feu tricolore. (1 min)**
 
@@ -558,17 +540,13 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
 
-### 36 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 51:30
+### 35 · Chapitre 05 — Bonnes pratiques — 30 s · prévu à 49:00
 
 **🎯 Rassurer : la plupart des pièges s'évitent avec 3 réflexes. (30 s : une respiration)**
 
 - « On a vu les bons côtés et les risques. La bonne nouvelle : la plupart des pièges s'évitent avec trois réflexes simples. Bien demander, vérifier, protéger ses données. Et vous les avez déjà vus en action pendant les démos. »
 
----
-
-## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 4 min)
-
-### 37 · Le bon prompt — 30 s · prévu à 52:00
+### 36 · Le bon prompt — 30 s · prévu à 49:30
 
 **🎯 Rappel éclair : la recette du bon prompt, déjà vue 4 fois pendant les démos. (30 s)**
 
@@ -578,7 +556,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Deuxième réflexe : vérifier. »
 
-### 38 · Les 3 réflexes — 1 min · prévu à 52:30
+---
+
+## Chapitre 06 · Et demain ? + démo finale (diapos 37 à 40, environ 11 min 30)
+
+### 37 · Les 3 réflexes — 1 min · prévu à 50:00
 
 **🎯 Les 3 réflexes en une image : un assistant brillant, mais c'est vous qui signez. (1 min)**
 
@@ -590,7 +572,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Et demain ? Qu'est-ce qui nous attend ? »
 
-### 39 · Et demain ? — 1 min · prévu à 53:30
+### 38 · Et demain ? — 1 min · prévu à 51:00
 
 **🎯 Demain, elle ne fera plus que répondre : elle agira… et vous, qu'en attendez-vous ? (1 min)**
 
@@ -598,11 +580,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 - Elle fait pour vous : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
 - Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! » (Robot NEO de 1X ; Europe à partir de 2027.)
 - Plus sobre : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
-- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 54 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 09.**
+- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 51 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 07.**
 
 > ➡️ « Voilà le futur rêvé. Mais il y a aussi un revers… »
 
-### 40 · Et demain ? Le revers — 1 min 30 · prévu à 54:30
+### 39 · Et demain ? Le revers — 1 min 30 · prévu à 52:00
 
 **🎯 Le futur n'est pas écrit : il peut aussi nous échapper, si on laisse faire. (1 min 30)**
 
@@ -616,11 +598,7 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 > ➡️ « Le futur dépendra de ce qu'on en fait. Alors, pour finir, je vous propose une dernière démo, la plus ambitieuse : la preuve qu'elle peut nous aider… si c'est nous qui gardons la main. »
 
----
-
-## Conclusion (diapos 41 à 42, environ 9 min)
-
-### 41 · Démo finale — Le site de la MJC — 8 min · prévu à 56:00
+### 40 · Démo finale — Le site de la MJC — 8 min · prévu à 53:30
 
 **🎯 Le défi : un vrai site internet, en direct, en quelques minutes… et c'est la salle qui décide. (8 min en tout : 1 min d'annonce, 7 min de démo)**
 
@@ -653,7 +631,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 
 </details>
 
-### 42 · Pour essayer chez vous — 1 min · prévu à 1:04:00
+---
+
+## Conclusion (diapos 41 à 42, environ 26 min)
+
+### 41 · Pour essayer chez vous — 1 min · prévu à 1:01:30
 
 **🎯 Donner envie d'essayer, dès ce soir, avec une seule question. (1 min)**
 
@@ -661,15 +643,11 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
 - Les outils : « Les quatre ont une version gratuite : ChatGPT, le plus connu ; Le Chat, l'IA française de Mistral ; Gemini, de Google ; Copilot, de Microsoft, qui fait aussi des images. »
 - Les idées : « Commencez par une petite chose du quotidien : une recette avec ce qu'il reste dans le frigo, un e-mail difficile à écrire, ou un courrier administratif à comprendre, en retirant vos informations personnelles. »
 - Si la MJC propose un atelier numérique, l'annoncer ici.
-- **⏱️ Prévu à 1 h 04. Le débat doit commencer vers 1 h 05, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
+- **⏱️ Prévu à 1 h 02. Le débat doit commencer vers 1 h 03, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
 
 > ➡️ « Et maintenant, c'est à vous : place au débat ! »
 
----
-
-## Débat et fin (diapos 43 à 44, environ 23 min 30)
-
-### 43 · Débat — 22 min 30 · prévu à 1:05:00
+### 42 · Débat — 25 min · prévu à 1:02:30
 
 **🎯 C'est le moment du public : faire parler la salle, pas refaire la conférence.**
 
@@ -687,17 +665,21 @@ Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous 
   - répondre court (1 minute maximum) puis renvoyer à la salle : « Qui a un avis différent ? » ;
   - il n'y a pas de bonne réponse : c'est un échange, pas un cours.
 - *⚙️ Si ça s'essouffle, relancer avec un de ces thèmes concrets (à l'oral, ils ne sont plus sur la diapo) :*
-- L'école : « Une aide pour apprendre… ou une triche ? » Rappel de la diapo 32 : avec ChatGPT, les lycéens réussissaient mieux les exercices… et moins bien le contrôle ; avec une IA « prof », pas de baisse. Pistes : apprendre à s'en servir avec esprit critique plutôt qu'interdire ; « explique-moi » plutôt que « fais-le à ma place » ; accompagner, comme pour internet.
+- L'école : « Une aide pour apprendre… ou une triche ? » Rappel de la diapo 31 : avec ChatGPT, les lycéens réussissaient mieux les exercices… et moins bien le contrôle ; avec une IA « prof », pas de baisse. Pistes : apprendre à s'en servir avec esprit critique plutôt qu'interdire ; « explique-moi » plutôt que « fais-le à ma place » ; accompagner, comme pour internet.
 - Le travail : « Votre métier : aidé… ou remplacé ? » Rappel : la mer qui monte (diapo 16) ; 4 emplois sur 10 touchés dans le monde (FMI), ça ne veut pas dire supprimés. Pistes : quelles tâches lui confieriez-vous ? Qui doit former les salariés ? Qui est responsable si l'IA se trompe ?
 - La planète et les inégalités : « Faut-il la limiter ? La rendre gratuite pour tous ? » Rappels : l'électricité des datacenters double d'ici 2030 ; les meilleures IA sont payantes. Pistes : l'utiliser seulement quand elle apporte vraiment quelque chose ; des ateliers gratuits pour que tout le monde en profite.
 - La MJC : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
 - Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
-- **⏱️ De 1 h 05 à 1 h 28 environ. Vers 1 h 25 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
+- **⏱️ De 1 h 03 à 1 h 28 environ. Vers 1 h 25 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
 
 > ➡️ « Merci pour ces échanges… »
 
-### 44 · Merci ! — 1 min · prévu à 1:27:30
+---
+
+## Débat et fin (diapos 43 à 43, environ 1 min)
+
+### 43 · Merci ! — 1 min · prévu à 1:27:30
 
 **🎯 Terminer à l'heure, sur une note chaleureuse.**
 

@@ -1,6 +1,6 @@
 # Web Conférence — contrôle de présentation en direct
 
-Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (44 diapos, démos et débat inclus, 1 h 30 au total) et la piloter en direct :
+Site 100 % statique pour projeter la conférence **« L'intelligence artificielle »** (43 diapos, démos et débat inclus, 1 h 30 au total) et la piloter en direct :
 vidéos, images, quiz révélés en live, pointeur laser, annotations, zoom, partage d'une fenêtre, télécommande sur téléphone.
 
 ## Les 3 pages
@@ -45,14 +45,12 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 
 | Diapo | Démo | Mode | À préparer |
 |---|---|---|---|
-| 19 | Programme des 6 démos | — | — |
-| 20-21 | Humain ou IA ? (3 affiches) | Préparé | 3 affiches : une faite par un humain, deux par IA (une très réaliste, une avec des défauts visibles) |
-| 22 | Créer une affiche (Fête de la Myrtille, fictive) | Direct | Compte ChatGPT / Copilot connecté · plan B : media/demo2-affiche.jpg (déjà en place) |
-| 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
-| 24 | Rédiger un e-mail + pièges | Direct | — |
-| 25 | Budget dans Excel | Direct | Excel, LibreOffice ou Google Sheets pour ouvrir le fichier · plan B : `media/budget-famille.xlsx` (déjà prêt) |
-| 26 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
-| 42 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
+| 19-20 | Humain ou IA ? (3 affiches) | Préparé | 3 affiches : une faite par un humain, deux par IA (une très réaliste, une avec des défauts visibles) |
+| 21 | Créer une affiche (Fête de la Myrtille, fictive) | Direct | Compte ChatGPT / Copilot connecté · plan B : media/demo2-affiche.jpg (déjà en place) |
+| 22 | Rédiger un e-mail + pièges | Direct | — |
+| 23 | Budget dans Excel | Direct | Excel, LibreOffice ou Google Sheets pour ouvrir le fichier · plan B : `media/budget-famille.xlsx` (déjà prêt) |
+| 24 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
+| 40 | Démo finale : site de la MJC | Direct | Compte Claude ou ChatGPT, compte Netlify · plan B : capture du site préparé |
 
 Dans la régie, chaque diapo de démo affiche :
 - **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;
@@ -76,7 +74,7 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
 - `presentation/presentation.pptx` et `presentation.pdf` : la présentation complète à jour (version de secours, sans le site).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
-  l'ordre des 44 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
+  l'ordre des 43 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
   (Node + Playwright et Python avec Pillow / python-pptx).
 - Nouvelle version du PowerPoint d'origine : exportez-la en PDF puis `tools/pdf-vers-diapos.sh presentation.pdf`.
 - `media/` : vidéos à embarquer avec le site (voir `media/README.md`).

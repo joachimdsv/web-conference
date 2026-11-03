@@ -25,7 +25,6 @@ demo chapitre-03
 demo demo1-images
 demo demo1-indices
 demo demo2-affiche
-demo demo3-videos
 demo demo4-email
 demo demo5-excel
 demo demo6-langue
