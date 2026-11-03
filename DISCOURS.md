@@ -660,10 +660,10 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Reprise de la diapo 3 : « Au début de la soirée, plusieurs d'entre vous ont dit s'en méfier. Après tout ce qu'on a vu… vous vous en méfiez plus, ou moins ? » (main levée, 1 ou 2 réactions)
 - Lancer : « Max Tegmark, dans La Vie 3.0, dit que la vraie question n'est pas "que va-t-il se passer ?", mais "que voulons-nous qu'il se passe ?". Il imagine une douzaine de futurs possibles. J'en ai gardé quatre. »
 - Lire les 4 cartes, une phrase chacune :
-  - L'outil : « L'IA reste un assistant, très puissant, mais ce sont les humains qui décident. »
+  - L'outil : « L'IA reste un assistant, très puissant, mais ce sont les humains qui décident. C'est un peu le choix de l'Europe avec l'AI Act. » (diapo 34)
   - Le gardien : « Une IA bienveillante veille sur nous : fini les maladies, fini les guerres… mais c'est un peu elle qui décide. »
-  - Le frein : « On la limite fortement, comme on l'a fait pour le nucléaire ou le clonage, quitte à renoncer à des progrès. »
-  - Le relais : « Les machines nous dépassent et prennent la suite, un peu comme des enfants qui dépassent leurs parents. Certains chercheurs trouvent ça souhaitable ! »
+  - Le frein : « On la limite fortement, comme on l'a fait pour le nucléaire ou le clonage, quitte à renoncer à des progrès. En 2023, plus de mille chercheurs et patrons de la tech, dont Elon Musk, ont signé une lettre demandant une pause de six mois sur les IA les plus puissantes. Max Tegmark en était l'un des organisateurs. » (Lettre ouverte du Future of Life Institute, mars 2023.)
+  - Le relais : « Les machines nous dépassent et prennent la suite, un peu comme des enfants qui dépassent leurs parents. Certains chercheurs trouvent ça souhaitable ! Hans Moravec, celui de la mer qui monte, voyait les robots comme nos "enfants de l'esprit", qui prendraient un jour la relève. » (H. Moravec, Mind Children, 1988.)
 - *⚙️ Vote à main levée, carte par carte (encadrer chaque carte avec la régie pendant le vote, touche R ou boutons). Puis : « Ceux qui ont voté [la carte la moins choisie], qui veut nous dire pourquoi ? » Puis : « Vos questions, vos avis, vos expériences ? »*
 - Animer :
   - donner la parole à tour de rôle, en priorité à ceux qui n'ont pas encore parlé ;
