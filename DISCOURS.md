@@ -456,7 +456,8 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Retourner la pièce : l'IA consomme énormément d'énergie. (1 min)**
 
 - L'accroche (titre en rouge) : « Voilà la face brillante. Retournons la pièce… tout ça a un prix. Et d'abord pour la planète. »
-- Les barres : « Les datacenters, ces immenses entrepôts d'ordinateurs, consommaient 415 térawattheures d'électricité en 2024. En 2030 : 945. Plus du double en six ans, un peu plus que toute la consommation du Japon. Et l'IA est le principal moteur de cette hausse. » (AIE, « Energy and AI », avril 2025 ; barres à l'échelle.)
+- Les barres : « Les datacenters, ces immenses entrepôts d'ordinateurs, consommaient 415 térawattheures d'électricité en 2024. En 2030 : 945. Plus du double en six ans. Pour comparer : toute la France consomme environ 450 térawattheures par an. Les datacenters du monde consomment donc déjà presque autant que la France… et en 2030, plus de deux fois la France. Et l'IA est le principal moteur de cette hausse. » (AIE, « Energy and AI », avril 2025 ; RTE, bilan électrique 2024 ; barres à l'échelle.)
+- Si besoin, le térawattheure : « Un térawattheure, c'est un milliard de kilowattheures : la consommation de plus de 200 000 foyers français pendant un an. » (Environ 4 600 kWh par foyer et par an.)
 - L'eau : « Et il faut beaucoup d'eau pour refroidir ces machines, jour et nuit. » (Rester à l'oral : les chiffres viraux du type « une question = une bouteille d'eau » sont très contestés.)
 - Le bon réflexe (bande du bas) : « Une image ou une vidéo consomme bien plus qu'une simple question. Utilisons-la quand elle apporte vraiment quelque chose. »
 
