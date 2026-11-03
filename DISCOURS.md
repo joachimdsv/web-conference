@@ -430,7 +430,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Honnêteté : « Ce sont des ordres de grandeur, et il faut ajouter le temps de relire et de corriger. »
 - Les entreprises (carte de droite) : « En France, deux entreprises sur trois l'utilisent déjà… mais seulement une sur trois en voit déjà le gain. Pourquoi ? Parce qu'il faut apprendre à bien s'en servir, et que le temps gagné est souvent repris par autre chose. » (Banque de France, 2026 : 67 % des entreprises de 20 salariés et plus l'utilisent, 31 % des utilisatrices constatent un gain. Ce n'est pas « 31 % de productivité en plus ».)
 - Le bon partage : « Le répétitif, le tri, le premier jet : l'IA. Juger, décider, la relation : l'humain. Automatiser des tâches… pas des humains. »
-- Si question sur l'emploi : la plupart des métiers seront transformés plutôt que supprimés ; ceux qui sauront s'en servir auront un avantage.
+- Si question sur l'emploi : « On en a parlé avec la mer qui monte, et on y revient à la fin avec le revers. » (Diapos 16 et 39 ; sinon, garder la question pour le débat.)
 
 > ➡️ « Et au-delà du temps gagné, elle fait avancer la science. »
 
