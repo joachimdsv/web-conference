@@ -666,7 +666,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Le travail : « Votre métier : aidé… ou remplacé ? » Rappel : la mer qui monte (diapo 16) ; 4 emplois sur 10 touchés dans le monde (FMI), ça ne veut pas dire supprimés. Pistes : quelles tâches lui confieriez-vous ? Qui doit former les salariés ? Qui est responsable si l'IA se trompe ?
 - La planète et les inégalités : « Faut-il la limiter ? La rendre gratuite pour tous ? » Rappels : l'électricité des datacenters double d'ici 2030 ; les meilleures IA sont payantes. Pistes : l'utiliser seulement quand elle apporte vraiment quelque chose ; des ateliers gratuits pour que tout le monde en profite.
 - La MJC : « Et ici, à la MJC, qu'aimeriez-vous faire avec l'IA ? » Pistes : un atelier découverte, de l'aide aux associations (affiches, comptes rendus), l'accompagnement des seniors, un projet avec les jeunes… Noter les idées et les transmettre à la MJC.
-- Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Je vous réponds via la MJC. »
+- Si je ne sais pas : « Je préfère vérifier plutôt que vous dire une bêtise. Écrivez-moi, l'adresse sera à l'écran à la fin, et je vous réponds. »
 - Si un échange s'envenime ou si quelqu'un monopolise la parole : remercier, résumer son point en une phrase, puis « Laissons la parole à d'autres ».
 - **⏱️ De 1 h 03 à 1 h 28 environ. Vers 1 h 25 : « Encore une ou deux interventions ? ». Si la conférence a pris du retard, c'est le débat qui l'absorbe, mais garder au moins 20 minutes.**
 
@@ -681,8 +681,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Terminer à l'heure, sur une note chaleureuse. (1 min)**
 
 - « Merci à vous tous pour ces échanges, pour vos questions… et pour vos votes ! Merci à la MJC du Val d'Ajol de m'avoir accueilli, et aux bénévoles qui ont rendu cette soirée possible. »
-- Montrer la phrase affichée, et la redire lentement : « L'IA est un outil : c'est vous qui gardez la main. »
 - La dernière phrase, inspirée de Max Tegmark : « Ni peur, ni naïveté. Le futur de l'IA, ce n'est pas ce qui va nous arriver… c'est ce qu'on en fera. »
-- « Si vous avez encore des questions, je reste quelques minutes après. Et plus tard, vous pouvez passer par la MJC : elle me transmettra. » (Si la MJC propose un atelier numérique, l'annoncer ici.)
+- « Si vous avez encore des questions, je reste quelques minutes après. Et plus tard, vous pouvez m'écrire : mon adresse et mon site sont à l'écran, contact@dasilvajoachim.com et www.dasilvajoachim.com. » (Si la MJC propose un atelier numérique, l'annoncer ici.)
 - « Bonne soirée à tous ! »
 - **⏱️ Fin prévue vers 1 h 29. 1 h 30 maximum.**
