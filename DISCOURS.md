@@ -205,8 +205,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Elle est déjà partout. (30 s : une respiration, ne pas s'attarder)**
 
-- « On a vu comment elle fonctionne. Maintenant, la vraie question : où est-elle, concrètement ? Et la réponse va peut-être vous surprendre : partout. Dans votre poche, chez le médecin, à l'usine, et même dans les musées. Souvent sans qu'on la voie. »
-- Annoncer le programme du chapitre (les 3 étiquettes) : là où on l'utilise sans le savoir, un petit quiz, puis les métiers.
+- « On a vu comment elle fonctionne. Maintenant, la vraie question : où est-elle, concrètement ? Et la réponse va peut-être vous surprendre : partout. Dans votre poche, chez le médecin, à l'usine, et même dans les centres de tri. Souvent sans qu'on la voie. »
+- Annoncer le programme du chapitre (les 4 étiquettes) : là où on l'utilise sans le savoir, un petit quiz, la mer qui monte, et quelques usages surprenants.
 
 > ➡️ « Et d'ailleurs, je parie que vous l'avez déjà utilisée aujourd'hui, avant même d'arriver ici… »
 
