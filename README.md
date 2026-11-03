@@ -46,7 +46,7 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 | Diapo | Démo | Mode | À préparer |
 |---|---|---|---|
 | 19 | Programme des 6 démos | — | — |
-| 20-21 | Humain ou IA ? (3 affiches) | Préparé | 3 affiches : une faite par un humain, une IA réussie, une IA ratée |
+| 20-21 | Humain ou IA ? (3 affiches) | Préparé | 3 affiches : une faite par un humain, deux par IA (une très réaliste, une avec des défauts visibles) |
 | 22 | Créer une affiche (Fête de la Myrtille, fictive) | Direct | Compte ChatGPT / Copilot connecté · plan B : media/demo2-affiche.jpg (déjà en place) |
 | 23 | Vidéo : filmée ou générée ? | Préparé | 2 vidéos courtes (une filmée, une générée) |
 | 24 | Rédiger un e-mail + pièges | Direct | — |
