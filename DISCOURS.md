@@ -525,8 +525,9 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Avec l'IA, on ne peut plus croire tout ce qu'on voit ou entend. (1 min)**
 
 - L'accroche : « Une fausse voix coûte 150 dollars… et vise une élection. »
-- L'exemple : « Janvier 2024, aux États-Unis. Deux jours avant une élection, 5 000 électeurs reçoivent un appel. C'est la voix du président Biden : "N'allez pas voter." Sauf que ce n'était pas lui : c'était une voix fabriquée par une IA, pour 150 dollars. Son auteur a écopé de 6 millions de dollars d'amende. » (Commission américaine des communications, FCC, 2024 ; NPR, CBS News.)
-- En France : « Et chez nous ? Pendant les municipales de mars 2026, Viginum, le service de l'État qui surveille les ingérences, a détecté 4 opérations venues de l'étranger. La présidentielle de 2027 sera une cible. » (Viginum, rapport de juin 2026.)
+- L'exemple : « Janvier 2024, aux États-Unis. Deux jours avant une élection, des milliers d'électeurs, au moins 5 000, reçoivent un appel. C'est la voix du président Biden : "N'allez pas voter." Sauf que ce n'était pas lui : c'était une voix fabriquée par une IA, pour 150 dollars. Son auteur a écopé de 6 millions de dollars d'amende. » (Commission américaine des communications, FCC, 2024 ; NPR, CBS News. Estimations : 5 000 à 25 000 appels.)
+  - En réserve, si question sur l'auteur : l'amende de la FCC est administrative ; au pénal, il aurait été relaxé en 2025 (à revérifier avant d'en parler, ne pas l'affirmer).
+- En France : « Et chez nous ? Pendant les municipales de mars 2026, Viginum, le service de l'État qui surveille les ingérences, a détecté 4 opérations venues de l'étranger. Leur portée est restée très limitée… mais le gouvernement s'attend à bien pire pour la présidentielle de 2027. » (Viginum, rapport public du 11 juin 2026 : 4 campagnes, dont 2 pro-russes, portée « très limitée » ; le même jour, le Premier ministre a alerté les partis sur 2027.)
 - En une phrase, si on a le temps : « Et ces IA sont fabriquées surtout par des géants américains et chinois. Qui décide de ce qu'elles disent, ou ne disent pas ? L'Europe a Mistral, mais elle est loin derrière. »
 - Le bon réflexe (bande du bas) : « Une vidéo ou un message choc avant une élection ? On vérifie avant de partager. »
 
