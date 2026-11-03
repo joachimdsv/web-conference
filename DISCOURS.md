@@ -554,10 +554,10 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 
 ### 36 · Le bon prompt — 30 s · prévu à 49:30
 
-**🎯 Rappel éclair : la recette du bon prompt, déjà vue 4 fois pendant les démos. (30 s)**
+**🎯 Rappel éclair : la recette du bon prompt, déjà vue à chaque démo. (30 s)**
 
 - L'accroche : « Parlez-lui comme à un stagiaire très doué… qui ne vous connaît pas. »
-- La recette : « Vous l'avez vue quatre fois pendant les démos, avec les mêmes couleurs : le contexte (qui vous êtes, pour qui, pourquoi), la tâche (ce que vous voulez), et le format (la longueur, le ton, la forme). »
+- La recette : « C'est ce qu'on appelle un prompt, et vous l'avez vu à chaque démo : toujours le contexte d'abord (qui vous êtes, pour qui, pourquoi), puis ce que vous voulez, puis la forme (la longueur, le ton). »
 - L'astuce (bande du bas) : « Et si le résultat ne vous plaît pas, on ne recommence pas tout : on continue la conversation. "Plus court", "plus simple", "avec un exemple". »
 
 > ➡️ « Deuxième réflexe : vérifier. »
