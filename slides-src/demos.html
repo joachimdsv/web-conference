@@ -227,8 +227,8 @@
 
   /* Couches de neurones */
   .layers-lead { font: 400 32px/1.4 Inter, sans-serif; color: var(--ink); margin-top: 22px; }
-  .chain { position: absolute; left: 150px; right: 150px; top: 460px; display: grid; grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr 50px 1fr; align-items: start; }
-  .chain .larrow { height: 280px; display: grid; place-items: center; color: #7f8fe0; font: 800 60px/1 Inter, sans-serif; }
+  .chain { position: absolute; left: 150px; right: 150px; top: 400px; display: grid; grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr 50px 1fr; align-items: start; }
+  .chain .larrow { height: 284px; display: grid; place-items: center; color: #7f8fe0; font: 800 60px/1 Inter, sans-serif; }
   .lstep .pic { position: relative; aspect-ratio: 1; border-radius: 20px; overflow: hidden; background: #fff;
     box-shadow: 0 18px 40px rgba(60, 70, 160, .14); border: 3px solid #fff; }
   .lstep .pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -239,7 +239,7 @@
     background: var(--green); color: #fff; font: 800 26px/1 Sora, sans-serif; padding: 12px 22px; border-radius: 99px; box-shadow: 0 8px 20px rgba(24, 180, 138, .4); }
   .lstep .cap { margin-top: 22px; }
   .lstep .cap small { display: block; font: 700 19px/1 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--c, var(--muted)); }
-  .lstep .cap b { display: block; font: 700 31px/1.2 Sora, sans-serif; margin-top: 10px; }
+  .lstep .cap b { display: block; font: 700 34px/1.2 Sora, sans-serif; margin-top: 10px; }
   .layers-credits { position: absolute; left: 150px; right: 150px; bottom: 44px; font: 400 15px/1.4 Inter, sans-serif; color: var(--muted); }
 
   /* Prédire le mot suivant */
@@ -816,8 +816,7 @@
 <section class="slide light c01" id="couches">
   <div class="content">
     <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
-    <h1 class="sm">Des couches inspirées du cerveau</h1>
-    <p class="layers-lead">Chaque couche repère des détails de plus en plus complexes, jusqu'à reconnaître l'ensemble.</p>
+    <div class="hook blue">Un réseau de neurones&nbsp;: <em>des couches de filtres.</em></div>
     <div class="chain">
       <div class="lstep"><div class="pic"><img src="images/fonctionnement/tete.jpg" alt=""></div>
         <div class="cap"><small>Au départ</small><b>La photo</b></div></div>

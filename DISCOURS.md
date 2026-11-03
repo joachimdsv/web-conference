@@ -134,6 +134,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
   - couche 2 : elle assemble ces traits en formes simples, des triangles, des ronds ;
   - couche 3 : elle reconnaît des morceaux, des oreilles, des yeux, un museau ;
   - résultat : « C'est un chat ! ».
+- L'ordre de grandeur : « Ici, j'ai dessiné 3 couches. GPT-3, l'ancêtre de ChatGPT sorti en 2020, en avait 96, avec 175 milliards de réglages. » (Les chiffres des modèles plus récents ne sont pas publiés.)
 - Personne n'écrit ces filtres : ils se règlent tout seuls pendant l'apprentissage, à force d'exemples.
 - Pas besoin d'en retenir plus : c'est cette mécanique qui a permis les progrès récents.
 
