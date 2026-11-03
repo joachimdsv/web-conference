@@ -584,9 +584,9 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Demain, elle ne fera plus que répondre : elle agira… et vous, qu'en attendez-vous ? (1 min)**
 
 - L'accroche : « Et demain ? Elle ne fera plus que répondre… elle agira. »
-- Elle fait pour vous : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
-- Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! » (Robot NEO de 1X ; Europe à partir de 2027.)
-- Plus sobre : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
+- Elle fait pour vous, les agents (« 1 phrase » sur la carte) : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
+- Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! Vous vous souvenez du paradoxe de Moravec ? Plier du linge, c'est facile pour nous… et encore si difficile pour un robot. » (Robot NEO de 1X ; Europe à partir de 2027.)
+- Plus sobre, l'IA embarquée : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
 - **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 51 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 07.**
 
 > ➡️ « Voilà le futur rêvé. Mais il y a aussi un revers… »
