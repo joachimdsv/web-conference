@@ -231,11 +231,12 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - *⚙️ Pour chaque proposition : « Qui pense que c'est de l'IA ? » (mains levées), puis touche R pour révéler.*
 - 1. Une calculatrice → PAS IA : « Elle applique des règles fixes. 2 + 2, c'est toujours 4 : elle n'a rien appris, elle calcule. » (départ facile pour lancer le jeu)
 - 2. Les sous-titres automatiques (YouTube, la télé…) → IA : « Elle a appris à reconnaître la voix humaine en écoutant des milliers d'heures d'enregistrements. C'est pour ça qu'elle se trompe parfois avec un accent ou du bruit. »
-- 3. Une machine à laver « intelligente » → PAS IA (le piège) : « Le plus souvent, ce sont des programmes et des capteurs réglés d'avance : elle pèse le linge et choisit dans un tableau. Le mot "intelligent" sur l'emballage, c'est souvent du marketing. »
+- 3. Un lave-linge « intelligent » → PAS IA (le piège) : « Le plus souvent, ce sont des programmes et des capteurs réglés d'avance : il pèse le linge et choisit dans un tableau. Le mot "intelligent" sur l'emballage, c'est souvent du marketing. »
+  - Si quelqu'un objecte (certaines machines récentes, comme la fonction « AI DD » de LG, disent avoir appris à partir de données) : « La plupart, non. Certaines récentes, si : la seule façon de le savoir, c'est de vérifier si elles ont appris à partir d'exemples. Le mot "intelligent" sur l'emballage ne suffit pas. »
 - 4. Le parking sans ticket → IA (la surprise) : « Une caméra lit votre plaque d'immatriculation. Et pour lire des lettres sur une plaque sale, de nuit, en biais, il a fallu une IA entraînée sur des milliers de photos de plaques. »
 - Morale : « Ce n'est pas parce qu'un appareil est électronique, ou marqué "intelligent", que c'est de l'IA. Et à l'inverse, elle se cache parfois là où on ne l'attend pas. L'IA, c'est quand la machine a appris à partir d'exemples. »
 
-> ➡️ « Et ça ne concerne pas que nos appareils à la maison : tous les métiers sont touchés. »
+> ➡️ « Et ça ne concerne pas que nos appareils : elle monte aussi dans le monde du travail… comme la mer. »
 
 ### 16 · La mer monte (le travail) — 1 min 30 · prévu à 17:30
 
