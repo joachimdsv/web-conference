@@ -439,6 +439,7 @@
   /* Chapitre 04 · apports et coûts */
   .c4k { color: #e8672f !important; }
   .c4k.cost { color: #d43d5c !important; }
+  .c4grid.top .card { justify-content: flex-start !important; padding-top: 70px !important; }
   .c4grid { position: absolute; left: 150px; right: 150px; top: 230px; bottom: 190px; display: grid; gap: 36px; }
   .c4grid.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .c4grid.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -1112,10 +1113,10 @@
   </div>
   <div class="hook cost">Une course à l'argent… <em>que nous payons aussi.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
-  <div class="c4grid g3" style="top:330px; bottom:150px">
-    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></div><small>Les géants, 2026</small><div class="big md">2&nbsp;milliards&nbsp;$</div><p><b>par jour</b>, investis dans l'IA et les datacenters par Amazon, Microsoft, Google et Meta (environ 700&nbsp;milliards sur l'année).</p></div>
-    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div><small>La mémoire part dans l'IA</small><div class="big md">7&nbsp;sur&nbsp;10</div><p>Plus de 7 puces mémoire haut de gamme sur 10 produites en 2026 partent dans les datacenters&nbsp;: c'est la pénurie.</p></div>
-    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg></div><small>Résultat pour nous</small><div class="ptag"><s>800&nbsp;€</s><i>→</i><b>950&nbsp;€</b></div><p>Les fabricants annoncent <b>+15 à 20&nbsp;%</b> sur le prix des ordinateurs fin 2026 (exemple de prix).</p></div>
+  <div class="c4grid g3 top" style="top:330px; bottom:150px">
+    <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></div><small>Les géants, 2026</small><div class="big md">2&nbsp;milliards&nbsp;$</div><p><b>par jour</b>, investis dans l'IA par Amazon, Microsoft, Google et Meta.</p></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div><small>La mémoire (RAM)</small><div class="big md">7&nbsp;sur&nbsp;10</div><p>des puces mémoire haut de gamme partent dans les datacenters.</p></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg></div><small>Résultat pour nous</small><div class="ptag"><s>800&nbsp;€</s><i>→</i><b>950&nbsp;€</b></div><p>sur le prix des ordinateurs&nbsp;: <b>+15 à 20&nbsp;%</b> annoncés.</p></div>
   </div>
   <p class="c4src">Sources : prévisions d'investissement des entreprises (Forbes, octobre 2026 ; entre 700 et 745 milliards de dollars selon les estimations) · TrendForce (2026) · IDC et constructeurs, Le Monde Informatique (2026).</p>
 </section>
