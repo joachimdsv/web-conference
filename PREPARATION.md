@@ -8,7 +8,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 1. Ce qu'il reste à fournir ou à décider
 
 ### À fournir (fichiers)
-- [x] **Démo 1 (diapo 20) : 3 affiches** : fournies dans `media/` (pas IA = affiche WPA des années 1930, domaine public ; IA = une affiche de concert très réaliste et une affiche d'événement avec défauts). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
+- [x] **Démo 1 (diapo 20) : 3 affiches** : fournies dans `media/` (pas IA = affiche « Jupiter » de la NASA/JPL, 2016, qui a l'air d'une IA ; IA = une affiche de concert très réaliste et une affiche d'événement avec défauts). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
 - [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur la même scène :
   - **une filmée par vous au Val d'Ajol** (une rivière, une rue, des arbres dans le vent), en paysage, sans personne reconnaissable ;
   - **la même scène générée par une IA vidéo** (Sora, Veo, Kling ou une appli gratuite), décrite précisément : « Plan fixe de 10 secondes, une petite rivière dans une forêt de sapins des Vosges, en automne, lumière douce, filmé au téléphone ».

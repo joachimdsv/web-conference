@@ -1,7 +1,7 @@
 # Sources des médias
 
 ## Démo 1 · Humain ou IA ? (diapo 20)
-- `demo1-humain.jpg` (affiche A) : « For the community – join art center association – free exhibits, free classes, free lectures », affiche sérigraphiée du WPA Federal Art Project (Iowa), vers 1936-1941. Library of Congress, LCCN 98510372, domaine public. Via Wikimedia Commons.
+- `demo1-humain.jpg` (affiche A) : « Experience the mighty auroras of Jupiter », série « Visions of the Future », créée en 2016 par les graphistes du Jet Propulsion Laboratory (NASA/JPL-Caltech). Libre de droits (jpl.nasa.gov/visions-of-the-future). Recadrée pour retirer la légende du bas, qui donnait la réponse.
 - `demo1-ia-subtile.jpg` (affiche B) : affiche de concert générée par IA, fournie par Joachim Da Silva. Artiste, tournée et organisateur fictifs.
 - `demo1-ia-flagrante.jpg` (affiche C) : affiche d'événement générée par IA, fournie par Joachim Da Silva. Événement fictif ; enseigne illisible et faux QR code (gros plans réutilisés diapo 21).
 

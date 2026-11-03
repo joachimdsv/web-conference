@@ -275,14 +275,14 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 On ne peut plus se fier à ses yeux seuls.**
 
-- *⚙️ PRÉPARÉ : les 3 affiches s'affichent toutes seules (dossier media/). A = humain, B = IA réussie, C = IA ratée. Pour changer l'ordre : glisser les images sur les zones dans la régie et ajuster les réponses.*
-- Règle du jeu : « Voici trois affiches. Une seule a été faite par un humain. Une autre a été faite par une IA, et elle est réussie. La dernière aussi… mais elle est ratée. À vous de jouer ! »
-- *⚙️ Pour chaque affiche : « Qui pense qu'elle a été faite par un humain ? » (mains levées). Puis révéler avec R.*
-- A, humain : « Celle-ci a été dessinée et imprimée à la main, en sérigraphie, dans les années 1930, aux États-Unis. C'est l'affiche d'un centre d'art de quartier… un peu comme une MJC ! Conférences gratuites, cours gratuits, expositions gratuites. »
-- B, IA réussie : « Celle-ci, beaucoup d'entre vous l'ont crue ancienne. Elle a été fabriquée en quelques secondes par une IA, avec une simple phrase : "affiche des années 1930, une violoniste". Elle a imité le style sans rien comprendre à l'époque. »
-- C, IA ratée : « Et celle-ci se trahit : regardez le titre en bas, des lettres qui ne veulent rien dire. Et ce grand rectangle qui ne sert à rien, à travers lequel on voit les montagnes. »
-- Commenter les votes : l'affiche ratée se repère assez bien, l'affiche réussie trompe beaucoup de monde.
-- Sources : A = WPA Federal Art Project, Iowa (Library of Congress, domaine public). B et C générées avec Pollinations.ai (voir media/SOURCES.md).
+- *⚙️ PRÉPARÉ : les 3 affiches s'affichent toutes seules (dossier media/). Réponses : A = pas IA, B = IA, C = IA. Pour changer l'ordre : glisser les images sur les zones dans la régie et ajuster les réponses.*
+- Règle du jeu : « Voici trois affiches. Certaines ont été faites par un humain, d'autres par une IA. À vous de jouer ! » (Ne pas dire combien : c'est plus drôle.)
+- *⚙️ Pour chaque affiche : « Qui pense que c'est une IA ? » (mains levées). Puis révéler avec R.*
+- A, pas IA : « Piège ! Celle-ci a tout d'une image d'IA : des couleurs irréelles, des montgolfières dans des aurores boréales… Et pourtant elle a été créée par des graphistes de la NASA, en 2016, avant que les IA d'images existent. C'est une fausse affiche de voyage vers Jupiter. » (Le message : une image qui a l'air « trop belle » n'est pas forcément une IA.)
+- B, IA : « Celle-ci a l'air d'une vraie affiche de concert, très pro… et pourtant elle a été entièrement fabriquée par une IA. La chanteuse n'existe pas, la tournée non plus. Les textes sont parfaits : il n'y a presque rien pour la démasquer. »
+- C, IA : « Et celle-ci se trahit si on regarde de près : l'enseigne du bâtiment est écrite en lettres qui ne veulent rien dire, et le QR code en bas ne mène nulle part. Pourtant elle utilise le nom d'une vraie salle parisienne et de vrais logos de partenaires : c'est un faux événement qui a l'air vrai. » (On regarde ces détails en gros plan juste après.)
+- Commenter les votes : l'affiche C se repère quand on cherche les détails ; la B trompe presque tout le monde ; et la A, beaucoup l'ont prise pour une IA alors qu'elle est humaine. On peut se tromper dans les deux sens.
+- Sources : A = « Visions of the Future », NASA/JPL-Caltech, 2016 (domaine public). B et C générées par IA (voir media/SOURCES.md).
 
 > ➡️ « Alors, comment ne pas se faire avoir ? Voici quelques indices… »
 
@@ -290,8 +290,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Quelques indices… mais surtout, vérifier la source. (1 min)**
 
-- Le texte (gros plan de l'affiche C) : « Regardez le titre : des lettres qui ressemblent à des lettres, mais qui ne veulent rien dire. C'est l'indice le plus fréquent : fautes, lettres inventées, date ou lieu incohérents. »
-- Incohérences (gros plan de l'affiche C) : « Et ce grand rectangle : il ne sert à rien, et on voit les montagnes à travers. L'IA assemble des formes sans comprendre ce qu'elle dessine. »
+- Le texte (gros plan de l'affiche C) : « Regardez l'enseigne du bâtiment : des lettres qui ressemblent à des lettres, mais qui ne veulent rien dire. C'est l'indice le plus fréquent : fautes, lettres inventées, date ou lieu incohérents. »
+- Incohérences (gros plan de l'affiche C) : « Et ce QR code : il a l'air vrai, mais il ne mène nulle part. L'IA dessine ce qui ressemble à un QR code, sans comprendre à quoi il sert. Même chose pour les logos de partenaires qui n'ont jamais donné leur accord. »
 - Mains, visages : « Sur les personnages, regardez les mains : des doigts en trop ou fusionnés, des visages flous dans une foule. »
 - Le style : « Et parfois c'est trop lisse, trop parfait, une impression de "déjà vu". »
 - Pour des photos (si question) : les ombres et les reflets incohérents, les objets du fond qui se fondent les uns dans les autres.
