@@ -258,7 +258,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Elle sert aussi là où on ne l'attend pas. (1 min, une phrase par carte)**
 
-- Les protéines : « On en a parlé : AlphaFold, une IA de Google DeepMind, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments, et ça a valu le prix Nobel de chimie 2024 à ses créateurs. » (déjà cité sur la diapo 16 : aller vite)
+- Les protéines : « AlphaFold, une IA de Google DeepMind, prédit la forme des protéines, ce qui prenait parfois des années en laboratoire. C'est très utile pour créer de nouveaux médicaments, et ça a valu le prix Nobel de chimie 2024 à ses créateurs. »
 - Le tri des déchets : « Dans les centres de tri, des caméras et des bras robotisés reconnaissent le plastique, le carton ou le métal sur les tapis. »
 - La traduction en direct : « Vous parlez dans votre langue, votre interlocuteur vous entend dans la sienne, presque instantanément. On y reviendra tout à l'heure avec une démo. »
 
@@ -470,7 +470,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 - Agriculture (−87 %) : « Dans les champs, des caméras sur le pulvérisateur reconnaissent chaque mauvaise herbe, et ne traitent qu'elle, au lieu d'arroser tout le champ. Résultat dans un essai universitaire : 87 % d'herbicide en moins. Bon pour la nature… et pour le portefeuille de l'agriculteur. » (Université du Nebraska-Lincoln, système Greeneye, 2024. Les fabricants annoncent 70 à 90 % ; ces machines restent chères.)
 - Médicaments (des millions) : « Au MIT, une IA a imaginé des millions de molécules, et parmi elles, de nouveaux antibiotiques contre des bactéries devenues résistantes. Ils ont marché sur la souris ; il faudra encore des années d'essais avant la pharmacie. » (Cell, août 2025.)
 - Parole (18 ans) : « Et mon exemple préféré : en Californie, une femme paralysée après un AVC ne pouvait plus parler depuis 18 ans. Grâce à un implant dans le cerveau et une IA qui traduit ses pensées en mots, elle a pu parler à nouveau, presque en temps réel… avec sa propre voix, reconstituée à partir d'une vidéo de son mariage. » (UC Berkeley et UCSF, Nature Neuroscience, mars 2025. Encore expérimental : vocabulaire limité, pas toujours exact.)
-- En réserve si question : AlphaFold (prix Nobel de chimie 2024, déjà cité diapo 16) ; les papyrus d'Herculanum, brûlés par le Vésuve il y a 2 000 ans, dont l'IA a permis de lire un titre en 2025 sans les dérouler.
+- En réserve si question : AlphaFold (prix Nobel de chimie 2024, déjà cité diapo 17) ; les papyrus d'Herculanum, brûlés par le Vésuve il y a 2 000 ans, dont l'IA a permis de lire un titre en 2025 sans les dérouler.
 
 > ➡️ « Voilà la face brillante. Retournons la pièce : tout ça a un prix. »
 
