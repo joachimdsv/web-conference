@@ -72,7 +72,9 @@ Le site sera disponible à `https://<utilisateur>.github.io/web-conference/`. (N
 ## Personnaliser
 
 - `js/deck.js` : titres, notes, prompts, liens, médias livrés, éléments interactifs (positions en % de la diapo).
-- **`presentation/presentation-finale.pdf`** : la version à projeter **sans la régie** (59 pages). Elle est capturée depuis l'écran de projection : les affiches, le tableau Excel et la conversation sont en place, et chaque révélation (réponses du quiz, affiches IA / pas IA, probabilités, pièges de l'e-mail…) est une page de plus, comme une animation. Flèche droite = étape suivante. Pour la régénérer : `python3 -m http.server 8765`, puis `NODE_PATH=$(npm root -g) node tools/pdf-final.js` et `python3 tools/pdf-assembler.py`.
+- **`presentation/presentation-finale.pdf`** : la version à projeter **sans la régie** (59 pages). Elle est capturée depuis l'écran de projection : les affiches, le tableau Excel et la conversation sont en place, et chaque révélation (réponses du quiz, affiches IA / pas IA, probabilités, pièges de l'e-mail…) est une page de plus, comme une animation. Flèche droite = étape suivante. Pages capturées en 3840×2160 pour un rendu net. Pour la régénérer : `NODE_PATH=$(npm root -g) node tools/rendre-hd.js`, `python3 -m http.server 8765`, puis `NODE_PATH=$(npm root -g) node tools/pdf-final.js` et `python3 tools/pdf-assembler.py`.
+- **`PROMPTS.md`** et **`presentation/prompts.pdf`** (à imprimer) : tous les prompts des démonstrations, dans l'ordre, avec quand les utiliser. Générés depuis `js/deck.js` : `NODE_PATH=$(npm root -g) node tools/generer-prompts.js`.
+- **`site-mjc-base/`** : une base de vrai site pour la MJC, à compléter (voir `site-mjc-base/LISEZMOI.md`).
 - `presentation/presentation.pptx` et `presentation.pdf` : les diapos seules, sans les médias ni les révélations (version de secours).
 - Les nouvelles diapos de démo sont écrites en HTML dans `slides-src/demos.html` (ouvrez-le dans un navigateur pour les voir) ;
   l'ordre des 44 diapos est dans `slides-src/ordre.txt`. Après une modification : `tools/construire-diapos.sh`
