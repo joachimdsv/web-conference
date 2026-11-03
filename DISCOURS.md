@@ -176,8 +176,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Elle lit d'abord énormément, puis des humains la corrigent. (30 s, peut être raccourcie)**
 
-- Photo 1, la bibliothèque. Étape 1, le pré-entraînement : « Elle "lit" une immense quantité de textes, sites internet, livres, articles, et s'entraîne des milliards de fois à deviner le mot suivant. Elle devient très forte en langue… mais elle a aussi lu le pire d'internet. »
-- Photo 2, le texte annoté au stylo. Étape 2, l'ajustement humain : « Ensuite, des personnes lui posent des questions et notent ses réponses : utile ? polie ? dangereuse ? Elle apprend ainsi à se comporter en assistant serviable. »
+- Photo 1, la bibliothèque. Étape 1, le pré-entraînement : « Elle "lit" une immense quantité de textes, sites internet, livres, articles, et s'entraîne des milliards de fois à deviner le mot suivant. Pour donner un ordre d'idée : l'IA de Meta, Llama 3, a lu 15 000 milliards de tokens, nos petits morceaux de tout à l'heure. Des dizaines de millions de livres ! Elle devient très forte en langue… mais elle a aussi lu le pire d'internet. »
+- Photo 2, le texte annoté au stylo. Étape 2, l'ajustement humain : « Ensuite, des personnes lui posent des questions et notent ses réponses : utile ? polie ? dangereuse ? Elle apprend ainsi à se comporter en assistant serviable. » Le nom technique : RLHF, apprentissage par renforcement à partir de retours humains.
+- La reprise : « Ces humains qui corrigent, on en reparlera : ils sont souvent très mal payés, au Kenya ou ailleurs. » (Diapo 32.)
 - L'image à retenir : « L'élève qui a lu toute la bibliothèque… puis le professeur qui corrige ses copies. »
 
 > ➡️ « Voilà pour ChatGPT et les IA qui écrivent. Mais il existe d'autres familles d'IA… »
