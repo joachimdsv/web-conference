@@ -645,17 +645,22 @@
   .recipe i { font-style: normal; font: 800 64px/1 Sora, sans-serif; color: #9aa3cf; }
   .seen { position: absolute; left: 150px; right: 150px; top: 720px; text-align: center; font: 600 30px/1.3 Inter, sans-serif; color: var(--muted); }
   /* Diapo 37 · les 3 réflexes */
-  .refl { position: absolute; left: 150px; right: 150px; top: 340px; bottom: 220px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; }
+  .refl { position: absolute; left: 150px; right: 150px; top: 330px; bottom: 140px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; }
   .refl .card { padding: 36px 40px; display: flex; flex-direction: column; border-top-color: var(--a); }
   .refl .badge { width: 92px; height: 92px; border-radius: 26px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 13%, #fff); color: var(--a); margin-bottom: 22px; }
   .refl .badge svg { width: 50px; height: 50px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .refl small { font: 700 26px/1.2 'JetBrains Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--a); }
-  .refl h3 { font: 800 44px/1.1 Sora, sans-serif; margin: 8px 0 14px; }
+  .refl h3 { font: 800 39px/1.1 Sora, sans-serif; margin: 8px 0 14px; white-space: nowrap; letter-spacing: -.01em; }
   .refl p { font: 500 27px/1.35 Inter, sans-serif; color: var(--ink); }
   .postcard { margin-top: 18px; border-radius: 12px; background: #fffaf0; border: 2px solid #ead9b8; padding: 16px 18px; display: grid; grid-template-columns: 1fr 70px; gap: 12px;
     box-shadow: 0 8px 20px rgba(120, 90, 30, .15); transform: rotate(-2deg); }
   .postcard em { font: italic 500 27px/1.35 Georgia, serif; color: #6b5a3a; }
   .postcard i { display: block; width: 70px; height: 84px; border: 3px dashed #e5436a; border-radius: 6px; }
+  .chk { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 16px; }
+  .chk li { font: 600 27px/1.3 Inter, sans-serif; color: var(--ink); padding-left: 46px; position: relative; }
+  .chk li::before { content: '✓'; position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; background: #dcf5e8; color: #18a058; font: 800 19px/32px Inter, sans-serif; text-align: center; }
+  .chk li.no { color: #b4233f; }
+  .chk li.no::before { content: '✕'; background: #fde2e8; color: #e5436a; }
   .never { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
   .never li { font: 700 28px/1.2 Inter, sans-serif; color: #b4233f; padding-left: 44px; position: relative; }
   .never li::before { content: '✕'; position: absolute; left: 0; top: 0; text-decoration: none; display: inline-block; width: 30px; height: 30px; border-radius: 50%; background: #fde2e8; color: #e5436a; font-size: 18px; line-height: 30px; text-align: center; }
@@ -1255,9 +1260,9 @@
   <div class="hook">Un assistant brillant… <em>mais c'est vous qui signez.</em></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="refl">
-    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><small>1</small><h3>Bien demander</h3><p>Contexte + tâche + format.</p></div>
-    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div><small>2</small><h3>Vérifier</h3><p>Santé, droit, argent&nbsp;: on recoupe. Et on relit avant d'envoyer.</p></div>
-    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><small>3</small><h3>Protéger ses données</h3><p>Ce que vous tapez peut être conservé. Jamais&nbsp;:</p><ul class="never"><li>Mots de passe</li><li>N° de sécu, IBAN</li><li>Dossier médical</li></ul></div>
+    <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><small>1</small><h3>Bien demander</h3><ul class="chk"><li>Le contexte d'abord</li><li>Ce que vous voulez</li><li>Pas satisfait&nbsp;? On continue la conversation</li></ul></div>
+    <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div><small>2</small><h3>Vérifier</h3><ul class="chk"><li>Santé, droit, argent&nbsp;: on recoupe</li><li>Une image&nbsp;: d'où vient-elle&nbsp;?</li><li>On relit avant d'envoyer</li></ul></div>
+    <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><small>3</small><h3>Protéger ses données</h3><ul class="chk"><li class="no">Mots de passe, n° de sécu, IBAN</li><li class="no">Dossier médical</li><li>Désactiver l'entraînement dans les paramètres</li></ul></div>
   </div>
 </section>
 

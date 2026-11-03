@@ -571,9 +571,10 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Les 3 réflexes en une image : un assistant brillant, mais c'est vous qui signez. (1 min)**
 
 - L'accroche : « Un assistant brillant… mais c'est vous qui signez. »
-- 1, bien demander : « On vient de le voir : contexte, tâche, format. »
-- 2, vérifier : « Pour tout ce qui est important, la santé, le droit, l'argent, on recoupe avec une source fiable. Vous vous souvenez de l'article de loi de la démo de l'e-mail ? Et on relit avant d'envoyer : c'est vous qui êtes responsable. » Astuce : poser la question autrement ; si les réponses se contredisent, méfiance.
-- 3, protéger ses données : « Ce que vous tapez dans une IA peut être conservé, et parfois relu ou réutilisé pour l'entraîner. Donc jamais de mot de passe, de numéro de sécurité sociale, d'IBAN, ni de dossier médical. Et pas d'informations confidentielles de votre travail. »
+- 1, bien demander : « On vient de le voir : le contexte d'abord, ce que vous voulez… et si ce n'est pas bien, on continue la conversation. »
+- 2, vérifier : « Pour tout ce qui est important, la santé, le droit, l'argent, on recoupe avec une source fiable. Vous vous souvenez de l'article de loi de la démo de l'e-mail ? Pour une image, on se demande d'où elle vient, comme pour les affiches. Et on relit avant d'envoyer : c'est vous qui êtes responsable. » Astuce : poser la question autrement ; si les réponses se contredisent, méfiance.
+- 3, protéger ses données : « Ce que vous tapez dans une IA peut être conservé, et parfois relu ou réutilisé pour l'entraîner. Donc jamais de mot de passe, de numéro de sécurité sociale, d'IBAN, ni de dossier médical. Et pas d'informations confidentielles de votre travail. Et un geste à faire en rentrant : dans les paramètres de ChatGPT, rubrique "Contrôle des données", on peut désactiver l'utilisation de vos conversations pour l'entraîner. »
+- La diapo est un pense-bête : « Vous pouvez la prendre en photo ! »
 - La phrase pour conclure le chapitre : « Utilisez-la comme un assistant… pas comme un cerveau de remplacement. »
 
 > ➡️ « Et demain ? Qu'est-ce qui nous attend ? »
