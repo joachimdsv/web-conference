@@ -539,10 +539,10 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 
 - L'accroche : « Face à tout ça, l'Europe a écrit la première loi au monde sur l'IA : l'AI Act. Et elle marche comme un feu tricolore. »
 - Rouge, interdit : « Ce qui est trop dangereux est interdit : noter les citoyens selon leur comportement, comme ça se fait en Chine, ou manipuler les gens à leur insu. » (Depuis février 2025.)
-- Orange, sous surveillance : « Quand l'IA peut changer une vie, elle est surveillée de près : trier des CV pour un recrutement, accorder un prêt à la banque, noter des élèves. Il faudra prouver qu'elle est fiable et qu'un humain garde la main. » (À partir de décembre 2027 : c'était prévu pour 2026, l'Europe l'a reporté.)
-- Vert, autorisé mais signalé : « Pour tout le reste, c'est autorisé… à condition d'être transparent : on doit vous dire quand vous parlez à une IA, et une image ou une vidéo fabriquée par une IA doit le dire. » (Depuis août 2026.)
+- Orange, sous surveillance : « Quand l'IA peut changer une vie, elle est surveillée de près : trier des CV pour un recrutement, accorder un prêt à la banque, noter des élèves. Il faudra prouver qu'elle est fiable et qu'un humain garde la main. » (À partir du 2 décembre 2027 : c'était prévu pour août 2026, l'Europe l'a reporté.)
+- Vert, autorisé mais signalé : « Pour tout le reste, c'est autorisé… à condition d'être transparent : on doit vous dire quand vous parlez à une IA, et une image ou une vidéo fabriquée par une IA devra le dire. Ça commence dans un mois, le 2 décembre. D'ici là… méfiance. » (Marquage des contenus générés : article 50, reporté du 2 août au 2 décembre 2026 par l'omnibus numérique.)
 - Pour le public : « Concrètement : une vidéo étonnante sans cette mention ? Méfiance. »
-- (Calendrier : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en 2026. À revérifier juste avant la conférence.)
+- (Calendrier vérifié le 3 novembre 2026 : règlement européen 2024/1689, modifié par l'« omnibus numérique » adopté en juin-juillet 2026. Sources : FPF, CASRAI, Secure Privacy, NatLaw Review.)
 
 > ➡️ « Alors, concrètement, comment bien s'en servir ? »
 
