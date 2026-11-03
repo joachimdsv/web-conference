@@ -75,6 +75,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Partir de ce que le public imagine.**
 
 - *⚙️ Demander : « Quel mot vous vient quand on dit "intelligence artificielle" ? » Reprendre 1 ou 2 réponses (robot, ChatGPT, Terminator, danger…).*
+- Si quelqu'un dit « Terminator » ou « robot » : « Gardez ce mot en tête, on y reviendra à la fin. » (Reprise à la diapo 41.)
 - « Le cinéma nous a montré des robots qui pensent et qui ont des sentiments. La réalité est à la fois plus simple… et plus impressionnante. »
 - Annoncer les 3 temps du chapitre : une définition, un peu d'histoire, comment elle fonctionne.
 
@@ -610,7 +611,7 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 - L'accroche : « Mais si on la laisse faire… elle peut nous échapper. »
 - Nos emplois : « Le Fonds monétaire international estime que près de 4 emplois sur 10 dans le monde seront touchés par l'IA, et 6 sur 10 dans les pays riches comme la France. Touchés, ça ne veut pas dire supprimés : certains seront aidés, d'autres remplacés. Toute la question, c'est de nous y préparer. » (FMI, janvier 2024.)
-- Ses buts, pas les nôtres : « Au cinéma, on a peur d'une IA méchante, comme dans Terminator. Max Tegmark dit que le vrai danger est ailleurs : une IA très compétente, dont les buts ne sont pas exactement les nôtres. Son image : vous ne détestez pas les fourmis. Mais si vous construisez un barrage et qu'une fourmilière se trouve dans la vallée… tant pis pour les fourmis. L'IA n'a pas besoin d'être méchante pour nous nuire : il suffit qu'elle poursuive son but sans tenir compte de nous. »
+- Ses buts, pas les nôtres : « Vous vous souvenez de Terminator, au début ? Au cinéma, on a peur d'une IA méchante. Max Tegmark dit que le vrai danger est ailleurs : une IA très compétente, dont les buts ne sont pas exactement les nôtres. Son image : vous ne détestez pas les fourmis. Mais si vous construisez un barrage et qu'une fourmilière se trouve dans la vallée… tant pis pour les fourmis. L'IA n'a pas besoin d'être méchante pour nous nuire : il suffit qu'elle poursuive son but sans tenir compte de nous. »
 - L'exemple concret, si le temps le permet : « Et quand on la laisse agir seule, une erreur va très vite. En 2012, un programme de la société de bourse Knight Capital s'est emballé : 440 millions de dollars perdus en 45 minutes. » (Exemple cité dans La Vie 3.0 ; c'était un bug, pas une IA moderne.)
 - Tout surveiller : « Reconnaître chaque visage dans la rue, noter chaque citoyen selon son comportement : techniquement, c'est déjà possible, et certains pays le font. En Europe, c'est interdit… pour l'instant, et c'est à nous de veiller à ce que ça le reste. »
 - Les inégalités : « Les meilleures IA coûtent cher : la version gratuite est limitée, l'abonnement courant coûte une vingtaine d'euros par mois, et les versions les plus puissantes jusqu'à environ 200 dollars par mois. Ceux qui peuvent payer travaillent plus vite, apprennent plus vite, gagnent plus… et l'écart se creuse : entre les personnes, entre les entreprises, entre les pays. Et ceux qui possèdent ces IA, quelques géants, gagnent un pouvoir énorme. C'est aussi pour ça que les ateliers gratuits, comme à la MJC, comptent. »

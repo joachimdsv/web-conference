@@ -344,6 +344,13 @@
   .wow .badge svg { width: 70px; height: 70px; stroke: currentColor; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .wow h3 { font: 700 56px/1.08 Sora, sans-serif; letter-spacing: -.02em; margin: 50px 0 20px; }
   .wow p { font: 500 34px/1.3 Inter, sans-serif; color: var(--ink); }
+  .chap.ch1 { background:
+      radial-gradient(900px 700px at 0% 100%, rgba(80, 60, 190, .5), transparent 70%),
+      radial-gradient(1000px 700px at 85% 10%, rgba(60, 90, 230, .6), transparent 70%),
+      linear-gradient(135deg, #070b2a, #111a58 60%, #182266); }
+  .chap.ch1::after { background: linear-gradient(90deg, #4b5fe0, #6c6cf0, #8b5cf6); }
+  .chap.ch1 .pill { background: #4b5fe0; }
+  .chap.ch1 .big { color: rgba(130, 150, 255, .1); }
   .chap.ch3 { background:
       radial-gradient(900px 700px at 0% 100%, rgba(150, 50, 120, .5), transparent 70%),
       radial-gradient(1000px 700px at 85% 10%, rgba(90, 70, 210, .6), transparent 70%),
@@ -900,13 +907,23 @@
   </div>
 </section>
 
+<!-- ===================================================== 01 · Ouverture du chapitre (remplace la page 3 du PDF) -->
+<section class="slide dark chap ch1" id="chapitre-01">
+  <div class="big">01</div>
+  <div class="inner">
+    <div class="pill">Chapitre 01</div>
+    <h1>Qu'est-ce que l'IA&nbsp;?</h1>
+    <div class="chips"><span class="chip">Définition</span><span class="chip">Son histoire</span><span class="chip">Comment elle apprend</span></div>
+  </div>
+</section>
+
 <!-- ===================================================== 02 · Ouverture du chapitre (remplace la page 12 du PDF) -->
 <section class="slide dark chap" id="chapitre-02">
   <div class="big">02</div>
   <div class="inner">
     <div class="pill">Chapitre 02</div>
     <h1>L'IA dans notre quotidien</h1>
-    <div class="chips"><span class="chip">Sans le savoir</span><span class="chip">Quiz&nbsp;: IA ou pas&nbsp;?</span><span class="chip">Tous les métiers</span></div>
+    <div class="chips"><span class="chip">Sans le savoir</span><span class="chip">Quiz&nbsp;: IA ou pas&nbsp;?</span><span class="chip">La mer qui monte</span></div>
   </div>
 </section>
 
