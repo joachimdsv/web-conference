@@ -48,6 +48,7 @@ def speakable(s):
         if re.match(r'^(Sources?|En réserve|Si besoin)\b', line):
             continue
         line = re.sub(r'\s*\([^()]*\)', '', line)           # apartés et références entre parenthèses
+        line = re.sub(r'\s*\[[^\]]*\]', '', line)           # passages à compléter, entre crochets
         line = re.sub(r'[\U0001F300-\U0001FAFF☀-➿️]', '', line)   # emojis
         line = line.replace('« ', '').replace(' »', '').replace('«', '').replace('»', '')
         line = line.replace(' : ', ', ').replace(' → ', '. Réponse : ').replace('→', 'puis')
