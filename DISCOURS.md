@@ -418,8 +418,8 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 
 **🎯 Prendre du recul : ce qu'elle change pour nous. (30 s)**
 
-- « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, les risques, qui fixe les règles… et notre travail. »
-- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 38 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la 40 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
+- « Justement, prenons un peu de recul. On a vu ce qu'elle sait faire. Maintenant, la vraie question : qu'est-ce qu'elle change pour nous ? Les bons côtés, ce qu'elle coûte, et qui fixe les règles. »
+- **⏱️ POINT DE CONTRÔLE 2 : on devrait en être à 38 min. Plus de 5 min de retard ? Une seule idée par diapo jusqu'à la diapo 38 (le débat permettra d'y revenir) et une seule amélioration pendant la démo finale.**
 
 ### 26 · Ce qu'elle apporte — du temps — 1 min · prévu à 38:30
 
