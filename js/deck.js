@@ -52,7 +52,7 @@ window.DECK = {
     },
     2: {
       title: 'Plan', minutes: 1,
-      notes: "🎯 Donner le fil de la soirée, sans tout dévoiler.\n• En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »\n• Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« des démonstrations, en direct ») et la 06 (« et pour finir, un temps d'échange »).\n• Il y aura des petits jeux : vous voterez à main levée.\n• « À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »\n➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »",
+      notes: "🎯 Donner le fil de la soirée, sans tout dévoiler.\n• En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »\n• Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« six démos, en direct ») et la 06 : « Et à la fin, on fabriquera ensemble quelque chose en direct… je ne vous en dis pas plus. Puis on prendra le temps d'en débattre. »\n• Il y aura des petits jeux : vous voterez à main levée.\n• « Le débat, ce sera pour vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »\n➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »",
     },
     3: {
       title: 'Brise-glace — Et vous ?', minutes: 1.5,

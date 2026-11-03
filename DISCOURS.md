@@ -44,9 +44,9 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 **🎯 Donner le fil de la soirée, sans tout dévoiler.**
 
 - En une phrase : « D'abord comprendre ce qu'est l'IA et où on la croise déjà ; ensuite la voir en action ; enfin réfléchir ensemble à ce qu'elle change et à la bonne façon de s'en servir. »
-- Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« des démonstrations, en direct ») et la 06 (« et pour finir, un temps d'échange »).
+- Ne pas lire les 6 parties : le public les a sous les yeux. Pointer seulement la 03 (« six démos, en direct ») et la 06 : « Et à la fin, on fabriquera ensemble quelque chose en direct… je ne vous en dis pas plus. Puis on prendra le temps d'en débattre. »
 - Il y aura des petits jeux : vous voterez à main levée.
-- « À la fin, un vrai temps de débat : vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »
+- « Le débat, ce sera pour vos questions, vos avis, vos expériences. Mais si un mot n'est pas clair pendant la présentation, levez la main tout de suite : il n'y a pas de question bête. »
 
 > ➡️ « Mais d'abord, j'aimerais savoir à qui je parle. »
 
