@@ -164,10 +164,11 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 **🎯 Passer vite (30 s) : la machine ne lit pas des mots, elle calcule avec des nombres.**
 
-- « Petit détail amusant : elle ne lit même pas des mots entiers. Elle découpe le texte en petits morceaux, qu'on appelle des "tokens" : ici, "Bonjour à tous" devient "Bon", "jour", "à", "tous". »
-- « Et chaque morceau devient un nombre. Elle ne manipule que des nombres : elle calcule, elle ne lit pas vraiment. »
-- Le saviez-vous (à l'oral) : « C'est pour ça qu'une IA peut écrire un poème… mais se tromper quand on lui demande combien il y a de lettres dans un mot ! »
-- Préciser à l'oral : « Le découpage et les nombres sont un exemple, mais le principe est bien celui-là. »
+- « Petit détail amusant : elle ne lit même pas des mots entiers. Elle découpe le texte en petits morceaux, qu'on appelle des "tokens". Et ce découpage est réel : c'est vraiment comme ça que ChatGPT voit "Le Val-d'Ajol" : "Le", "Val", "-d", l'apostrophe, "Aj", "ol". »
+- « Et "anticonstitutionnellement" ? "ant", "icon", "stitution", "nel", "lement". Elle ne coupe pas comme à l'école : elle coupe selon les morceaux qu'elle a le plus souvent rencontrés. »
+- « Sous chaque morceau, son numéro. Elle ne manipule que ces nombres : elle calcule, elle ne lit pas vraiment. »
+- L'anecdote (à l'oral) : « En 2024, ChatGPT soutenait qu'il y avait 2 "r" dans le mot anglais strawberry, au lieu de 3. Normal : il ne voit pas les lettres, seulement des morceaux ! Les modèles récents, qui réfléchissent avant de répondre, ne font plus cette erreur. »
+- Source du découpage : outil tiktoken d'OpenAI, encodage o200k_base (celui de GPT-4o).
 
 > ➡️ « Mais pour deviner aussi bien, il faut avoir énormément lu… et avoir été corrigé. C'est ce qu'on appelle l'apprentissage, en deux étapes. »
 

@@ -265,6 +265,14 @@
   .probs-note { position: absolute; right: 50px; top: 36px; font: 400 20px/1 Inter, sans-serif; color: #9aa3d6; }
 
   /* Tokens */
+  .tk-wrap { position: absolute; left: 150px; right: 150px; top: 340px; bottom: 140px; display: flex; flex-direction: column; justify-content: center; gap: 70px; }
+  .tk-row { display: flex; flex-direction: column; gap: 22px; }
+  .tk-row .tk-src { font: 700 54px/1 Sora, sans-serif; color: #fff; }
+  .tk-row .tk-arrow { display: none; }
+  .tks { display: flex; gap: 14px; flex-wrap: wrap; }
+  .tk { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .tk b { font: 700 50px/1 Sora, sans-serif; padding: 22px 28px; border-radius: 16px; color: #fff; background: var(--c); white-space: pre; }
+  .tk i { font: 500 26px/1 'JetBrains Mono', monospace; font-style: normal; color: #aab3e6; }
   .tok-row { position: absolute; left: 150px; right: 150px; top: 500px; display: flex; align-items: center; gap: 30px; flex-wrap: nowrap; }
   .tok-src { font: 700 60px/1 Sora, sans-serif; color: #fff; white-space: nowrap; }
   .tok-arrow { font: 800 56px/1 Inter, sans-serif; color: #7f8fe0; }
@@ -865,13 +873,19 @@
 <section class="slide dark c01" id="tokens">
   <div class="content">
     <div class="kicker">01 · Fonctionnement</div>
-    <h1 class="sm">Elle ne lit pas des mots,<br>mais des « tokens »</h1>
   </div>
-  <div class="tok-row">
-    <span class="tok-src">« Bonjour à tous »</span><span class="tok-arrow">→</span>
-    <span class="toks"><span class="tok" style="--c:#5b74ff">Bon</span><span class="tok" style="--c:#18b48a">jour</span><span class="tok" style="--c:#f59e0b"> à</span><span class="tok" style="--c:#ff5c86"> tous</span></span>
+  <div class="hook dk">Elle ne lit pas des mots, <em>mais des «&nbsp;tokens&nbsp;».</em></div>
+  <div class="tk-wrap">
+  <div class="tk-row">
+    <div class="tk-src">Le Val-d'Ajol</div><div class="tk-arrow">→</div>
+    <div class="tks"><span class="tk" style="--c:#5b74ff"><b>Le</b><i>2486</i></span><span class="tk" style="--c:#18b48a"><b>Val</b><i>5164</i></span><span class="tk" style="--c:#f59e0b"><b>-d</b><i>2469</i></span><span class="tk" style="--c:#ff5c86"><b>'</b><i>6</i></span><span class="tk" style="--c:#a78bfa"><b>Aj</b><i>30742</i></span><span class="tk" style="--c:#22b8cf"><b>ol</b><i>340</i></span></div>
   </div>
-  <div class="tok-row2"><span class="tok-arrow">↓</span><span class="nums">[ 38, 9247, 1225, 14315 ]</span></div>
+  <div class="tk-row">
+    <div class="tk-src">anticonstitutionnellement</div><div class="tk-arrow">→</div>
+    <div class="tks"><span class="tk" style="--c:#5b74ff"><b>ant</b><i>493</i></span><span class="tk" style="--c:#18b48a"><b>icon</b><i>3679</i></span><span class="tk" style="--c:#f59e0b"><b>stitution</b><i>20066</i></span><span class="tk" style="--c:#ff5c86"><b>nel</b><i>10085</i></span><span class="tk" style="--c:#a78bfa"><b>lement</b><i>1254</i></span></div>
+  </div>
+  </div>
+  <p class="c4src" style="color:#9aa3d6">Découpage réel, obtenu avec le découpeur de ChatGPT (tiktoken, encodage o200k_base, utilisé par GPT-4o). Sous chaque morceau&nbsp;: son numéro.</p>
 </section>
 
 <!-- ===================================================== 01 · Deux étapes d'apprentissage (remplace la page 10 du PDF) -->
