@@ -327,7 +327,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Conclusion : « Un formidable outil pour un premier jet. Mais on vérifie, on fait relire, et pour une vraie affiche, on fait attention aux droits. »
 - *⚙️ Plan B (déjà en place à droite si rien n'est collé) : media/demo2-affiche.jpg, générée avec un outil gratuit… son titre est raté (« HORCAPLE »), ce qui illustre bien le besoin de vérifier. La remplacer la veille par une affiche faite avec ChatGPT si possible.*
 
-> ➡️ « Bon, assez de pièges ! Passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »
+> ➡️ « Une affiche, c'est bien. Mais passons à ce qui peut vraiment vous servir au quotidien : écrire un e-mail. »
 
 <details><summary>Prompts de la démo</summary>
 

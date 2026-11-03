@@ -55,6 +55,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 2. Le jour J : check-list matérielle
 
 **La veille**
+- [ ] **Affiche de secours (démo 2, diapo 21)** : générer l'affiche de la Fête de la Myrtille avec ChatGPT (prompt « Affiche » de la régie), vérifier que le texte est sans faute, et l'enregistrer à la place de `media/demo2-affiche.jpg` (l'actuelle a un titre raté, « HORCAPLE »).
 - [ ] Répétition complète chronométrée, démos comprises.
 - [ ] Ouvrir la régie sur l'ordinateur de la conférence et y glisser les médias (ils restent mémorisés dans le navigateur).
 - [ ] Se connecter à ChatGPT, Copilot, Claude et Netlify dans Chrome. Vérifier que l'on peut encore générer des images, car les comptes gratuits ont des limites journalières.
