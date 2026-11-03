@@ -84,7 +84,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - [ ] Le matin : relire la fiche-mémoire, dire l'ouverture à voix haute 2 fois, ne rien apprendre de nouveau.
 - [ ] Arriver **1 h avant** et dérouler la check-list « Sur place » de `PREPARATION.md`.
 - [ ] 10 minutes avant : échauffement de la voix (bâiller, articuler « Le chat est sur le tapis » exagérément), un verre d'eau à portée de main.
-- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:20 au début des démos, 0:40 aux enjeux, 0:55 à « Et demain ? », 1:05 à la conclusion, débat de 1:07 à 1:30 (début au plus tard à 1:09), **fin vers 1:30**.
+- [ ] Lancer le chrono (touche **T**) à la première phrase. Repères : 0:20 au début des démos, 0:38 aux enjeux, 0:51 à « Et demain ? », 1:02 à la conclusion, débat de 1:03 à 1:28 (début au plus tard à 1:09), **fin vers 1:29**.
 
 ---
 

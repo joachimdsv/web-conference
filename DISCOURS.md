@@ -587,7 +587,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 - Elle fait pour vous, les agents (« 1 phrase » sur la carte) : « Les agents, dont on a parlé au début, vont devenir courants. Vous lui direz "organise mes vacances", et elle réservera elle-même le train, l'hôtel, le restaurant. Question : si elle se trompe, à qui la faute ? »
 - Elle a un corps : « L'IA entre dans des robots. Une entreprise américaine vend déjà un robot humanoïde pour la maison, qui plie le linge et vide le lave-vaisselle : environ 20 000 dollars, premières livraisons fin 2026 aux États-Unis. Pour l'instant, il est encore souvent piloté à distance par un humain ! Vous vous souvenez du paradoxe de Moravec ? Plier du linge, c'est facile pour nous… et encore si difficile pour un robot. » (Robot NEO de 1X ; Europe à partir de 2027.)
 - Plus sobre, l'IA embarquée : « Et des IA plus petites, qui tournent directement dans le téléphone, sans internet : elles consomment moins et vos données restent chez vous. »
-- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 51 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 07.**
+- **⏱️ POINT DE CONTRÔLE 3 : on devrait en être à 51 min. Plus de 5 min de retard ? Pas de question au public sur cette diapo et une seule amélioration du site. Le débat doit commencer au plus tard à 1 h 09.**
 
 > ➡️ « Voilà le futur rêvé. Mais il y a aussi un revers… »
 
@@ -646,7 +646,7 @@ Les ⏱️ points de contrôle (diapos 18, 25 et 38) disent quoi couper si vous 
 **🎯 Donner envie d'essayer, dès ce soir, avec une seule question. (1 min)**
 
 - L'accroche : « Ce soir, en rentrant, essayez… avec une seule question. »
-- Les outils : « Les quatre ont une version gratuite : ChatGPT, le plus connu ; Le Chat, l'IA française de Mistral ; Gemini, de Google ; Copilot, de Microsoft, qui fait aussi des images. »
+- Les outils : « Les quatre ont une version gratuite : ChatGPT, le plus connu ; Le Chat, l'IA française de Mistral ; Gemini, de Google ; Copilot, de Microsoft, qui fait aussi des images. » Et si on vous le demande : « Claude, celui de la démo du site, a aussi une version gratuite : claude.ai. »
 - Les idées : « Commencez par une petite chose du quotidien : une recette avec ce qu'il reste dans le frigo, un e-mail difficile à écrire, ou un courrier administratif à comprendre, en retirant vos informations personnelles. »
 - Si la MJC propose un atelier numérique, l'annoncer ici.
 - **⏱️ Prévu à 1 h 02. Le débat doit commencer vers 1 h 03, et au plus tard à 1 h 09 pour garder au moins 20 minutes d'échanges.**
