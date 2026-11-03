@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 720">
+  <!-- Illustration « agent » : icônes Lucide (licence ISC, voir icons/LICENSE) -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5b7"/><stop offset="1" stop-color="#2563c9"/></linearGradient></defs>
+  <rect width="500" height="720" fill="url(#g)"/>
+  <rect x="60" y="190" width="380" height="300" rx="26" fill="#ffffff" fill-opacity=".14" stroke="#fff" stroke-width="6"/>
+  <line x1="60" y1="244" x2="440" y2="244" stroke="#fff" stroke-width="6"/>
+  <circle cx="94" cy="217" r="8" fill="#fff"/><circle cx="122" cy="217" r="8" fill="#fff"/><circle cx="150" cy="217" r="8" fill="#fff"/>
+  <g transform="translate(130 258) scale(8)" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
+  </g>
+  <g transform="translate(340 440) scale(5.6)" fill="#ffd166" stroke="#1d2140" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z"/>
+  </g>
+  <g stroke="#ffd166" stroke-width="7" stroke-linecap="round"><line x1="352" y1="436" x2="340" y2="418"/><line x1="380" y1="432" x2="386" y2="412"/><line x1="342" y1="460" x2="322" y2="456"/></g>
+</svg>
