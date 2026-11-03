@@ -85,8 +85,8 @@ Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si v
 
 - L'accroche : « Intelligente, oui. Consciente, non. »
 - La définition de l'encadré : « Le physicien Max Tegmark, chercheur au MIT, propose une définition toute simple dans son livre La Vie 3.0 : l'intelligence, c'est la capacité à atteindre des objectifs complexes. Gagner aux échecs, traduire un texte, trouver un itinéraire : ce sont des objectifs. Plus ils sont complexes et variés, plus on est intelligent. »
-- Ce qui est important : « Cette définition ne parle pas de conscience. On peut être très compétent sans rien ressentir. Votre GPS trouve le meilleur chemin… sans avoir envie d'aller nulle part. »
-- En bas, en petit, la définition officielle du Parlement européen, si on vous la demande : « reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité ». Depuis 2024, la loi européenne sur l'IA en donne aussi une version juridique ; la révision de juillet 2026 ne l'a pas modifiée.
+- Ce qui est important : « Cette définition ne parle pas de conscience. On peut être très compétent sans rien ressentir. »
+- Si on vous demande la définition officielle (elle n'est plus sur la diapo), celle du Parlement européen : « reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité ». Depuis 2024, la loi européenne sur l'IA en donne aussi une version juridique ; la révision de juillet 2026 ne l'a pas modifiée.
 - Concrètement, elle sait faire trois choses :
   - Percevoir : voir (reconnaître un visage sur une photo), entendre (comprendre « Dis Siri »), lire un texte ;
   - Apprendre : s'améliorer à partir d'exemples, au lieu de suivre des instructions écrites une par une ;

@@ -175,8 +175,9 @@
   .c01::after { background: linear-gradient(90deg, #4b5fe0, #6a5cf0, #8b5cf6); }
   .c01 .kicker { color: #9fb0ff; }
   .def-points { list-style: none; padding: 0; margin: 0; position: absolute; left: 150px; width: 860px; top: 50%; transform: translateY(-46%); display: grid; gap: 64px; }
-  .def-points li { display: grid; grid-template-columns: 40px 1fr; column-gap: 30px; align-items: baseline; }
-  .def-points i { width: 28px; height: 28px; border-radius: 50%; background: var(--c); transform: translateY(-4px); }
+  .def-points li { display: grid; grid-template-columns: 76px 1fr; column-gap: 34px; align-items: center; }
+  .def-points i { width: 76px; height: 76px; border-radius: 20px; display: grid; place-items: center; background: color-mix(in srgb, var(--c) 22%, transparent); align-self: center; }
+  .def-points i svg { width: 42px; height: 42px; stroke: var(--c); stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
   .def-points b { font: 700 66px/1.1 Sora, sans-serif; }
   .def-points span { grid-column: 2; font: 400 36px/1.4 Inter, sans-serif; color: #c7cdf5; margin-top: 10px; }
   .quote { position: absolute; left: 1020px; right: 150px; top: 50%; transform: translateY(-46%); padding: 60px 60px 50px; border-radius: 24px;
@@ -746,17 +747,17 @@
     <div class="kicker">01 · Définition</div>
   </div>
   <div class="hook dk">Intelligente, oui. <em>Consciente, non.</em></div>
+  <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <ul class="def-points">
-    <li><i style="--c:#5b74ff"></i><b>Percevoir</b><span>voir, entendre, lire son environnement</span></li>
-    <li><i style="--c:#22c58b"></i><b>Apprendre</b><span>s'améliorer à partir d'exemples</span></li>
-    <li><i style="--c:#ff5c86"></i><b>Décider</b><span>choisir une action pour atteindre un but</span></li>
+    <li><i style="--c:#5b74ff"><svg viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg></i><b>Percevoir</b><span>voir, entendre, lire son environnement</span></li>
+    <li><i style="--c:#22c58b"><svg viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></i><b>Apprendre</b><span>s'améliorer à partir d'exemples</span></li>
+    <li><i style="--c:#ff5c86"><svg viewBox="0 0 24 24"><path d="M12 13v8"/><path d="M12 3v3"/><path d="M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z"/></svg></i><b>Décider</b><span>choisir une action pour atteindre un but</span></li>
   </ul>
   <div class="quote">
     <div class="label">L'intelligence, selon Max Tegmark</div>
     <blockquote>La capacité à atteindre des objectifs complexes.</blockquote>
-    <cite>Max Tegmark, physicien au MIT, <i>La Vie 3.0</i> (2017). Cette définition ne dit rien de la conscience&nbsp;: on peut être très compétent sans rien ressentir.</cite>
+    <cite>Max Tegmark, physicien au MIT, <i>La Vie 3.0</i> (2017).</cite>
   </div>
-  <p class="c4src" style="color:#9aa3d6">Définition officielle (Parlement européen, 2023)&nbsp;: «&nbsp;la possibilité pour une machine de reproduire des comportements liés aux humains, tels que le raisonnement, la planification et la créativité&nbsp;».</p>
 </section>
 
 <!-- ===================================================== 01 · Histoire (remplace la page 5 du PDF) -->
