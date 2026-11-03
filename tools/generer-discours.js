@@ -51,7 +51,7 @@ const out = [
   }),
   `| Marge de sécurité | | ${fmt(total)} | ${dur(D.durationMinutes - total)} |`,
   '',
-  'Les ⏱️ points de contrôle (diapos 18, 28, 37 et 41) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l\'avance ou le retard en continu. En cas de retard, c\'est le débat qui l\'absorbe (20 minutes minimum).',
+  'Les ⏱️ points de contrôle (diapos 18, 26 et 39) disent quoi couper si vous avez plus de 5 minutes de retard. Le chrono de la régie affiche l\'avance ou le retard en continu. En cas de retard, c\'est le débat qui l\'absorbe (20 minutes minimum).',
   '',
   '> Fichier généré à partir de `js/deck.js` (`node tools/generer-discours.js`) : modifiez les notes là-bas, pas ici.',
 ];

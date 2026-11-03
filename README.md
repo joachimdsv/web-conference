@@ -25,7 +25,7 @@ Utilisez Chrome ou Edge, et ouvrez les deux fenêtres dans le **même navigateur
   Contrôles depuis la régie : lecture/pause (`K`), ±10 s, position, volume, boucle. Les liens **YouTube** marchent aussi (avec internet).
   `→` ferme le média et revient aux diapos. Épinglez un média 📍 sur une diapo pour l'avoir sous la main.
 - **Quiz « IA ou pas IA ? » (diapo 15)** : révélez les réponses une par une (`R`) ou toutes d'un coup.
-- **Jeu « Humain ou IA ? » (diapo 20)** : glissez une affiche directement sur la zone A ou B de l'aperçu, faites voter, puis révélez.
+- **Jeu « Humain ou IA ? » (diapo 19)** : glissez une affiche directement sur la zone A ou B de l'aperçu, faites voter, puis révélez.
 - **Montrer une fenêtre en direct** (onglet *Outils*) : partagez l'onglet du chatbot pendant les démos ; il s'affiche sur le projecteur sans quitter la présentation.
 - **Pointeur laser** (`L`), **stylo** (`D`), **surligneur** (`H`), **zoom** (`Z`, clic ou molette), effacer (`C`).
 - **Écran noir** (`B`), **blanc** (`W`), **pause** (`P`) avec message personnalisable.

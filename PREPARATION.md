@@ -8,8 +8,8 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ## 1. Ce qu'il reste à fournir ou à décider
 
 ### À fournir (fichiers)
-- [x] **Démo 1 (diapo 20) : 3 affiches** : fournies dans `media/` (pas IA = affiche « Jupiter » de la NASA/JPL, 2016, qui a l'air d'une IA ; IA = une affiche de concert très réaliste et une affiche d'événement avec défauts). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
-- [ ] **Démo 3 (diapo 23) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur la même scène :
+- [x] **Démo 1 (diapo 19) : 3 affiches** : fournies dans `media/` (pas IA = affiche « Jupiter » de la NASA/JPL, 2016, qui a l'air d'une IA ; IA = une affiche de concert très réaliste et une affiche d'événement avec défauts). Sources dans `media/SOURCES.md`. Vous pouvez les remplacer par les vôtres (même noms de fichiers).
+- [ ] **Démo 3 (diapo 22) : 2 vidéos** de 5 à 15 secondes, en .mp4, sur la même scène :
   - **une filmée par vous au Val d'Ajol** (une rivière, une rue, des arbres dans le vent), en paysage, sans personne reconnaissable ;
   - **la même scène générée par une IA vidéo** (Sora, Veo, Kling ou une appli gratuite), décrite précisément : « Plan fixe de 10 secondes, une petite rivière dans une forêt de sapins des Vosges, en automne, lumière douce, filmé au téléphone ».
   - Les enregistrer sous `media/demo3-video1.mp4` (filmée) et `media/demo3-video2.mp4` (IA), puis retirer les `//` devant `video-1` et `video-2` dans `js/deck.js`. Ou glisser les fichiers sur les zones dans la régie.
@@ -24,9 +24,9 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 ### À vérifier ou à remplacer par de vraies informations
 - [x] **Affiche de la démo 2** : événement fictif, la « Fête de la Myrtille » de Saint-Myrtil, samedi 19 juin, 14 h – 22 h.
 - [ ] **Activités de la MJC** citées dans le prompt du site (danse, théâtre, musique, informatique, sport) : à remplacer par les vraies.
-  Sinon le site contiendra des informations inventées. C'est d'ailleurs un bon exemple à commenter dans la diapo 43.
+  Sinon le site contiendra des informations inventées. C'est d'ailleurs un bon exemple à commenter dans la diapo 42.
 - [ ] **Couleurs du logo** (rose, violet, bleu, vert, jaune) : à vérifier.
-- [ ] **Diapo 43 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
+- [ ] **Diapo 42 « Pour essayer chez vous »** : si la MJC propose un atelier numérique, l'annoncer à l'oral, ou me demander de l'ajouter sur la diapo.
 - [ ] **Accord de la MJC** pour créer et montrer publiquement un site à son nom pendant la démo.
 
 ### La durée : 1 h 30 au total, conférence et débat compris
@@ -43,9 +43,9 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 
 - **Environ 1 h 05 de conférence, puis 22 minutes 30 de débat.** Le minutage de chaque diapo est réaliste (les démos comptent les temps d'attente et les votes). Le chrono de la régie affiche « X min de retard / d'avance » en continu.
 - **Toutes les diapos sont dans le déroulé.** Si le temps manque, passez-en une en direct (flèche droite) : les diapos 10 « tokens », 11 « deux étapes » et 17 « usages surprenants » sont les plus faciles à raccourcir ou à sauter.
-- **La diapo 44 « Quel futur voulez-vous ? »** lance le débat par un vote à main levée sur 4 futurs possibles (l'outil, le gardien, le frein, le relais), tirés des scénarios de Max Tegmark dans *La Vie 3.0*. La touche R (ou les boutons de la régie) encadre la carte dont on parle. Les notes gardent 4 thèmes de relance (école, travail, planète, MJC) et des conseils d'animation.
-- **Inspirations de *La Vie 3.0* (Max Tegmark)** : diapo 5 (l'intelligence, c'est atteindre des objectifs complexes ; intelligente ≠ consciente), diapo 16 (la mer qui monte sur le paysage des compétences), diapo 41 (le danger, c'est la compétence, pas la méchanceté : les fourmis et le barrage), diapo 44 (quel futur voulez-vous ?).
-- **4 points de contrôle** (diapos 18, 27, 40 et 43) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
+- **La diapo 43 « Quel futur voulez-vous ? »** lance le débat par un vote à main levée sur 4 futurs possibles (l'outil, le gardien, le frein, le relais), tirés des scénarios de Max Tegmark dans *La Vie 3.0*. La touche R (ou les boutons de la régie) encadre la carte dont on parle. Les notes gardent 4 thèmes de relance (école, travail, planète, MJC) et des conseils d'animation.
+- **Inspirations de *La Vie 3.0* (Max Tegmark)** : diapo 5 (l'intelligence, c'est atteindre des objectifs complexes ; intelligente ≠ consciente), diapo 16 (la mer qui monte sur le paysage des compétences), diapo 40 (le danger, c'est la compétence, pas la méchanceté : les fourmis et le barrage), diapo 43 (quel futur voulez-vous ?).
+- **4 points de contrôle** (diapos 18, 26, 39 et 42) : leurs notes disent quoi faire en cas de plus de 5 minutes de retard.
 - **En cas de retard, c'est le débat qui l'absorbe**, mais il doit commencer **au plus tard à 1 h 09**, pour garder au moins 20 minutes d'échanges. Sinon, couper dans cet ordre :
   1. la diapo 11 « deux étapes » en une phrase : 30 s ;
   2. la démo 5 avec un seul prompt : 1 min 30 ;
@@ -89,7 +89,7 @@ et dans la page imprimable **🖨️ Notes** (`notes.html`). Ce document résume
 | 05 · Bonnes pratiques | Bien demander, vérifier, ne rien partager de sensible. | « Parlez-lui comme à un stagiaire très doué qui ne vous connaît pas. » |
 | 06 · Démo finale | Elle fait le gros du travail en quelques minutes ; l'humain vérifie et décide. | « L'IA accélère, l'humain valide. » |
 | Conclusion | Les 3 choses à retenir, puis l'invitation à essayer. | Commencer par une petite tâche : une recette, un e-mail. |
-| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 44. |
+| Débat | C'est le moment du public : on écoute, on reformule, on relance. | Les 4 questions de la diapo 43. |
 
 ### Des mots simples pour tous les publics
 | Au lieu de… | Dites plutôt… |
