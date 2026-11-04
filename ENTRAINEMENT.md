@@ -7,6 +7,7 @@ Environ **1 h par jour** en semaine et **2 h le week-end**. Les outils à utilis
 - **🖨️ Notes** dans la régie (`notes.html`) : à imprimer dès le premier jour pour les annoter au stylo ;
 - le **chrono de la régie**, qui indique l'avance ou le retard par rapport au minutage prévu ;
 - [`PREPARATION.md`](PREPARATION.md) : la check-list, les mots simples et les questions probables.
+- **🎧 L'audio d'entraînement** (`audio/`) : toutes les notes lues à voix haute, une piste par diapo (`diapo-01.mp3`…) et la conférence entière (`conference-complete.mp3`, environ 1 h 10). Pour chaque diapo : le titre, la durée prévue, le message, tout le texte à dire avec les anecdotes, les réponses en réserve, les actions à faire (« À faire »), les repères de temps et la transition. À écouter en voiture ou en marchant, puis à redire à voix haute avec ses propres mots. Pour le régénérer après une modification des notes : `python3 tools/generer-audio.py`.
 
 ---
 

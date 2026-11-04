@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lit les notes de js/deck.js à voix haute (voix gratuite de Microsoft Edge).
+"""Lit TOUTES les notes de js/deck.js à voix haute, pour s'entraîner (voix gratuite de Microsoft Edge).
 
 Produit audio/diapo-NN.mp3 (une piste par diapo) et audio/conference-complete.mp3.
 Usage : python3 tools/generer-audio.py [voix]      (par défaut fr-FR-HenriNeural ;
@@ -22,37 +22,60 @@ import edge_tts
 
 def slides():
     js = "global.window={};require('./js/deck.js');const D=window.DECK;const r=[];" \
-         "for(let n=1;n<=D.slideCount;n++){const s=D.slides[n]||{};r.push({n,title:s.title||'',notes:s.notes||'',skip:!!s.skip})}" \
+         "for(let n=1;n<=D.slideCount;n++){const s=D.slides[n]||{};r.push({n,title:s.title||'',notes:s.notes||'',minutes:s.minutes||0,skip:!!s.skip})}" \
          "console.log(JSON.stringify(r))"
     return json.loads(subprocess.run(['node', '-e', js], cwd=ROOT, capture_output=True, text=True, check=True).stdout)
 
 
+def duree(m):
+    m = float(m or 0)
+    if not m:
+        return ''
+    mn, sec = int(m), int(round((m - int(m)) * 60))
+    txt = (f"{mn} minute{'s' if mn > 1 else ''}" if mn else '') + (f" {sec} secondes" if sec else '')
+    return txt.strip()
+
+
+def nettoyer(line):
+    line = re.sub(r'https?://\S+', '', line)                      # adresses web
+    line = re.sub(r'\b[\w.-]+/[\w./-]+\.\w{2,4}\b', '', line)     # chemins de fichiers (media/…)
+    line = re.sub(r'\s*\[[^\]]*\]', '', line)                     # passages à compléter, entre crochets
+    line = re.sub(r'[\U0001F300-\U0001FAFF☀-➿️]', '', line)       # emojis
+    line = re.sub(r'\s*\(([^()]*)\)', r', \1,', line)               # les parenthèses deviennent des incises
+    line = line.replace('« ', '').replace(' »', '').replace('«', '').replace('»', '')
+    line = re.sub(r'\s*→\s*(PAS IA|IA)\b', r'. Réponse : \1', line)                 # quiz : la réponse
+    line = re.sub(r'\s*→\s*', ', puis ', line)                               # menus et étapes
+    line = line.replace(' : ', ', ')
+    line = re.sub(r'\s*:\s*([.,])', r'\1', line)
+    line = re.sub(r',\s*,', ',', line).replace(',.', '.').replace(', .', '.')
+    return re.sub(r'\s{2,}', ' ', line).strip(' ,')
+
+
 def speakable(s):
-    """Transforme les notes en texte à dire : on garde le message, le texte et les transitions."""
+    """Version complète pour s'entraîner : le message, tout le texte à dire, les anecdotes,
+    les réponses en réserve, les actions à faire, les sources et les repères de temps."""
     title = re.sub(r'\s*—\s*', ' : ', s['title']).strip()
     out = [f"Diapo {s['n']}. {title}" + ('' if title.endswith(('?', '!')) else '.')]
+    if duree(s.get('minutes')):
+        out.append(f"Durée prévue, {duree(s.get('minutes'))}.")
     for line in s['notes'].split('\n'):
         line = line.strip()
-        if not line or line.startswith(('⏱️', '⏭️', '🔸')):
+        if not line or line.startswith('—'):
             continue
         if line.startswith('🎯'):
-            line = 'Le message : ' + re.sub(r'\([^)]*\)\s*$', '', line[1:]).strip()
+            line = 'Le message : ' + re.sub(r'\s*\([^()]*\bmin\b[^()]*\)\s*$', '', line[1:]).strip()
         elif line.startswith('⚙️'):
-            questions = re.findall(r'«\s*([^»]*\?)\s*»', line)   # on ne garde que les questions à la salle
-            if not questions:
-                continue
-            line = 'À la salle : ' + ' '.join(questions)
+            line = 'À faire : ' + line[2:].strip()
+        elif line.startswith('⏱️'):
+            line = 'Repère de temps : ' + line[2:].strip()
+        elif line.startswith('🔸'):
+            line = 'À retenir pour la suite : ' + line[1:].strip()
         elif line.startswith('➡️'):
             line = 'Transition : ' + line[2:].strip()
         line = re.sub(r'^[•\-]\s*', '', line)
-        if re.match(r'^(Sources?|En réserve|Si besoin)\b', line):
-            continue
-        line = re.sub(r'\s*\([^()]*\)', '', line)           # apartés et références entre parenthèses
-        line = re.sub(r'\s*\[[^\]]*\]', '', line)           # passages à compléter, entre crochets
-        line = re.sub(r'[\U0001F300-\U0001FAFF☀-➿️]', '', line)   # emojis
-        line = line.replace('« ', '').replace(' »', '').replace('«', '').replace('»', '')
-        line = line.replace(' : ', ', ').replace(' → ', '. Réponse : ').replace('→', 'puis')
-        out.append(line.strip())
+        line = nettoyer(line)
+        if line:
+            out.append(line if line.endswith(('.', '!', '?', '…')) else line + '.')
     return '\n'.join(out)
 
 
