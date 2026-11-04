@@ -731,6 +731,21 @@
   .browser .bar { height: 40px; display: flex; align-items: center; gap: 10px; padding: 0 18px; background: rgba(255,255,255,.08); }
   .browser .bar i { width: 13px; height: 13px; border-radius: 50%; background: rgba(255,255,255,.35); }
   .browser .screen { position: absolute; inset: 40px 0 0; display: grid; place-items: center; color: rgba(255,255,255,.4); font: 600 26px/1 Inter, sans-serif; }
+  .browser .screen.mock { display: block; place-items: initial; background: #fffaf3; }
+  .mock > div { width: 100%; box-sizing: border-box; }
+  .mock .m-nav { height: 52px; display: flex; align-items: center; gap: 18px; padding: 0 26px; border-bottom: 1px solid #efe5d6; }
+  .mock .m-logo { width: 110px; height: 22px; border-radius: 6px; background: linear-gradient(90deg, #e84393, #7c4dff, #2f80ed, #20b26b); margin-right: auto; }
+  .mock .m-nav b { width: 70px; height: 10px; border-radius: 5px; background: #cfd3e6; }
+  .mock .m-hero { height: 250px; padding: 46px 40px; background: radial-gradient(circle at 15% 20%, rgba(245,183,0,.55), transparent 40%), radial-gradient(circle at 85% 25%, rgba(232,67,147,.6), transparent 45%), linear-gradient(135deg, #7c4dff, #2f80ed); }
+  .mock .m-hero i { display: block; height: 22px; border-radius: 11px; background: rgba(255,255,255,.95); margin-bottom: 14px; }
+  .mock .m-hero .l1 { width: 62%; height: 30px; } .mock .m-hero .l2 { width: 48%; height: 30px; } .mock .m-hero .l3 { width: 40%; height: 12px; opacity: .75; margin-top: 18px; }
+  .mock .m-btn { display: inline-block; width: 170px; height: 40px; border-radius: 20px; background: #fff; margin-top: 10px; }
+  .mock .m-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; padding: 26px 34px; }
+  .mock .m-cards div { height: 170px; border-radius: 14px; background: #fff; box-shadow: 0 8px 20px rgba(40,30,80,.08); padding: 16px; }
+  .mock .m-cards div:nth-child(1) { border-top: 5px solid #e84393; } .mock .m-cards div:nth-child(2) { border-top: 5px solid #7c4dff; }
+  .mock .m-cards div:nth-child(3) { border-top: 5px solid #2f80ed; } .mock .m-cards div:nth-child(4) { border-top: 5px solid #20b26b; }
+  .mock .m-cards i { display: block; width: 40px; height: 40px; border-radius: 10px; background: #eef0fb; margin-bottom: 16px; }
+  .mock .m-cards b { display: block; height: 10px; border-radius: 5px; background: #dfe2f0; margin-bottom: 10px; } .mock .m-cards b + b { width: 70%; }
   .res2 { position: absolute; left: 1190px; right: 150px; top: 320px; height: 470px; display: grid; grid-template-rows: 1fr 1fr; gap: 26px; }
   .res2 .card { display: grid; grid-template-columns: 76px 1fr; gap: 0 22px; align-items: center; padding: 22px 28px; }
   .res2 .badge { width: 76px; height: 76px; border-radius: 22px; display: grid; place-items: center; background: color-mix(in srgb, var(--a) 22%, transparent); color: var(--a); }
@@ -792,7 +807,7 @@
   <div class="content">
     <div class="kicker">01 · Définition</div>
   </div>
-  <div class="hook dk">Intelligente, oui. <em>Consciente, non.</em></div>
+  <div class="hook dk">Définition de l'IA</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <ul class="def-points">
     <li><i style="--c:#5b74ff"><svg viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg></i><b>Percevoir</b><span>voir, entendre, lire son environnement</span></li>
@@ -832,7 +847,7 @@
 <section class="slide light c01" id="apprendre">
   <div class="content">
     <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
-    <div class="hook blue">Elle apprend par l'exemple, <em>pas par des règles.</em></div>
+    <div class="hook blue">Apprendre par l'exemple</div>
     <div class="ab">
       <div class="card avant">
         <div class="label">Avant</div>
@@ -861,7 +876,7 @@
 <section class="slide light c01" id="couches">
   <div class="content">
     <div class="kicker" style="color:#4b5fe0">01 · Fonctionnement</div>
-    <div class="hook blue">Un réseau de neurones&nbsp;: <em>des couches de filtres.</em></div>
+    <div class="hook blue">Les réseaux de neurones</div>
     <div class="chain">
       <div class="lstep"><div class="pic"><img src="images/fonctionnement/tete.jpg" alt=""></div>
         <div class="cap"><small>Au départ</small><b>La photo</b></div></div>
@@ -894,7 +909,7 @@
 <section class="slide dark c01" id="prediction">
   <div class="content">
     <div class="kicker">01 · LLM, grand modèle de langage</div>
-    <h1 class="sm">Elle prédit le mot suivant… <span style="color:#6fd8c0">pas la vérité.</span></h1>
+    <h1 class="sm">Prédire le mot suivant</h1>
     <div class="sentence">« Le chat est sur le <span class="blank">?</span> »</div>
     <div class="probs" data-zone="probs">
       <div class="label">Ce que la machine envisage</div>
@@ -911,7 +926,7 @@
   <div class="content">
     <div class="kicker">01 · Fonctionnement</div>
   </div>
-  <div class="hook dk">Elle ne lit pas des mots, <em>mais des «&nbsp;tokens&nbsp;».</em></div>
+  <div class="hook dk">Les tokens</div>
   <div class="tk-wrap">
   <div class="tk-row">
     <div class="tk-src">Le Val-d'Ajol</div><div class="tk-arrow">→</div>
@@ -945,7 +960,7 @@
   <div class="content">
     <div class="kicker" style="color:#4b5fe0">01 · Familles d'IA</div>
   </div>
-  <div class="hook blue">L'IA, <em>ce n'est pas que ChatGPT.</em></div>
+  <div class="hook blue">Les familles d'IA</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="fam">
     <div class="card" style="--a:#6a5cf0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg></div>
@@ -984,7 +999,7 @@
   <div class="content">
     <div class="kicker" style="color:#1596b8">02 · Quotidien</div>
   </div>
-  <div class="hook blue">Vous l'avez déjà croisée… <em>avant même d'arriver ici.</em></div>
+  <div class="hook blue">L'IA sans le savoir</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="day">
     <div class="card" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div>
@@ -1018,7 +1033,7 @@
   <div class="content">
     <div class="kicker" style="color:#1596b8">02 · Le travail</div>
   </div>
-  <div class="hook blue">La mer monte. <em>Qu'est-ce qui restera au sec&nbsp;?</em></div>
+  <div class="hook blue">L'IA et le travail</div>
   <svg class="paysage" viewBox="0 0 1920 1080" aria-hidden="true">
     <defs>
       <clipPath id="pay-clip"><rect x="150" y="300" width="1620" height="660" rx="28"/></clipPath>
@@ -1045,7 +1060,7 @@
   <div class="content">
     <div class="kicker" style="color:#1596b8">02 · Usages surprenants</div>
   </div>
-  <div class="hook blue">Elle se cache aussi… <em>là où on ne l'attend pas.</em></div>
+  <div class="hook blue">Des usages surprenants</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="wow">
     <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><path d="m10 16 1.5 1.5"/><path d="m14 8-1.5-1.5"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m16.5 10.5 1 1"/><path d="m17 6-2.891-2.891"/><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="m20 9 .891.891"/><path d="M3.109 14.109 4 15"/><path d="m6.5 12.5 1 1"/><path d="m7 18 2.891 2.891"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/></svg></div><h3>Soigner plus vite</h3><p>Elle prédit la forme des protéines pour créer des médicaments</p></div>
@@ -1079,7 +1094,7 @@
   <div class="content">
     <div class="kicker c4k">05 · Ce qu'elle apporte · Du temps</div>
   </div>
-  <div class="hook">Ce qui prenait une heure… <em>prend une minute.</em></div>
+  <div class="hook">Gagner du temps</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="race">
     <div class="r" style="--a:#f07a3a"><div class="badge"><svg viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div><div><h4>Un e-mail délicat</h4>
@@ -1108,7 +1123,7 @@
   <div class="content">
     <div class="kicker c4k">05 · Ce qu'elle apporte · Des découvertes</div>
   </div>
-  <div class="hook">Et surtout… <em>elle voit ce qu'on ne voyait pas.</em></div>
+  <div class="hook">Les découvertes scientifiques</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="c4grid g4 hooked">
     <div class="card" style="--a:#e5436a"><div class="badge"><svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg></div><div><small>Santé · Suède, 2025</small><div class="big">+29&nbsp;%</div></div><p>de cancers du sein détectés au dépistage, avec l'IA aux côtés des radiologues</p></div>
@@ -1124,7 +1139,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · La planète</div>
   </div>
-  <div class="hook cost">Retournons la pièce… <em>tout ça a un prix.</em></div>
+  <div class="hook cost">L'impact sur la planète</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="card energy">
     <div class="label" style="color:#f07a3a">L'électricité consommée par les datacenters dans le monde</div>
@@ -1142,7 +1157,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · Nos portefeuilles</div>
   </div>
-  <div class="hook cost">Une course à l'argent… <em>que nous payons aussi.</em></div>
+  <div class="hook cost">Le coût économique</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="c4grid g3 top" style="top:330px; bottom:150px">
     <div class="card" style="--a:#8b5cf6"><div class="badge"><svg viewBox="0 0 24 24"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></div><small>Les géants, 2026</small><div class="big md">2&nbsp;milliards&nbsp;$</div><p><b>par jour</b>, investis dans l'IA par Amazon, Microsoft, Google et Meta.</p></div>
@@ -1157,7 +1172,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · Les petites mains</div>
   </div>
-  <div class="hook cost">Derrière la machine… <em>des humains invisibles.</em></div>
+  <div class="hook cost">Les travailleurs invisibles</div>
   <div class="hands2">
     <div class="card" style="--a:#f07a3a">
       <div class="top"><img class="thumb" src="images/apprentissage/correction.jpg" alt=""><div><span class="kick">Les travailleurs du clic · Kenya</span><p>Vous vous souvenez de «&nbsp;On la corrige&nbsp;»&nbsp;? Ce sont eux.</p></div></div>
@@ -1179,7 +1194,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · Notre cerveau</div>
   </div>
-  <div class="hook cost">Apprendre, c'est l'effort… <em>que l'IA nous fait sauter.</em></div>
+  <div class="hook cost">L'IA et l'apprentissage</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="card learn">
     <div class="lane"><small style="color:#18a984">Comment on apprend</small>
@@ -1202,7 +1217,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · Notre sécurité</div>
   </div>
-  <div class="hook cost">L'IA trouve les failles… <em>les pirates aussi.</em></div>
+  <div class="hook cost">La cybersécurité</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="card race2">
     <span class="kick">PHP2Shell · utilisé par 3 sites web sur 4</span>
@@ -1221,7 +1236,7 @@
   <div class="content">
     <div class="kicker c4k cost">05 · Ce qu'elle coûte · La démocratie</div>
   </div>
-  <div class="hook cost">Une fausse voix coûte 150&nbsp;$… <em>et vise une élection.</em></div>
+  <div class="hook cost">Désinformation et démocratie</div>
   <div class="card fake">
     <span class="kick">États-Unis · janvier 2024</span>
     <h3>La fausse voix du président appelle les électeurs&nbsp;: «&nbsp;N'allez pas voter.&nbsp;»</h3>
@@ -1235,9 +1250,9 @@
 <!-- ===================================================== 04 · ch4-regles -->
 <section class="slide light" id="ch4-regles">
   <div class="content">
-    <div class="kicker c4k" style="color:#4b5fe0 !important">05 · Qui fixe les règles&nbsp;? · L\'AI Act</div>
+    <div class="kicker c4k" style="color:#4b5fe0 !important">05 · Qui fixe les règles&nbsp;? · L'AI Act</div>
   </div>
-  <div class="hook blue">L'Europe a écrit… <em>la première loi au monde sur l'IA.</em></div>
+  <div class="hook blue">L'AI Act&nbsp;: les règles européennes</div>
   <div class="feu">
     <div class="box"><i style="--c:#ef4444"></i><i style="--c:#f59e0b"></i><i style="--c:#22c55e"></i></div>
     <div class="rows">
@@ -1264,7 +1279,7 @@
   <div class="content">
     <div class="kicker" style="color:#18a058">04 · Bien demander&nbsp;: le prompt</div>
   </div>
-  <div class="hook">Parlez-lui comme à un stagiaire très doué…<br><em>qui ne vous connaît pas.</em></div>
+  <div class="hook">Bien rédiger un prompt</div>
   <div class="recipe">
     <div style="--hl:#4fd1a5"><b>Contexte</b><span>qui, pour qui, pourquoi</span></div><i>+</i>
     <div style="--hl:#7aa0ff"><b>Tâche</b><span>ce que vous voulez</span></div><i>+</i>
@@ -1279,7 +1294,7 @@
   <div class="content">
     <div class="kicker" style="color:#18a058">04 · Les 3 réflexes</div>
   </div>
-  <div class="hook">Un assistant brillant… <em>mais c'est vous qui signez.</em></div>
+  <div class="hook">Les 3 réflexes</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="refl">
     <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><small>1</small><h3>Bien demander</h3><ul class="chk"><li>Le contexte d'abord</li><li>Ce que vous voulez</li><li>Pas satisfait&nbsp;? On continue la conversation</li></ul></div>
@@ -1293,7 +1308,7 @@
   <div class="content">
     <div class="kicker" style="color:#6fd8c0">06 · Et demain&nbsp;?</div>
   </div>
-  <div class="hook dk">Demain, elle ne fera plus que répondre… <em>elle agira.</em></div>
+  <div class="hook dk">L'IA de demain</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="tom tomx" style="bottom:190px">
     <div class="card" style="--a:#7c5cff"><div class="badge"><svg viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div><small>Les agents</small><h3>Elle fait pour vous</h3><div class="big">1 phrase</div><p>«&nbsp;Organise mes vacances&nbsp;»&nbsp;: train, hôtel, restaurant réservés.</p></div>
@@ -1307,7 +1322,7 @@
   <div class="content">
     <div class="kicker" style="color:#ff7a93">06 · Et demain&nbsp;? Le revers</div>
   </div>
-  <div class="hook dk neg">Mais si on la laisse faire… <em>elle peut nous échapper.</em></div>
+  <div class="hook dk neg">Les risques à venir</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="tom tom4">
     <div class="card" style="--a:#ff7a93"><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg></div><div><h3>Nos emplois</h3><p>4 emplois sur 10 dans le monde seront touchés par l'IA… <b>6 sur 10 dans les pays riches comme la France.</b></p></div></div>
@@ -1443,7 +1458,7 @@
   <div class="content">
     <div class="kicker">03 · Le grand défi</div>
   </div>
-  <div class="hook dk">Le site de la MJC… <em>pendant qu'on continue.</em></div>
+  <div class="hook dk">Le grand défi&nbsp;: le site de la MJC</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="fin4">
     <div class="card" style="--a:#f07a3a"><div class="top"><div class="n">1</div><div class="badge"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div></div><small>Vos idées</small><h3>Vous proposez</h3><p>Une couleur, une rubrique, une idée</p></div>
@@ -1525,7 +1540,7 @@
   <div class="content">
     <div class="kicker" style="color:#18a058">Et maintenant&nbsp;?</div>
   </div>
-  <div class="hook">Ce soir, essayez… <em style="color:#18a058">avec une seule question.</em></div>
+  <div class="hook">Pour essayer chez vous</div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="try">
     <div class="card" style="--a:#4b5fe0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><div><b>ChatGPT</b><span>Le plus connu · </span><code>chatgpt.com</code></div></div>
@@ -1543,8 +1558,12 @@
   <div class="content">
     <div class="kicker">Le grand défi · Le résultat</div>
   </div>
-  <div class="hook dk">Pendant qu'on parlait… <em>elle a construit un site.</em></div>
-  <div class="browser"><div class="bar"><i></i><i></i><i></i></div><div class="screen" data-zone="site"><span>Le site obtenu</span></div></div>
+  <div class="hook dk">Le grand défi&nbsp;: le résultat</div>
+  <div class="browser"><div class="bar"><i></i><i></i><i></i></div><div class="screen mock">
+      <div class="m-nav"><i class="m-logo"></i><b></b><b></b><b></b><b></b></div>
+      <div class="m-hero"><i class="l1"></i><i class="l2"></i><i class="l3"></i><span class="m-btn"></span></div>
+      <div class="m-cards"><div><i></i><b></b><b></b></div><div><i></i><b></b><b></b></div><div><i></i><b></b><b></b></div><div><i></i><b></b><b></b></div></div>
+    </div></div>
   <!-- Icônes Lucide (licence ISC, voir icons/LICENSE) -->
   <div class="res2">
     <div class="card" style="--a:#6fd8c0"><div class="badge"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div><div><small>Fait par l'IA, seule</small><h3>Tout le site</h3><p>Textes, mise en page, code HTML&nbsp;: en quelques minutes.</p></div></div>

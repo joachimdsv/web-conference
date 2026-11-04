@@ -413,14 +413,14 @@ Les ⏱️ points de contrôle (diapos 18, 29 et 39) disent quoi couper si vous 
 - Montrer le prompt : « Même recette que pendant les démos : le contexte d'abord, qui je suis et pour qui est le site ; puis ce que je veux, les rubriques ; puis la forme, le style, lisible sur téléphone. Et j'ajoute vos idées. »
 - *⚙️ Coller le prompt dans Claude (le site s'affiche directement) ou dans ChatGPT, lancer, puis laisser la fenêtre ouverte sans la montrer.*
 - « Voilà : elle est au travail. Pendant ce temps-là, on continue. Rendez-vous à la fin ! »
-- *⚙️ Plan B : le site préparé, media/site-mjc/index.html ; sa capture s'affiche de toute façon sur la diapo du résultat.*
+- *⚙️ Plan B : le site préparé, media/site-mjc/index.html, à ouvrir au moment du résultat si besoin.*
 
 > ➡️ « Et pendant qu'elle travaille… voyons comment bien s'en servir. »
 
 <details><summary>Prompts de la démo</summary>
 
-- **Idées du public** : Ajoute aussi ces idées proposées par le public : [idée 1], [idée 2], [idée 3].
 - **Site vitrine** : Je suis bénévole à la MJC du Val d'Ajol, une maison des jeunes et de la culture des Vosges, ouverte à tous les âges. Nous voulons un site pour faire connaître nos activités aux familles du village. Crée un site vitrine d'une seule page. Sections : un accueil avec une grande image, nos activités (danse, théâtre, musique, informatique, sport), l'agenda des événements, les horaires et un contact avec une carte. Style moderne, coloré et chaleureux, lisible sur téléphone. Donne-moi le site complet dans un seul fichier.
+- **Idées du public** : Ajoute aussi ces idées proposées par le public : [idée 1], [idée 2], [idée 3].
 - **Galerie** : Ajoute une section galerie photo avec 6 vignettes qui s'agrandissent au clic.
 - **Couleurs** : Reprends les couleurs du logo de la MJC : rose, violet, bleu, vert et jaune vif sur fond clair.
 - **Inscription** : Ajoute un formulaire d'inscription aux ateliers : nom, e-mail, atelier choisi, message.
@@ -476,7 +476,7 @@ Les ⏱️ points de contrôle (diapos 18, 29 et 39) disent quoi couper si vous 
 
 **🎯 Elle fait gagner un temps fou… mais pas automatiquement. (1 min)**
 
-- L'accroche (lire le titre) : « Ce qui prenait une heure… prend une minute. Vous l'avez vu tout à l'heure. »
+- L'accroche : « Ce qui prenait une heure… prend une minute. Vous l'avez vu tout à l'heure. »
 - Les barres, en rappelant les démos : « L'e-mail au propriétaire : un quart d'heure à chercher ses mots… 10 secondes. Le tableau du budget : une heure… une minute. Le premier jet d'une affiche : une heure… 30 secondes. Regardez la taille des barres : c'est à la même échelle ! »
 - Honnêteté : « Ce sont des ordres de grandeur, et il faut ajouter le temps de relire et de corriger. »
 - Les entreprises (carte de droite) : « En France, deux entreprises sur trois l'utilisent déjà… mais seulement une sur trois en voit déjà le gain. Pourquoi ? Parce qu'il faut apprendre à bien s'en servir, et que le temps gagné est souvent repris par autre chose. » (Banque de France, 2026 : 67 % des entreprises de 20 salariés et plus l'utilisent, 31 % des utilisatrices constatent un gain. Ce n'est pas « 31 % de productivité en plus ».)
@@ -502,7 +502,7 @@ Les ⏱️ points de contrôle (diapos 18, 29 et 39) disent quoi couper si vous 
 
 **🎯 Retourner la pièce : l'IA consomme énormément d'énergie. (1 min)**
 
-- L'accroche (titre en rouge) : « Voilà la face brillante. Retournons la pièce… tout ça a un prix. Et d'abord pour la planète. »
+- L'accroche : « Voilà la face brillante. Retournons la pièce… tout ça a un prix. Et d'abord pour la planète. »
 - Les barres : « Les datacenters, ces immenses entrepôts d'ordinateurs, consommaient 415 térawattheures d'électricité en 2024. En 2030 : 945. Plus du double en six ans. Pour comparer : toute la France consomme environ 450 térawattheures par an. Les datacenters du monde consomment donc déjà presque autant que la France… et en 2030, plus de deux fois la France. Et l'IA est le principal moteur de cette hausse. » (AIE, « Energy and AI », avril 2025 ; RTE, bilan électrique 2024 ; barres à l'échelle.)
 - Si besoin, le térawattheure : « Un térawattheure, c'est un milliard de kilowattheures : la consommation de plus de 200 000 foyers français pendant un an. » (Environ 4 600 kWh par foyer et par an.)
 - L'eau : « Et il faut beaucoup d'eau pour refroidir ces machines, jour et nuit. » (Rester à l'oral : les chiffres viraux du type « une question = une bouteille d'eau » sont très contestés.)
@@ -641,7 +641,7 @@ Les ⏱️ points de contrôle (diapos 18, 29 et 39) disent quoi couper si vous 
 **🎯 La chute : elle a tout fait seule… mais c'est nous qui gardons la main. (3 min)**
 
 - L'accroche : « Vous vous souvenez du défi lancé tout à l'heure ? Pendant qu'on parlait… elle a construit un site. Allons voir. »
-- *⚙️ Basculer sur la fenêtre de l'IA (Outils → Montrer une fenêtre) et faire défiler le site. Si rien n'a marché, la capture du site préparé est déjà à l'écran : on commente celle-là.*
+- *⚙️ Basculer sur la fenêtre de l'IA (Outils → Montrer une fenêtre) et faire défiler le site. Si rien n'a marché : ouvrir le site préparé (media/site-mjc/index.html) dans le navigateur et commenter celui-là.*
 - « Regardez : la page d'accueil, les activités, l'agenda… et vos idées : [la couleur, la rubrique demandées]. Il y a quelques années, il fallait plusieurs semaines et un professionnel. »
 - Le code : « Derrière, il y a des centaines de lignes de code HTML, la langue des sites internet. Elle les a toutes écrites seule. »
 - Le regard humain : « Mais regardez de plus près : ces horaires, cette adresse… elle les a inventés ! Il reste à vérifier chaque information, mettre les vraies photos, et surtout : qui va le tenir à jour ? Ce qui prenait des semaines prend quelques minutes… mais demande toujours un regard humain. »

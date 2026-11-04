@@ -50,7 +50,7 @@ Liste complète des raccourcis : bouton `?` dans la régie. Préparation du jour
 | 22 | Rédiger un e-mail + pièges | Direct | — |
 | 23 | Budget dans Excel | Direct | Excel, LibreOffice ou Google Sheets pour ouvrir le fichier · plan B : `media/budget-famille.xlsx` (déjà prêt) |
 | 24 | Apprendre une langue | Direct | Mode vocal (appli ChatGPT/Gemini), son relié à la sono |
-| 25 puis 42 | Le grand défi : le site de la MJC (lancé à la fin des démos, résultat juste avant le débat) | Direct | Compte Claude ou ChatGPT, compte Netlify (optionnel) · plan B : capture du site préparé, déjà affichée sur la diapo 42 |
+| 25 puis 42 | Le grand défi : le site de la MJC (lancé à la fin des démos, résultat juste avant le débat) | Direct | Compte Claude ou ChatGPT, compte Netlify (optionnel) · plan B : le site préparé, `media/site-mjc/index.html` |
 
 Dans la régie, chaque diapo de démo affiche :
 - **📋 Prompts à copier** : un clic copie le prompt, il ne reste qu'à le coller dans l'outil d'IA ;
